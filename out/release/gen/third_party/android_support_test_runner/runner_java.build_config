@@ -1,0 +1,108 @@
+{
+  "android": {
+    "sdk_interface_jars": [
+      "lib.java/third_party/android_sdk/android.interface.jar"
+    ],
+    "sdk_jars": [
+      "lib.java/third_party/android_sdk/android.jar"
+    ]
+  },
+  "deps_info": {
+    "base_whitelist_rtxt_path": "",
+    "deps_configs": [
+      "gen/third_party/android_support_test_runner/exposed_instrumentation_api_publish_java.build_config",
+      "gen/third_party/android_sdk/android_test_base_java__resources.build_config",
+      "gen/third_party/guava/guava_android_java.build_config",
+      "gen/third_party/junit/junit.build_config",
+      "gen/build/android/buildhooks/build_hooks_java.build_config",
+      "gen/third_party/android_sdk/android_sdk_java.build_config",
+      "gen/third_party/android_sdk/android_test_base_java.build_config"
+    ],
+    "dex_path": "obj/third_party/android_support_test_runner/runner_java.dex.jar",
+    "extra_main_r_text_files": [],
+    "gradle_treat_as_prebuilt": null,
+    "interface_jar_path": "lib.java/third_party/android_support_test_runner/runner-release-no-dep.interface.jar",
+    "is_prebuilt": true,
+    "jar_path": "lib.java/third_party/android_support_test_runner/runner-release-no-dep.jar",
+    "javac_full_classpath": [
+      "../../third_party/bazel/desugar/Desugar_runtime.jar",
+      "gen/build/android/buildhooks/build_hooks_java.javac.jar",
+      "gen/build/android/buildhooks/build_hooks_android_java.javac.jar",
+      "../../third_party/android_support_test_runner/lib/exposed-instrumentation-api-publish-no-dep.jar",
+      "../../third_party/android_deps/libs/com_google_guava_listenablefuture/listenablefuture-1.0.jar",
+      "../../third_party/guava/lib/guava-android.jar",
+      "../../third_party/hamcrest/lib/hamcrest-core.jar",
+      "../../third_party/hamcrest/lib/hamcrest-library.jar",
+      "gen/third_party/junit/junit.javac.jar",
+      "../../third_party/android_sdk/public/platforms/android-29/optional/android.test.base.jar",
+      "../../third_party/android_sdk/public/platforms/android-29/optional/android.test.runner.jar"
+    ],
+    "javac_full_interface_classpath": [
+      "lib.java/third_party/bazel/desugar/Desugar_runtime.interface.jar",
+      "lib.java/build/android/buildhooks/build_hooks_java.interface.jar",
+      "lib.java/build/android/buildhooks/build_hooks_android_java.interface.jar",
+      "lib.java/third_party/android_support_test_runner/exposed-instrumentation-api-publish-no-dep.interface.jar",
+      "lib.java/third_party/android_deps/com_google_guava_listenablefuture.interface.jar",
+      "lib.java/third_party/guava/guava-android.interface.jar",
+      "lib.java/third_party/hamcrest/hamcrest-core.interface.jar",
+      "lib.java/third_party/hamcrest/hamcrest-library.interface.jar",
+      "lib.java/third_party/junit/junit.interface.jar",
+      "../../third_party/android_sdk/public/platforms/android-29/optional/android.test.base.jar",
+      "../../third_party/android_sdk/public/platforms/android-29/optional/android.test.runner.jar"
+    ],
+    "jni": {
+      "all_source": [
+        "gen/build/android/buildhooks/build_hooks_android_java.sources",
+        "gen/build/android/buildhooks/build_hooks_java.sources",
+        "gen/third_party/junit/junit.sources"
+      ]
+    },
+    "module_pathmap_path": "",
+    "name": "runner_java.build_config",
+    "owned_resource_srcjars": [],
+    "owned_resources_dirs": [],
+    "owned_resources_zips": [],
+    "path": "gen/third_party/android_support_test_runner/runner_java.build_config",
+    "proguard_configs": [],
+    "requires_android": true,
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "supports_android": true,
+    "type": "java_library",
+    "unprocessed_jar_path": "../../third_party/android_support_test_runner/lib/runner-release-no-dep.jar"
+  },
+  "gradle": {
+    "bundled_srcjars": [],
+    "dependent_android_projects": [],
+    "dependent_java_projects": [
+      "gen/build/android/buildhooks/build_hooks_java.build_config"
+    ],
+    "dependent_prebuilt_jars": [
+      "lib.java/third_party/android_support_test_runner/exposed-instrumentation-api-publish-no-dep.jar",
+      "lib.java/third_party/guava/guava-android.jar",
+      "lib.java/third_party/junit/junit.jar"
+    ]
+  },
+  "javac": {
+    "classpath": [
+      "../../third_party/android_support_test_runner/lib/exposed-instrumentation-api-publish-no-dep.jar",
+      "../../third_party/guava/lib/guava-android.jar",
+      "gen/third_party/junit/junit.javac.jar",
+      "gen/build/android/buildhooks/build_hooks_java.javac.jar",
+      "../../third_party/android_sdk/public/platforms/android-29/optional/android.test.base.jar"
+    ],
+    "interface_classpath": [
+      "lib.java/third_party/android_support_test_runner/exposed-instrumentation-api-publish-no-dep.interface.jar",
+      "lib.java/third_party/guava/guava-android.interface.jar",
+      "lib.java/third_party/junit/junit.interface.jar",
+      "lib.java/build/android/buildhooks/build_hooks_java.interface.jar",
+      "../../third_party/android_sdk/public/platforms/android-29/optional/android.test.base.jar"
+    ],
+    "processor_classes": [],
+    "processor_classpath": [],
+    "resource_packages": [
+      "com.android.test_base",
+      "com.android.test_runner"
+    ]
+  }
+}

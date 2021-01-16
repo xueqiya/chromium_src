@@ -1,0 +1,3 @@
+org.chromium.test.reporter.TestStatusListener,../../testing/android/reporter/java/src/org/chromium/test/reporter/TestStatusListener.java
+org.chromium.test.reporter.TestStatusReceiver,../../testing/android/reporter/java/src/org/chromium/test/reporter/TestStatusReceiver.java
+org.chromium.test.reporter.TestStatusReporter,../../testing/android/reporter/java/src/org/chromium/test/reporter/TestStatusReporter.java

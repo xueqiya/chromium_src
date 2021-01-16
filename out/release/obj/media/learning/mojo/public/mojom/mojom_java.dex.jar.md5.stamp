@@ -1,0 +1,133 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "a8fae48c4196d749cdab98012c0a3889", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/media/learning/mojo/public/mojom/mojom_java.jar", 
+      "tag": "30cdcd1ca9f8358dc81856b70c5aeadc", 
+      "entries": [
+        {
+          "path": "org/chromium/media/learning/mojom/FeatureValue.class", 
+          "tag": 1990723251
+        }, 
+        {
+          "path": "org/chromium/media/learning/mojom/LabelledExample.class", 
+          "tag": 155028640
+        }, 
+        {
+          "path": "org/chromium/media/learning/mojom/LearningTaskController$PredictDistributionResponse.class", 
+          "tag": 3779455766
+        }, 
+        {
+          "path": "org/chromium/media/learning/mojom/LearningTaskController$Proxy.class", 
+          "tag": 1200931315
+        }, 
+        {
+          "path": "org/chromium/media/learning/mojom/LearningTaskController.class", 
+          "tag": 2223501756
+        }, 
+        {
+          "path": "org/chromium/media/learning/mojom/LearningTaskController_Internal$1.class", 
+          "tag": 3966466438
+        }, 
+        {
+          "path": "org/chromium/media/learning/mojom/LearningTaskController_Internal$LearningTaskControllerBeginObservationParams.class", 
+          "tag": 227851372
+        }, 
+        {
+          "path": "org/chromium/media/learning/mojom/LearningTaskController_Internal$LearningTaskControllerCancelObservationParams.class", 
+          "tag": 4249250785
+        }, 
+        {
+          "path": "org/chromium/media/learning/mojom/LearningTaskController_Internal$LearningTaskControllerCompleteObservationParams.class", 
+          "tag": 1552155612
+        }, 
+        {
+          "path": "org/chromium/media/learning/mojom/LearningTaskController_Internal$LearningTaskControllerPredictDistributionParams.class", 
+          "tag": 2747459202
+        }, 
+        {
+          "path": "org/chromium/media/learning/mojom/LearningTaskController_Internal$LearningTaskControllerPredictDistributionResponseParams.class", 
+          "tag": 1409775488
+        }, 
+        {
+          "path": "org/chromium/media/learning/mojom/LearningTaskController_Internal$LearningTaskControllerPredictDistributionResponseParamsForwardToCallback.class", 
+          "tag": 2946836750
+        }, 
+        {
+          "path": "org/chromium/media/learning/mojom/LearningTaskController_Internal$LearningTaskControllerPredictDistributionResponseParamsProxyToResponder.class", 
+          "tag": 3474860400
+        }, 
+        {
+          "path": "org/chromium/media/learning/mojom/LearningTaskController_Internal$LearningTaskControllerUpdateDefaultTargetParams.class", 
+          "tag": 4087136657
+        }, 
+        {
+          "path": "org/chromium/media/learning/mojom/LearningTaskController_Internal$Proxy.class", 
+          "tag": 3773237228
+        }, 
+        {
+          "path": "org/chromium/media/learning/mojom/LearningTaskController_Internal$Stub.class", 
+          "tag": 1690348724
+        }, 
+        {
+          "path": "org/chromium/media/learning/mojom/LearningTaskController_Internal.class", 
+          "tag": 2408293211
+        }, 
+        {
+          "path": "org/chromium/media/learning/mojom/ObservationCompletion.class", 
+          "tag": 706921421
+        }, 
+        {
+          "path": "org/chromium/media/learning/mojom/TargetHistogram.class", 
+          "tag": 2822423263
+        }, 
+        {
+          "path": "org/chromium/media/learning/mojom/TargetValue.class", 
+          "tag": 222820708
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

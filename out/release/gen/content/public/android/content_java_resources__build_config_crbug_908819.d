@@ -1,0 +1,1 @@
+gen/content/public/android/content_java_resources.build_config: gen/content/public/android/content_strings_grd.build_config gen/third_party/android_sdk/android_sdk_java.build_config gen/ui/android/ui_java_resources.build_config gen/ui/android/ui_strings_grd.build_config

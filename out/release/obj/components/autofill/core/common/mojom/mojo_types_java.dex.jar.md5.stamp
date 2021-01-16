@@ -1,0 +1,149 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "1fb26fc009bd6585efd957d42777b2d8", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/components/autofill/core/common/mojom/mojo_types_java.jar", 
+      "tag": "63e8e36c50c9404fa50d3ecb9c884785", 
+      "entries": [
+        {
+          "path": "org/chromium/autofill/mojom/AutofillState.class", 
+          "tag": 2982608888
+        }, 
+        {
+          "path": "org/chromium/autofill/mojom/ButtonTitleInfo.class", 
+          "tag": 1356764112
+        }, 
+        {
+          "path": "org/chromium/autofill/mojom/ButtonTitleType.class", 
+          "tag": 1417422696
+        }, 
+        {
+          "path": "org/chromium/autofill/mojom/FocusedFieldType.class", 
+          "tag": 3811117604
+        }, 
+        {
+          "path": "org/chromium/autofill/mojom/FormData.class", 
+          "tag": 2935836741
+        }, 
+        {
+          "path": "org/chromium/autofill/mojom/FormDataPredictions.class", 
+          "tag": 1308345862
+        }, 
+        {
+          "path": "org/chromium/autofill/mojom/FormFieldData$CheckStatus.class", 
+          "tag": 3586196473
+        }, 
+        {
+          "path": "org/chromium/autofill/mojom/FormFieldData$LabelSource.class", 
+          "tag": 2508583074
+        }, 
+        {
+          "path": "org/chromium/autofill/mojom/FormFieldData$RoleAttribute.class", 
+          "tag": 647484347
+        }, 
+        {
+          "path": "org/chromium/autofill/mojom/FormFieldData.class", 
+          "tag": 2169027800
+        }, 
+        {
+          "path": "org/chromium/autofill/mojom/FormFieldDataPredictions.class", 
+          "tag": 3314751339
+        }, 
+        {
+          "path": "org/chromium/autofill/mojom/ParsingResult.class", 
+          "tag": 801881425
+        }, 
+        {
+          "path": "org/chromium/autofill/mojom/PasswordAndMetadata.class", 
+          "tag": 1473356388
+        }, 
+        {
+          "path": "org/chromium/autofill/mojom/PasswordForm$GenerationUploadStatus.class", 
+          "tag": 3980585739
+        }, 
+        {
+          "path": "org/chromium/autofill/mojom/PasswordForm$Scheme.class", 
+          "tag": 1753998638
+        }, 
+        {
+          "path": "org/chromium/autofill/mojom/PasswordForm$Type.class", 
+          "tag": 3214039399
+        }, 
+        {
+          "path": "org/chromium/autofill/mojom/PasswordForm.class", 
+          "tag": 2655169324
+        }, 
+        {
+          "path": "org/chromium/autofill/mojom/PasswordFormFieldPredictionType.class", 
+          "tag": 2400533361
+        }, 
+        {
+          "path": "org/chromium/autofill/mojom/PasswordFormFillData.class", 
+          "tag": 2781446800
+        }, 
+        {
+          "path": "org/chromium/autofill/mojom/PasswordFormGenerationData.class", 
+          "tag": 426809270
+        }, 
+        {
+          "path": "org/chromium/autofill/mojom/PasswordGenerationUiData.class", 
+          "tag": 2055263037
+        }, 
+        {
+          "path": "org/chromium/autofill/mojom/SubmissionIndicatorEvent.class", 
+          "tag": 4164197200
+        }, 
+        {
+          "path": "org/chromium/autofill/mojom/SubmissionSource.class", 
+          "tag": 1794989221
+        }, 
+        {
+          "path": "org/chromium/autofill/mojom/ValueElementPair.class", 
+          "tag": 2492967425
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

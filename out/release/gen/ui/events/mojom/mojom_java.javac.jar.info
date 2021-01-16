@@ -1,0 +1,17 @@
+org.chromium.ui.mojom.AcceleratorPhase,gen/ui/events/mojom/mojom_java_sources.srcjar/org/chromium/ui/mojom/AcceleratorPhase.java
+org.chromium.ui.mojom.Event,gen/ui/events/mojom/mojom_java_sources.srcjar/org/chromium/ui/mojom/Event.java
+org.chromium.ui.mojom.EventConstantsConstants,gen/ui/events/mojom/mojom_java_sources.srcjar/org/chromium/ui/mojom/EventConstantsConstants.java
+org.chromium.ui.mojom.EventMomentumPhase,gen/ui/events/mojom/mojom_java_sources.srcjar/org/chromium/ui/mojom/EventMomentumPhase.java
+org.chromium.ui.mojom.EventType,gen/ui/events/mojom/mojom_java_sources.srcjar/org/chromium/ui/mojom/EventType.java
+org.chromium.ui.mojom.GestureData,gen/ui/events/mojom/mojom_java_sources.srcjar/org/chromium/ui/mojom/GestureData.java
+org.chromium.ui.mojom.GestureDeviceType,gen/ui/events/mojom/mojom_java_sources.srcjar/org/chromium/ui/mojom/GestureDeviceType.java
+org.chromium.ui.mojom.KeyData,gen/ui/events/mojom/mojom_java_sources.srcjar/org/chromium/ui/mojom/KeyData.java
+org.chromium.ui.mojom.KeyboardCode,gen/ui/events/mojom/mojom_java_sources.srcjar/org/chromium/ui/mojom/KeyboardCode.java
+org.chromium.ui.mojom.LocationData,gen/ui/events/mojom/mojom_java_sources.srcjar/org/chromium/ui/mojom/LocationData.java
+org.chromium.ui.mojom.MouseData,gen/ui/events/mojom/mojom_java_sources.srcjar/org/chromium/ui/mojom/MouseData.java
+org.chromium.ui.mojom.PointerDetails,gen/ui/events/mojom/mojom_java_sources.srcjar/org/chromium/ui/mojom/PointerDetails.java
+org.chromium.ui.mojom.PointerKind,gen/ui/events/mojom/mojom_java_sources.srcjar/org/chromium/ui/mojom/PointerKind.java
+org.chromium.ui.mojom.ScrollData,gen/ui/events/mojom/mojom_java_sources.srcjar/org/chromium/ui/mojom/ScrollData.java
+org.chromium.ui.mojom.ScrollEventPhase,gen/ui/events/mojom/mojom_java_sources.srcjar/org/chromium/ui/mojom/ScrollEventPhase.java
+org.chromium.ui.mojom.ScrollGranularity,gen/ui/events/mojom/mojom_java_sources.srcjar/org/chromium/ui/mojom/ScrollGranularity.java
+org.chromium.ui.mojom.TouchData,gen/ui/events/mojom/mojom_java_sources.srcjar/org/chromium/ui/mojom/TouchData.java

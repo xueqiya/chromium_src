@@ -1,0 +1,3 @@
+org.chromium.ui.mojom.LatencyComponentType,gen/ui/latency/mojom/mojom_java_sources.srcjar/org/chromium/ui/mojom/LatencyComponentType.java
+org.chromium.ui.mojom.LatencyInfo,gen/ui/latency/mojom/mojom_java_sources.srcjar/org/chromium/ui/mojom/LatencyInfo.java
+org.chromium.ui.mojom.SourceEventType,gen/ui/latency/mojom/mojom_java_sources.srcjar/org/chromium/ui/mojom/SourceEventType.java

@@ -1,0 +1,2 @@
+org.chromium.components.aboutui.CreditUtils,../../components/about_ui/android/java/src/org/chromium/components/aboutui/CreditUtils.java
+org.chromium.components.aboutui.CreditUtilsJni,gen/components/about_ui/android/aboutui_java/generated_java/annotation_processor_outputs/org/chromium/components/aboutui/CreditUtilsJni.java

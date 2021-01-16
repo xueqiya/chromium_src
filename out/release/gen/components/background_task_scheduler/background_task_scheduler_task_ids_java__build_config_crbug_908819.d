@@ -1,0 +1,1 @@
+gen/components/background_task_scheduler/background_task_scheduler_task_ids_java.build_config: gen/build/android/buildhooks/build_hooks_android_java.build_config gen/build/android/buildhooks/build_hooks_java.build_config gen/third_party/android_sdk/android_sdk_java.build_config gen/third_party/bazel/desugar/desugar_runtime_java.build_config

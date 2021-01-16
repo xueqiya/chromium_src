@@ -1,0 +1,16 @@
+../../chrome/android/features/start_surface/internal/java/res/drawable-xxxhdpi/ic_explore.png
+../../chrome/android/features/start_surface/internal/java/res/drawable-xxxhdpi/ic_home.png
+../../chrome/android/features/start_surface/internal/java/res/drawable-hdpi/ic_explore.png
+../../chrome/android/features/start_surface/internal/java/res/drawable-hdpi/ic_home.png
+../../chrome/android/features/start_surface/internal/java/res/drawable-xxhdpi/ic_explore.png
+../../chrome/android/features/start_surface/internal/java/res/drawable-xxhdpi/ic_home.png
+../../chrome/android/features/start_surface/internal/java/res/layout/ss_explore_button.xml
+../../chrome/android/features/start_surface/internal/java/res/layout/ss_bottom_bar_layout.xml
+../../chrome/android/features/start_surface/internal/java/res/layout/ss_home_button.xml
+../../chrome/android/features/start_surface/internal/java/res/values/ids.xml
+../../chrome/android/features/start_surface/internal/java/res/values/dimens.xml
+../../chrome/android/features/start_surface/internal/java/res/drawable-mdpi/ic_explore.png
+../../chrome/android/features/start_surface/internal/java/res/drawable-mdpi/ic_home.png
+../../chrome/android/features/start_surface/internal/java/res/drawable-xhdpi/ic_explore.png
+../../chrome/android/features/start_surface/internal/java/res/drawable-xhdpi/ic_home.png
+../../chrome/android/features/start_surface/internal/java/explore_res/layout/ss_feed_header.xml

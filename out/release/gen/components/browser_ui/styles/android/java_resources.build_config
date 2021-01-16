@@ -1,0 +1,55 @@
+{
+  "android": {
+    "sdk_interface_jars": [
+      "lib.java/third_party/android_sdk/android.interface.jar"
+    ],
+    "sdk_jars": [
+      "lib.java/third_party/android_sdk/android.jar"
+    ]
+  },
+  "deps_info": {
+    "dependency_zips": [
+      "obj/third_party/android_deps/com_android_support_support_compat_java__res.resources.zip",
+      "obj/third_party/android_deps/com_android_support_asynclayoutinflater_java__res.resources.zip",
+      "obj/third_party/android_deps/com_android_support_customview_java__res.resources.zip",
+      "obj/third_party/android_deps/com_android_support_coordinatorlayout_java__res.resources.zip",
+      "obj/third_party/android_deps/com_android_support_drawerlayout_java__res.resources.zip",
+      "obj/third_party/android_deps/com_android_support_slidingpanelayout_java__res.resources.zip",
+      "obj/third_party/android_deps/com_android_support_loader_java__res.resources.zip",
+      "obj/third_party/android_deps/com_android_support_support_core_utils_java__res.resources.zip",
+      "obj/third_party/android_deps/com_android_support_swiperefreshlayout_java__res.resources.zip",
+      "obj/third_party/android_deps/com_android_support_viewpager_java__res.resources.zip",
+      "obj/third_party/android_deps/com_android_support_support_core_ui_java__res.resources.zip",
+      "obj/third_party/android_deps/com_android_support_support_vector_drawable_java__res.resources.zip",
+      "obj/third_party/android_deps/com_android_support_animated_vector_drawable_java__res.resources.zip",
+      "obj/third_party/android_deps/com_android_support_support_fragment_java__res.resources.zip",
+      "obj/third_party/android_deps/com_android_support_appcompat_v7_java__res.resources.zip",
+      "obj/third_party/android_deps/com_android_support_cardview_v7_java__res.resources.zip",
+      "obj/third_party/android_deps/com_android_support_recyclerview_v7_java__res.resources.zip",
+      "obj/third_party/android_deps/com_android_support_transition_java__res.resources.zip",
+      "obj/third_party/android_deps/com_android_support_design_java__res.resources.zip",
+      "obj/ui/android/ui_strings_grd.resources.zip",
+      "obj/ui/android/ui_java_resources.resources.zip"
+    ],
+    "deps_configs": [
+      "gen/third_party/android_deps/com_android_support_design_java__res.build_config",
+      "gen/ui/android/ui_java_resources.build_config",
+      "gen/third_party/android_sdk/android_sdk_java.build_config"
+    ],
+    "extra_main_r_text_files": [],
+    "extra_package_names": [],
+    "extra_r_text_files": [],
+    "name": "java_resources.build_config",
+    "package_name": "org.chromium.components.browser_ui.styles",
+    "path": "gen/components/browser_ui/styles/android/java_resources.build_config",
+    "proguard_configs": [],
+    "r_text_path": "gen/components/browser_ui/styles/android/java_resources_R.txt",
+    "res_sources_path": "gen/components/browser_ui/styles/android/java_resources.res.sources",
+    "resources_zip": "obj/components/browser_ui/styles/android/java_resources.resources.zip",
+    "srcjar": "gen/components/browser_ui/styles/android/java_resources.srcjar",
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "type": "android_resources"
+  },
+  "gradle": {}
+}

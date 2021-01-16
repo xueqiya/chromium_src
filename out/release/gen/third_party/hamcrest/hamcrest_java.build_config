@@ -1,0 +1,23 @@
+{
+  "deps_info": {
+    "base_whitelist_rtxt_path": "",
+    "deps_configs": [
+      "gen/third_party/hamcrest/hamcrest_core_java.build_config",
+      "gen/third_party/hamcrest/hamcrest_library_java.build_config"
+    ],
+    "extra_main_r_text_files": [],
+    "jni": {
+      "all_source": [
+        "gen/build/android/buildhooks/build_hooks_java.sources"
+      ]
+    },
+    "module_pathmap_path": "",
+    "name": "hamcrest_java.build_config",
+    "path": "gen/third_party/hamcrest/hamcrest_java.build_config",
+    "proguard_configs": [],
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "type": "group"
+  },
+  "gradle": {}
+}

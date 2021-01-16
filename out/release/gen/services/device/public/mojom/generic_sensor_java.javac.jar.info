@@ -1,0 +1,11 @@
+org.chromium.device.mojom.ReportingMode,gen/services/device/public/mojom/generic_sensor_java_sources.srcjar/org/chromium/device/mojom/ReportingMode.java
+org.chromium.device.mojom.Sensor,gen/services/device/public/mojom/generic_sensor_java_sources.srcjar/org/chromium/device/mojom/Sensor.java
+org.chromium.device.mojom.SensorClient,gen/services/device/public/mojom/generic_sensor_java_sources.srcjar/org/chromium/device/mojom/SensorClient.java
+org.chromium.device.mojom.SensorClient_Internal,gen/services/device/public/mojom/generic_sensor_java_sources.srcjar/org/chromium/device/mojom/SensorClient_Internal.java
+org.chromium.device.mojom.SensorConfiguration,gen/services/device/public/mojom/generic_sensor_java_sources.srcjar/org/chromium/device/mojom/SensorConfiguration.java
+org.chromium.device.mojom.SensorCreationResult,gen/services/device/public/mojom/generic_sensor_java_sources.srcjar/org/chromium/device/mojom/SensorCreationResult.java
+org.chromium.device.mojom.SensorInitParams,gen/services/device/public/mojom/generic_sensor_java_sources.srcjar/org/chromium/device/mojom/SensorInitParams.java
+org.chromium.device.mojom.SensorProvider,gen/services/device/public/mojom/generic_sensor_java_sources.srcjar/org/chromium/device/mojom/SensorProvider.java
+org.chromium.device.mojom.SensorProvider_Internal,gen/services/device/public/mojom/generic_sensor_java_sources.srcjar/org/chromium/device/mojom/SensorProvider_Internal.java
+org.chromium.device.mojom.SensorType,gen/services/device/public/mojom/generic_sensor_java_sources.srcjar/org/chromium/device/mojom/SensorType.java
+org.chromium.device.mojom.Sensor_Internal,gen/services/device/public/mojom/generic_sensor_java_sources.srcjar/org/chromium/device/mojom/Sensor_Internal.java

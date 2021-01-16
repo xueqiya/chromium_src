@@ -1,0 +1,1 @@
+obj/third_party/jsr-305/jsr_305_javalib__process_prebuilt-desugar.jar: lib.java/third_party/android_sdk/android.interface.jar lib.java/third_party/bazel/desugar/Desugar_runtime.interface.jar lib.java/build/android/buildhooks/build_hooks_java.interface.jar

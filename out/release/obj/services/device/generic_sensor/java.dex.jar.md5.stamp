@@ -1,0 +1,73 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "ed1e5ae7c65af6c825fbfadbfed56817", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/services/device/generic_sensor/java.jar", 
+      "tag": "e4eba2f7f8565c9db51b3292128d6a04", 
+      "entries": [
+        {
+          "path": "org/chromium/device/sensors/PlatformSensor$Natives.class", 
+          "tag": 1316969563
+        }, 
+        {
+          "path": "org/chromium/device/sensors/PlatformSensor.class", 
+          "tag": 1324390472
+        }, 
+        {
+          "path": "org/chromium/device/sensors/PlatformSensorJni$1.class", 
+          "tag": 3861761316
+        }, 
+        {
+          "path": "org/chromium/device/sensors/PlatformSensorJni.class", 
+          "tag": 3502000317
+        }, 
+        {
+          "path": "org/chromium/device/sensors/PlatformSensorProvider.class", 
+          "tag": 3528975017
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

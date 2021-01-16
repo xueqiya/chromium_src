@@ -1,0 +1,1 @@
+obj/third_party/android_deps/com_android_support_cardview_v7_java__res.resources.zip: obj/third_party/android_deps/com_android_support_cardview_v7_java/res/values/values.xml obj/third_party/android_deps/com_android_support_cardview_v7_java/res/values-v23/values-v23.xml

@@ -1,0 +1,1 @@
+gen/build/android/buildhooks/build_hooks_android_impl_java.build_config: gen/build/android/buildhooks/build_hooks_android_java.build_config gen/third_party/android_sdk/android_sdk_java.build_config

@@ -1,0 +1,31 @@
+defines = -D_GNU_SOURCE -DANDROID -DHAVE_SYS_UIO_H -DANDROID_NDK_VERSION_ROLL=r20_1 -DCR_CLANG_REVISION=\"n340759-eaabaf7e-1\" -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D_FORTIFY_SOURCE=2 -D_LIBCPP_ABI_UNSTABLE -D_LIBCPP_DISABLE_VISIBILITY_ANNOTATIONS -D_LIBCXXABI_DISABLE_VISIBILITY_ANNOTATIONS -D_LIBCPP_ENABLE_NODISCARD -DCR_LIBCXX_REVISION=375504 -DNDEBUG -DNVALGRIND -DDYNAMIC_ANNOTATIONS_ENABLED=0 -DV8_TYPED_ARRAY_MAX_SIZE_IN_HEAP=64 -DENABLE_MINOR_MC -DV8_INTL_SUPPORT -DV8_CONCURRENT_MARKING -DV8_ENABLE_LAZY_SOURCE_POSITIONS -DV8_EMBEDDED_BUILTINS -DV8_SHARED_RO_HEAP -DV8_WIN64_UNWINDING_INFO -DV8_ENABLE_REGEXP_INTERPRETER_THREADED_DISPATCH -DV8_31BIT_SMIS_ON_64BIT_ARCH -DV8_DEPRECATION_WARNINGS -DV8_TARGET_ARCH_ARM -DCAN_USE_ARMV7_INSTRUCTIONS -DCAN_USE_VFP3_INSTRUCTIONS -DCAN_USE_VFP32DREGS -DCAN_USE_NEON -DV8_HAVE_TARGET_OS -DV8_TARGET_OS_ANDROID -DV8_31BIT_SMIS_ON_64BIT_ARCH -DV8_DEPRECATION_WARNINGS
+include_dirs = -I../.. -Igen -I../../v8 -Igen/v8
+cflags = -fno-strict-aliasing --param=ssp-buffer-size=4 -fstack-protector -funwind-tables -fPIC -fcolor-diagnostics -fmerge-all-constants -fcrash-diagnostics-dir=../../tools/clang/crashreports -Xclang -mllvm -Xclang -instcombine-lower-dbg-declare=0 -fcomplete-member-pointers -ffunction-sections -fno-short-enums --target=arm-linux-androideabi16 -DHAVE_PTHREAD_COND_TIMEDWAIT_MONOTONIC=1 -march=armv7-a -mfloat-abi=softfp -mtune=generic-armv7-a -Wno-builtin-macro-redefined -D__DATE__= -D__TIME__= -D__TIMESTAMP__= -no-canonical-prefixes -mfpu=neon -mthumb -Wall -Werror -Wextra -Wimplicit-fallthrough -Wthread-safety -Wextra-semi -Wno-missing-field-initializers -Wno-unused-parameter -Wno-c++11-narrowing -Wno-unneeded-internal-declaration -Wno-undefined-var-template -Wno-ignored-pragma-optimize -Wno-implicit-int-float-conversion -Wno-final-dtor-non-final-class -Wno-bitwise-conditional-parentheses -Wno-builtin-assume-aligned-alignment -Wno-deprecated-copy -Wno-misleading-indentation -Wno-range-loop-analysis -fomit-frame-pointer -g0 -fvisibility=hidden -Wheader-hygiene -Wstring-conversion -Wtautological-overlap-compare -Wmissing-field-initializers -Wunreachable-code -O2 -fno-ident -fdata-sections -ffunction-sections -Wexit-time-destructors
+cflags_cc = -std=c++14 -nostdinc++ -isystem../../buildtools/third_party/libc++/trunk/include -isystem../../buildtools/third_party/libc++abi/trunk/include --sysroot=../../third_party/android_ndk/toolchains/llvm/prebuilt/linux-x86_64/sysroot -fvisibility-inlines-hidden -fexceptions -frtti
+label_name = torque_base
+root_out_dir = .
+target_out_dir = obj/v8
+target_output_name = torque_base
+
+build obj/v8/torque_base/cfg.o: cxx ../../v8/src/torque/cfg.cc
+build obj/v8/torque_base/class-debug-reader-generator.o: cxx ../../v8/src/torque/class-debug-reader-generator.cc
+build obj/v8/torque_base/csa-generator.o: cxx ../../v8/src/torque/csa-generator.cc
+build obj/v8/torque_base/declarable.o: cxx ../../v8/src/torque/declarable.cc
+build obj/v8/torque_base/declaration-visitor.o: cxx ../../v8/src/torque/declaration-visitor.cc
+build obj/v8/torque_base/declarations.o: cxx ../../v8/src/torque/declarations.cc
+build obj/v8/torque_base/earley-parser.o: cxx ../../v8/src/torque/earley-parser.cc
+build obj/v8/torque_base/global-context.o: cxx ../../v8/src/torque/global-context.cc
+build obj/v8/torque_base/implementation-visitor.o: cxx ../../v8/src/torque/implementation-visitor.cc
+build obj/v8/torque_base/instance-type-generator.o: cxx ../../v8/src/torque/instance-type-generator.cc
+build obj/v8/torque_base/instructions.o: cxx ../../v8/src/torque/instructions.cc
+build obj/v8/torque_base/server-data.o: cxx ../../v8/src/torque/server-data.cc
+build obj/v8/torque_base/source-positions.o: cxx ../../v8/src/torque/source-positions.cc
+build obj/v8/torque_base/torque-compiler.o: cxx ../../v8/src/torque/torque-compiler.cc
+build obj/v8/torque_base/torque-parser.o: cxx ../../v8/src/torque/torque-parser.cc
+build obj/v8/torque_base/type-inference.o: cxx ../../v8/src/torque/type-inference.cc
+build obj/v8/torque_base/type-oracle.o: cxx ../../v8/src/torque/type-oracle.cc
+build obj/v8/torque_base/type-visitor.o: cxx ../../v8/src/torque/type-visitor.cc
+build obj/v8/torque_base/types.o: cxx ../../v8/src/torque/types.cc
+build obj/v8/torque_base/utils.o: cxx ../../v8/src/torque/utils.cc
+
+build obj/v8/torque_base.stamp: stamp obj/v8/torque_base/cfg.o obj/v8/torque_base/class-debug-reader-generator.o obj/v8/torque_base/csa-generator.o obj/v8/torque_base/declarable.o obj/v8/torque_base/declaration-visitor.o obj/v8/torque_base/declarations.o obj/v8/torque_base/earley-parser.o obj/v8/torque_base/global-context.o obj/v8/torque_base/implementation-visitor.o obj/v8/torque_base/instance-type-generator.o obj/v8/torque_base/instructions.o obj/v8/torque_base/server-data.o obj/v8/torque_base/source-positions.o obj/v8/torque_base/torque-compiler.o obj/v8/torque_base/torque-parser.o obj/v8/torque_base/type-inference.o obj/v8/torque_base/type-oracle.o obj/v8/torque_base/type-visitor.o obj/v8/torque_base/types.o obj/v8/torque_base/utils.o || obj/v8/libv8_libbase.a obj/v8/v8_shared_internal_headers.stamp obj/v8/v8_headers.stamp obj/v8/v8_version.stamp

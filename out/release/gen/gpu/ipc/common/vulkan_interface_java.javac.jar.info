@@ -1,0 +1,11 @@
+org.chromium.gpu.mojom.VkExtensionProperties,gen/gpu/ipc/common/vulkan_interface_java_sources.srcjar/org/chromium/gpu/mojom/VkExtensionProperties.java
+org.chromium.gpu.mojom.VkExtent3D,gen/gpu/ipc/common/vulkan_interface_java_sources.srcjar/org/chromium/gpu/mojom/VkExtent3D.java
+org.chromium.gpu.mojom.VkLayerProperties,gen/gpu/ipc/common/vulkan_interface_java_sources.srcjar/org/chromium/gpu/mojom/VkLayerProperties.java
+org.chromium.gpu.mojom.VkPhysicalDeviceFeatures,gen/gpu/ipc/common/vulkan_interface_java_sources.srcjar/org/chromium/gpu/mojom/VkPhysicalDeviceFeatures.java
+org.chromium.gpu.mojom.VkPhysicalDeviceLimits,gen/gpu/ipc/common/vulkan_interface_java_sources.srcjar/org/chromium/gpu/mojom/VkPhysicalDeviceLimits.java
+org.chromium.gpu.mojom.VkPhysicalDeviceProperties,gen/gpu/ipc/common/vulkan_interface_java_sources.srcjar/org/chromium/gpu/mojom/VkPhysicalDeviceProperties.java
+org.chromium.gpu.mojom.VkPhysicalDeviceSparseProperties,gen/gpu/ipc/common/vulkan_interface_java_sources.srcjar/org/chromium/gpu/mojom/VkPhysicalDeviceSparseProperties.java
+org.chromium.gpu.mojom.VkPhysicalDeviceType,gen/gpu/ipc/common/vulkan_interface_java_sources.srcjar/org/chromium/gpu/mojom/VkPhysicalDeviceType.java
+org.chromium.gpu.mojom.VkQueueFamilyProperties,gen/gpu/ipc/common/vulkan_interface_java_sources.srcjar/org/chromium/gpu/mojom/VkQueueFamilyProperties.java
+org.chromium.gpu.mojom.VulkanInfo,gen/gpu/ipc/common/vulkan_interface_java_sources.srcjar/org/chromium/gpu/mojom/VulkanInfo.java
+org.chromium.gpu.mojom.VulkanPhysicalDeviceInfo,gen/gpu/ipc/common/vulkan_interface_java_sources.srcjar/org/chromium/gpu/mojom/VulkanPhysicalDeviceInfo.java

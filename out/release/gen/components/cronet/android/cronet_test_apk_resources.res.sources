@@ -1,0 +1,3 @@
+../../components/cronet/android/test/res/values/strings.xml
+../../components/cronet/android/test/res/xml/network_security_config.xml
+../../components/cronet/android/test/smoketests/res/native/values/strings.xml

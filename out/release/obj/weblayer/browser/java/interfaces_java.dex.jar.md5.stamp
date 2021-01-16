@@ -1,0 +1,477 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "3b320c6476a557495fe91f86d8ddaf81", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/weblayer/browser/java/interfaces_java.jar", 
+      "tag": "c9a9c6c005be0f0c1e3322c16416007a", 
+      "entries": [
+        {
+          "path": "org/chromium/weblayer_private/interfaces/APICallException.class", 
+          "tag": 2585716684
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/BrowserFragmentArgs.class", 
+          "tag": 571726363
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/BrowsingDataType.class", 
+          "tag": 1016671404
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/DownloadError.class", 
+          "tag": 1629552242
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/DownloadState.class", 
+          "tag": 1326197782
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IBrowser$Default.class", 
+          "tag": 2333402900
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IBrowser$Stub$Proxy.class", 
+          "tag": 206493946
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IBrowser$Stub.class", 
+          "tag": 453493950
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IBrowser.class", 
+          "tag": 3111252866
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IBrowserClient$Default.class", 
+          "tag": 4088556388
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IBrowserClient$Stub$Proxy.class", 
+          "tag": 3518623039
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IBrowserClient$Stub.class", 
+          "tag": 1666581199
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IBrowserClient.class", 
+          "tag": 1983804169
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IBrowserFragment$Default.class", 
+          "tag": 2389321612
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IBrowserFragment$Stub$Proxy.class", 
+          "tag": 3066183548
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IBrowserFragment$Stub.class", 
+          "tag": 178474600
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IBrowserFragment.class", 
+          "tag": 2465639553
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IChildProcessService$Default.class", 
+          "tag": 542161006
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IChildProcessService$Stub$Proxy.class", 
+          "tag": 787699992
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IChildProcessService$Stub.class", 
+          "tag": 2585695000
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IChildProcessService.class", 
+          "tag": 2851992189
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IClientDownload$Default.class", 
+          "tag": 88097571
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IClientDownload$Stub$Proxy.class", 
+          "tag": 1889450307
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IClientDownload$Stub.class", 
+          "tag": 2679519182
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IClientDownload.class", 
+          "tag": 3354383498
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IClientNavigation$Default.class", 
+          "tag": 295506893
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IClientNavigation$Stub$Proxy.class", 
+          "tag": 1837263169
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IClientNavigation$Stub.class", 
+          "tag": 1404379868
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IClientNavigation.class", 
+          "tag": 1947394509
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/ICrashReporterController$Default.class", 
+          "tag": 41479808
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/ICrashReporterController$Stub$Proxy.class", 
+          "tag": 285816322
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/ICrashReporterController$Stub.class", 
+          "tag": 1158129739
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/ICrashReporterController.class", 
+          "tag": 99633827
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/ICrashReporterControllerClient$Default.class", 
+          "tag": 3888841329
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/ICrashReporterControllerClient$Stub$Proxy.class", 
+          "tag": 2851567254
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/ICrashReporterControllerClient$Stub.class", 
+          "tag": 3941067815
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/ICrashReporterControllerClient.class", 
+          "tag": 1779713171
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IDownload$Default.class", 
+          "tag": 821444
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IDownload$Stub$Proxy.class", 
+          "tag": 4106589081
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IDownload$Stub.class", 
+          "tag": 2245415500
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IDownload.class", 
+          "tag": 3202688164
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IDownloadCallbackClient$Default.class", 
+          "tag": 3416939947
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IDownloadCallbackClient$Stub$Proxy.class", 
+          "tag": 2921154992
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IDownloadCallbackClient$Stub.class", 
+          "tag": 3101539529
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IDownloadCallbackClient.class", 
+          "tag": 905840894
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IErrorPageCallbackClient$Default.class", 
+          "tag": 2435737227
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IErrorPageCallbackClient$Stub$Proxy.class", 
+          "tag": 1291723842
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IErrorPageCallbackClient$Stub.class", 
+          "tag": 3234227591
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IErrorPageCallbackClient.class", 
+          "tag": 445115411
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IFindInPageCallbackClient$Default.class", 
+          "tag": 1707734190
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IFindInPageCallbackClient$Stub$Proxy.class", 
+          "tag": 728420032
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IFindInPageCallbackClient$Stub.class", 
+          "tag": 3568495515
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IFindInPageCallbackClient.class", 
+          "tag": 280928249
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IFullscreenCallbackClient$Default.class", 
+          "tag": 3236849781
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IFullscreenCallbackClient$Stub$Proxy.class", 
+          "tag": 3058647435
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IFullscreenCallbackClient$Stub.class", 
+          "tag": 658802958
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IFullscreenCallbackClient.class", 
+          "tag": 2835874181
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/INavigation$Default.class", 
+          "tag": 1134560541
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/INavigation$Stub$Proxy.class", 
+          "tag": 961584826
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/INavigation$Stub.class", 
+          "tag": 3334969078
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/INavigation.class", 
+          "tag": 585838918
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/INavigationController$Default.class", 
+          "tag": 2172188651
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/INavigationController$Stub$Proxy.class", 
+          "tag": 495236828
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/INavigationController$Stub.class", 
+          "tag": 1505360865
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/INavigationController.class", 
+          "tag": 791951665
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/INavigationControllerClient$Default.class", 
+          "tag": 2121274198
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/INavigationControllerClient$Stub$Proxy.class", 
+          "tag": 2612196167
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/INavigationControllerClient$Stub.class", 
+          "tag": 1925845676
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/INavigationControllerClient.class", 
+          "tag": 46120247
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IObjectWrapper$Default.class", 
+          "tag": 1532350879
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IObjectWrapper$Stub$Proxy.class", 
+          "tag": 1201867344
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IObjectWrapper$Stub.class", 
+          "tag": 2760370980
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IObjectWrapper.class", 
+          "tag": 514315051
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IProfile$Default.class", 
+          "tag": 2697686451
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IProfile$Stub$Proxy.class", 
+          "tag": 2894102330
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IProfile$Stub.class", 
+          "tag": 2139509769
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IProfile.class", 
+          "tag": 3731270470
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IRemoteFragment$Default.class", 
+          "tag": 4170439294
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IRemoteFragment$Stub$Proxy.class", 
+          "tag": 3927332373
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IRemoteFragment$Stub.class", 
+          "tag": 1012885863
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IRemoteFragment.class", 
+          "tag": 550949747
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IRemoteFragmentClient$Default.class", 
+          "tag": 1715604759
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IRemoteFragmentClient$Stub$Proxy.class", 
+          "tag": 2208518051
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IRemoteFragmentClient$Stub.class", 
+          "tag": 332438023
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IRemoteFragmentClient.class", 
+          "tag": 3275513535
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/ITab$Default.class", 
+          "tag": 847156098
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/ITab$Stub$Proxy.class", 
+          "tag": 3896013521
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/ITab$Stub.class", 
+          "tag": 2188578261
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/ITab.class", 
+          "tag": 278409501
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/ITabClient$Default.class", 
+          "tag": 28470945
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/ITabClient$Stub$Proxy.class", 
+          "tag": 583775925
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/ITabClient$Stub.class", 
+          "tag": 2612756704
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/ITabClient.class", 
+          "tag": 1108610648
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IWebLayer$Default.class", 
+          "tag": 3000112484
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IWebLayer$Stub$Proxy.class", 
+          "tag": 2617739749
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IWebLayer$Stub.class", 
+          "tag": 2463624599
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IWebLayer.class", 
+          "tag": 813268874
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IWebLayerFactory$Default.class", 
+          "tag": 4139967757
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IWebLayerFactory$Stub$Proxy.class", 
+          "tag": 1494585399
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IWebLayerFactory$Stub.class", 
+          "tag": 1129670615
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/IWebLayerFactory.class", 
+          "tag": 1738821301
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/LoadError.class", 
+          "tag": 2014187128
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/NavigationState.class", 
+          "tag": 3472784557
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/NewTabType.class", 
+          "tag": 2852989703
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/ObjectWrapper.class", 
+          "tag": 1703761772
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/interfaces/StrictModeWorkaround.class", 
+          "tag": 2391413751
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

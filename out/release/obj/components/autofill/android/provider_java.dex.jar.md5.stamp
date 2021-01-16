@@ -1,0 +1,133 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "0cdc0249fc4f0eecab8ac026d0b7cdc1", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/components/autofill/android/provider_java.jar", 
+      "tag": "141e5aa9f0bd8e237b35e7e76ed27b86", 
+      "entries": [
+        {
+          "path": "org/chromium/components/autofill/AutofillManagerWrapper$AutofillInputUIMonitor.class", 
+          "tag": 933794730
+        }, 
+        {
+          "path": "org/chromium/components/autofill/AutofillManagerWrapper$InputUIObserver.class", 
+          "tag": 3930971729
+        }, 
+        {
+          "path": "org/chromium/components/autofill/AutofillManagerWrapper.class", 
+          "tag": 1475239599
+        }, 
+        {
+          "path": "org/chromium/components/autofill/AutofillProvider$Natives.class", 
+          "tag": 2805564398
+        }, 
+        {
+          "path": "org/chromium/components/autofill/AutofillProvider.class", 
+          "tag": 2540150139
+        }, 
+        {
+          "path": "org/chromium/components/autofill/AutofillProviderImpl$1.class", 
+          "tag": 3864968635
+        }, 
+        {
+          "path": "org/chromium/components/autofill/AutofillProviderImpl$AutofillRequest.class", 
+          "tag": 1518117238
+        }, 
+        {
+          "path": "org/chromium/components/autofill/AutofillProviderImpl$FocusField.class", 
+          "tag": 124268165
+        }, 
+        {
+          "path": "org/chromium/components/autofill/AutofillProviderImpl.class", 
+          "tag": 1970670862
+        }, 
+        {
+          "path": "org/chromium/components/autofill/AutofillProviderJni$1.class", 
+          "tag": 3924748577
+        }, 
+        {
+          "path": "org/chromium/components/autofill/AutofillProviderJni.class", 
+          "tag": 3322755477
+        }, 
+        {
+          "path": "org/chromium/components/autofill/AutofillProviderUMA$1.class", 
+          "tag": 2377190701
+        }, 
+        {
+          "path": "org/chromium/components/autofill/AutofillProviderUMA$SessionRecorder.class", 
+          "tag": 447726515
+        }, 
+        {
+          "path": "org/chromium/components/autofill/AutofillProviderUMA.class", 
+          "tag": 1588404652
+        }, 
+        {
+          "path": "org/chromium/components/autofill/FormData$Natives.class", 
+          "tag": 4063582737
+        }, 
+        {
+          "path": "org/chromium/components/autofill/FormData.class", 
+          "tag": 1816724499
+        }, 
+        {
+          "path": "org/chromium/components/autofill/FormDataJni$1.class", 
+          "tag": 4234176452
+        }, 
+        {
+          "path": "org/chromium/components/autofill/FormDataJni.class", 
+          "tag": 2765613389
+        }, 
+        {
+          "path": "org/chromium/components/autofill/FormFieldData$ControlType.class", 
+          "tag": 2151835651
+        }, 
+        {
+          "path": "org/chromium/components/autofill/FormFieldData.class", 
+          "tag": 1948675462
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

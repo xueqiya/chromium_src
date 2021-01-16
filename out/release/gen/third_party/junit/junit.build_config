@@ -1,0 +1,104 @@
+{
+  "android": {
+    "sdk_interface_jars": [
+      "lib.java/third_party/android_sdk/android.interface.jar"
+    ],
+    "sdk_jars": [
+      "lib.java/third_party/android_sdk/android.jar"
+    ]
+  },
+  "deps_info": {
+    "base_whitelist_rtxt_path": "",
+    "deps_configs": [
+      "gen/third_party/android_sdk/android_test_base_java__resources.build_config",
+      "gen/third_party/android_sdk/android_test_runner_java__resources.build_config",
+      "gen/third_party/hamcrest/hamcrest_core_java.build_config",
+      "gen/third_party/hamcrest/hamcrest_library_java.build_config",
+      "gen/build/android/buildhooks/build_hooks_java.build_config",
+      "gen/third_party/android_sdk/android_sdk_java.build_config",
+      "gen/third_party/android_sdk/android_test_base_java.build_config",
+      "gen/third_party/android_sdk/android_test_runner_java.build_config",
+      "gen/third_party/hamcrest/hamcrest_java.build_config"
+    ],
+    "dex_path": "obj/third_party/junit/junit.dex.jar",
+    "extra_main_r_text_files": [],
+    "gradle_treat_as_prebuilt": true,
+    "interface_jar_path": "lib.java/third_party/junit/junit.interface.jar",
+    "is_prebuilt": false,
+    "jar_path": "lib.java/third_party/junit/junit.jar",
+    "java_sources_file": "gen/third_party/junit/junit.sources",
+    "javac_full_classpath": [
+      "../../third_party/bazel/desugar/Desugar_runtime.jar",
+      "gen/build/android/buildhooks/build_hooks_java.javac.jar",
+      "../../third_party/hamcrest/lib/hamcrest-core.jar",
+      "../../third_party/hamcrest/lib/hamcrest-library.jar",
+      "../../third_party/android_sdk/public/platforms/android-29/optional/android.test.base.jar",
+      "../../third_party/android_sdk/public/platforms/android-29/optional/android.test.runner.jar"
+    ],
+    "javac_full_interface_classpath": [
+      "lib.java/third_party/bazel/desugar/Desugar_runtime.interface.jar",
+      "lib.java/build/android/buildhooks/build_hooks_java.interface.jar",
+      "lib.java/third_party/hamcrest/hamcrest-core.interface.jar",
+      "lib.java/third_party/hamcrest/hamcrest-library.interface.jar",
+      "../../third_party/android_sdk/public/platforms/android-29/optional/android.test.base.jar",
+      "../../third_party/android_sdk/public/platforms/android-29/optional/android.test.runner.jar"
+    ],
+    "jni": {
+      "all_source": [
+        "gen/build/android/buildhooks/build_hooks_java.sources",
+        "gen/third_party/junit/junit.sources"
+      ]
+    },
+    "module_pathmap_path": "",
+    "name": "junit.build_config",
+    "owned_resource_srcjars": [
+      "gen/third_party/android_sdk/android_test_base_java__resources.srcjar",
+      "gen/third_party/android_sdk/android_test_runner_java__resources.srcjar"
+    ],
+    "owned_resources_dirs": [],
+    "owned_resources_zips": [],
+    "path": "gen/third_party/junit/junit.build_config",
+    "proguard_configs": [
+      "../../third_party/junit/proguard.flags"
+    ],
+    "requires_android": true,
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "supports_android": true,
+    "type": "java_library",
+    "unprocessed_jar_path": "gen/third_party/junit/junit.javac.jar"
+  },
+  "gradle": {
+    "bundled_srcjars": [],
+    "dependent_android_projects": [],
+    "dependent_java_projects": [
+      "gen/build/android/buildhooks/build_hooks_java.build_config"
+    ],
+    "dependent_prebuilt_jars": [
+      "lib.java/third_party/hamcrest/hamcrest-core.jar",
+      "lib.java/third_party/hamcrest/hamcrest-library.jar"
+    ]
+  },
+  "javac": {
+    "classpath": [
+      "../../third_party/hamcrest/lib/hamcrest-core.jar",
+      "../../third_party/hamcrest/lib/hamcrest-library.jar",
+      "gen/build/android/buildhooks/build_hooks_java.javac.jar",
+      "../../third_party/android_sdk/public/platforms/android-29/optional/android.test.base.jar",
+      "../../third_party/android_sdk/public/platforms/android-29/optional/android.test.runner.jar"
+    ],
+    "interface_classpath": [
+      "lib.java/third_party/hamcrest/hamcrest-core.interface.jar",
+      "lib.java/third_party/hamcrest/hamcrest-library.interface.jar",
+      "lib.java/build/android/buildhooks/build_hooks_java.interface.jar",
+      "../../third_party/android_sdk/public/platforms/android-29/optional/android.test.base.jar",
+      "../../third_party/android_sdk/public/platforms/android-29/optional/android.test.runner.jar"
+    ],
+    "processor_classes": [],
+    "processor_classpath": [],
+    "resource_packages": [
+      "com.android.test_base",
+      "com.android.test_runner"
+    ]
+  }
+}

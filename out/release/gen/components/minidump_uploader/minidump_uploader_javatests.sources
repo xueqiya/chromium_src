@@ -1,0 +1,8 @@
+../../components/minidump_uploader/android/javatests/src/org/chromium/components/minidump_uploader/CrashFileManagerTest.java
+../../components/minidump_uploader/android/javatests/src/org/chromium/components/minidump_uploader/CrashTestRule.java
+../../components/minidump_uploader/android/javatests/src/org/chromium/components/minidump_uploader/MinidumpUploadCallableTest.java
+../../components/minidump_uploader/android/javatests/src/org/chromium/components/minidump_uploader/MinidumpUploadJobImplTest.java
+../../components/minidump_uploader/android/javatests/src/org/chromium/components/minidump_uploader/MinidumpUploadTestUtility.java
+../../components/minidump_uploader/android/javatests/src/org/chromium/components/minidump_uploader/MinidumpUploaderTest.java
+../../components/minidump_uploader/android/javatests/src/org/chromium/components/minidump_uploader/TestMinidumpUploadJobImpl.java
+../../components/minidump_uploader/android/javatests/src/org/chromium/components/minidump_uploader/TestMinidumpUploaderDelegate.java

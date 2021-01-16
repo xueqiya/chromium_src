@@ -1,0 +1,10 @@
+../../components/embedder_support/android/java/src/org/chromium/components/embedder_support/delegate/ColorChooserAndroid.java
+../../components/embedder_support/android/java/src/org/chromium/components/embedder_support/delegate/ColorPickerAdvanced.java
+../../components/embedder_support/android/java/src/org/chromium/components/embedder_support/delegate/ColorPickerAdvancedComponent.java
+../../components/embedder_support/android/java/src/org/chromium/components/embedder_support/delegate/ColorPickerDialog.java
+../../components/embedder_support/android/java/src/org/chromium/components/embedder_support/delegate/ColorPickerMoreButton.java
+../../components/embedder_support/android/java/src/org/chromium/components/embedder_support/delegate/ColorPickerSimple.java
+../../components/embedder_support/android/java/src/org/chromium/components/embedder_support/delegate/ColorSuggestion.java
+../../components/embedder_support/android/java/src/org/chromium/components/embedder_support/delegate/ColorSuggestionListAdapter.java
+../../components/embedder_support/android/java/src/org/chromium/components/embedder_support/delegate/OnColorChangedListener.java
+../../components/embedder_support/android/java/src/org/chromium/components/embedder_support/delegate/WebContentsDelegateAndroid.java

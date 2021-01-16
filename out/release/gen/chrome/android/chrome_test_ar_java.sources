@@ -1,0 +1,9 @@
+../../chrome/android/javatests/src/org/chromium/chrome/browser/vr/WebXrArHitTestTest.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/vr/WebXrArSessionTest.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/vr/WebXrArTestFramework.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/vr/rules/ArPlaybackFile.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/vr/rules/ArTestRule.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/vr/rules/ChromeTabbedActivityArTestRule.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/vr/rules/CustomTabActivityArTestRule.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/vr/rules/WebappActivityArTestRule.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/vr/util/ArTestRuleUtils.java

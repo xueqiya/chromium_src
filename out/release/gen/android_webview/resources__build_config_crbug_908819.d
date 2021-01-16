@@ -1,0 +1,1 @@
+gen/android_webview/resources.build_config: gen/android_webview/strings_grd.build_config gen/third_party/android_sdk/android_sdk_java.build_config

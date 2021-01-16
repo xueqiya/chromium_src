@@ -1,0 +1,2 @@
+export default class SimpleApp{presentUI(document){const rootView=new UI.RootView();self.UI.inspectorView.show(rootView.element);rootView.attachToDocument(document);rootView.focus();}}
+export class SimpleAppProvider{createApp(){return new SimpleApp();}}

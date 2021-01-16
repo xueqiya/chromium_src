@@ -1,0 +1,3 @@
+org.chromium.gpu.mojom.GpuPreferences,gen/gpu/ipc/common/gpu_preferences_interface_java_sources.srcjar/org/chromium/gpu/mojom/GpuPreferences.java
+org.chromium.gpu.mojom.GrContextType,gen/gpu/ipc/common/gpu_preferences_interface_java_sources.srcjar/org/chromium/gpu/mojom/GrContextType.java
+org.chromium.gpu.mojom.VulkanImplementationName,gen/gpu/ipc/common/gpu_preferences_interface_java_sources.srcjar/org/chromium/gpu/mojom/VulkanImplementationName.java

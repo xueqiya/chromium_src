@@ -1,0 +1,10 @@
+../../weblayer/browser/java/org/chromium/weblayer_private/interfaces/APICallException.java
+../../weblayer/browser/java/org/chromium/weblayer_private/interfaces/BrowserFragmentArgs.java
+../../weblayer/browser/java/org/chromium/weblayer_private/interfaces/BrowsingDataType.java
+../../weblayer/browser/java/org/chromium/weblayer_private/interfaces/DownloadError.java
+../../weblayer/browser/java/org/chromium/weblayer_private/interfaces/DownloadState.java
+../../weblayer/browser/java/org/chromium/weblayer_private/interfaces/LoadError.java
+../../weblayer/browser/java/org/chromium/weblayer_private/interfaces/NavigationState.java
+../../weblayer/browser/java/org/chromium/weblayer_private/interfaces/NewTabType.java
+../../weblayer/browser/java/org/chromium/weblayer_private/interfaces/ObjectWrapper.java
+../../weblayer/browser/java/org/chromium/weblayer_private/interfaces/StrictModeWorkaround.java

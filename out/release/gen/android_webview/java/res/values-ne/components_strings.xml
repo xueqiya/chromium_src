@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="autofill_cc_amex">"अमेरिकन एक्सप्रेस"</string>
+<string name="autofill_cc_diners">"डाइनर्स क्लब"</string>
+<string name="autofill_cc_discover">"पत्ता लगाउनुहोस्"</string>
+<string name="autofill_cc_jcb">"जेसिबी"</string>
+<string name="autofill_cc_mastercard">"मास्टरकार्ड"</string>
+<string name="autofill_cc_mir">"Mir"</string>
+<string name="autofill_cc_union_pay">"चीन UnionPay"</string>
+<string name="autofill_cc_visa">"भिषा"</string>
+<string name="autofill_address_summary_separator">", "</string>
+</resources>

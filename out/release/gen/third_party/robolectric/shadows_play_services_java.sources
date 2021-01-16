@@ -1,0 +1,4 @@
+../../third_party/robolectric/robolectric/shadows/playservices/src/main/java/org/robolectric/shadows/gms/ShadowGoogleAuthUtil.java
+../../third_party/robolectric/robolectric/shadows/playservices/src/main/java/org/robolectric/shadows/gms/ShadowGooglePlayServicesUtil.java
+../../third_party/robolectric/robolectric/shadows/playservices/src/main/java/org/robolectric/shadows/gms/common/ShadowGoogleApiAvailability.java
+../../third_party/robolectric/robolectric/shadows/playservices/src/main/java/org/robolectric/shadows/gms/package-info.java

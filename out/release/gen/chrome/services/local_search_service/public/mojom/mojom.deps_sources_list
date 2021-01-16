@@ -1,0 +1,2 @@
+gen/chrome/services/local_search_service/public/mojom/mojom.sources_list
+gen/mojo/public/mojom/base/base.sources_list

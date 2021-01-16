@@ -1,0 +1,14 @@
+IDR_DEVTOOLS_PINCH_CURSOR_ICON,15030,../../content/content_resources.grd
+IDR_DEVTOOLS_PINCH_CURSOR_ICON_2X,15031,../../content/content_resources.grd
+IDR_DEVTOOLS_TOUCH_CURSOR_ICON,15032,../../content/content_resources.grd
+IDR_DEVTOOLS_TOUCH_CURSOR_ICON_2X,15033,../../content/content_resources.grd
+IDR_HISTOGRAMS_INTERNALS_HTML,15034,../../content/content_resources.grd
+IDR_HISTOGRAMS_INTERNALS_JS,15035,../../content/content_resources.grd
+IDR_ORIGIN_MOJO_HTML,15036,../../content/content_resources.grd
+IDR_ORIGIN_MOJO_JS,15037,../../content/content_resources.grd
+IDR_UNGUESSABLE_TOKEN_MOJO_HTML,15038,../../content/content_resources.grd
+IDR_UNGUESSABLE_TOKEN_MOJO_JS,15039,../../content/content_resources.grd
+IDR_URL_MOJO_HTML,15040,../../content/content_resources.grd
+IDR_URL_MOJO_JS,15041,../../content/content_resources.grd
+IDR_VULKAN_INFO_MOJO_JS,15042,../../content/content_resources.grd
+IDR_VULKAN_TYPES_MOJO_JS,15043,../../content/content_resources.grd

@@ -1,0 +1,413 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "7ab79d20331688cc89f01f310cac8506", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/mojo/public/java/bindings_java.jar", 
+      "tag": "baead00ccb85245e38e3b7c0ab8218fc", 
+      "entries": [
+        {
+          "path": "org/chromium/mojo/bindings/AssociatedInterfaceNotSupported.class", 
+          "tag": 4068666623
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/AssociatedInterfaceRequestNotSupported.class", 
+          "tag": 2647401625
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/AutoCloseableRouter$1.class", 
+          "tag": 1856902215
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/AutoCloseableRouter.class", 
+          "tag": 1251611270
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/BindingsHelper.class", 
+          "tag": 393272394
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/Callbacks$Callback0.class", 
+          "tag": 4240273590
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/Callbacks$Callback1.class", 
+          "tag": 149090698
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/Callbacks$Callback2.class", 
+          "tag": 1003134942
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/Callbacks$Callback3.class", 
+          "tag": 3681488393
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/Callbacks$Callback4.class", 
+          "tag": 583474135
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/Callbacks$Callback5.class", 
+          "tag": 4007682861
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/Callbacks$Callback6.class", 
+          "tag": 3550032092
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/Callbacks$Callback7.class", 
+          "tag": 89593408
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/Callbacks.class", 
+          "tag": 3238149241
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/ConnectionErrorHandler.class", 
+          "tag": 1061155127
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/Connector$1.class", 
+          "tag": 2016187623
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/Connector$WatcherCallback.class", 
+          "tag": 1635752961
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/Connector.class", 
+          "tag": 3141476420
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/DataHeader.class", 
+          "tag": 3104993339
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/Decoder$Validator.class", 
+          "tag": 3253810005
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/Decoder.class", 
+          "tag": 2129632956
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/DelegatingConnectionErrorHandler.class", 
+          "tag": 2803835880
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/DeserializationException.class", 
+          "tag": 3172047207
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/Encoder$1.class", 
+          "tag": 446479388
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/Encoder$EncoderState.class", 
+          "tag": 2172849967
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/Encoder.class", 
+          "tag": 2921020033
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/ExceptionHandler$1.class", 
+          "tag": 3478066531
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/ExceptionHandler$DefaultExceptionHandler$LazyHolder.class", 
+          "tag": 1880519213
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/ExceptionHandler$DefaultExceptionHandler.class", 
+          "tag": 3960002899
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/ExceptionHandler.class", 
+          "tag": 2190287413
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/ExecutorFactory$PipedExecutor.class", 
+          "tag": 2097292365
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/ExecutorFactory.class", 
+          "tag": 1005204593
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/HandleOwner.class", 
+          "tag": 3239263537
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/Interface$AbstractProxy$HandlerImpl$1.class", 
+          "tag": 800003342
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/Interface$AbstractProxy$HandlerImpl.class", 
+          "tag": 3021582831
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/Interface$AbstractProxy.class", 
+          "tag": 2058221749
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/Interface$Manager.class", 
+          "tag": 2298913349
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/Interface$Proxy$Handler.class", 
+          "tag": 2882823977
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/Interface$Proxy.class", 
+          "tag": 2915313731
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/Interface$Stub.class", 
+          "tag": 3240769549
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/Interface$ThreadSafeForwarder.class", 
+          "tag": 1989691396
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/Interface.class", 
+          "tag": 394763372
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/InterfaceControlMessagesHelper$RunResponseForwardToCallback.class", 
+          "tag": 3476614468
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/InterfaceControlMessagesHelper.class", 
+          "tag": 403324089
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/InterfaceRequest.class", 
+          "tag": 2947729393
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/Message.class", 
+          "tag": 1150221484
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/MessageHeader.class", 
+          "tag": 3362278342
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/MessageReceiver.class", 
+          "tag": 2328339133
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/MessageReceiverWithResponder.class", 
+          "tag": 1201106364
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/Router.class", 
+          "tag": 884152046
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/RouterImpl$1.class", 
+          "tag": 2119685492
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/RouterImpl$HandleIncomingMessageThunk.class", 
+          "tag": 1590363253
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/RouterImpl$ResponderThunk.class", 
+          "tag": 827633775
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/RouterImpl.class", 
+          "tag": 3542088378
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/SerializationException.class", 
+          "tag": 1427733475
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/ServiceMessage.class", 
+          "tag": 1894712433
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/SideEffectFreeCloseable.class", 
+          "tag": 3615009946
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/Struct.class", 
+          "tag": 2278844052
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/Union.class", 
+          "tag": 2446902627
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/interfacecontrol/EnableIdleTracking.class", 
+          "tag": 4023298992
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/interfacecontrol/FlushForTesting.class", 
+          "tag": 4120134587
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/interfacecontrol/InterfaceControlMessagesConstants.class", 
+          "tag": 2250195104
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/interfacecontrol/MessageAck.class", 
+          "tag": 3903183647
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/interfacecontrol/NotifyIdle.class", 
+          "tag": 2060613994
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/interfacecontrol/QueryVersion.class", 
+          "tag": 2718124806
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/interfacecontrol/QueryVersionResult.class", 
+          "tag": 3284349758
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/interfacecontrol/RequireVersion.class", 
+          "tag": 4266698171
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/interfacecontrol/RunInput$Tag.class", 
+          "tag": 3109911988
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/interfacecontrol/RunInput.class", 
+          "tag": 3441795176
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/interfacecontrol/RunMessageParams.class", 
+          "tag": 3227549139
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/interfacecontrol/RunOrClosePipeInput$Tag.class", 
+          "tag": 1203539102
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/interfacecontrol/RunOrClosePipeInput.class", 
+          "tag": 3636655325
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/interfacecontrol/RunOrClosePipeMessageParams.class", 
+          "tag": 3596941330
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/interfacecontrol/RunOutput$Tag.class", 
+          "tag": 818634823
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/interfacecontrol/RunOutput.class", 
+          "tag": 807335465
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/interfacecontrol/RunResponseMessageParams.class", 
+          "tag": 1613401201
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/pipecontrol/DisconnectReason.class", 
+          "tag": 1417563731
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/pipecontrol/FlushAsync.class", 
+          "tag": 1480695574
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/pipecontrol/PauseUntilFlushCompletes.class", 
+          "tag": 4156111134
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/pipecontrol/PeerAssociatedEndpointClosedEvent.class", 
+          "tag": 3475393226
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/pipecontrol/PipeControlMessagesConstants.class", 
+          "tag": 2508523964
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/pipecontrol/RunOrClosePipeInput$Tag.class", 
+          "tag": 1576973631
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/pipecontrol/RunOrClosePipeInput.class", 
+          "tag": 2863341798
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/pipecontrol/RunOrClosePipeMessageParams.class", 
+          "tag": 2638454959
+        }, 
+        {
+          "path": "org/chromium/mojo/native_types/NativeStruct.class", 
+          "tag": 935857237
+        }, 
+        {
+          "path": "org/chromium/mojo/native_types/SerializedHandle.class", 
+          "tag": 3140641865
+        }, 
+        {
+          "path": "org/chromium/mojo/native_types/SerializedHandleType.class", 
+          "tag": 772652095
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/Interface$ThreadSafeForwarder$$Lambda$0.class", 
+          "tag": 2155748758
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/Interface$ThreadSafeForwarder$$Lambda$1.class", 
+          "tag": 2772174558
+        }, 
+        {
+          "path": "org/chromium/mojo/bindings/Interface$ThreadSafeForwarder$$Lambda$2.class", 
+          "tag": 1007501250
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

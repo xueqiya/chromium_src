@@ -1,0 +1,2213 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "b15a257ce73ba9fb282bd0c6ebadb5d9", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/services/device/public/mojom/mojom_java.jar", 
+      "tag": "b5668c2c7eabad511daf1003fa4a6493", 
+      "entries": [
+        {
+          "path": "org/chromium/device/mojom/BatteryMonitor$Proxy.class", 
+          "tag": 2507054864
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BatteryMonitor$QueryNextStatusResponse.class", 
+          "tag": 10437386
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BatteryMonitor.class", 
+          "tag": 3543828595
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BatteryMonitor_Internal$1.class", 
+          "tag": 2717838715
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BatteryMonitor_Internal$BatteryMonitorQueryNextStatusParams.class", 
+          "tag": 1487997545
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BatteryMonitor_Internal$BatteryMonitorQueryNextStatusResponseParams.class", 
+          "tag": 3882239562
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BatteryMonitor_Internal$BatteryMonitorQueryNextStatusResponseParamsForwardToCallback.class", 
+          "tag": 668310019
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BatteryMonitor_Internal$BatteryMonitorQueryNextStatusResponseParamsProxyToResponder.class", 
+          "tag": 70805858
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BatteryMonitor_Internal$Proxy.class", 
+          "tag": 3461865705
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BatteryMonitor_Internal$Stub.class", 
+          "tag": 1385048674
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BatteryMonitor_Internal.class", 
+          "tag": 1671599450
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BatteryStatus.class", 
+          "tag": 2451536533
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BiometricType.class", 
+          "tag": 22160340
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothAddress.class", 
+          "tag": 3986529083
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothDeviceBatteryInfo.class", 
+          "tag": 354444298
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothDeviceInfo$ConnectionState.class", 
+          "tag": 2730092091
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothDeviceInfo$DeviceType.class", 
+          "tag": 672200515
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothDeviceInfo.class", 
+          "tag": 1917196373
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem$GetAvailableDevicesResponse.class", 
+          "tag": 1674642609
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem$GetScanStateResponse.class", 
+          "tag": 1203326124
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem$GetStateResponse.class", 
+          "tag": 2704990336
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem$Proxy.class", 
+          "tag": 4271974343
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem$ScanState.class", 
+          "tag": 1816070271
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem$SetPoweredResponse.class", 
+          "tag": 2421611310
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem$SetPoweredResult.class", 
+          "tag": 4028674656
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem$StartScanResponse.class", 
+          "tag": 4066654012
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem$StartScanResult.class", 
+          "tag": 1245447135
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem$State.class", 
+          "tag": 2338375815
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem$StopScanResponse.class", 
+          "tag": 2264398320
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem$StopScanResult.class", 
+          "tag": 1926065948
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem.class", 
+          "tag": 2557507076
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystemClient$Proxy.class", 
+          "tag": 32280373
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystemClient.class", 
+          "tag": 3610147019
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystemClient_Internal$1.class", 
+          "tag": 3503739182
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystemClient_Internal$BluetoothSystemClientOnScanStateChangedParams.class", 
+          "tag": 2850265495
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystemClient_Internal$BluetoothSystemClientOnStateChangedParams.class", 
+          "tag": 2824763029
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystemClient_Internal$Proxy.class", 
+          "tag": 3384551741
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystemClient_Internal$Stub.class", 
+          "tag": 1127003717
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystemClient_Internal.class", 
+          "tag": 3961396643
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystemFactory$Proxy.class", 
+          "tag": 547895939
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystemFactory.class", 
+          "tag": 3947095595
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystemFactory_Internal$1.class", 
+          "tag": 3627353619
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystemFactory_Internal$BluetoothSystemFactoryCreateParams.class", 
+          "tag": 413680445
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystemFactory_Internal$Proxy.class", 
+          "tag": 364292602
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystemFactory_Internal$Stub.class", 
+          "tag": 3412526596
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystemFactory_Internal.class", 
+          "tag": 1559591045
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem_Internal$1.class", 
+          "tag": 1641552798
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem_Internal$BluetoothSystemGetAvailableDevicesParams.class", 
+          "tag": 636274985
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem_Internal$BluetoothSystemGetAvailableDevicesResponseParams.class", 
+          "tag": 3154067555
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem_Internal$BluetoothSystemGetAvailableDevicesResponseParamsForwardToCallback.class", 
+          "tag": 2349462844
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem_Internal$BluetoothSystemGetAvailableDevicesResponseParamsProxyToResponder.class", 
+          "tag": 1288042566
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem_Internal$BluetoothSystemGetScanStateParams.class", 
+          "tag": 3638850104
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem_Internal$BluetoothSystemGetScanStateResponseParams.class", 
+          "tag": 2625863192
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem_Internal$BluetoothSystemGetScanStateResponseParamsForwardToCallback.class", 
+          "tag": 2039454626
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem_Internal$BluetoothSystemGetScanStateResponseParamsProxyToResponder.class", 
+          "tag": 866345820
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem_Internal$BluetoothSystemGetStateParams.class", 
+          "tag": 52322618
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem_Internal$BluetoothSystemGetStateResponseParams.class", 
+          "tag": 1955260499
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem_Internal$BluetoothSystemGetStateResponseParamsForwardToCallback.class", 
+          "tag": 2852197098
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem_Internal$BluetoothSystemGetStateResponseParamsProxyToResponder.class", 
+          "tag": 421344491
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem_Internal$BluetoothSystemSetPoweredParams.class", 
+          "tag": 1347564163
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem_Internal$BluetoothSystemSetPoweredResponseParams.class", 
+          "tag": 2710495780
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem_Internal$BluetoothSystemSetPoweredResponseParamsForwardToCallback.class", 
+          "tag": 1048543787
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem_Internal$BluetoothSystemSetPoweredResponseParamsProxyToResponder.class", 
+          "tag": 3307328195
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem_Internal$BluetoothSystemStartScanParams.class", 
+          "tag": 2293387602
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem_Internal$BluetoothSystemStartScanResponseParams.class", 
+          "tag": 1446757291
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem_Internal$BluetoothSystemStartScanResponseParamsForwardToCallback.class", 
+          "tag": 766603109
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem_Internal$BluetoothSystemStartScanResponseParamsProxyToResponder.class", 
+          "tag": 4171388159
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem_Internal$BluetoothSystemStopScanParams.class", 
+          "tag": 2662059660
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem_Internal$BluetoothSystemStopScanResponseParams.class", 
+          "tag": 2555724273
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem_Internal$BluetoothSystemStopScanResponseParamsForwardToCallback.class", 
+          "tag": 3177793196
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem_Internal$BluetoothSystemStopScanResponseParamsProxyToResponder.class", 
+          "tag": 191104824
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem_Internal$Proxy.class", 
+          "tag": 3505245871
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem_Internal$Stub.class", 
+          "tag": 1990847835
+        }, 
+        {
+          "path": "org/chromium/device/mojom/BluetoothSystem_Internal.class", 
+          "tag": 857100462
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint$CancelCurrentEnrollSessionResponse.class", 
+          "tag": 4084292418
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint$DestroyAllRecordsResponse.class", 
+          "tag": 79236748
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint$EndCurrentAuthSessionResponse.class", 
+          "tag": 3785265734
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint$GetRecordsForUserResponse.class", 
+          "tag": 860837296
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint$Proxy.class", 
+          "tag": 4061618980
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint$RemoveRecordResponse.class", 
+          "tag": 958488487
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint$RequestRecordLabelResponse.class", 
+          "tag": 12896794
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint$RequestTypeResponse.class", 
+          "tag": 1635278877
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint$SetRecordLabelResponse.class", 
+          "tag": 2066480105
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint.class", 
+          "tag": 939914503
+        }, 
+        {
+          "path": "org/chromium/device/mojom/FingerprintObserver$Proxy.class", 
+          "tag": 1822438692
+        }, 
+        {
+          "path": "org/chromium/device/mojom/FingerprintObserver.class", 
+          "tag": 1981983713
+        }, 
+        {
+          "path": "org/chromium/device/mojom/FingerprintObserver_Internal$1.class", 
+          "tag": 1775693032
+        }, 
+        {
+          "path": "org/chromium/device/mojom/FingerprintObserver_Internal$FingerprintObserverOnAuthScanDoneParams.class", 
+          "tag": 3402533560
+        }, 
+        {
+          "path": "org/chromium/device/mojom/FingerprintObserver_Internal$FingerprintObserverOnEnrollScanDoneParams.class", 
+          "tag": 302042450
+        }, 
+        {
+          "path": "org/chromium/device/mojom/FingerprintObserver_Internal$FingerprintObserverOnRestartedParams.class", 
+          "tag": 1574550589
+        }, 
+        {
+          "path": "org/chromium/device/mojom/FingerprintObserver_Internal$FingerprintObserverOnSessionFailedParams.class", 
+          "tag": 830887089
+        }, 
+        {
+          "path": "org/chromium/device/mojom/FingerprintObserver_Internal$Proxy.class", 
+          "tag": 2615378337
+        }, 
+        {
+          "path": "org/chromium/device/mojom/FingerprintObserver_Internal$Stub.class", 
+          "tag": 3095998411
+        }, 
+        {
+          "path": "org/chromium/device/mojom/FingerprintObserver_Internal.class", 
+          "tag": 703873793
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$1.class", 
+          "tag": 2757927810
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintAddFingerprintObserverParams.class", 
+          "tag": 3855094751
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintCancelCurrentEnrollSessionParams.class", 
+          "tag": 2001922999
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintCancelCurrentEnrollSessionResponseParams.class", 
+          "tag": 152014445
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintCancelCurrentEnrollSessionResponseParamsForwardToCallback.class", 
+          "tag": 341836456
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintCancelCurrentEnrollSessionResponseParamsProxyToResponder.class", 
+          "tag": 1595544439
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintDestroyAllRecordsParams.class", 
+          "tag": 3714630727
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintDestroyAllRecordsResponseParams.class", 
+          "tag": 2218958639
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintDestroyAllRecordsResponseParamsForwardToCallback.class", 
+          "tag": 3930052592
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintDestroyAllRecordsResponseParamsProxyToResponder.class", 
+          "tag": 1425152032
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintEndCurrentAuthSessionParams.class", 
+          "tag": 3947901816
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintEndCurrentAuthSessionResponseParams.class", 
+          "tag": 1210033640
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintEndCurrentAuthSessionResponseParamsForwardToCallback.class", 
+          "tag": 162252714
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintEndCurrentAuthSessionResponseParamsProxyToResponder.class", 
+          "tag": 3236129020
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintGetRecordsForUserParams.class", 
+          "tag": 1868347875
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintGetRecordsForUserResponseParams.class", 
+          "tag": 520721383
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintGetRecordsForUserResponseParamsForwardToCallback.class", 
+          "tag": 3189219931
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintGetRecordsForUserResponseParamsProxyToResponder.class", 
+          "tag": 4250683241
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintRemoveRecordParams.class", 
+          "tag": 4023151750
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintRemoveRecordResponseParams.class", 
+          "tag": 1613261758
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintRemoveRecordResponseParamsForwardToCallback.class", 
+          "tag": 2499181365
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintRemoveRecordResponseParamsProxyToResponder.class", 
+          "tag": 1919776709
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintRequestRecordLabelParams.class", 
+          "tag": 2884492423
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintRequestRecordLabelResponseParams.class", 
+          "tag": 509280912
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintRequestRecordLabelResponseParamsForwardToCallback.class", 
+          "tag": 2689381803
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintRequestRecordLabelResponseParamsProxyToResponder.class", 
+          "tag": 3123497252
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintRequestTypeParams.class", 
+          "tag": 3015301916
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintRequestTypeResponseParams.class", 
+          "tag": 3643434811
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintRequestTypeResponseParamsForwardToCallback.class", 
+          "tag": 882596611
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintRequestTypeResponseParamsProxyToResponder.class", 
+          "tag": 1490163888
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintSetRecordLabelParams.class", 
+          "tag": 4052223180
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintSetRecordLabelResponseParams.class", 
+          "tag": 1152618796
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintSetRecordLabelResponseParamsForwardToCallback.class", 
+          "tag": 1638844226
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintSetRecordLabelResponseParamsProxyToResponder.class", 
+          "tag": 1421889909
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintStartAuthSessionParams.class", 
+          "tag": 2499258646
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$FingerprintStartEnrollSessionParams.class", 
+          "tag": 3628801080
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$Proxy.class", 
+          "tag": 2059981234
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal$Stub.class", 
+          "tag": 1927784618
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Fingerprint_Internal.class", 
+          "tag": 1638662484
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Geolocation$Proxy.class", 
+          "tag": 1844741343
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Geolocation$QueryNextPositionResponse.class", 
+          "tag": 218668418
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Geolocation.class", 
+          "tag": 1469015743
+        }, 
+        {
+          "path": "org/chromium/device/mojom/GeolocationConfig$IsHighAccuracyLocationBeingCapturedResponse.class", 
+          "tag": 4000621797
+        }, 
+        {
+          "path": "org/chromium/device/mojom/GeolocationConfig$Proxy.class", 
+          "tag": 3505545824
+        }, 
+        {
+          "path": "org/chromium/device/mojom/GeolocationConfig.class", 
+          "tag": 3488899721
+        }, 
+        {
+          "path": "org/chromium/device/mojom/GeolocationConfig_Internal$1.class", 
+          "tag": 3840482666
+        }, 
+        {
+          "path": "org/chromium/device/mojom/GeolocationConfig_Internal$GeolocationConfigIsHighAccuracyLocationBeingCapturedParams.class", 
+          "tag": 4193464124
+        }, 
+        {
+          "path": "org/chromium/device/mojom/GeolocationConfig_Internal$GeolocationConfigIsHighAccuracyLocationBeingCapturedResponseParams.class", 
+          "tag": 477213210
+        }, 
+        {
+          "path": "org/chromium/device/mojom/GeolocationConfig_Internal$GeolocationConfigIsHighAccuracyLocationBeingCapturedResponseParamsForwardToCallback.class", 
+          "tag": 1360693917
+        }, 
+        {
+          "path": "org/chromium/device/mojom/GeolocationConfig_Internal$GeolocationConfigIsHighAccuracyLocationBeingCapturedResponseParamsProxyToResponder.class", 
+          "tag": 1116538961
+        }, 
+        {
+          "path": "org/chromium/device/mojom/GeolocationConfig_Internal$Proxy.class", 
+          "tag": 1332772998
+        }, 
+        {
+          "path": "org/chromium/device/mojom/GeolocationConfig_Internal$Stub.class", 
+          "tag": 1498398201
+        }, 
+        {
+          "path": "org/chromium/device/mojom/GeolocationConfig_Internal.class", 
+          "tag": 721837311
+        }, 
+        {
+          "path": "org/chromium/device/mojom/GeolocationContext$Proxy.class", 
+          "tag": 2888543366
+        }, 
+        {
+          "path": "org/chromium/device/mojom/GeolocationContext.class", 
+          "tag": 1785626300
+        }, 
+        {
+          "path": "org/chromium/device/mojom/GeolocationContext_Internal$1.class", 
+          "tag": 3187787735
+        }, 
+        {
+          "path": "org/chromium/device/mojom/GeolocationContext_Internal$GeolocationContextBindGeolocationParams.class", 
+          "tag": 2513085229
+        }, 
+        {
+          "path": "org/chromium/device/mojom/GeolocationContext_Internal$GeolocationContextClearOverrideParams.class", 
+          "tag": 3273182417
+        }, 
+        {
+          "path": "org/chromium/device/mojom/GeolocationContext_Internal$GeolocationContextSetOverrideParams.class", 
+          "tag": 3876970982
+        }, 
+        {
+          "path": "org/chromium/device/mojom/GeolocationContext_Internal$Proxy.class", 
+          "tag": 2136235327
+        }, 
+        {
+          "path": "org/chromium/device/mojom/GeolocationContext_Internal$Stub.class", 
+          "tag": 1539687919
+        }, 
+        {
+          "path": "org/chromium/device/mojom/GeolocationContext_Internal.class", 
+          "tag": 1515823040
+        }, 
+        {
+          "path": "org/chromium/device/mojom/GeolocationControl$Proxy.class", 
+          "tag": 3469373184
+        }, 
+        {
+          "path": "org/chromium/device/mojom/GeolocationControl.class", 
+          "tag": 3102104465
+        }, 
+        {
+          "path": "org/chromium/device/mojom/GeolocationControl_Internal$1.class", 
+          "tag": 2473750732
+        }, 
+        {
+          "path": "org/chromium/device/mojom/GeolocationControl_Internal$GeolocationControlUserDidOptIntoLocationServicesParams.class", 
+          "tag": 1766243617
+        }, 
+        {
+          "path": "org/chromium/device/mojom/GeolocationControl_Internal$Proxy.class", 
+          "tag": 1841888382
+        }, 
+        {
+          "path": "org/chromium/device/mojom/GeolocationControl_Internal$Stub.class", 
+          "tag": 824559159
+        }, 
+        {
+          "path": "org/chromium/device/mojom/GeolocationControl_Internal.class", 
+          "tag": 3783982900
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Geolocation_Internal$1.class", 
+          "tag": 2577677904
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Geolocation_Internal$GeolocationQueryNextPositionParams.class", 
+          "tag": 2766308397
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Geolocation_Internal$GeolocationQueryNextPositionResponseParams.class", 
+          "tag": 1415975853
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Geolocation_Internal$GeolocationQueryNextPositionResponseParamsForwardToCallback.class", 
+          "tag": 90284974
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Geolocation_Internal$GeolocationQueryNextPositionResponseParamsProxyToResponder.class", 
+          "tag": 3163638307
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Geolocation_Internal$GeolocationSetHighAccuracyParams.class", 
+          "tag": 1979391371
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Geolocation_Internal$Proxy.class", 
+          "tag": 2611568741
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Geolocation_Internal$Stub.class", 
+          "tag": 2236068055
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Geolocation_Internal.class", 
+          "tag": 2269660182
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Geoposition$ErrorCode.class", 
+          "tag": 3232209169
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Geoposition.class", 
+          "tag": 526704446
+        }, 
+        {
+          "path": "org/chromium/device/mojom/GeopositionConstants.class", 
+          "tag": 973355517
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidBusType.class", 
+          "tag": 3023882546
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidCollectionInfo.class", 
+          "tag": 149677152
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnection$GetFeatureReportResponse.class", 
+          "tag": 31694849
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnection$Proxy.class", 
+          "tag": 988478739
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnection$ReadResponse.class", 
+          "tag": 1598796377
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnection$SendFeatureReportResponse.class", 
+          "tag": 4222078687
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnection$WriteResponse.class", 
+          "tag": 2227762871
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnection.class", 
+          "tag": 2225939921
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnectionClient$Proxy.class", 
+          "tag": 405807774
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnectionClient.class", 
+          "tag": 1090059446
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnectionClient_Internal$1.class", 
+          "tag": 1630177037
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnectionClient_Internal$HidConnectionClientOnInputReportParams.class", 
+          "tag": 3357486166
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnectionClient_Internal$Proxy.class", 
+          "tag": 1664018745
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnectionClient_Internal$Stub.class", 
+          "tag": 1629924129
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnectionClient_Internal.class", 
+          "tag": 535504888
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnectionWatcher$Proxy.class", 
+          "tag": 978664974
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnectionWatcher.class", 
+          "tag": 1707815655
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnectionWatcher_Internal$1.class", 
+          "tag": 1297752691
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnectionWatcher_Internal$Proxy.class", 
+          "tag": 20224654
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnectionWatcher_Internal$Stub.class", 
+          "tag": 878805143
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnectionWatcher_Internal.class", 
+          "tag": 2718817396
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnection_Internal$1.class", 
+          "tag": 7504021
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnection_Internal$HidConnectionGetFeatureReportParams.class", 
+          "tag": 2549151406
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnection_Internal$HidConnectionGetFeatureReportResponseParams.class", 
+          "tag": 605706561
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnection_Internal$HidConnectionGetFeatureReportResponseParamsForwardToCallback.class", 
+          "tag": 3699441238
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnection_Internal$HidConnectionGetFeatureReportResponseParamsProxyToResponder.class", 
+          "tag": 350583742
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnection_Internal$HidConnectionReadParams.class", 
+          "tag": 100898309
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnection_Internal$HidConnectionReadResponseParams.class", 
+          "tag": 1512848709
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnection_Internal$HidConnectionReadResponseParamsForwardToCallback.class", 
+          "tag": 3252219795
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnection_Internal$HidConnectionReadResponseParamsProxyToResponder.class", 
+          "tag": 3229532255
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnection_Internal$HidConnectionSendFeatureReportParams.class", 
+          "tag": 724430397
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnection_Internal$HidConnectionSendFeatureReportResponseParams.class", 
+          "tag": 2227241475
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnection_Internal$HidConnectionSendFeatureReportResponseParamsForwardToCallback.class", 
+          "tag": 2946529411
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnection_Internal$HidConnectionSendFeatureReportResponseParamsProxyToResponder.class", 
+          "tag": 4180014876
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnection_Internal$HidConnectionWriteParams.class", 
+          "tag": 3984979308
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnection_Internal$HidConnectionWriteResponseParams.class", 
+          "tag": 2919264149
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnection_Internal$HidConnectionWriteResponseParamsForwardToCallback.class", 
+          "tag": 1926887555
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnection_Internal$HidConnectionWriteResponseParamsProxyToResponder.class", 
+          "tag": 701182552
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnection_Internal$Proxy.class", 
+          "tag": 3174259807
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnection_Internal$Stub.class", 
+          "tag": 256531810
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConnection_Internal.class", 
+          "tag": 3768894398
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidConstants.class", 
+          "tag": 1811224872
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidDeviceInfo.class", 
+          "tag": 3956073079
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidManager$ConnectResponse.class", 
+          "tag": 4164234458
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidManager$GetDevicesAndSetClientResponse.class", 
+          "tag": 3690115688
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidManager$GetDevicesResponse.class", 
+          "tag": 3678664781
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidManager$Proxy.class", 
+          "tag": 3350262578
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidManager.class", 
+          "tag": 586810667
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidManagerClient$Proxy.class", 
+          "tag": 50498241
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidManagerClient.class", 
+          "tag": 1868296300
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidManagerClient_Internal$1.class", 
+          "tag": 3298495492
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidManagerClient_Internal$HidManagerClientDeviceAddedParams.class", 
+          "tag": 99127207
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidManagerClient_Internal$HidManagerClientDeviceRemovedParams.class", 
+          "tag": 2844760859
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidManagerClient_Internal$Proxy.class", 
+          "tag": 3247399702
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidManagerClient_Internal$Stub.class", 
+          "tag": 3216750342
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidManagerClient_Internal.class", 
+          "tag": 4014427344
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidManager_Internal$1.class", 
+          "tag": 4292888676
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidManager_Internal$HidManagerConnectParams.class", 
+          "tag": 2925181329
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidManager_Internal$HidManagerConnectResponseParams.class", 
+          "tag": 1114283430
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidManager_Internal$HidManagerConnectResponseParamsForwardToCallback.class", 
+          "tag": 4045487581
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidManager_Internal$HidManagerConnectResponseParamsProxyToResponder.class", 
+          "tag": 4064899315
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidManager_Internal$HidManagerGetDevicesAndSetClientParams.class", 
+          "tag": 2997144058
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidManager_Internal$HidManagerGetDevicesAndSetClientResponseParams.class", 
+          "tag": 1185509693
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidManager_Internal$HidManagerGetDevicesAndSetClientResponseParamsForwardToCallback.class", 
+          "tag": 1344516538
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidManager_Internal$HidManagerGetDevicesAndSetClientResponseParamsProxyToResponder.class", 
+          "tag": 3970890800
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidManager_Internal$HidManagerGetDevicesParams.class", 
+          "tag": 1634400286
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidManager_Internal$HidManagerGetDevicesResponseParams.class", 
+          "tag": 1967558169
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidManager_Internal$HidManagerGetDevicesResponseParamsForwardToCallback.class", 
+          "tag": 1872375576
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidManager_Internal$HidManagerGetDevicesResponseParamsProxyToResponder.class", 
+          "tag": 810570020
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidManager_Internal$Proxy.class", 
+          "tag": 4159793250
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidManager_Internal$Stub.class", 
+          "tag": 468666114
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidManager_Internal.class", 
+          "tag": 1915395829
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidReportDescription.class", 
+          "tag": 704787132
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidReportItem.class", 
+          "tag": 171609482
+        }, 
+        {
+          "path": "org/chromium/device/mojom/HidUsageAndPage.class", 
+          "tag": 3850452482
+        }, 
+        {
+          "path": "org/chromium/device/mojom/InputDeviceInfo.class", 
+          "tag": 3004020133
+        }, 
+        {
+          "path": "org/chromium/device/mojom/InputDeviceManager$GetDevicesAndSetClientResponse.class", 
+          "tag": 47162145
+        }, 
+        {
+          "path": "org/chromium/device/mojom/InputDeviceManager$GetDevicesResponse.class", 
+          "tag": 2691915098
+        }, 
+        {
+          "path": "org/chromium/device/mojom/InputDeviceManager$Proxy.class", 
+          "tag": 3921195946
+        }, 
+        {
+          "path": "org/chromium/device/mojom/InputDeviceManager.class", 
+          "tag": 1386960061
+        }, 
+        {
+          "path": "org/chromium/device/mojom/InputDeviceManagerClient$Proxy.class", 
+          "tag": 83780081
+        }, 
+        {
+          "path": "org/chromium/device/mojom/InputDeviceManagerClient.class", 
+          "tag": 3009171176
+        }, 
+        {
+          "path": "org/chromium/device/mojom/InputDeviceManagerClient_Internal$1.class", 
+          "tag": 3023831357
+        }, 
+        {
+          "path": "org/chromium/device/mojom/InputDeviceManagerClient_Internal$InputDeviceManagerClientInputDeviceAddedParams.class", 
+          "tag": 1889306726
+        }, 
+        {
+          "path": "org/chromium/device/mojom/InputDeviceManagerClient_Internal$InputDeviceManagerClientInputDeviceRemovedParams.class", 
+          "tag": 2898568953
+        }, 
+        {
+          "path": "org/chromium/device/mojom/InputDeviceManagerClient_Internal$Proxy.class", 
+          "tag": 3982353235
+        }, 
+        {
+          "path": "org/chromium/device/mojom/InputDeviceManagerClient_Internal$Stub.class", 
+          "tag": 2960143422
+        }, 
+        {
+          "path": "org/chromium/device/mojom/InputDeviceManagerClient_Internal.class", 
+          "tag": 395484783
+        }, 
+        {
+          "path": "org/chromium/device/mojom/InputDeviceManager_Internal$1.class", 
+          "tag": 3287355679
+        }, 
+        {
+          "path": "org/chromium/device/mojom/InputDeviceManager_Internal$InputDeviceManagerGetDevicesAndSetClientParams.class", 
+          "tag": 2631850595
+        }, 
+        {
+          "path": "org/chromium/device/mojom/InputDeviceManager_Internal$InputDeviceManagerGetDevicesAndSetClientResponseParams.class", 
+          "tag": 561331126
+        }, 
+        {
+          "path": "org/chromium/device/mojom/InputDeviceManager_Internal$InputDeviceManagerGetDevicesAndSetClientResponseParamsForwardToCallback.class", 
+          "tag": 4285562317
+        }, 
+        {
+          "path": "org/chromium/device/mojom/InputDeviceManager_Internal$InputDeviceManagerGetDevicesAndSetClientResponseParamsProxyToResponder.class", 
+          "tag": 2032218733
+        }, 
+        {
+          "path": "org/chromium/device/mojom/InputDeviceManager_Internal$InputDeviceManagerGetDevicesParams.class", 
+          "tag": 1023498023
+        }, 
+        {
+          "path": "org/chromium/device/mojom/InputDeviceManager_Internal$InputDeviceManagerGetDevicesResponseParams.class", 
+          "tag": 3707338533
+        }, 
+        {
+          "path": "org/chromium/device/mojom/InputDeviceManager_Internal$InputDeviceManagerGetDevicesResponseParamsForwardToCallback.class", 
+          "tag": 250010249
+        }, 
+        {
+          "path": "org/chromium/device/mojom/InputDeviceManager_Internal$InputDeviceManagerGetDevicesResponseParamsProxyToResponder.class", 
+          "tag": 2914092478
+        }, 
+        {
+          "path": "org/chromium/device/mojom/InputDeviceManager_Internal$Proxy.class", 
+          "tag": 736661195
+        }, 
+        {
+          "path": "org/chromium/device/mojom/InputDeviceManager_Internal$Stub.class", 
+          "tag": 1816891697
+        }, 
+        {
+          "path": "org/chromium/device/mojom/InputDeviceManager_Internal.class", 
+          "tag": 1312128810
+        }, 
+        {
+          "path": "org/chromium/device/mojom/InputDeviceSubsystem.class", 
+          "tag": 4236135593
+        }, 
+        {
+          "path": "org/chromium/device/mojom/InputDeviceType.class", 
+          "tag": 3305639781
+        }, 
+        {
+          "path": "org/chromium/device/mojom/NdefError.class", 
+          "tag": 58330391
+        }, 
+        {
+          "path": "org/chromium/device/mojom/NdefErrorType.class", 
+          "tag": 2014879905
+        }, 
+        {
+          "path": "org/chromium/device/mojom/NdefMessage.class", 
+          "tag": 3908325446
+        }, 
+        {
+          "path": "org/chromium/device/mojom/NdefRecord.class", 
+          "tag": 487942198
+        }, 
+        {
+          "path": "org/chromium/device/mojom/NdefRecordTypeCategory.class", 
+          "tag": 2739504877
+        }, 
+        {
+          "path": "org/chromium/device/mojom/NdefScanOptions.class", 
+          "tag": 2629135295
+        }, 
+        {
+          "path": "org/chromium/device/mojom/NdefWriteOptions.class", 
+          "tag": 524334440
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc$CancelAllWatchesResponse.class", 
+          "tag": 864330814
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc$CancelPushResponse.class", 
+          "tag": 3285063106
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc$CancelWatchResponse.class", 
+          "tag": 118551373
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc$Proxy.class", 
+          "tag": 162805907
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc$PushResponse.class", 
+          "tag": 3750057320
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc$WatchResponse.class", 
+          "tag": 1259718941
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc.class", 
+          "tag": 2288444235
+        }, 
+        {
+          "path": "org/chromium/device/mojom/NfcClient$Proxy.class", 
+          "tag": 1672532583
+        }, 
+        {
+          "path": "org/chromium/device/mojom/NfcClient.class", 
+          "tag": 634475474
+        }, 
+        {
+          "path": "org/chromium/device/mojom/NfcClient_Internal$1.class", 
+          "tag": 1640952246
+        }, 
+        {
+          "path": "org/chromium/device/mojom/NfcClient_Internal$NfcClientOnErrorParams.class", 
+          "tag": 1301116334
+        }, 
+        {
+          "path": "org/chromium/device/mojom/NfcClient_Internal$NfcClientOnWatchParams.class", 
+          "tag": 414358156
+        }, 
+        {
+          "path": "org/chromium/device/mojom/NfcClient_Internal$Proxy.class", 
+          "tag": 1480815571
+        }, 
+        {
+          "path": "org/chromium/device/mojom/NfcClient_Internal$Stub.class", 
+          "tag": 1104006117
+        }, 
+        {
+          "path": "org/chromium/device/mojom/NfcClient_Internal.class", 
+          "tag": 768939108
+        }, 
+        {
+          "path": "org/chromium/device/mojom/NfcProvider$Proxy.class", 
+          "tag": 3560894871
+        }, 
+        {
+          "path": "org/chromium/device/mojom/NfcProvider.class", 
+          "tag": 1999148567
+        }, 
+        {
+          "path": "org/chromium/device/mojom/NfcProvider_Internal$1.class", 
+          "tag": 380060511
+        }, 
+        {
+          "path": "org/chromium/device/mojom/NfcProvider_Internal$NfcProviderGetNfcForHostParams.class", 
+          "tag": 3882955512
+        }, 
+        {
+          "path": "org/chromium/device/mojom/NfcProvider_Internal$Proxy.class", 
+          "tag": 1075724304
+        }, 
+        {
+          "path": "org/chromium/device/mojom/NfcProvider_Internal$Stub.class", 
+          "tag": 4222585179
+        }, 
+        {
+          "path": "org/chromium/device/mojom/NfcProvider_Internal.class", 
+          "tag": 1176462531
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc_Internal$1.class", 
+          "tag": 2386519796
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc_Internal$NfcCancelAllWatchesParams.class", 
+          "tag": 260780790
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc_Internal$NfcCancelAllWatchesResponseParams.class", 
+          "tag": 3637929565
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc_Internal$NfcCancelAllWatchesResponseParamsForwardToCallback.class", 
+          "tag": 1612251821
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc_Internal$NfcCancelAllWatchesResponseParamsProxyToResponder.class", 
+          "tag": 904061850
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc_Internal$NfcCancelPushParams.class", 
+          "tag": 2480216036
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc_Internal$NfcCancelPushResponseParams.class", 
+          "tag": 2306177118
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc_Internal$NfcCancelPushResponseParamsForwardToCallback.class", 
+          "tag": 398041668
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc_Internal$NfcCancelPushResponseParamsProxyToResponder.class", 
+          "tag": 2081542361
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc_Internal$NfcCancelWatchParams.class", 
+          "tag": 187826651
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc_Internal$NfcCancelWatchResponseParams.class", 
+          "tag": 1076937165
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc_Internal$NfcCancelWatchResponseParamsForwardToCallback.class", 
+          "tag": 506677453
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc_Internal$NfcCancelWatchResponseParamsProxyToResponder.class", 
+          "tag": 4186877356
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc_Internal$NfcPushParams.class", 
+          "tag": 1258126886
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc_Internal$NfcPushResponseParams.class", 
+          "tag": 4274075883
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc_Internal$NfcPushResponseParamsForwardToCallback.class", 
+          "tag": 3696040334
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc_Internal$NfcPushResponseParamsProxyToResponder.class", 
+          "tag": 3766408740
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc_Internal$NfcResumeNfcOperationsParams.class", 
+          "tag": 3496317738
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc_Internal$NfcSetClientParams.class", 
+          "tag": 772628833
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc_Internal$NfcSuspendNfcOperationsParams.class", 
+          "tag": 1852921302
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc_Internal$NfcWatchParams.class", 
+          "tag": 525027535
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc_Internal$NfcWatchResponseParams.class", 
+          "tag": 2135455352
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc_Internal$NfcWatchResponseParamsForwardToCallback.class", 
+          "tag": 2032066520
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc_Internal$NfcWatchResponseParamsProxyToResponder.class", 
+          "tag": 937818170
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc_Internal$Proxy.class", 
+          "tag": 2486914899
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc_Internal$Stub.class", 
+          "tag": 1280096777
+        }, 
+        {
+          "path": "org/chromium/device/mojom/Nfc_Internal.class", 
+          "tag": 1687939957
+        }, 
+        {
+          "path": "org/chromium/device/mojom/PowerMonitor$Proxy.class", 
+          "tag": 2006089011
+        }, 
+        {
+          "path": "org/chromium/device/mojom/PowerMonitor.class", 
+          "tag": 2130455533
+        }, 
+        {
+          "path": "org/chromium/device/mojom/PowerMonitorClient$Proxy.class", 
+          "tag": 4262422667
+        }, 
+        {
+          "path": "org/chromium/device/mojom/PowerMonitorClient.class", 
+          "tag": 265207571
+        }, 
+        {
+          "path": "org/chromium/device/mojom/PowerMonitorClient_Internal$1.class", 
+          "tag": 3444499776
+        }, 
+        {
+          "path": "org/chromium/device/mojom/PowerMonitorClient_Internal$PowerMonitorClientPowerStateChangeParams.class", 
+          "tag": 1580443373
+        }, 
+        {
+          "path": "org/chromium/device/mojom/PowerMonitorClient_Internal$PowerMonitorClientResumeParams.class", 
+          "tag": 118726411
+        }, 
+        {
+          "path": "org/chromium/device/mojom/PowerMonitorClient_Internal$PowerMonitorClientSuspendParams.class", 
+          "tag": 4271038099
+        }, 
+        {
+          "path": "org/chromium/device/mojom/PowerMonitorClient_Internal$Proxy.class", 
+          "tag": 1369963580
+        }, 
+        {
+          "path": "org/chromium/device/mojom/PowerMonitorClient_Internal$Stub.class", 
+          "tag": 3792695276
+        }, 
+        {
+          "path": "org/chromium/device/mojom/PowerMonitorClient_Internal.class", 
+          "tag": 799246651
+        }, 
+        {
+          "path": "org/chromium/device/mojom/PowerMonitor_Internal$1.class", 
+          "tag": 282682168
+        }, 
+        {
+          "path": "org/chromium/device/mojom/PowerMonitor_Internal$PowerMonitorAddClientParams.class", 
+          "tag": 1544658039
+        }, 
+        {
+          "path": "org/chromium/device/mojom/PowerMonitor_Internal$Proxy.class", 
+          "tag": 3587283722
+        }, 
+        {
+          "path": "org/chromium/device/mojom/PowerMonitor_Internal$Stub.class", 
+          "tag": 120695855
+        }, 
+        {
+          "path": "org/chromium/device/mojom/PowerMonitor_Internal.class", 
+          "tag": 1065123117
+        }, 
+        {
+          "path": "org/chromium/device/mojom/PublicIpAddressGeolocationProvider$Proxy.class", 
+          "tag": 4256980965
+        }, 
+        {
+          "path": "org/chromium/device/mojom/PublicIpAddressGeolocationProvider.class", 
+          "tag": 4147536958
+        }, 
+        {
+          "path": "org/chromium/device/mojom/PublicIpAddressGeolocationProvider_Internal$1.class", 
+          "tag": 1006649056
+        }, 
+        {
+          "path": "org/chromium/device/mojom/PublicIpAddressGeolocationProvider_Internal$Proxy.class", 
+          "tag": 2794206702
+        }, 
+        {
+          "path": "org/chromium/device/mojom/PublicIpAddressGeolocationProvider_Internal$PublicIpAddressGeolocationProviderCreateGeolocationParams.class", 
+          "tag": 2226103377
+        }, 
+        {
+          "path": "org/chromium/device/mojom/PublicIpAddressGeolocationProvider_Internal$Stub.class", 
+          "tag": 3894905702
+        }, 
+        {
+          "path": "org/chromium/device/mojom/PublicIpAddressGeolocationProvider_Internal.class", 
+          "tag": 2034355776
+        }, 
+        {
+          "path": "org/chromium/device/mojom/ScanResult.class", 
+          "tag": 1289073368
+        }, 
+        {
+          "path": "org/chromium/device/mojom/ScreenOrientation$LockOrientationResponse.class", 
+          "tag": 4111831816
+        }, 
+        {
+          "path": "org/chromium/device/mojom/ScreenOrientation$Proxy.class", 
+          "tag": 245848100
+        }, 
+        {
+          "path": "org/chromium/device/mojom/ScreenOrientation.class", 
+          "tag": 1884444848
+        }, 
+        {
+          "path": "org/chromium/device/mojom/ScreenOrientationListener$IsAutoRotateEnabledByUserResponse.class", 
+          "tag": 1934207237
+        }, 
+        {
+          "path": "org/chromium/device/mojom/ScreenOrientationListener$Proxy.class", 
+          "tag": 2911751259
+        }, 
+        {
+          "path": "org/chromium/device/mojom/ScreenOrientationListener.class", 
+          "tag": 1127900074
+        }, 
+        {
+          "path": "org/chromium/device/mojom/ScreenOrientationListener_Internal$1.class", 
+          "tag": 3872891500
+        }, 
+        {
+          "path": "org/chromium/device/mojom/ScreenOrientationListener_Internal$Proxy.class", 
+          "tag": 2785383600
+        }, 
+        {
+          "path": "org/chromium/device/mojom/ScreenOrientationListener_Internal$ScreenOrientationListenerIsAutoRotateEnabledByUserParams.class", 
+          "tag": 80199674
+        }, 
+        {
+          "path": "org/chromium/device/mojom/ScreenOrientationListener_Internal$ScreenOrientationListenerIsAutoRotateEnabledByUserResponseParams.class", 
+          "tag": 2731030150
+        }, 
+        {
+          "path": "org/chromium/device/mojom/ScreenOrientationListener_Internal$ScreenOrientationListenerIsAutoRotateEnabledByUserResponseParamsForwardToCallback.class", 
+          "tag": 2035727819
+        }, 
+        {
+          "path": "org/chromium/device/mojom/ScreenOrientationListener_Internal$ScreenOrientationListenerIsAutoRotateEnabledByUserResponseParamsProxyToResponder.class", 
+          "tag": 2856778938
+        }, 
+        {
+          "path": "org/chromium/device/mojom/ScreenOrientationListener_Internal$Stub.class", 
+          "tag": 353594439
+        }, 
+        {
+          "path": "org/chromium/device/mojom/ScreenOrientationListener_Internal.class", 
+          "tag": 3427009801
+        }, 
+        {
+          "path": "org/chromium/device/mojom/ScreenOrientationLockResult.class", 
+          "tag": 2085732398
+        }, 
+        {
+          "path": "org/chromium/device/mojom/ScreenOrientationLockType.class", 
+          "tag": 3617108975
+        }, 
+        {
+          "path": "org/chromium/device/mojom/ScreenOrientation_Internal$1.class", 
+          "tag": 2809628115
+        }, 
+        {
+          "path": "org/chromium/device/mojom/ScreenOrientation_Internal$Proxy.class", 
+          "tag": 2944418623
+        }, 
+        {
+          "path": "org/chromium/device/mojom/ScreenOrientation_Internal$ScreenOrientationLockOrientationParams.class", 
+          "tag": 3512465117
+        }, 
+        {
+          "path": "org/chromium/device/mojom/ScreenOrientation_Internal$ScreenOrientationLockOrientationResponseParams.class", 
+          "tag": 3718788034
+        }, 
+        {
+          "path": "org/chromium/device/mojom/ScreenOrientation_Internal$ScreenOrientationLockOrientationResponseParamsForwardToCallback.class", 
+          "tag": 1029017501
+        }, 
+        {
+          "path": "org/chromium/device/mojom/ScreenOrientation_Internal$ScreenOrientationLockOrientationResponseParamsProxyToResponder.class", 
+          "tag": 818576667
+        }, 
+        {
+          "path": "org/chromium/device/mojom/ScreenOrientation_Internal$ScreenOrientationUnlockOrientationParams.class", 
+          "tag": 397764807
+        }, 
+        {
+          "path": "org/chromium/device/mojom/ScreenOrientation_Internal$Stub.class", 
+          "tag": 4017735356
+        }, 
+        {
+          "path": "org/chromium/device/mojom/ScreenOrientation_Internal.class", 
+          "tag": 3320126492
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialConnectionInfo.class", 
+          "tag": 2619246118
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialConnectionOptions.class", 
+          "tag": 2800735122
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialDataBits.class", 
+          "tag": 2339051909
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialHostControlSignals.class", 
+          "tag": 2751257972
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialParityBit.class", 
+          "tag": 4041353069
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort$CloseResponse.class", 
+          "tag": 3669780510
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort$ConfigurePortResponse.class", 
+          "tag": 2740415614
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort$FlushResponse.class", 
+          "tag": 2615513072
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort$GetControlSignalsResponse.class", 
+          "tag": 922253890
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort$GetPortInfoResponse.class", 
+          "tag": 863722407
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort$OpenResponse.class", 
+          "tag": 693405815
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort$Proxy.class", 
+          "tag": 1188661345
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort$SetControlSignalsResponse.class", 
+          "tag": 1799873841
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort.class", 
+          "tag": 1549511164
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPortClient$Proxy.class", 
+          "tag": 1860140170
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPortClient.class", 
+          "tag": 3551544396
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPortClient_Internal$1.class", 
+          "tag": 2146125819
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPortClient_Internal$Proxy.class", 
+          "tag": 1765695308
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPortClient_Internal$SerialPortClientOnReadErrorParams.class", 
+          "tag": 507114600
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPortClient_Internal$SerialPortClientOnSendErrorParams.class", 
+          "tag": 791800086
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPortClient_Internal$Stub.class", 
+          "tag": 3864682748
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPortClient_Internal.class", 
+          "tag": 2559223220
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPortConnectionWatcher$Proxy.class", 
+          "tag": 2028021078
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPortConnectionWatcher.class", 
+          "tag": 3920945516
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPortConnectionWatcher_Internal$1.class", 
+          "tag": 161640359
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPortConnectionWatcher_Internal$Proxy.class", 
+          "tag": 842423034
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPortConnectionWatcher_Internal$Stub.class", 
+          "tag": 2368291748
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPortConnectionWatcher_Internal.class", 
+          "tag": 858229349
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPortControlSignals.class", 
+          "tag": 2553191213
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPortInfo.class", 
+          "tag": 2769237300
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPortManager$GetDevicesResponse.class", 
+          "tag": 4210745938
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPortManager$Proxy.class", 
+          "tag": 3137986135
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPortManager.class", 
+          "tag": 2187695159
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPortManager_Internal$1.class", 
+          "tag": 3886043628
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPortManager_Internal$Proxy.class", 
+          "tag": 3229332202
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPortManager_Internal$SerialPortManagerGetDevicesParams.class", 
+          "tag": 2094299592
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPortManager_Internal$SerialPortManagerGetDevicesResponseParams.class", 
+          "tag": 3175165044
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPortManager_Internal$SerialPortManagerGetDevicesResponseParamsForwardToCallback.class", 
+          "tag": 3598947620
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPortManager_Internal$SerialPortManagerGetDevicesResponseParamsProxyToResponder.class", 
+          "tag": 840514969
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPortManager_Internal$SerialPortManagerGetPortParams.class", 
+          "tag": 834294340
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPortManager_Internal$Stub.class", 
+          "tag": 4023112931
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPortManager_Internal.class", 
+          "tag": 493460611
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal$1.class", 
+          "tag": 1942998811
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal$Proxy.class", 
+          "tag": 2240073183
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal$SerialPortClearReadErrorParams.class", 
+          "tag": 3859569000
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal$SerialPortClearSendErrorParams.class", 
+          "tag": 672502194
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal$SerialPortCloseParams.class", 
+          "tag": 2111791525
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal$SerialPortCloseResponseParams.class", 
+          "tag": 1437120557
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal$SerialPortCloseResponseParamsForwardToCallback.class", 
+          "tag": 4284049864
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal$SerialPortCloseResponseParamsProxyToResponder.class", 
+          "tag": 2944707721
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal$SerialPortConfigurePortParams.class", 
+          "tag": 2820714503
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal$SerialPortConfigurePortResponseParams.class", 
+          "tag": 1170938833
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal$SerialPortConfigurePortResponseParamsForwardToCallback.class", 
+          "tag": 1833034701
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal$SerialPortConfigurePortResponseParamsProxyToResponder.class", 
+          "tag": 1721792254
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal$SerialPortFlushParams.class", 
+          "tag": 3253237325
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal$SerialPortFlushResponseParams.class", 
+          "tag": 881669980
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal$SerialPortFlushResponseParamsForwardToCallback.class", 
+          "tag": 3459973101
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal$SerialPortFlushResponseParamsProxyToResponder.class", 
+          "tag": 3116273721
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal$SerialPortGetControlSignalsParams.class", 
+          "tag": 200296126
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal$SerialPortGetControlSignalsResponseParams.class", 
+          "tag": 355479105
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal$SerialPortGetControlSignalsResponseParamsForwardToCallback.class", 
+          "tag": 3987448598
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal$SerialPortGetControlSignalsResponseParamsProxyToResponder.class", 
+          "tag": 1944307398
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal$SerialPortGetPortInfoParams.class", 
+          "tag": 3338579509
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal$SerialPortGetPortInfoResponseParams.class", 
+          "tag": 1515435937
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal$SerialPortGetPortInfoResponseParamsForwardToCallback.class", 
+          "tag": 4077111587
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal$SerialPortGetPortInfoResponseParamsProxyToResponder.class", 
+          "tag": 1730936460
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal$SerialPortOpenParams.class", 
+          "tag": 3261408281
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal$SerialPortOpenResponseParams.class", 
+          "tag": 237799719
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal$SerialPortOpenResponseParamsForwardToCallback.class", 
+          "tag": 803594862
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal$SerialPortOpenResponseParamsProxyToResponder.class", 
+          "tag": 3388742167
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal$SerialPortSetControlSignalsParams.class", 
+          "tag": 3180014082
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal$SerialPortSetControlSignalsResponseParams.class", 
+          "tag": 4014903979
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal$SerialPortSetControlSignalsResponseParamsForwardToCallback.class", 
+          "tag": 341051306
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal$SerialPortSetControlSignalsResponseParamsProxyToResponder.class", 
+          "tag": 1322390384
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal$Stub.class", 
+          "tag": 2012115283
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialPort_Internal.class", 
+          "tag": 2273174249
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialReceiveError.class", 
+          "tag": 3735972443
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialSendError.class", 
+          "tag": 2718284779
+        }, 
+        {
+          "path": "org/chromium/device/mojom/SerialStopBits.class", 
+          "tag": 3024385831
+        }, 
+        {
+          "path": "org/chromium/device/mojom/TimeZoneMonitor$Proxy.class", 
+          "tag": 3223228517
+        }, 
+        {
+          "path": "org/chromium/device/mojom/TimeZoneMonitor.class", 
+          "tag": 254869262
+        }, 
+        {
+          "path": "org/chromium/device/mojom/TimeZoneMonitorClient$Proxy.class", 
+          "tag": 1599501554
+        }, 
+        {
+          "path": "org/chromium/device/mojom/TimeZoneMonitorClient.class", 
+          "tag": 2373250524
+        }, 
+        {
+          "path": "org/chromium/device/mojom/TimeZoneMonitorClient_Internal$1.class", 
+          "tag": 1982864193
+        }, 
+        {
+          "path": "org/chromium/device/mojom/TimeZoneMonitorClient_Internal$Proxy.class", 
+          "tag": 463782493
+        }, 
+        {
+          "path": "org/chromium/device/mojom/TimeZoneMonitorClient_Internal$Stub.class", 
+          "tag": 296713023
+        }, 
+        {
+          "path": "org/chromium/device/mojom/TimeZoneMonitorClient_Internal$TimeZoneMonitorClientOnTimeZoneChangeParams.class", 
+          "tag": 628702200
+        }, 
+        {
+          "path": "org/chromium/device/mojom/TimeZoneMonitorClient_Internal.class", 
+          "tag": 3279186796
+        }, 
+        {
+          "path": "org/chromium/device/mojom/TimeZoneMonitor_Internal$1.class", 
+          "tag": 727813033
+        }, 
+        {
+          "path": "org/chromium/device/mojom/TimeZoneMonitor_Internal$Proxy.class", 
+          "tag": 2431004484
+        }, 
+        {
+          "path": "org/chromium/device/mojom/TimeZoneMonitor_Internal$Stub.class", 
+          "tag": 56540897
+        }, 
+        {
+          "path": "org/chromium/device/mojom/TimeZoneMonitor_Internal$TimeZoneMonitorAddClientParams.class", 
+          "tag": 3006906939
+        }, 
+        {
+          "path": "org/chromium/device/mojom/TimeZoneMonitor_Internal.class", 
+          "tag": 2569371814
+        }, 
+        {
+          "path": "org/chromium/device/mojom/VibrationManager$CancelResponse.class", 
+          "tag": 1785240118
+        }, 
+        {
+          "path": "org/chromium/device/mojom/VibrationManager$Proxy.class", 
+          "tag": 3648191882
+        }, 
+        {
+          "path": "org/chromium/device/mojom/VibrationManager$VibrateResponse.class", 
+          "tag": 212628048
+        }, 
+        {
+          "path": "org/chromium/device/mojom/VibrationManager.class", 
+          "tag": 1211282069
+        }, 
+        {
+          "path": "org/chromium/device/mojom/VibrationManager_Internal$1.class", 
+          "tag": 3505561927
+        }, 
+        {
+          "path": "org/chromium/device/mojom/VibrationManager_Internal$Proxy.class", 
+          "tag": 2146100235
+        }, 
+        {
+          "path": "org/chromium/device/mojom/VibrationManager_Internal$Stub.class", 
+          "tag": 972092015
+        }, 
+        {
+          "path": "org/chromium/device/mojom/VibrationManager_Internal$VibrationManagerCancelParams.class", 
+          "tag": 2533177819
+        }, 
+        {
+          "path": "org/chromium/device/mojom/VibrationManager_Internal$VibrationManagerCancelResponseParams.class", 
+          "tag": 1464230898
+        }, 
+        {
+          "path": "org/chromium/device/mojom/VibrationManager_Internal$VibrationManagerCancelResponseParamsForwardToCallback.class", 
+          "tag": 235696184
+        }, 
+        {
+          "path": "org/chromium/device/mojom/VibrationManager_Internal$VibrationManagerCancelResponseParamsProxyToResponder.class", 
+          "tag": 1882975233
+        }, 
+        {
+          "path": "org/chromium/device/mojom/VibrationManager_Internal$VibrationManagerVibrateParams.class", 
+          "tag": 648354417
+        }, 
+        {
+          "path": "org/chromium/device/mojom/VibrationManager_Internal$VibrationManagerVibrateResponseParams.class", 
+          "tag": 357684371
+        }, 
+        {
+          "path": "org/chromium/device/mojom/VibrationManager_Internal$VibrationManagerVibrateResponseParamsForwardToCallback.class", 
+          "tag": 3121996945
+        }, 
+        {
+          "path": "org/chromium/device/mojom/VibrationManager_Internal$VibrationManagerVibrateResponseParamsProxyToResponder.class", 
+          "tag": 2594116137
+        }, 
+        {
+          "path": "org/chromium/device/mojom/VibrationManager_Internal.class", 
+          "tag": 2708767608
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLock$ChangeTypeResponse.class", 
+          "tag": 1173443431
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLock$HasWakeLockForTestsResponse.class", 
+          "tag": 4203101497
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLock$Proxy.class", 
+          "tag": 402129201
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLock.class", 
+          "tag": 1180547889
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLockContext$Proxy.class", 
+          "tag": 2808410570
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLockContext.class", 
+          "tag": 1229445657
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLockContext_Internal$1.class", 
+          "tag": 1404947934
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLockContext_Internal$Proxy.class", 
+          "tag": 1419199130
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLockContext_Internal$Stub.class", 
+          "tag": 1334328433
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLockContext_Internal$WakeLockContextGetWakeLockParams.class", 
+          "tag": 494026782
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLockContext_Internal.class", 
+          "tag": 1642186157
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLockObserver$Proxy.class", 
+          "tag": 715995217
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLockObserver.class", 
+          "tag": 2730349668
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLockObserver_Internal$1.class", 
+          "tag": 188504242
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLockObserver_Internal$Proxy.class", 
+          "tag": 3793004812
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLockObserver_Internal$Stub.class", 
+          "tag": 3418054125
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLockObserver_Internal$WakeLockObserverOnWakeLockDeactivatedParams.class", 
+          "tag": 3109686890
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLockObserver_Internal.class", 
+          "tag": 2281092198
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLockProvider$GetActiveWakeLocksForTestsResponse.class", 
+          "tag": 418776643
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLockProvider$Proxy.class", 
+          "tag": 689167155
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLockProvider.class", 
+          "tag": 2267783070
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLockProvider_Internal$1.class", 
+          "tag": 2254770726
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLockProvider_Internal$Proxy.class", 
+          "tag": 2034785191
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLockProvider_Internal$Stub.class", 
+          "tag": 2432928361
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLockProvider_Internal$WakeLockProviderGetActiveWakeLocksForTestsParams.class", 
+          "tag": 662454467
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLockProvider_Internal$WakeLockProviderGetActiveWakeLocksForTestsResponseParams.class", 
+          "tag": 1107367742
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLockProvider_Internal$WakeLockProviderGetActiveWakeLocksForTestsResponseParamsForwardToCallback.class", 
+          "tag": 1392521143
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLockProvider_Internal$WakeLockProviderGetActiveWakeLocksForTestsResponseParamsProxyToResponder.class", 
+          "tag": 2860159841
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLockProvider_Internal$WakeLockProviderGetWakeLockContextForIdParams.class", 
+          "tag": 4220938980
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLockProvider_Internal$WakeLockProviderGetWakeLockWithoutContextParams.class", 
+          "tag": 635879306
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLockProvider_Internal$WakeLockProviderNotifyOnWakeLockDeactivationParams.class", 
+          "tag": 3806699419
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLockProvider_Internal.class", 
+          "tag": 2733320529
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLockReason.class", 
+          "tag": 2360702822
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLockType.class", 
+          "tag": 2265444866
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLock_Internal$1.class", 
+          "tag": 960877661
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLock_Internal$Proxy.class", 
+          "tag": 2164281021
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLock_Internal$Stub.class", 
+          "tag": 3415742145
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLock_Internal$WakeLockAddClientParams.class", 
+          "tag": 3053616440
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLock_Internal$WakeLockCancelWakeLockParams.class", 
+          "tag": 2108243622
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLock_Internal$WakeLockChangeTypeParams.class", 
+          "tag": 3640539328
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLock_Internal$WakeLockChangeTypeResponseParams.class", 
+          "tag": 3210870355
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLock_Internal$WakeLockChangeTypeResponseParamsForwardToCallback.class", 
+          "tag": 1484558294
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLock_Internal$WakeLockChangeTypeResponseParamsProxyToResponder.class", 
+          "tag": 3189645511
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLock_Internal$WakeLockHasWakeLockForTestsParams.class", 
+          "tag": 5045274
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLock_Internal$WakeLockHasWakeLockForTestsResponseParams.class", 
+          "tag": 4187249675
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLock_Internal$WakeLockHasWakeLockForTestsResponseParamsForwardToCallback.class", 
+          "tag": 4166005131
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLock_Internal$WakeLockHasWakeLockForTestsResponseParamsProxyToResponder.class", 
+          "tag": 1596900810
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLock_Internal$WakeLockRequestWakeLockParams.class", 
+          "tag": 2317351842
+        }, 
+        {
+          "path": "org/chromium/device/mojom/WakeLock_Internal.class", 
+          "tag": 3420792420
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

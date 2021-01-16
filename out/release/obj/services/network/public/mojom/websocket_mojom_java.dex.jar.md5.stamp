@@ -1,0 +1,261 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "a8706889a250defad47b425bdd93a0da", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/services/network/public/mojom/websocket_mojom_java.jar", 
+      "tag": "45fd05cb3a970129fbe6ae0a2dedd99f", 
+      "entries": [
+        {
+          "path": "org/chromium/network/mojom/AuthChallengeInfo.class", 
+          "tag": 2985867034
+        }, 
+        {
+          "path": "org/chromium/network/mojom/AuthCredentials.class", 
+          "tag": 3093420324
+        }, 
+        {
+          "path": "org/chromium/network/mojom/AuthenticationHandler$OnAuthRequiredResponse.class", 
+          "tag": 3366716753
+        }, 
+        {
+          "path": "org/chromium/network/mojom/AuthenticationHandler$Proxy.class", 
+          "tag": 3246289121
+        }, 
+        {
+          "path": "org/chromium/network/mojom/AuthenticationHandler.class", 
+          "tag": 2129364244
+        }, 
+        {
+          "path": "org/chromium/network/mojom/AuthenticationHandler_Internal$1.class", 
+          "tag": 2438935493
+        }, 
+        {
+          "path": "org/chromium/network/mojom/AuthenticationHandler_Internal$AuthenticationHandlerOnAuthRequiredParams.class", 
+          "tag": 1766261017
+        }, 
+        {
+          "path": "org/chromium/network/mojom/AuthenticationHandler_Internal$AuthenticationHandlerOnAuthRequiredResponseParams.class", 
+          "tag": 3035714816
+        }, 
+        {
+          "path": "org/chromium/network/mojom/AuthenticationHandler_Internal$AuthenticationHandlerOnAuthRequiredResponseParamsForwardToCallback.class", 
+          "tag": 2790308735
+        }, 
+        {
+          "path": "org/chromium/network/mojom/AuthenticationHandler_Internal$AuthenticationHandlerOnAuthRequiredResponseParamsProxyToResponder.class", 
+          "tag": 979545932
+        }, 
+        {
+          "path": "org/chromium/network/mojom/AuthenticationHandler_Internal$Proxy.class", 
+          "tag": 2489928038
+        }, 
+        {
+          "path": "org/chromium/network/mojom/AuthenticationHandler_Internal$Stub.class", 
+          "tag": 2760176161
+        }, 
+        {
+          "path": "org/chromium/network/mojom/AuthenticationHandler_Internal.class", 
+          "tag": 616287319
+        }, 
+        {
+          "path": "org/chromium/network/mojom/CertVerifyResult.class", 
+          "tag": 1831239225
+        }, 
+        {
+          "path": "org/chromium/network/mojom/CtVerifyResult.class", 
+          "tag": 1295936720
+        }, 
+        {
+          "path": "org/chromium/network/mojom/HostPortPair.class", 
+          "tag": 1685121521
+        }, 
+        {
+          "path": "org/chromium/network/mojom/HttpHeader.class", 
+          "tag": 3034381467
+        }, 
+        {
+          "path": "org/chromium/network/mojom/HttpResponseHeaders.class", 
+          "tag": 932633209
+        }, 
+        {
+          "path": "org/chromium/network/mojom/HttpVersion.class", 
+          "tag": 1096132244
+        }, 
+        {
+          "path": "org/chromium/network/mojom/SslCertRequestInfo.class", 
+          "tag": 2375977432
+        }, 
+        {
+          "path": "org/chromium/network/mojom/SslInfo.class", 
+          "tag": 106324474
+        }, 
+        {
+          "path": "org/chromium/network/mojom/WebSocket$Proxy.class", 
+          "tag": 1960710924
+        }, 
+        {
+          "path": "org/chromium/network/mojom/WebSocket.class", 
+          "tag": 2709653185
+        }, 
+        {
+          "path": "org/chromium/network/mojom/WebSocketClient$Proxy.class", 
+          "tag": 588224980
+        }, 
+        {
+          "path": "org/chromium/network/mojom/WebSocketClient.class", 
+          "tag": 892254174
+        }, 
+        {
+          "path": "org/chromium/network/mojom/WebSocketClient_Internal$1.class", 
+          "tag": 4061320381
+        }, 
+        {
+          "path": "org/chromium/network/mojom/WebSocketClient_Internal$Proxy.class", 
+          "tag": 3304103231
+        }, 
+        {
+          "path": "org/chromium/network/mojom/WebSocketClient_Internal$Stub.class", 
+          "tag": 3317344682
+        }, 
+        {
+          "path": "org/chromium/network/mojom/WebSocketClient_Internal$WebSocketClientAddSendFlowControlQuotaParams.class", 
+          "tag": 440666035
+        }, 
+        {
+          "path": "org/chromium/network/mojom/WebSocketClient_Internal$WebSocketClientOnClosingHandshakeParams.class", 
+          "tag": 3812758414
+        }, 
+        {
+          "path": "org/chromium/network/mojom/WebSocketClient_Internal$WebSocketClientOnDataFrameParams.class", 
+          "tag": 3408335770
+        }, 
+        {
+          "path": "org/chromium/network/mojom/WebSocketClient_Internal$WebSocketClientOnDropChannelParams.class", 
+          "tag": 1751495853
+        }, 
+        {
+          "path": "org/chromium/network/mojom/WebSocketClient_Internal.class", 
+          "tag": 2420418348
+        }, 
+        {
+          "path": "org/chromium/network/mojom/WebSocketHandshakeClient$Proxy.class", 
+          "tag": 375647936
+        }, 
+        {
+          "path": "org/chromium/network/mojom/WebSocketHandshakeClient.class", 
+          "tag": 1882942828
+        }, 
+        {
+          "path": "org/chromium/network/mojom/WebSocketHandshakeClient_Internal$1.class", 
+          "tag": 976182908
+        }, 
+        {
+          "path": "org/chromium/network/mojom/WebSocketHandshakeClient_Internal$Proxy.class", 
+          "tag": 1256974367
+        }, 
+        {
+          "path": "org/chromium/network/mojom/WebSocketHandshakeClient_Internal$Stub.class", 
+          "tag": 3242250134
+        }, 
+        {
+          "path": "org/chromium/network/mojom/WebSocketHandshakeClient_Internal$WebSocketHandshakeClientOnConnectionEstablishedParams.class", 
+          "tag": 2205297083
+        }, 
+        {
+          "path": "org/chromium/network/mojom/WebSocketHandshakeClient_Internal$WebSocketHandshakeClientOnOpeningHandshakeStartedParams.class", 
+          "tag": 3281036971
+        }, 
+        {
+          "path": "org/chromium/network/mojom/WebSocketHandshakeClient_Internal.class", 
+          "tag": 3181769222
+        }, 
+        {
+          "path": "org/chromium/network/mojom/WebSocketHandshakeRequest.class", 
+          "tag": 888070820
+        }, 
+        {
+          "path": "org/chromium/network/mojom/WebSocketHandshakeResponse.class", 
+          "tag": 2425323843
+        }, 
+        {
+          "path": "org/chromium/network/mojom/WebSocketMessageType.class", 
+          "tag": 530083642
+        }, 
+        {
+          "path": "org/chromium/network/mojom/WebSocket_Internal$1.class", 
+          "tag": 3676039962
+        }, 
+        {
+          "path": "org/chromium/network/mojom/WebSocket_Internal$Proxy.class", 
+          "tag": 2957885523
+        }, 
+        {
+          "path": "org/chromium/network/mojom/WebSocket_Internal$Stub.class", 
+          "tag": 2055935022
+        }, 
+        {
+          "path": "org/chromium/network/mojom/WebSocket_Internal$WebSocketSendFrameParams.class", 
+          "tag": 207724667
+        }, 
+        {
+          "path": "org/chromium/network/mojom/WebSocket_Internal$WebSocketStartClosingHandshakeParams.class", 
+          "tag": 832485706
+        }, 
+        {
+          "path": "org/chromium/network/mojom/WebSocket_Internal$WebSocketStartReceivingParams.class", 
+          "tag": 2341625627
+        }, 
+        {
+          "path": "org/chromium/network/mojom/WebSocket_Internal.class", 
+          "tag": 2111703242
+        }, 
+        {
+          "path": "org/chromium/network/mojom/X509Certificate.class", 
+          "tag": 1665978330
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

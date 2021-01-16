@@ -1,0 +1,1 @@
+gen/build/android/buildhooks/build_hooks_java.javac.jar: ../../third_party/jdk/extras/java_8/jre/lib/rt.jar lib.java/third_party/bazel/desugar/Desugar_runtime.interface.jar gen/build/android/buildhooks/base_build_hooks_config.srcjar

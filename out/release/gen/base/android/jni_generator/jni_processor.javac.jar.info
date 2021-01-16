@@ -1,0 +1,4 @@
+org.chromium.base.annotations.CheckDiscard,../../base/android/java/src/org/chromium/base/annotations/CheckDiscard.java
+org.chromium.base.annotations.MainDex,../../base/android/java/src/org/chromium/base/annotations/MainDex.java
+org.chromium.jni_generator.JniProcessor,../../base/android/jni_generator/java/src/org/chromium/jni_generator/JniProcessor.java
+org.chromium.jni_generator.ProcessorArgs,gen/base/android/jni_generator/processor_args_java.srcjar/org/chromium/jni_generator/ProcessorArgs.java

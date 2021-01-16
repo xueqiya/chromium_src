@@ -1,0 +1,1 @@
+obj/third_party/android_deps/com_google_protobuf_protobuf_lite_java__process_prebuilt-desugar.jar: lib.java/third_party/android_sdk/android.interface.jar lib.java/third_party/bazel/desugar/Desugar_runtime.interface.jar lib.java/build/android/buildhooks/build_hooks_java.interface.jar

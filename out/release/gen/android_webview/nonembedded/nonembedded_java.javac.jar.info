@@ -1,0 +1,4 @@
+org.chromium.android_webview.nonembedded.LicenseActivity,../../android_webview/nonembedded/java/src/org/chromium/android_webview/nonembedded/LicenseActivity.java
+org.chromium.android_webview.nonembedded.LicenseContentProvider,../../android_webview/nonembedded/java/src/org/chromium/android_webview/nonembedded/LicenseContentProvider.java
+org.chromium.android_webview.nonembedded.WebViewApkApplication,../../android_webview/nonembedded/java/src/org/chromium/android_webview/nonembedded/WebViewApkApplication.java
+org.chromium.android_webview.nonembedded.WebViewApkApplicationJni,gen/android_webview/nonembedded/nonembedded_java/generated_java/annotation_processor_outputs/org/chromium/android_webview/nonembedded/WebViewApkApplicationJni.java

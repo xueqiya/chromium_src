@@ -1,0 +1,2 @@
+org.chromium.network.mojom.MutableNetworkTrafficAnnotationTag,gen/services/network/public/mojom/mutable_network_traffic_annotation_interface_java_sources.srcjar/org/chromium/network/mojom/MutableNetworkTrafficAnnotationTag.java
+org.chromium.network.mojom.MutablePartialNetworkTrafficAnnotationTag,gen/services/network/public/mojom/mutable_network_traffic_annotation_interface_java_sources.srcjar/org/chromium/network/mojom/MutablePartialNetworkTrafficAnnotationTag.java

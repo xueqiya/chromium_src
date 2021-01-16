@@ -1,0 +1,1 @@
+gen/third_party/dawn/dawncpp_headers_gen.json_tarball: /home/xueqi/chromium/src/third_party/dawn/dawn.json /home/xueqi/chromium/src/third_party/dawn/dawn_wire.json /home/xueqi/chromium/src/third_party/dawn/generator/templates/webgpu_cpp.h /home/xueqi/chromium/src/third_party/dawn/generator/dawn_json_generator.py /home/xueqi/chromium/src/third_party/dawn/generator/generator_lib.py

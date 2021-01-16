@@ -1,0 +1,1 @@
+gen/build/android/bytecode/java_bytecode_rewriter.javac.jar: ../../third_party/jdk/extras/java_8/jre/lib/rt.jar lib.java/third_party/ow2_asm/asm.interface.jar lib.java/third_party/ow2_asm/asm-tree.interface.jar lib.java/third_party/ow2_asm/asm-util.interface.jar

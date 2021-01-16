@@ -1,0 +1,1137 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "010ac564837922074abb945f91db8c00", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/ui/android/ui_full_java.jar", 
+      "tag": "9f7ebfc226fec4ce541a67b5b5c45983", 
+      "entries": [
+        {
+          "path": "org/chromium/ui/AsyncViewProvider.class", 
+          "tag": 3956868532
+        }, 
+        {
+          "path": "org/chromium/ui/AsyncViewStub.class", 
+          "tag": 1372333554
+        }, 
+        {
+          "path": "org/chromium/ui/DeferredViewStubInflationProvider.class", 
+          "tag": 2050042653
+        }, 
+        {
+          "path": "org/chromium/ui/DropdownAdapter.class", 
+          "tag": 1857334898
+        }, 
+        {
+          "path": "org/chromium/ui/DropdownDividerDrawable.class", 
+          "tag": 3956613404
+        }, 
+        {
+          "path": "org/chromium/ui/DropdownItem.class", 
+          "tag": 2636077772
+        }, 
+        {
+          "path": "org/chromium/ui/DropdownItemBase.class", 
+          "tag": 1635357168
+        }, 
+        {
+          "path": "org/chromium/ui/DropdownPopupWindow.class", 
+          "tag": 2484923168
+        }, 
+        {
+          "path": "org/chromium/ui/DropdownPopupWindowImpl$1.class", 
+          "tag": 1355751936
+        }, 
+        {
+          "path": "org/chromium/ui/DropdownPopupWindowImpl$2.class", 
+          "tag": 2093850958
+        }, 
+        {
+          "path": "org/chromium/ui/DropdownPopupWindowImpl.class", 
+          "tag": 3818615645
+        }, 
+        {
+          "path": "org/chromium/ui/DropdownPopupWindowInterface.class", 
+          "tag": 4093356908
+        }, 
+        {
+          "path": "org/chromium/ui/DropdownPopupWindowJellyBean$1.class", 
+          "tag": 3072824093
+        }, 
+        {
+          "path": "org/chromium/ui/DropdownPopupWindowJellyBean$2.class", 
+          "tag": 2376279903
+        }, 
+        {
+          "path": "org/chromium/ui/DropdownPopupWindowJellyBean.class", 
+          "tag": 3427684705
+        }, 
+        {
+          "path": "org/chromium/ui/HorizontalListDividerDrawable.class", 
+          "tag": 3013069222
+        }, 
+        {
+          "path": "org/chromium/ui/OverscrollAction.class", 
+          "tag": 1112197683
+        }, 
+        {
+          "path": "org/chromium/ui/OverscrollRefreshHandler.class", 
+          "tag": 3475584597
+        }, 
+        {
+          "path": "org/chromium/ui/UiSwitches.class", 
+          "tag": 2445407085
+        }, 
+        {
+          "path": "org/chromium/ui/VSyncMonitor$1.class", 
+          "tag": 2854728164
+        }, 
+        {
+          "path": "org/chromium/ui/VSyncMonitor$2.class", 
+          "tag": 1701512400
+        }, 
+        {
+          "path": "org/chromium/ui/VSyncMonitor$Listener.class", 
+          "tag": 2425753086
+        }, 
+        {
+          "path": "org/chromium/ui/VSyncMonitor.class", 
+          "tag": 2011755080
+        }, 
+        {
+          "path": "org/chromium/ui/ViewProvider.class", 
+          "tag": 1380874801
+        }, 
+        {
+          "path": "org/chromium/ui/base/ActivityAndroidPermissionDelegate.class", 
+          "tag": 4013058874
+        }, 
+        {
+          "path": "org/chromium/ui/base/ActivityKeyboardVisibilityDelegate.class", 
+          "tag": 1922932440
+        }, 
+        {
+          "path": "org/chromium/ui/base/ActivityWindowAndroid.class", 
+          "tag": 384450049
+        }, 
+        {
+          "path": "org/chromium/ui/base/AndroidPermissionDelegate.class", 
+          "tag": 3574250276
+        }, 
+        {
+          "path": "org/chromium/ui/base/AndroidPermissionDelegateWithRequester$1.class", 
+          "tag": 1889859924
+        }, 
+        {
+          "path": "org/chromium/ui/base/AndroidPermissionDelegateWithRequester.class", 
+          "tag": 4106408744
+        }, 
+        {
+          "path": "org/chromium/ui/base/Clipboard$Natives.class", 
+          "tag": 2551598004
+        }, 
+        {
+          "path": "org/chromium/ui/base/Clipboard.class", 
+          "tag": 1791231521
+        }, 
+        {
+          "path": "org/chromium/ui/base/ClipboardJni$1.class", 
+          "tag": 892275216
+        }, 
+        {
+          "path": "org/chromium/ui/base/ClipboardJni.class", 
+          "tag": 1529183623
+        }, 
+        {
+          "path": "org/chromium/ui/base/DeviceFormFactor.class", 
+          "tag": 4180303941
+        }, 
+        {
+          "path": "org/chromium/ui/base/EventForwarder$Natives.class", 
+          "tag": 569044485
+        }, 
+        {
+          "path": "org/chromium/ui/base/EventForwarder.class", 
+          "tag": 513816821
+        }, 
+        {
+          "path": "org/chromium/ui/base/EventForwarderJni$1.class", 
+          "tag": 1700649900
+        }, 
+        {
+          "path": "org/chromium/ui/base/EventForwarderJni.class", 
+          "tag": 3924741666
+        }, 
+        {
+          "path": "org/chromium/ui/base/EventOffsetHandler$EventOffsetHandlerDelegate.class", 
+          "tag": 1255652920
+        }, 
+        {
+          "path": "org/chromium/ui/base/EventOffsetHandler.class", 
+          "tag": 1106529797
+        }, 
+        {
+          "path": "org/chromium/ui/base/GestureEventType.class", 
+          "tag": 3316315491
+        }, 
+        {
+          "path": "org/chromium/ui/base/HoverType.class", 
+          "tag": 3957290447
+        }, 
+        {
+          "path": "org/chromium/ui/base/IdleDetector.class", 
+          "tag": 3478760829
+        }, 
+        {
+          "path": "org/chromium/ui/base/IntentWindowAndroid.class", 
+          "tag": 328126062
+        }, 
+        {
+          "path": "org/chromium/ui/base/LocalizationUtils$Natives.class", 
+          "tag": 3140158023
+        }, 
+        {
+          "path": "org/chromium/ui/base/LocalizationUtils.class", 
+          "tag": 1960784732
+        }, 
+        {
+          "path": "org/chromium/ui/base/LocalizationUtilsJni$1.class", 
+          "tag": 2756504180
+        }, 
+        {
+          "path": "org/chromium/ui/base/LocalizationUtilsJni.class", 
+          "tag": 970695510
+        }, 
+        {
+          "path": "org/chromium/ui/base/MenuSourceType.class", 
+          "tag": 3204071401
+        }, 
+        {
+          "path": "org/chromium/ui/base/PageTransition.class", 
+          "tag": 1668328688
+        }, 
+        {
+          "path": "org/chromium/ui/base/PermissionCallback.class", 
+          "tag": 808159089
+        }, 
+        {
+          "path": "org/chromium/ui/base/PointerType.class", 
+          "tag": 3166744773
+        }, 
+        {
+          "path": "org/chromium/ui/base/ResourceBundle.class", 
+          "tag": 912572216
+        }, 
+        {
+          "path": "org/chromium/ui/base/SPenSupport.class", 
+          "tag": 2149955354
+        }, 
+        {
+          "path": "org/chromium/ui/base/SelectFileDialog$GetCameraIntentTask.class", 
+          "tag": 2382435992
+        }, 
+        {
+          "path": "org/chromium/ui/base/SelectFileDialog$GetDisplayNameTask.class", 
+          "tag": 674407589
+        }, 
+        {
+          "path": "org/chromium/ui/base/SelectFileDialog$Natives.class", 
+          "tag": 3351596167
+        }, 
+        {
+          "path": "org/chromium/ui/base/SelectFileDialog.class", 
+          "tag": 727740446
+        }, 
+        {
+          "path": "org/chromium/ui/base/SelectFileDialogJni$1.class", 
+          "tag": 1537247157
+        }, 
+        {
+          "path": "org/chromium/ui/base/SelectFileDialogJni.class", 
+          "tag": 2428934569
+        }, 
+        {
+          "path": "org/chromium/ui/base/TouchDevice.class", 
+          "tag": 4155736457
+        }, 
+        {
+          "path": "org/chromium/ui/base/ViewAndroidDelegate$ContainerViewObserver.class", 
+          "tag": 179261288
+        }, 
+        {
+          "path": "org/chromium/ui/base/ViewAndroidDelegate.class", 
+          "tag": 1336530915
+        }, 
+        {
+          "path": "org/chromium/ui/base/ViewUtils.class", 
+          "tag": 2039947891
+        }, 
+        {
+          "path": "org/chromium/ui/base/WindowAndroid$1.class", 
+          "tag": 1471507691
+        }, 
+        {
+          "path": "org/chromium/ui/base/WindowAndroid$2.class", 
+          "tag": 3694102967
+        }, 
+        {
+          "path": "org/chromium/ui/base/WindowAndroid$ActivityStateObserver.class", 
+          "tag": 334157168
+        }, 
+        {
+          "path": "org/chromium/ui/base/WindowAndroid$IntentCallback.class", 
+          "tag": 3155850496
+        }, 
+        {
+          "path": "org/chromium/ui/base/WindowAndroid$Natives.class", 
+          "tag": 3056594787
+        }, 
+        {
+          "path": "org/chromium/ui/base/WindowAndroid$OnCloseContextMenuListener.class", 
+          "tag": 4042033723
+        }, 
+        {
+          "path": "org/chromium/ui/base/WindowAndroid$SelectionHandlesObserver.class", 
+          "tag": 1481880219
+        }, 
+        {
+          "path": "org/chromium/ui/base/WindowAndroid$TouchExplorationMonitor$1.class", 
+          "tag": 1852126132
+        }, 
+        {
+          "path": "org/chromium/ui/base/WindowAndroid$TouchExplorationMonitor.class", 
+          "tag": 968054349
+        }, 
+        {
+          "path": "org/chromium/ui/base/WindowAndroid.class", 
+          "tag": 2204662384
+        }, 
+        {
+          "path": "org/chromium/ui/base/WindowAndroidJni$1.class", 
+          "tag": 3133579321
+        }, 
+        {
+          "path": "org/chromium/ui/base/WindowAndroidJni.class", 
+          "tag": 1994285586
+        }, 
+        {
+          "path": "org/chromium/ui/base/ime/TextInputAction.class", 
+          "tag": 285902995
+        }, 
+        {
+          "path": "org/chromium/ui/base/ime/TextInputType.class", 
+          "tag": 334671683
+        }, 
+        {
+          "path": "org/chromium/ui/display/DisplayAndroid$DisplayAndroidObserver.class", 
+          "tag": 3725339627
+        }, 
+        {
+          "path": "org/chromium/ui/display/DisplayAndroid.class", 
+          "tag": 3854155525
+        }, 
+        {
+          "path": "org/chromium/ui/display/DisplayAndroidManager$1.class", 
+          "tag": 1611755987
+        }, 
+        {
+          "path": "org/chromium/ui/display/DisplayAndroidManager$DisplayListenerBackend.class", 
+          "tag": 2965366725
+        }, 
+        {
+          "path": "org/chromium/ui/display/DisplayAndroidManager$Natives.class", 
+          "tag": 3567886602
+        }, 
+        {
+          "path": "org/chromium/ui/display/DisplayAndroidManager.class", 
+          "tag": 3697885333
+        }, 
+        {
+          "path": "org/chromium/ui/display/DisplayAndroidManagerJni$1.class", 
+          "tag": 1103152042
+        }, 
+        {
+          "path": "org/chromium/ui/display/DisplayAndroidManagerJni.class", 
+          "tag": 587920750
+        }, 
+        {
+          "path": "org/chromium/ui/display/DisplaySwitches.class", 
+          "tag": 4045864716
+        }, 
+        {
+          "path": "org/chromium/ui/display/DisplayUtil.class", 
+          "tag": 3449187103
+        }, 
+        {
+          "path": "org/chromium/ui/display/PhysicalDisplayAndroid.class", 
+          "tag": 3055188703
+        }, 
+        {
+          "path": "org/chromium/ui/display/VirtualDisplayAndroid.class", 
+          "tag": 30667223
+        }, 
+        {
+          "path": "org/chromium/ui/drawable/AnimationLooper$1.class", 
+          "tag": 3231761341
+        }, 
+        {
+          "path": "org/chromium/ui/drawable/AnimationLooper.class", 
+          "tag": 4012113125
+        }, 
+        {
+          "path": "org/chromium/ui/drawable/StateListDrawableBuilder$1.class", 
+          "tag": 1608354662
+        }, 
+        {
+          "path": "org/chromium/ui/drawable/StateListDrawableBuilder$State.class", 
+          "tag": 2055362117
+        }, 
+        {
+          "path": "org/chromium/ui/drawable/StateListDrawableBuilder$Transition.class", 
+          "tag": 3586144850
+        }, 
+        {
+          "path": "org/chromium/ui/drawable/StateListDrawableBuilder.class", 
+          "tag": 2078407461
+        }, 
+        {
+          "path": "org/chromium/ui/events/devices/InputDeviceObserver$Natives.class", 
+          "tag": 2542154755
+        }, 
+        {
+          "path": "org/chromium/ui/events/devices/InputDeviceObserver.class", 
+          "tag": 2751604359
+        }, 
+        {
+          "path": "org/chromium/ui/events/devices/InputDeviceObserverJni$1.class", 
+          "tag": 470176363
+        }, 
+        {
+          "path": "org/chromium/ui/events/devices/InputDeviceObserverJni.class", 
+          "tag": 3136028761
+        }, 
+        {
+          "path": "org/chromium/ui/gfx/Animation.class", 
+          "tag": 398516200
+        }, 
+        {
+          "path": "org/chromium/ui/gfx/BitmapFormat.class", 
+          "tag": 1985041630
+        }, 
+        {
+          "path": "org/chromium/ui/gfx/BitmapHelper$1.class", 
+          "tag": 3216529341
+        }, 
+        {
+          "path": "org/chromium/ui/gfx/BitmapHelper.class", 
+          "tag": 1366690864
+        }, 
+        {
+          "path": "org/chromium/ui/gfx/ViewConfigurationHelper$1.class", 
+          "tag": 3265256607
+        }, 
+        {
+          "path": "org/chromium/ui/gfx/ViewConfigurationHelper$Natives.class", 
+          "tag": 60489650
+        }, 
+        {
+          "path": "org/chromium/ui/gfx/ViewConfigurationHelper.class", 
+          "tag": 3396156809
+        }, 
+        {
+          "path": "org/chromium/ui/gfx/ViewConfigurationHelperJni$1.class", 
+          "tag": 4045180548
+        }, 
+        {
+          "path": "org/chromium/ui/gfx/ViewConfigurationHelperJni.class", 
+          "tag": 2236166249
+        }, 
+        {
+          "path": "org/chromium/ui/gl/SurfaceTextureListener$Natives.class", 
+          "tag": 2234376267
+        }, 
+        {
+          "path": "org/chromium/ui/gl/SurfaceTextureListener.class", 
+          "tag": 3480985617
+        }, 
+        {
+          "path": "org/chromium/ui/gl/SurfaceTextureListenerJni$1.class", 
+          "tag": 200777598
+        }, 
+        {
+          "path": "org/chromium/ui/gl/SurfaceTextureListenerJni.class", 
+          "tag": 1531560773
+        }, 
+        {
+          "path": "org/chromium/ui/gl/SurfaceTexturePlatformWrapper.class", 
+          "tag": 1325115949
+        }, 
+        {
+          "path": "org/chromium/ui/interpolators/BakedBezierInterpolator.class", 
+          "tag": 1766401619
+        }, 
+        {
+          "path": "org/chromium/ui/modaldialog/DialogDismissalCause.class", 
+          "tag": 3532750681
+        }, 
+        {
+          "path": "org/chromium/ui/modaldialog/ModalDialogManager$ModalDialogManagerObserver.class", 
+          "tag": 2459879276
+        }, 
+        {
+          "path": "org/chromium/ui/modaldialog/ModalDialogManager$ModalDialogType.class", 
+          "tag": 1734578085
+        }, 
+        {
+          "path": "org/chromium/ui/modaldialog/ModalDialogManager$Presenter.class", 
+          "tag": 909652404
+        }, 
+        {
+          "path": "org/chromium/ui/modaldialog/ModalDialogManager.class", 
+          "tag": 4087092735
+        }, 
+        {
+          "path": "org/chromium/ui/modaldialog/ModalDialogManagerHolder.class", 
+          "tag": 3215413185
+        }, 
+        {
+          "path": "org/chromium/ui/modaldialog/ModalDialogProperties$ButtonType.class", 
+          "tag": 2322253559
+        }, 
+        {
+          "path": "org/chromium/ui/modaldialog/ModalDialogProperties$Controller.class", 
+          "tag": 2242962541
+        }, 
+        {
+          "path": "org/chromium/ui/modaldialog/ModalDialogProperties.class", 
+          "tag": 4080318738
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/ForwardingListObservable.class", 
+          "tag": 1998009166
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/LazyConstructionPropertyMcp$VisibilityPredicate.class", 
+          "tag": 3400073189
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/LazyConstructionPropertyMcp.class", 
+          "tag": 1172540431
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/ListModel.class", 
+          "tag": 1367128399
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/ListModelBase.class", 
+          "tag": 2692396270
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/ListModelChangeProcessor$ViewBinder.class", 
+          "tag": 2913026160
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/ListModelChangeProcessor.class", 
+          "tag": 1165964301
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/ListObservable$ListObserver.class", 
+          "tag": 2210591216
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/ListObservable.class", 
+          "tag": 1904243711
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/ListObservableImpl.class", 
+          "tag": 3012824403
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/MVCListAdapter$ListItem.class", 
+          "tag": 3396860904
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/MVCListAdapter$ModelList.class", 
+          "tag": 1910875883
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/MVCListAdapter$ViewBuilder.class", 
+          "tag": 2255480414
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/MVCListAdapter.class", 
+          "tag": 1557784214
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/ModelListAdapter$1.class", 
+          "tag": 624110606
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/ModelListAdapter.class", 
+          "tag": 3130827856
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/PropertyKey.class", 
+          "tag": 286830304
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/PropertyListModel.class", 
+          "tag": 640568806
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/PropertyModel$1.class", 
+          "tag": 3316503367
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/PropertyModel$BooleanContainer.class", 
+          "tag": 566827139
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/PropertyModel$Builder.class", 
+          "tag": 3607259270
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/PropertyModel$FloatContainer.class", 
+          "tag": 1418050990
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/PropertyModel$IntContainer.class", 
+          "tag": 2873285074
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/PropertyModel$NamedPropertyKey.class", 
+          "tag": 2908889951
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/PropertyModel$ObjectContainer.class", 
+          "tag": 4110404727
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/PropertyModel$ReadableBooleanPropertyKey.class", 
+          "tag": 1892644310
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/PropertyModel$ReadableFloatPropertyKey.class", 
+          "tag": 424671139
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/PropertyModel$ReadableIntPropertyKey.class", 
+          "tag": 813329172
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/PropertyModel$ReadableObjectPropertyKey.class", 
+          "tag": 1900766510
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/PropertyModel$ValueContainer.class", 
+          "tag": 2804129678
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/PropertyModel$WritableBooleanPropertyKey.class", 
+          "tag": 1665790708
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/PropertyModel$WritableFloatPropertyKey.class", 
+          "tag": 1799484864
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/PropertyModel$WritableIntPropertyKey.class", 
+          "tag": 3497997095
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/PropertyModel$WritableObjectPropertyKey.class", 
+          "tag": 2524772830
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/PropertyModel.class", 
+          "tag": 1536837238
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/PropertyModelChangeProcessor$ViewBinder.class", 
+          "tag": 1402192794
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/PropertyModelChangeProcessor.class", 
+          "tag": 2889232049
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/PropertyObservable$PropertyObserver.class", 
+          "tag": 1999894990
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/PropertyObservable.class", 
+          "tag": 3052569824
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/RecyclerViewAdapter$1.class", 
+          "tag": 3745956240
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/RecyclerViewAdapter$Delegate.class", 
+          "tag": 4144801114
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/RecyclerViewAdapter$ViewHolderFactory.class", 
+          "tag": 173662067
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/RecyclerViewAdapter.class", 
+          "tag": 3988576559
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/SimpleList$1.class", 
+          "tag": 2153617524
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/SimpleList.class", 
+          "tag": 4144807746
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/SimpleRecyclerViewAdapter$1.class", 
+          "tag": 3961483602
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/SimpleRecyclerViewAdapter$ViewHolder.class", 
+          "tag": 2907527421
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/SimpleRecyclerViewAdapter.class", 
+          "tag": 457531412
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/SimpleRecyclerViewMcp$ViewBinder.class", 
+          "tag": 3549823721
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/SimpleRecyclerViewMcp.class", 
+          "tag": 326815748
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/SimpleRecyclerViewMcpBase$ItemViewTypeCallback.class", 
+          "tag": 1338339212
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/SimpleRecyclerViewMcpBase$ViewBinder.class", 
+          "tag": 1679321413
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/SimpleRecyclerViewMcpBase.class", 
+          "tag": 1965537882
+        }, 
+        {
+          "path": "org/chromium/ui/resources/AndroidResourceType.class", 
+          "tag": 553829197
+        }, 
+        {
+          "path": "org/chromium/ui/resources/HandleViewResources.class", 
+          "tag": 3237081223
+        }, 
+        {
+          "path": "org/chromium/ui/resources/LayoutResource.class", 
+          "tag": 3639989411
+        }, 
+        {
+          "path": "org/chromium/ui/resources/Resource.class", 
+          "tag": 2698441932
+        }, 
+        {
+          "path": "org/chromium/ui/resources/ResourceExtractor$ExtractTask.class", 
+          "tag": 636887693
+        }, 
+        {
+          "path": "org/chromium/ui/resources/ResourceExtractor.class", 
+          "tag": 2997031952
+        }, 
+        {
+          "path": "org/chromium/ui/resources/ResourceFactory$Natives.class", 
+          "tag": 2891552030
+        }, 
+        {
+          "path": "org/chromium/ui/resources/ResourceFactory.class", 
+          "tag": 743348258
+        }, 
+        {
+          "path": "org/chromium/ui/resources/ResourceFactoryJni$1.class", 
+          "tag": 2519772374
+        }, 
+        {
+          "path": "org/chromium/ui/resources/ResourceFactoryJni.class", 
+          "tag": 2693889162
+        }, 
+        {
+          "path": "org/chromium/ui/resources/ResourceLoader$ResourceLoaderCallback.class", 
+          "tag": 3065473479
+        }, 
+        {
+          "path": "org/chromium/ui/resources/ResourceLoader.class", 
+          "tag": 1145745172
+        }, 
+        {
+          "path": "org/chromium/ui/resources/ResourceManager$Natives.class", 
+          "tag": 2692754626
+        }, 
+        {
+          "path": "org/chromium/ui/resources/ResourceManager.class", 
+          "tag": 4158937219
+        }, 
+        {
+          "path": "org/chromium/ui/resources/ResourceManagerJni$1.class", 
+          "tag": 454850659
+        }, 
+        {
+          "path": "org/chromium/ui/resources/ResourceManagerJni.class", 
+          "tag": 1543224814
+        }, 
+        {
+          "path": "org/chromium/ui/resources/SystemUIResourceType.class", 
+          "tag": 3391558130
+        }, 
+        {
+          "path": "org/chromium/ui/resources/async/AsyncPreloadResourceLoader$AsyncLoadTask.class", 
+          "tag": 2565508843
+        }, 
+        {
+          "path": "org/chromium/ui/resources/async/AsyncPreloadResourceLoader$ResourceCreator.class", 
+          "tag": 3747568952
+        }, 
+        {
+          "path": "org/chromium/ui/resources/async/AsyncPreloadResourceLoader.class", 
+          "tag": 1708264729
+        }, 
+        {
+          "path": "org/chromium/ui/resources/dynamics/BitmapDynamicResource.class", 
+          "tag": 3327971951
+        }, 
+        {
+          "path": "org/chromium/ui/resources/dynamics/DynamicResource.class", 
+          "tag": 2304684415
+        }, 
+        {
+          "path": "org/chromium/ui/resources/dynamics/DynamicResourceLoader.class", 
+          "tag": 367443676
+        }, 
+        {
+          "path": "org/chromium/ui/resources/dynamics/ViewResourceAdapter.class", 
+          "tag": 2797917320
+        }, 
+        {
+          "path": "org/chromium/ui/resources/dynamics/ViewResourceInflater$1.class", 
+          "tag": 3310999855
+        }, 
+        {
+          "path": "org/chromium/ui/resources/dynamics/ViewResourceInflater$ViewInflaterAdapter.class", 
+          "tag": 2340306309
+        }, 
+        {
+          "path": "org/chromium/ui/resources/dynamics/ViewResourceInflater$ViewInflaterOnDrawListener.class", 
+          "tag": 3861828574
+        }, 
+        {
+          "path": "org/chromium/ui/resources/dynamics/ViewResourceInflater.class", 
+          "tag": 2103666738
+        }, 
+        {
+          "path": "org/chromium/ui/resources/statics/NinePatchData.class", 
+          "tag": 514356383
+        }, 
+        {
+          "path": "org/chromium/ui/resources/statics/StaticResource.class", 
+          "tag": 1855201997
+        }, 
+        {
+          "path": "org/chromium/ui/resources/statics/StaticResourceLoader$1.class", 
+          "tag": 301403048
+        }, 
+        {
+          "path": "org/chromium/ui/resources/statics/StaticResourceLoader.class", 
+          "tag": 648139660
+        }, 
+        {
+          "path": "org/chromium/ui/resources/system/SystemResourceLoader$1.class", 
+          "tag": 1748823476
+        }, 
+        {
+          "path": "org/chromium/ui/resources/system/SystemResourceLoader.class", 
+          "tag": 1944520647
+        }, 
+        {
+          "path": "org/chromium/ui/text/NoUnderlineClickableSpan.class", 
+          "tag": 3050352449
+        }, 
+        {
+          "path": "org/chromium/ui/text/SpanApplier$SpanInfo.class", 
+          "tag": 1412797362
+        }, 
+        {
+          "path": "org/chromium/ui/text/SpanApplier.class", 
+          "tag": 2301156226
+        }, 
+        {
+          "path": "org/chromium/ui/touchless/CursorObserver.class", 
+          "tag": 2087513166
+        }, 
+        {
+          "path": "org/chromium/ui/touchless/TouchlessEventHandler$TouchlessZoomCallback.class", 
+          "tag": 353565597
+        }, 
+        {
+          "path": "org/chromium/ui/touchless/TouchlessEventHandler.class", 
+          "tag": 2157767905
+        }, 
+        {
+          "path": "org/chromium/ui/util/ColorUtils.class", 
+          "tag": 3016657567
+        }, 
+        {
+          "path": "org/chromium/ui/util/TokenHolder.class", 
+          "tag": 334226284
+        }, 
+        {
+          "path": "org/chromium/ui/vr/VrModeObserver.class", 
+          "tag": 1313824870
+        }, 
+        {
+          "path": "org/chromium/ui/vr/VrModeProvider.class", 
+          "tag": 2763222604
+        }, 
+        {
+          "path": "org/chromium/ui/widget/AnchoredPopupWindow$1.class", 
+          "tag": 3888130367
+        }, 
+        {
+          "path": "org/chromium/ui/widget/AnchoredPopupWindow$2.class", 
+          "tag": 2091351400
+        }, 
+        {
+          "path": "org/chromium/ui/widget/AnchoredPopupWindow$HorizontalOrientation.class", 
+          "tag": 225571488
+        }, 
+        {
+          "path": "org/chromium/ui/widget/AnchoredPopupWindow$LayoutObserver.class", 
+          "tag": 1006134435
+        }, 
+        {
+          "path": "org/chromium/ui/widget/AnchoredPopupWindow$VerticalOrientation.class", 
+          "tag": 3345054367
+        }, 
+        {
+          "path": "org/chromium/ui/widget/AnchoredPopupWindow.class", 
+          "tag": 267804659
+        }, 
+        {
+          "path": "org/chromium/ui/widget/ButtonCompat.class", 
+          "tag": 2111665724
+        }, 
+        {
+          "path": "org/chromium/ui/widget/CheckableImageView.class", 
+          "tag": 2079180729
+        }, 
+        {
+          "path": "org/chromium/ui/widget/ChipView.class", 
+          "tag": 241981961
+        }, 
+        {
+          "path": "org/chromium/ui/widget/ChromeBulletSpan.class", 
+          "tag": 1165782104
+        }, 
+        {
+          "path": "org/chromium/ui/widget/ChromeImageButton.class", 
+          "tag": 1231984067
+        }, 
+        {
+          "path": "org/chromium/ui/widget/ChromeImageView.class", 
+          "tag": 4290637241
+        }, 
+        {
+          "path": "org/chromium/ui/widget/OptimizedFrameLayout$MeasurementState.class", 
+          "tag": 2581267409
+        }, 
+        {
+          "path": "org/chromium/ui/widget/OptimizedFrameLayout.class", 
+          "tag": 1080049575
+        }, 
+        {
+          "path": "org/chromium/ui/widget/RectProvider$Observer.class", 
+          "tag": 2727255939
+        }, 
+        {
+          "path": "org/chromium/ui/widget/RectProvider.class", 
+          "tag": 450842736
+        }, 
+        {
+          "path": "org/chromium/ui/widget/RippleBackgroundHelper.class", 
+          "tag": 701745479
+        }, 
+        {
+          "path": "org/chromium/ui/widget/TextViewWithClickableSpans$1.class", 
+          "tag": 608468478
+        }, 
+        {
+          "path": "org/chromium/ui/widget/TextViewWithClickableSpans$2.class", 
+          "tag": 3283364628
+        }, 
+        {
+          "path": "org/chromium/ui/widget/TextViewWithClickableSpans.class", 
+          "tag": 3066507924
+        }, 
+        {
+          "path": "org/chromium/ui/widget/TextViewWithLeading.class", 
+          "tag": 89604581
+        }, 
+        {
+          "path": "org/chromium/ui/widget/Toast$1.class", 
+          "tag": 4281903447
+        }, 
+        {
+          "path": "org/chromium/ui/widget/Toast.class", 
+          "tag": 2271583473
+        }, 
+        {
+          "path": "org/chromium/ui/widget/UiWidgetFactory.class", 
+          "tag": 1413262359
+        }, 
+        {
+          "path": "org/chromium/ui/widget/ViewLookupCachingFrameLayout$1.class", 
+          "tag": 53049343
+        }, 
+        {
+          "path": "org/chromium/ui/widget/ViewLookupCachingFrameLayout.class", 
+          "tag": 2301314844
+        }, 
+        {
+          "path": "org/chromium/ui/widget/ViewRectProvider.class", 
+          "tag": 3044641636
+        }, 
+        {
+          "path": "org/chromium/ui_base/web/CursorType.class", 
+          "tag": 183222337
+        }, 
+        {
+          "path": "org/chromium/ui/AsyncViewProvider$$Lambda$0.class", 
+          "tag": 2100318096
+        }, 
+        {
+          "path": "org/chromium/ui/AsyncViewProvider$$Lambda$1.class", 
+          "tag": 861084918
+        }, 
+        {
+          "path": "org/chromium/ui/DeferredViewStubInflationProvider$$Lambda$0.class", 
+          "tag": 331647907
+        }, 
+        {
+          "path": "org/chromium/ui/base/SelectFileDialog$$Lambda$0.class", 
+          "tag": 741455481
+        }, 
+        {
+          "path": "org/chromium/ui/base/SelectFileDialog$$Lambda$1.class", 
+          "tag": 39750762
+        }, 
+        {
+          "path": "org/chromium/ui/base/SelectFileDialog$$Lambda$2.class", 
+          "tag": 3426969114
+        }, 
+        {
+          "path": "org/chromium/ui/drawable/AnimationLooper$1$$Lambda$0.class", 
+          "tag": 2217094635
+        }, 
+        {
+          "path": "org/chromium/ui/modaldialog/ModalDialogManager$$Lambda$0.class", 
+          "tag": 2856290668
+        }, 
+        {
+          "path": "org/chromium/ui/modaldialog/ModalDialogManager$$Lambda$1.class", 
+          "tag": 3471183994
+        }, 
+        {
+          "path": "org/chromium/ui/modaldialog/ModalDialogManager$$Lambda$2.class", 
+          "tag": 1698102112
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/LazyConstructionPropertyMcp$$Lambda$0.class", 
+          "tag": 761647438
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/LazyConstructionPropertyMcp$$Lambda$1.class", 
+          "tag": 2456754270
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/PropertyListModel$$Lambda$0.class", 
+          "tag": 4036827503
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/PropertyModelChangeProcessor$$Lambda$0.class", 
+          "tag": 2747657624
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/SimpleRecyclerViewMcp$$Lambda$0.class", 
+          "tag": 3468199614
+        }, 
+        {
+          "path": "org/chromium/ui/resources/ResourceExtractor$ExtractTask$$Lambda$0.class", 
+          "tag": 1268191640
+        }, 
+        {
+          "path": "org/chromium/ui/resources/ResourceExtractor$$Lambda$0.class", 
+          "tag": 154124815
+        }, 
+        {
+          "path": "org/chromium/ui/display/DisplayAndroid$DisplayAndroidObserver$$CC.class", 
+          "tag": 2158248606
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/ListObservable$ListObserver$$CC.class", 
+          "tag": 948031726
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/RecyclerViewAdapter$Delegate$$CC.class", 
+          "tag": 1233121638
+        }, 
+        {
+          "path": "org/chromium/ui/modelutil/SimpleList$$CC.class", 
+          "tag": 276398593
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

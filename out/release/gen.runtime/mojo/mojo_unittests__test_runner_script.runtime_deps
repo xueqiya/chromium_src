@@ -1,0 +1,8 @@
+./lib.unstripped/libmojo_unittests__library.so
+../../testing/test_env.py
+icudtl.dat
+../../third_party/jdk/current/bin/java
+../../third_party/jdk/current/conf/
+../../third_party/jdk/current/jmods/
+../../third_party/jdk/current/lib/
+../../mojo/public/interfaces/bindings/tests/data/validation/

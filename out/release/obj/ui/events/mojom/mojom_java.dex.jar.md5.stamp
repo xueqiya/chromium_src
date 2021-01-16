@@ -1,0 +1,121 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "662ca2d964acfcdc2fb6443248ab0e63", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/ui/events/mojom/mojom_java.jar", 
+      "tag": "223a061601779a285c96610776acf607", 
+      "entries": [
+        {
+          "path": "org/chromium/ui/mojom/AcceleratorPhase.class", 
+          "tag": 2750694557
+        }, 
+        {
+          "path": "org/chromium/ui/mojom/Event.class", 
+          "tag": 713972345
+        }, 
+        {
+          "path": "org/chromium/ui/mojom/EventConstantsConstants.class", 
+          "tag": 3771531351
+        }, 
+        {
+          "path": "org/chromium/ui/mojom/EventMomentumPhase.class", 
+          "tag": 200899780
+        }, 
+        {
+          "path": "org/chromium/ui/mojom/EventType.class", 
+          "tag": 3946374710
+        }, 
+        {
+          "path": "org/chromium/ui/mojom/GestureData.class", 
+          "tag": 2487357862
+        }, 
+        {
+          "path": "org/chromium/ui/mojom/GestureDeviceType.class", 
+          "tag": 2550508002
+        }, 
+        {
+          "path": "org/chromium/ui/mojom/KeyData.class", 
+          "tag": 3414003598
+        }, 
+        {
+          "path": "org/chromium/ui/mojom/KeyboardCode.class", 
+          "tag": 690025105
+        }, 
+        {
+          "path": "org/chromium/ui/mojom/LocationData.class", 
+          "tag": 318184117
+        }, 
+        {
+          "path": "org/chromium/ui/mojom/MouseData.class", 
+          "tag": 1841683269
+        }, 
+        {
+          "path": "org/chromium/ui/mojom/PointerDetails.class", 
+          "tag": 3551598530
+        }, 
+        {
+          "path": "org/chromium/ui/mojom/PointerKind.class", 
+          "tag": 79767721
+        }, 
+        {
+          "path": "org/chromium/ui/mojom/ScrollData.class", 
+          "tag": 2518112142
+        }, 
+        {
+          "path": "org/chromium/ui/mojom/ScrollEventPhase.class", 
+          "tag": 1220774700
+        }, 
+        {
+          "path": "org/chromium/ui/mojom/ScrollGranularity.class", 
+          "tag": 3858580095
+        }, 
+        {
+          "path": "org/chromium/ui/mojom/TouchData.class", 
+          "tag": 4044995343
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

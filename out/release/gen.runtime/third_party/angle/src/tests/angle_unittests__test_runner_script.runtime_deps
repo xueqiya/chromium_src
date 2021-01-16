@@ -1,0 +1,8 @@
+./lib.unstripped/libangle_unittests__library.so
+./lib.unstripped/libfeature_support_angle.so
+../../testing/test_env.py
+icudtl.dat
+../../third_party/jdk/current/bin/java
+../../third_party/jdk/current/conf/
+../../third_party/jdk/current/jmods/
+../../third_party/jdk/current/lib/

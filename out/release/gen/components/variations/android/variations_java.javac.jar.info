@@ -1,0 +1,4 @@
+org.chromium.components.variations.VariationsAssociatedData,../../components/variations/android/java/src/org/chromium/components/variations/VariationsAssociatedData.java
+org.chromium.components.variations.VariationsAssociatedDataJni,gen/components/variations/android/variations_java/generated_java/annotation_processor_outputs/org/chromium/components/variations/VariationsAssociatedDataJni.java
+org.chromium.components.variations.firstrun.VariationsSeedBridge,../../components/variations/android/java/src/org/chromium/components/variations/firstrun/VariationsSeedBridge.java
+org.chromium.components.variations.firstrun.VariationsSeedFetcher,../../components/variations/android/java/src/org/chromium/components/variations/firstrun/VariationsSeedFetcher.java

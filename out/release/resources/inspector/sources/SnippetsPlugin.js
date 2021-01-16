@@ -1,0 +1,3 @@
+import{Plugin}from'./Plugin.js';export class SnippetsPlugin extends Plugin{constructor(textEditor,uiSourceCode){super();this._textEditor=textEditor;this._uiSourceCode=uiSourceCode;}
+static accepts(uiSourceCode){return Snippets.isSnippetsUISourceCode(uiSourceCode);}
+async rightToolbarItems(){const runSnippet=UI.Toolbar.createActionButtonForId('debugger.run-snippet');runSnippet.setText(Host.isMac()?Common.UIString('\u2318+Enter'):Common.UIString('Ctrl+Enter'));return[runSnippet];}}

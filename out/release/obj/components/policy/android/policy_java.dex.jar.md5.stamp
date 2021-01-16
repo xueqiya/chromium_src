@@ -1,0 +1,105 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "182cc05ee37057835c2a2367488e0bac", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/components/policy/android/policy_java.jar", 
+      "tag": "0077be84bb43e763d987da299d7dbc03", 
+      "entries": [
+        {
+          "path": "org/chromium/policy/AbstractAppRestrictionsProvider$1.class", 
+          "tag": 3571971586
+        }, 
+        {
+          "path": "org/chromium/policy/AbstractAppRestrictionsProvider.class", 
+          "tag": 1473381265
+        }, 
+        {
+          "path": "org/chromium/policy/AppRestrictionsProvider.class", 
+          "tag": 820744134
+        }, 
+        {
+          "path": "org/chromium/policy/CombinedPolicyProvider$Natives.class", 
+          "tag": 1334100737
+        }, 
+        {
+          "path": "org/chromium/policy/CombinedPolicyProvider$PolicyChangeListener.class", 
+          "tag": 3659240452
+        }, 
+        {
+          "path": "org/chromium/policy/CombinedPolicyProvider.class", 
+          "tag": 3487935942
+        }, 
+        {
+          "path": "org/chromium/policy/CombinedPolicyProviderJni$1.class", 
+          "tag": 1269433636
+        }, 
+        {
+          "path": "org/chromium/policy/CombinedPolicyProviderJni.class", 
+          "tag": 3185983909
+        }, 
+        {
+          "path": "org/chromium/policy/PolicyConverter$Natives.class", 
+          "tag": 2726419764
+        }, 
+        {
+          "path": "org/chromium/policy/PolicyConverter.class", 
+          "tag": 3362242281
+        }, 
+        {
+          "path": "org/chromium/policy/PolicyConverterJni$1.class", 
+          "tag": 562999270
+        }, 
+        {
+          "path": "org/chromium/policy/PolicyConverterJni.class", 
+          "tag": 422658996
+        }, 
+        {
+          "path": "org/chromium/policy/PolicyProvider.class", 
+          "tag": 2930348371
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

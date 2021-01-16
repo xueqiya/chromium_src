@@ -1,0 +1,165 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "50255a4cd5dffad95ff059b2f98cb737", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/android_webview/support_library/boundary_interfaces/boundary_interface_java.jar", 
+      "tag": "e135e2d5f02499e70890051aa6b7ce36", 
+      "entries": [
+        {
+          "path": "org/chromium/support_lib_boundary/FeatureFlagHolderBoundaryInterface.class", 
+          "tag": 4283931311
+        }, 
+        {
+          "path": "org/chromium/support_lib_boundary/IsomorphicObjectBoundaryInterface.class", 
+          "tag": 2150736763
+        }, 
+        {
+          "path": "org/chromium/support_lib_boundary/JsReplyProxyBoundaryInterface.class", 
+          "tag": 3846124306
+        }, 
+        {
+          "path": "org/chromium/support_lib_boundary/ProxyControllerBoundaryInterface.class", 
+          "tag": 630451886
+        }, 
+        {
+          "path": "org/chromium/support_lib_boundary/SafeBrowsingResponseBoundaryInterface.class", 
+          "tag": 1980941245
+        }, 
+        {
+          "path": "org/chromium/support_lib_boundary/ServiceWorkerClientBoundaryInterface.class", 
+          "tag": 632453068
+        }, 
+        {
+          "path": "org/chromium/support_lib_boundary/ServiceWorkerControllerBoundaryInterface.class", 
+          "tag": 3396110709
+        }, 
+        {
+          "path": "org/chromium/support_lib_boundary/ServiceWorkerWebSettingsBoundaryInterface.class", 
+          "tag": 1479259651
+        }, 
+        {
+          "path": "org/chromium/support_lib_boundary/StaticsBoundaryInterface.class", 
+          "tag": 2942911844
+        }, 
+        {
+          "path": "org/chromium/support_lib_boundary/TracingControllerBoundaryInterface.class", 
+          "tag": 2916420551
+        }, 
+        {
+          "path": "org/chromium/support_lib_boundary/VisualStateCallbackBoundaryInterface.class", 
+          "tag": 3024335082
+        }, 
+        {
+          "path": "org/chromium/support_lib_boundary/WebMessageBoundaryInterface.class", 
+          "tag": 598153996
+        }, 
+        {
+          "path": "org/chromium/support_lib_boundary/WebMessageCallbackBoundaryInterface.class", 
+          "tag": 4111446395
+        }, 
+        {
+          "path": "org/chromium/support_lib_boundary/WebMessageListenerBoundaryInterface.class", 
+          "tag": 4230949713
+        }, 
+        {
+          "path": "org/chromium/support_lib_boundary/WebMessagePortBoundaryInterface.class", 
+          "tag": 3229392361
+        }, 
+        {
+          "path": "org/chromium/support_lib_boundary/WebResourceErrorBoundaryInterface.class", 
+          "tag": 2590017798
+        }, 
+        {
+          "path": "org/chromium/support_lib_boundary/WebResourceRequestBoundaryInterface.class", 
+          "tag": 3407599777
+        }, 
+        {
+          "path": "org/chromium/support_lib_boundary/WebSettingsBoundaryInterface$ForceDarkBehavior.class", 
+          "tag": 3748682056
+        }, 
+        {
+          "path": "org/chromium/support_lib_boundary/WebSettingsBoundaryInterface.class", 
+          "tag": 233064391
+        }, 
+        {
+          "path": "org/chromium/support_lib_boundary/WebViewClientBoundaryInterface.class", 
+          "tag": 3158136233
+        }, 
+        {
+          "path": "org/chromium/support_lib_boundary/WebViewProviderBoundaryInterface.class", 
+          "tag": 316405969
+        }, 
+        {
+          "path": "org/chromium/support_lib_boundary/WebViewProviderFactoryBoundaryInterface.class", 
+          "tag": 2102370374
+        }, 
+        {
+          "path": "org/chromium/support_lib_boundary/WebViewRendererBoundaryInterface.class", 
+          "tag": 4234678294
+        }, 
+        {
+          "path": "org/chromium/support_lib_boundary/WebViewRendererClientBoundaryInterface.class", 
+          "tag": 3463605367
+        }, 
+        {
+          "path": "org/chromium/support_lib_boundary/WebkitToCompatConverterBoundaryInterface.class", 
+          "tag": 2973680001
+        }, 
+        {
+          "path": "org/chromium/support_lib_boundary/util/BoundaryInterfaceReflectionUtil$InvocationHandlerWithDelegateGetter.class", 
+          "tag": 4220637150
+        }, 
+        {
+          "path": "org/chromium/support_lib_boundary/util/BoundaryInterfaceReflectionUtil.class", 
+          "tag": 45155395
+        }, 
+        {
+          "path": "org/chromium/support_lib_boundary/util/Features.class", 
+          "tag": 2663262806
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

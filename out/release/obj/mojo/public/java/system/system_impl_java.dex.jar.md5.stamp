@@ -1,0 +1,137 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "d901f2203ce566abaf6a53dd77c645a0", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/mojo/public/java/system/system_impl_java.jar", 
+      "tag": "fcbdc831ea0709d518e4d4bde34936a9", 
+      "entries": [
+        {
+          "path": "org/chromium/mojo/system/impl/BaseRunLoop$Natives.class", 
+          "tag": 367660446
+        }, 
+        {
+          "path": "org/chromium/mojo/system/impl/BaseRunLoop.class", 
+          "tag": 345591062
+        }, 
+        {
+          "path": "org/chromium/mojo/system/impl/BaseRunLoopJni$1.class", 
+          "tag": 1257690054
+        }, 
+        {
+          "path": "org/chromium/mojo/system/impl/BaseRunLoopJni.class", 
+          "tag": 638104931
+        }, 
+        {
+          "path": "org/chromium/mojo/system/impl/CoreImpl$1.class", 
+          "tag": 1468396838
+        }, 
+        {
+          "path": "org/chromium/mojo/system/impl/CoreImpl$IntegerPair.class", 
+          "tag": 2883005746
+        }, 
+        {
+          "path": "org/chromium/mojo/system/impl/CoreImpl$LazyHolder.class", 
+          "tag": 3350702216
+        }, 
+        {
+          "path": "org/chromium/mojo/system/impl/CoreImpl$Natives.class", 
+          "tag": 2206121427
+        }, 
+        {
+          "path": "org/chromium/mojo/system/impl/CoreImpl.class", 
+          "tag": 633829107
+        }, 
+        {
+          "path": "org/chromium/mojo/system/impl/CoreImplJni$1.class", 
+          "tag": 1077660646
+        }, 
+        {
+          "path": "org/chromium/mojo/system/impl/CoreImplJni.class", 
+          "tag": 4166076532
+        }, 
+        {
+          "path": "org/chromium/mojo/system/impl/DataPipeConsumerHandleImpl.class", 
+          "tag": 1615149962
+        }, 
+        {
+          "path": "org/chromium/mojo/system/impl/DataPipeProducerHandleImpl.class", 
+          "tag": 2555615756
+        }, 
+        {
+          "path": "org/chromium/mojo/system/impl/HandleBase.class", 
+          "tag": 3082438888
+        }, 
+        {
+          "path": "org/chromium/mojo/system/impl/MessagePipeHandleImpl.class", 
+          "tag": 3342065255
+        }, 
+        {
+          "path": "org/chromium/mojo/system/impl/SharedBufferHandleImpl.class", 
+          "tag": 3734370841
+        }, 
+        {
+          "path": "org/chromium/mojo/system/impl/UntypedHandleImpl.class", 
+          "tag": 1514368391
+        }, 
+        {
+          "path": "org/chromium/mojo/system/impl/WatcherImpl$Natives.class", 
+          "tag": 4260678316
+        }, 
+        {
+          "path": "org/chromium/mojo/system/impl/WatcherImpl.class", 
+          "tag": 1441282198
+        }, 
+        {
+          "path": "org/chromium/mojo/system/impl/WatcherImplJni$1.class", 
+          "tag": 1029335680
+        }, 
+        {
+          "path": "org/chromium/mojo/system/impl/WatcherImplJni.class", 
+          "tag": 1491796410
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

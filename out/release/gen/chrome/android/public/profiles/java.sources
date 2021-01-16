@@ -1,0 +1,6 @@
+../../chrome/android/public/profiles/java/src/org/chromium/chrome/browser/cookies/CanonicalCookie.java
+../../chrome/android/public/profiles/java/src/org/chromium/chrome/browser/cookies/CookiesFetcher.java
+../../chrome/android/public/profiles/java/src/org/chromium/chrome/browser/profiles/Profile.java
+../../chrome/android/public/profiles/java/src/org/chromium/chrome/browser/profiles/ProfileKey.java
+../../chrome/android/public/profiles/java/src/org/chromium/chrome/browser/profiles/ProfileManager.java
+../../chrome/android/public/profiles/java/src/org/chromium/chrome/browser/profiles/ProfileManagerUtils.java

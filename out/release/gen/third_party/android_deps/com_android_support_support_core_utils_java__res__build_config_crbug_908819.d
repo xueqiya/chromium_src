@@ -1,0 +1,1 @@
+gen/third_party/android_deps/com_android_support_support_core_utils_java__res.build_config: gen/third_party/android_deps/com_android_support_loader_java__res.build_config gen/third_party/android_deps/com_android_support_support_compat_java__res.build_config gen/third_party/android_sdk/android_sdk_java.build_config

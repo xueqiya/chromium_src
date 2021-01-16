@@ -1,0 +1,5 @@
+gen/services/device/public/mojom/device_service.sources_list
+gen/services/device/public/mojom/generic_sensor.sources_list
+gen/services/device/public/mojom/mojom.sources_list
+gen/services/device/public/mojom/usb.sources_list
+gen/services/device/public/mojom/usb_test.sources_list

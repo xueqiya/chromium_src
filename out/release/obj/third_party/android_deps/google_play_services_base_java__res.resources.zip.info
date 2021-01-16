@@ -1,0 +1,3 @@
+color/common_google_signin_btn_text_dark.xml	../../third_party/android_deps/libs/com_google_android_gms_play_services_base/play-services-base-15.0.1.aar/res/color/common_google_signin_btn_text_dark.xml
+color/common_google_signin_btn_text_light.xml	../../third_party/android_deps/libs/com_google_android_gms_play_services_base/play-services-base-15.0.1.aar/res/color/common_google_signin_btn_text_light.xml
+color/common_google_signin_btn_tint.xml	../../third_party/android_deps/libs/com_google_android_gms_play_services_base/play-services-base-15.0.1.aar/res/color/common_google_signin_btn_tint.xml

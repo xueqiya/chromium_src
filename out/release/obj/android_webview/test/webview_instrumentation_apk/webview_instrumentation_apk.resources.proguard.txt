@@ -1,0 +1,123 @@
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/AndroidManifest.xml:19
+-keep class android.support.v4.app.CoreComponentFactory { <init>(); }
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/AndroidManifest.xml:52
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/AndroidManifest.xml:47
+-keep class org.chromium.android_webview.services.VariationsSeedServer { <init>(); }
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/AndroidManifest.xml:20
+-keep class org.chromium.android_webview.shell.AwShellActivity { <init>(); }
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/AndroidManifest.xml:19
+-keep class org.chromium.android_webview.shell.AwShellApplication { <init>(); }
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/AndroidManifest.xml:28
+-keep class org.chromium.android_webview.test.AwTestRunnerActivity { <init>(); }
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/AndroidManifest.xml:46
+-keep class org.chromium.android_webview.test.SecondBrowserProcess { <init>(); }
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/AndroidManifest.xml:36
+-keep class org.chromium.android_webview.test.TestContentProvider { <init>(); }
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/AndroidManifest.xml:48
+-keep class org.chromium.android_webview.test.services.MockVariationsSeedServer { <init>(); }
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/AndroidManifest.xml:40
+-keep class org.chromium.content.app.SandboxedProcessService0 { <init>(); }
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/AndroidManifest.xml:41
+-keep class org.chromium.content.app.SandboxedProcessService1 { <init>(); }
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/AndroidManifest.xml:42
+-keep class org.chromium.content.app.SandboxedProcessService2 { <init>(); }
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_design_java__res.resources.zip/obj_third_party_android_deps_com_android_support_design_java__res.resources.zip_0_res/layout/design_bottom_navigation_item.xml:27
+-keep class android.support.design.internal.BaselineLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_design_java__res.resources.zip/obj_third_party_android_deps_com_android_support_design_java__res.resources.zip_0_res/layout/design_navigation_item.xml:17
+-keep class android.support.design.internal.NavigationMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_design_java__res.resources.zip/obj_third_party_android_deps_com_android_support_design_java__res.resources.zip_0_res/layout/design_navigation_menu.xml:17
+-keep class android.support.design.internal.NavigationMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_design_java__res.resources.zip/obj_third_party_android_deps_com_android_support_design_java__res.resources.zip_0_res/layout/design_text_input_password_icon.xml:18
+-keep class android.support.design.widget.CheckableImageButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_design_java__res.resources.zip/obj_third_party_android_deps_com_android_support_design_java__res.resources.zip_0_res/layout/design_bottom_sheet_dialog.xml:26
+-keep class android.support.design.widget.CoordinatorLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_design_java__res.resources.zip/obj_third_party_android_deps_com_android_support_design_java__res.resources.zip_0_res/layout/design_layout_snackbar.xml:18
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_design_java__res.resources.zip/obj_third_party_android_deps_com_android_support_design_java__res.resources.zip_0_res/layout/mtrl_layout_snackbar.xml:18
+-keep class android.support.design.widget.Snackbar$SnackbarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_design_java__res.resources.zip/obj_third_party_android_deps_com_android_support_design_java__res.resources.zip_0_res/layout/design_layout_snackbar_include.xml:18
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_design_java__res.resources.zip/obj_third_party_android_deps_com_android_support_design_java__res.resources.zip_0_res/layout/mtrl_layout_snackbar_include.xml:18
+-keep class android.support.design.widget.SnackbarContentLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip_0_res/layout/abc_alert_dialog_material.xml:41
+-keep class android.support.v4.widget.NestedScrollView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip_0_res/layout/abc_select_dialog_material.xml:23
+-keep class android.support.v7.app.AlertController$RecycleListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip_0_res/layout/abc_action_menu_item_layout.xml:17
+-keep class android.support.v7.view.menu.ActionMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip_0_res/layout/abc_expanded_menu_layout.xml:17
+-keep class android.support.v7.view.menu.ExpandedMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip_0_res/layout/abc_cascading_menu_item_layout.xml:20
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip_0_res/layout/abc_list_menu_item_layout.xml:17
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip_0_res/layout/abc_popup_menu_item_layout.xml:17
+-keep class android.support.v7.view.menu.ListMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip_0_res/layout/abc_screen_toolbar.xml:27
+-keep class android.support.v7.widget.ActionBarContainer { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip_0_res/layout/abc_action_mode_bar.xml:19
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip_0_res/layout/abc_screen_toolbar.xml:43
+-keep class android.support.v7.widget.ActionBarContextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip_0_res/layout/abc_screen_toolbar.xml:17
+-keep class android.support.v7.widget.ActionBarOverlayLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip_0_res/layout/abc_action_menu_layout.xml:17
+-keep class android.support.v7.widget.ActionMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip_0_res/layout/abc_activity_chooser_view.xml:19
+-keep class android.support.v7.widget.ActivityChooserView$InnerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip_0_res/layout/abc_alert_dialog_material.xml:18
+-keep class android.support.v7.widget.AlertDialogLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip_0_res/layout/abc_alert_dialog_button_bar_material.xml:26
+-keep class android.support.v7.widget.ButtonBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip_0_res/layout/abc_screen_content_include.xml:19
+-keep class android.support.v7.widget.ContentFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip_0_res/layout/abc_alert_dialog_title_material.xml:45
+-keep class android.support.v7.widget.DialogTitle { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip_0_res/layout/abc_screen_simple_overlay_action_mode.xml:23
+-keep class android.support.v7.widget.FitWindowsFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip_0_res/layout/abc_dialog_title_material.xml:22
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip_0_res/layout/abc_screen_simple.xml:17
+-keep class android.support.v7.widget.FitWindowsLinearLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip_0_res/layout/abc_search_view.xml:75
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip_0_res/layout/abc_screen_toolbar.xml:36
+-keep class android.support.v7.widget.Toolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip_0_res/layout/abc_screen_simple.xml:25
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip_0_res/layout/abc_screen_simple_overlay_action_mode.xml:32
+-keep class android.support.v7.widget.ViewStubCompat { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip_0_res/layout/abc_alert_dialog_button_bar_material.xml:43
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip_0_res/layout/abc_alert_dialog_material.xml:52
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip/obj_third_party_android_deps_com_android_support_appcompat_v7_java__res.resources.zip_0_res/layout/abc_alert_dialog_title_material.xml:56
+-keep class android.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_components_embedder_support_android_web_contents_delegate_java_resources.resources.zip/obj_components_embedder_support_android_web_contents_delegate_java_resources.resources.zip_0_res/layout/color_picker_dialog_content.xml:18
+-keep class org.chromium.components.embedder_support.delegate.ColorPickerAdvanced { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_components_embedder_support_android_web_contents_delegate_java_resources.resources.zip/obj_components_embedder_support_android_web_contents_delegate_java_resources.resources.zip_0_res/layout/color_picker_dialog_content.xml:42
+-keep class org.chromium.components.embedder_support.delegate.ColorPickerMoreButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at obj/android_webview/test/webview_instrumentation_apk.ap_.tmpdir/deps/obj_components_embedder_support_android_web_contents_delegate_java_resources.resources.zip/obj_components_embedder_support_android_web_contents_delegate_java_resources.resources.zip_0_res/layout/color_picker_dialog_content.xml:24
+-keep class org.chromium.components.embedder_support.delegate.ColorPickerSimple { <init>(android.content.Context, android.util.AttributeSet); }
+

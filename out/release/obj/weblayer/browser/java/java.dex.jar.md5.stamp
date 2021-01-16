@@ -1,0 +1,577 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "906919632d6d9e1e2b0abeab7c40c391", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/weblayer/browser/java/java.jar", 
+      "tag": "7cb5909981606866d9052b7fe9a2a93d", 
+      "entries": [
+        {
+          "path": "org/chromium/weblayer_private/ActionModeCallback.class", 
+          "tag": 2636447169
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/BrowserFragmentImpl$1.class", 
+          "tag": 3579615130
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/BrowserFragmentImpl.class", 
+          "tag": 2747003319
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/BrowserImpl$Natives.class", 
+          "tag": 1088571527
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/BrowserImpl$Observer.class", 
+          "tag": 2189550882
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/BrowserImpl.class", 
+          "tag": 2892640771
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/BrowserImplJni$1.class", 
+          "tag": 530824150
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/BrowserImplJni.class", 
+          "tag": 3638326347
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/BrowserViewController.class", 
+          "tag": 1614350056
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ChildProcessServiceImpl.class", 
+          "tag": 1974031512
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ContentView$ContentViewApi23.class", 
+          "tag": 2107816562
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ContentView$ContentViewApi26.class", 
+          "tag": 325441098
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ContentView.class", 
+          "tag": 3790228249
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ContentViewRenderView$1.class", 
+          "tag": 4185059147
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ContentViewRenderView$Mode.class", 
+          "tag": 2851552032
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ContentViewRenderView$Natives.class", 
+          "tag": 370448209
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ContentViewRenderView$SurfaceData$1.class", 
+          "tag": 1254165937
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ContentViewRenderView$SurfaceData$2$1.class", 
+          "tag": 4265666221
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ContentViewRenderView$SurfaceData$2$2.class", 
+          "tag": 4219389175
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ContentViewRenderView$SurfaceData$2.class", 
+          "tag": 2719851965
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ContentViewRenderView$SurfaceData$3.class", 
+          "tag": 4140022240
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ContentViewRenderView$SurfaceData$TextureViewWithInvalidate.class", 
+          "tag": 2625040185
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ContentViewRenderView$SurfaceData.class", 
+          "tag": 503582884
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ContentViewRenderView$SurfaceEventListener.class", 
+          "tag": 2416218311
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ContentViewRenderView$SurfaceEventListenerImpl.class", 
+          "tag": 1949376297
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ContentViewRenderView$SurfaceHolderCallback.class", 
+          "tag": 1649327674
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ContentViewRenderView$TextureViewSurfaceTextureListener.class", 
+          "tag": 586931620
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ContentViewRenderView$TrackedRunnable.class", 
+          "tag": 3044810731
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ContentViewRenderView.class", 
+          "tag": 1199171205
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ContentViewRenderViewJni$1.class", 
+          "tag": 269103583
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ContentViewRenderViewJni.class", 
+          "tag": 78769596
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/CrashReporterControllerImpl$1.class", 
+          "tag": 54802882
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/CrashReporterControllerImpl$Holder.class", 
+          "tag": 775327436
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/CrashReporterControllerImpl.class", 
+          "tag": 4023942717
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/DownloadCallbackProxy$1.class", 
+          "tag": 3300789240
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/DownloadCallbackProxy$Natives.class", 
+          "tag": 3536818993
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/DownloadCallbackProxy.class", 
+          "tag": 3099974707
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/DownloadCallbackProxyJni$1.class", 
+          "tag": 2958779567
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/DownloadCallbackProxyJni.class", 
+          "tag": 3199150447
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/DownloadImpl$Natives.class", 
+          "tag": 3115842742
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/DownloadImpl.class", 
+          "tag": 3293802225
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/DownloadImplJni$1.class", 
+          "tag": 3855963347
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/DownloadImplJni.class", 
+          "tag": 18612159
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ErrorPageCallbackProxy$Natives.class", 
+          "tag": 2165022612
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ErrorPageCallbackProxy.class", 
+          "tag": 3936858011
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ErrorPageCallbackProxyJni$1.class", 
+          "tag": 2415290644
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ErrorPageCallbackProxyJni.class", 
+          "tag": 1750090890
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ExternalNavigationHandler.class", 
+          "tag": 3183921763
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/FragmentAndroidPermissionDelegate.class", 
+          "tag": 4122903788
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/FragmentWindowAndroid.class", 
+          "tag": 3278142458
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/FullscreenCallbackProxy$1.class", 
+          "tag": 1872565753
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/FullscreenCallbackProxy$Natives.class", 
+          "tag": 2645843469
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/FullscreenCallbackProxy.class", 
+          "tag": 2409720422
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/FullscreenCallbackProxyJni$1.class", 
+          "tag": 1695623203
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/FullscreenCallbackProxyJni.class", 
+          "tag": 317181311
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ImplBrowsingDataType.class", 
+          "tag": 3353173120
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ImplDownloadError.class", 
+          "tag": 714954301
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ImplDownloadState.class", 
+          "tag": 2132417223
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ImplLoadError.class", 
+          "tag": 1682808087
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ImplNavigationState.class", 
+          "tag": 115754180
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ImplNewTabType.class", 
+          "tag": 2400734550
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/LocaleChangedBroadcastReceiver$Natives.class", 
+          "tag": 3760794740
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/LocaleChangedBroadcastReceiver.class", 
+          "tag": 2920903550
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/LocaleChangedBroadcastReceiverJni$1.class", 
+          "tag": 1044889675
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/LocaleChangedBroadcastReceiverJni.class", 
+          "tag": 1532970474
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/NavigationControllerImpl$Natives.class", 
+          "tag": 3496862512
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/NavigationControllerImpl.class", 
+          "tag": 542840047
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/NavigationControllerImplJni$1.class", 
+          "tag": 3000845799
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/NavigationControllerImplJni.class", 
+          "tag": 689793222
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/NavigationImpl$Natives.class", 
+          "tag": 470135194
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/NavigationImpl.class", 
+          "tag": 1168571566
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/NavigationImplJni$1.class", 
+          "tag": 71615556
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/NavigationImplJni.class", 
+          "tag": 984852386
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/NewTabCallbackProxy$Natives.class", 
+          "tag": 4274302633
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/NewTabCallbackProxy.class", 
+          "tag": 2721251562
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/NewTabCallbackProxyJni$1.class", 
+          "tag": 3085606497
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/NewTabCallbackProxyJni.class", 
+          "tag": 2376160165
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ProfileImpl$Natives.class", 
+          "tag": 1086234246
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ProfileImpl.class", 
+          "tag": 3819645170
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ProfileImplJni$1.class", 
+          "tag": 2806890892
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ProfileImplJni.class", 
+          "tag": 2461110311
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ProfileManager.class", 
+          "tag": 3678020859
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/RemoteFragmentImpl.class", 
+          "tag": 10038382
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/TabCallbackProxy$Natives.class", 
+          "tag": 3018670366
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/TabCallbackProxy.class", 
+          "tag": 2821999022
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/TabCallbackProxyJni$1.class", 
+          "tag": 2248625480
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/TabCallbackProxyJni.class", 
+          "tag": 2272849984
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/TabImpl$1.class", 
+          "tag": 2553615527
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/TabImpl$2.class", 
+          "tag": 3596860640
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/TabImpl$InternalAccessDelegateImpl.class", 
+          "tag": 1486731859
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/TabImpl$Natives.class", 
+          "tag": 1524542427
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/TabImpl.class", 
+          "tag": 8463940
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/TabImplJni$1.class", 
+          "tag": 1395384969
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/TabImplJni.class", 
+          "tag": 419249298
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/TopControlsContainerView$1.class", 
+          "tag": 2226772198
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/TopControlsContainerView$Listener.class", 
+          "tag": 2731368951
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/TopControlsContainerView$Natives.class", 
+          "tag": 1564795126
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/TopControlsContainerView.class", 
+          "tag": 3555470231
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/TopControlsContainerViewJni$1.class", 
+          "tag": 2954534086
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/TopControlsContainerViewJni.class", 
+          "tag": 1355098220
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/WebContentsGestureStateTracker$1.class", 
+          "tag": 547481929
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/WebContentsGestureStateTracker$2.class", 
+          "tag": 2682646809
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/WebContentsGestureStateTracker$OnGestureStateChangedListener.class", 
+          "tag": 1494180833
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/WebContentsGestureStateTracker.class", 
+          "tag": 793556419
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/WebLayerExceptionFilter.class", 
+          "tag": 87198368
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/WebLayerFactoryImpl.class", 
+          "tag": 88052414
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/WebLayerImpl$1.class", 
+          "tag": 651002635
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/WebLayerImpl$FileProviderHelper.class", 
+          "tag": 2720953330
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/WebLayerImpl$Natives.class", 
+          "tag": 2858012950
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/WebLayerImpl.class", 
+          "tag": 693163758
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/WebLayerImplJni$1.class", 
+          "tag": 1849002480
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/WebLayerImplJni.class", 
+          "tag": 1983419633
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/WebLayerNetworkChangeNotifierRegistrationPolicy.class", 
+          "tag": 2605977532
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/metrics/MetricsServiceClient$Natives.class", 
+          "tag": 902148932
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/metrics/MetricsServiceClient.class", 
+          "tag": 776327259
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/metrics/MetricsServiceClientJni$1.class", 
+          "tag": 3178431987
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/metrics/MetricsServiceClientJni.class", 
+          "tag": 1844341458
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/metrics/UmaUtils.class", 
+          "tag": 510841728
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ContentViewRenderView$SurfaceData$$Lambda$0.class", 
+          "tag": 2280999142
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ContentViewRenderView$$Lambda$0.class", 
+          "tag": 996494037
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ContentViewRenderView$$Lambda$1.class", 
+          "tag": 1349085160
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/CrashReporterControllerImpl$$Lambda$0.class", 
+          "tag": 2670501113
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/CrashReporterControllerImpl$$Lambda$1.class", 
+          "tag": 3102214996
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/CrashReporterControllerImpl$$Lambda$2.class", 
+          "tag": 1715881657
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/CrashReporterControllerImpl$$Lambda$3.class", 
+          "tag": 3275451638
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/ProfileManager$$Lambda$0.class", 
+          "tag": 1024343012
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/TopControlsContainerView$$Lambda$0.class", 
+          "tag": 745287417
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/TopControlsContainerView$$Lambda$1.class", 
+          "tag": 3603598812
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/TopControlsContainerView$$Lambda$2.class", 
+          "tag": 2018403437
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/TopControlsContainerView$$Lambda$3.class", 
+          "tag": 2457097801
+        }, 
+        {
+          "path": "org/chromium/weblayer_private/metrics/MetricsServiceClient$$Lambda$0.class", 
+          "tag": 383172413
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

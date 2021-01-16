@@ -1,0 +1,8 @@
+VersionName: 81.0.4044.156
+Chrome: 404415600
+ChromeModern: 404415610
+Monochrome: 404415620
+TrichromeChrome: 404415630
+AndroidWebviewStable: 404415600
+AndroidWebviewBeta: 404415610
+AndroidWebviewDev: 404415620

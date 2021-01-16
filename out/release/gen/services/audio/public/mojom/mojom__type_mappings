@@ -1,0 +1,3455 @@
+{
+  "c++": {
+    "service_manager.mojom.InterfaceSet": {
+      "hashable": false, 
+      "typename": "::service_manager::InterfaceSet", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "services/service_manager/public/cpp/interface_provider_spec_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "services/service_manager/public/cpp/interface_provider_spec.h"
+      ]
+    }, 
+    "mojo_base.mojom.Value": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::base::Value", 
+      "traits_headers": [
+        "mojo/public/cpp/base/values_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": true, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/values.h"
+      ]
+    }, 
+    "gfx.mojom.BufferFormat": {
+      "hashable": false, 
+      "typename": "::gfx::BufferFormat", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "ui/gfx/mojom/buffer_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/buffer_types.h", 
+        "ui/gfx/gpu_memory_buffer.h", 
+        "ui/gfx/native_pixmap_handle.h"
+      ]
+    }, 
+    "media.mojom.BufferingStateChangeReason": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::BufferingStateChangeReason", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h", 
+        "media/mojo/mojom/video_transformation_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/audio_codecs.h", 
+        "media/base/buffering_state.h", 
+        "media/base/channel_layout.h", 
+        "media/base/container_names.h", 
+        "media/base/decode_status.h", 
+        "media/base/decrypt_config.h", 
+        "media/base/encryption_pattern.h", 
+        "media/base/encryption_scheme.h", 
+        "media/base/hdr_metadata.h", 
+        "media/base/media_log_record.h", 
+        "media/base/media_status.h", 
+        "media/base/output_device_info.h", 
+        "media/base/pipeline_status.h", 
+        "media/base/sample_format.h", 
+        "media/base/subsample_entry.h", 
+        "media/base/video_codecs.h", 
+        "media/base/video_transformation.h", 
+        "media/base/video_types.h", 
+        "media/base/waiting.h", 
+        "media/base/watch_time_keys.h"
+      ]
+    }, 
+    "gfx.mojom.SubpixelRendering": {
+      "hashable": false, 
+      "typename": "::gfx::FontRenderParams::SubpixelRendering", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "ui/gfx/mojom/font_render_params_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/font_render_params.h"
+      ]
+    }, 
+    "media.mojom.ScalingSettings": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::ScalingSettings", 
+      "traits_headers": [
+        "media/mojo/mojom/video_encoder_info_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/video/video_encoder_info.h"
+      ]
+    }, 
+    "media.mojom.VideoDecoderImplementation": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::VideoDecoderImplementation", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h", 
+        "media/mojo/mojom/supported_video_decoder_config_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/overlay_info.h", 
+        "media/video/supported_video_decoder_config.h"
+      ]
+    }, 
+    "gpu.mojom.VkPhysicalDeviceProperties": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::VkPhysicalDeviceProperties", 
+      "traits_headers": [
+        "gpu/ipc/common/vulkan_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/ipc/common/vulkan_types.h"
+      ]
+    }, 
+    "media.mojom.VideoPixelFormat": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::VideoPixelFormat", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h", 
+        "media/mojo/mojom/video_transformation_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/audio_codecs.h", 
+        "media/base/buffering_state.h", 
+        "media/base/channel_layout.h", 
+        "media/base/container_names.h", 
+        "media/base/decode_status.h", 
+        "media/base/decrypt_config.h", 
+        "media/base/encryption_pattern.h", 
+        "media/base/encryption_scheme.h", 
+        "media/base/hdr_metadata.h", 
+        "media/base/media_log_record.h", 
+        "media/base/media_status.h", 
+        "media/base/output_device_info.h", 
+        "media/base/pipeline_status.h", 
+        "media/base/sample_format.h", 
+        "media/base/subsample_entry.h", 
+        "media/base/video_codecs.h", 
+        "media/base/video_transformation.h", 
+        "media/base/video_types.h", 
+        "media/base/waiting.h", 
+        "media/base/watch_time_keys.h"
+      ]
+    }, 
+    "gfx.mojom.Quaternion": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::gfx::Quaternion", 
+      "traits_headers": [
+        "ui/gfx/geometry/mojom/geometry_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/geometry/point.h", 
+        "ui/gfx/geometry/point_f.h", 
+        "ui/gfx/geometry/point3_f.h", 
+        "ui/gfx/geometry/size.h", 
+        "ui/gfx/geometry/rect.h", 
+        "ui/gfx/geometry/rect_f.h", 
+        "ui/gfx/geometry/safe_integer_conversions.h", 
+        "ui/gfx/geometry/scroll_offset.h", 
+        "ui/gfx/geometry/insets.h", 
+        "ui/gfx/geometry/quaternion.h", 
+        "ui/gfx/geometry/vector2d.h", 
+        "ui/gfx/geometry/vector2d_f.h", 
+        "ui/gfx/geometry/vector3d_f.h"
+      ]
+    }, 
+    "gpu.mojom.GpuExtraInfo": {
+      "hashable": false, 
+      "typename": "::gpu::GpuExtraInfo", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "gpu/ipc/common/gpu_extra_info_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/config/gpu_extra_info.h"
+      ]
+    }, 
+    "mojo_base.mojom.Token": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::base::Token", 
+      "traits_headers": [
+        "mojo/public/cpp/base/token_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/token.h"
+      ]
+    }, 
+    "gfx.mojom.GpuMemoryBufferId": {
+      "hashable": false, 
+      "typename": "::gfx::GpuMemoryBufferId", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "ui/gfx/mojom/buffer_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": true, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/buffer_types.h", 
+        "ui/gfx/gpu_memory_buffer.h", 
+        "ui/gfx/native_pixmap_handle.h"
+      ]
+    }, 
+    "media.mojom.BufferingState": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::BufferingState", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h", 
+        "media/mojo/mojom/video_transformation_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/audio_codecs.h", 
+        "media/base/buffering_state.h", 
+        "media/base/channel_layout.h", 
+        "media/base/container_names.h", 
+        "media/base/decode_status.h", 
+        "media/base/decrypt_config.h", 
+        "media/base/encryption_pattern.h", 
+        "media/base/encryption_scheme.h", 
+        "media/base/hdr_metadata.h", 
+        "media/base/media_log_record.h", 
+        "media/base/media_status.h", 
+        "media/base/output_device_info.h", 
+        "media/base/pipeline_status.h", 
+        "media/base/sample_format.h", 
+        "media/base/subsample_entry.h", 
+        "media/base/video_codecs.h", 
+        "media/base/video_transformation.h", 
+        "media/base/video_types.h", 
+        "media/base/waiting.h", 
+        "media/base/watch_time_keys.h"
+      ]
+    }, 
+    "gfx.mojom.AcceleratedWidget": {
+      "hashable": false, 
+      "typename": "::gfx::AcceleratedWidget", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "ui/gfx/mojom/accelerated_widget_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": true, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/native_widget_types.h"
+      ]
+    }, 
+    "audio.mojom.AudioProcessingStats": {
+      "hashable": false, 
+      "typename": "::webrtc::AudioProcessorInterface::AudioProcessorStatistics", 
+      "traits_headers": [
+        "services/audio/public/cpp/audio_processing_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "force_serialize": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "non_copyable_non_movable": false, 
+      "public_headers": [
+        "media/base/audio_processing.h", 
+        "third_party/webrtc/api/media_stream_interface.h"
+      ]
+    }, 
+    "audio.mojom.AudioProcessingSettings": {
+      "hashable": false, 
+      "typename": "::media::AudioProcessingSettings", 
+      "traits_headers": [
+        "services/audio/public/cpp/audio_processing_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "force_serialize": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "non_copyable_non_movable": false, 
+      "public_headers": [
+        "media/base/audio_processing.h", 
+        "third_party/webrtc/api/media_stream_interface.h"
+      ]
+    }, 
+    "media.mojom.VideoFrame": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::scoped_refptr<::media::VideoFrame>", 
+      "traits_headers": [
+        "media/mojo/mojom/video_frame_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": true, 
+      "public_headers": [
+        "base/memory/ref_counted.h", 
+        "media/base/video_frame.h"
+      ]
+    }, 
+    "media.mojom.VideoTransformation": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::VideoTransformation", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h", 
+        "media/mojo/mojom/video_transformation_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/audio_codecs.h", 
+        "media/base/buffering_state.h", 
+        "media/base/channel_layout.h", 
+        "media/base/container_names.h", 
+        "media/base/decode_status.h", 
+        "media/base/decrypt_config.h", 
+        "media/base/encryption_pattern.h", 
+        "media/base/encryption_scheme.h", 
+        "media/base/hdr_metadata.h", 
+        "media/base/media_log_record.h", 
+        "media/base/media_status.h", 
+        "media/base/output_device_info.h", 
+        "media/base/pipeline_status.h", 
+        "media/base/sample_format.h", 
+        "media/base/subsample_entry.h", 
+        "media/base/video_codecs.h", 
+        "media/base/video_transformation.h", 
+        "media/base/video_types.h", 
+        "media/base/waiting.h", 
+        "media/base/watch_time_keys.h"
+      ]
+    }, 
+    "gpu.mojom.VkLayerProperties": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::VkLayerProperties", 
+      "traits_headers": [
+        "gpu/ipc/common/vulkan_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/ipc/common/vulkan_types.h"
+      ]
+    }, 
+    "url.mojom.Origin": {
+      "hashable": false, 
+      "typename": "::url::Origin", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "url/mojom/origin_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "url/origin.h"
+      ]
+    }, 
+    "service_manager.mojom.ServiceFilter": {
+      "hashable": false, 
+      "typename": "::service_manager::ServiceFilter", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "services/service_manager/public/cpp/service_filter_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "services/service_manager/public/cpp/service_filter.h"
+      ]
+    }, 
+    "mojo_base.mojom.WritableSharedMemoryRegion": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::base::WritableSharedMemoryRegion", 
+      "traits_headers": [
+        "mojo/public/cpp/base/shared_memory_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": true, 
+      "nullable_is_same_type": true, 
+      "public_headers": [
+        "base/memory/platform_shared_memory_region.h", 
+        "base/memory/read_only_shared_memory_region.h", 
+        "base/memory/unsafe_shared_memory_region.h", 
+        "base/memory/writable_shared_memory_region.h"
+      ]
+    }, 
+    "media.mojom.VideoColorSpace": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::VideoColorSpace", 
+      "traits_headers": [
+        "media/mojo/mojom/video_color_space_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/video_color_space.h", 
+        "ui/gfx/color_space.h"
+      ]
+    }, 
+    "gfx.mojom.DisplayColorSpaces": {
+      "hashable": false, 
+      "typename": "::gfx::DisplayColorSpaces", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "ui/gfx/mojom/display_color_spaces_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/display_color_spaces.h"
+      ]
+    }, 
+    "media.mojom.ResolutionBitrateLimit": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::ResolutionBitrateLimit", 
+      "traits_headers": [
+        "media/mojo/mojom/video_encoder_info_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/video/video_encoder_info.h"
+      ]
+    }, 
+    "gfx.mojom.OverlayTransform": {
+      "hashable": false, 
+      "typename": "::gfx::OverlayTransform", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "ui/gfx/mojom/overlay_transform_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/overlay_transform.h"
+      ]
+    }, 
+    "gpu.mojom.SurfaceHandle": {
+      "hashable": false, 
+      "typename": "::gpu::SurfaceHandle", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "gpu/ipc/common/surface_handle_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": true, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/ipc/common/surface_handle.h"
+      ]
+    }, 
+    "media.mojom.SupportedVideoDecoderConfig": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::SupportedVideoDecoderConfig", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h", 
+        "media/mojo/mojom/supported_video_decoder_config_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/overlay_info.h", 
+        "media/video/supported_video_decoder_config.h"
+      ]
+    }, 
+    "gfx.mojom.RectF": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::gfx::RectF", 
+      "traits_headers": [
+        "ui/gfx/geometry/mojom/geometry_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/geometry/point.h", 
+        "ui/gfx/geometry/point_f.h", 
+        "ui/gfx/geometry/point3_f.h", 
+        "ui/gfx/geometry/size.h", 
+        "ui/gfx/geometry/rect.h", 
+        "ui/gfx/geometry/rect_f.h", 
+        "ui/gfx/geometry/safe_integer_conversions.h", 
+        "ui/gfx/geometry/scroll_offset.h", 
+        "ui/gfx/geometry/insets.h", 
+        "ui/gfx/geometry/quaternion.h", 
+        "ui/gfx/geometry/vector2d.h", 
+        "ui/gfx/geometry/vector2d_f.h", 
+        "ui/gfx/geometry/vector3d_f.h"
+      ]
+    }, 
+    "mojo_base.mojom.FileError": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::base::File::Error", 
+      "traits_headers": [
+        "mojo/public/cpp/base/file_error_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/files/file.h"
+      ]
+    }, 
+    "gfx.mojom.GpuFenceHandle": {
+      "hashable": false, 
+      "typename": "::gfx::GpuFenceHandle", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "ui/gfx/mojom/gpu_fence_handle_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/gpu_fence_handle.h"
+      ]
+    }, 
+    "gfx.mojom.Point3F": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::gfx::Point3F", 
+      "traits_headers": [
+        "ui/gfx/geometry/mojom/geometry_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/geometry/point.h", 
+        "ui/gfx/geometry/point_f.h", 
+        "ui/gfx/geometry/point3_f.h", 
+        "ui/gfx/geometry/size.h", 
+        "ui/gfx/geometry/rect.h", 
+        "ui/gfx/geometry/rect_f.h", 
+        "ui/gfx/geometry/safe_integer_conversions.h", 
+        "ui/gfx/geometry/scroll_offset.h", 
+        "ui/gfx/geometry/insets.h", 
+        "ui/gfx/geometry/quaternion.h", 
+        "ui/gfx/geometry/vector2d.h", 
+        "ui/gfx/geometry/vector2d_f.h", 
+        "ui/gfx/geometry/vector3d_f.h"
+      ]
+    }, 
+    "mojo_base.mojom.ReadOnlyBuffer": {
+      "hashable": false, 
+      "force_serialize": true, 
+      "non_copyable_non_movable": false, 
+      "typename": "::base::span<const ::uint8_t>", 
+      "traits_headers": [
+        "mojo/public/cpp/base/read_only_buffer_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": true, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/containers/span.h"
+      ]
+    }, 
+    "media.learning.mojom.TargetValue": {
+      "hashable": false, 
+      "typename": "::media::learning::TargetValue", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "media/learning/mojo/public/cpp/learning_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/learning/common/labelled_example.h", 
+        "media/learning/common/learning_task_controller.h", 
+        "media/learning/common/value.h"
+      ]
+    }, 
+    "media.mojom.VideoRotation": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::VideoRotation", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h", 
+        "media/mojo/mojom/video_transformation_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/audio_codecs.h", 
+        "media/base/buffering_state.h", 
+        "media/base/channel_layout.h", 
+        "media/base/container_names.h", 
+        "media/base/decode_status.h", 
+        "media/base/decrypt_config.h", 
+        "media/base/encryption_pattern.h", 
+        "media/base/encryption_scheme.h", 
+        "media/base/hdr_metadata.h", 
+        "media/base/media_log_record.h", 
+        "media/base/media_status.h", 
+        "media/base/output_device_info.h", 
+        "media/base/pipeline_status.h", 
+        "media/base/sample_format.h", 
+        "media/base/subsample_entry.h", 
+        "media/base/video_codecs.h", 
+        "media/base/video_transformation.h", 
+        "media/base/video_types.h", 
+        "media/base/waiting.h", 
+        "media/base/watch_time_keys.h"
+      ]
+    }, 
+    "gfx.mojom.PresentationFeedback": {
+      "hashable": false, 
+      "typename": "::gfx::PresentationFeedback", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "ui/gfx/mojom/presentation_feedback_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/presentation_feedback.h"
+      ]
+    }, 
+    "media.mojom.CdmKeyStatus": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::CdmKeyInformation::KeyStatus", 
+      "traits_headers": [
+        "media/mojo/mojom/cdm_key_information_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/cdm_key_information.h"
+      ]
+    }, 
+    "gfx.mojom.RRectF": {
+      "hashable": false, 
+      "typename": "::gfx::RRectF", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "ui/gfx/mojom/rrect_f_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/rrect_f.h"
+      ]
+    }, 
+    "gpu.mojom.VideoMemoryUsageStats": {
+      "hashable": false, 
+      "typename": "::gpu::VideoMemoryUsageStats", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "gpu/ipc/common/memory_stats_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/ipc/common/memory_stats.h"
+      ]
+    }, 
+    "gpu.mojom.VkPhysicalDeviceType": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::VkPhysicalDeviceType", 
+      "traits_headers": [
+        "gpu/ipc/common/vulkan_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/ipc/common/vulkan_types.h"
+      ]
+    }, 
+    "mojo_base.mojom.TimeDelta": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::base::TimeDelta", 
+      "traits_headers": [
+        "mojo/public/cpp/base/time_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": true, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/time/time.h"
+      ]
+    }, 
+    "mojo_base.mojom.FilePath": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::base::FilePath", 
+      "traits_headers": [
+        "mojo/public/cpp/base/file_path_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/files/file_path.h"
+      ]
+    }, 
+    "audio.mojom.NoiseSuppressionType": {
+      "hashable": false, 
+      "typename": "::media::NoiseSuppressionType", 
+      "traits_headers": [
+        "services/audio/public/cpp/audio_processing_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "force_serialize": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "non_copyable_non_movable": false, 
+      "public_headers": [
+        "media/base/audio_processing.h", 
+        "third_party/webrtc/api/media_stream_interface.h"
+      ]
+    }, 
+    "media.learning.mojom.TargetHistogram": {
+      "hashable": false, 
+      "typename": "::media::learning::TargetHistogram", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "media/learning/mojo/public/cpp/learning_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/learning/common/labelled_example.h", 
+        "media/learning/common/learning_task_controller.h", 
+        "media/learning/common/value.h"
+      ]
+    }, 
+    "media.learning.mojom.ObservationCompletion": {
+      "hashable": false, 
+      "typename": "::media::learning::ObservationCompletion", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "media/learning/mojo/public/cpp/learning_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/learning/common/labelled_example.h", 
+        "media/learning/common/learning_task_controller.h", 
+        "media/learning/common/value.h"
+      ]
+    }, 
+    "gfx.mojom.Rect": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::gfx::Rect", 
+      "traits_headers": [
+        "ui/gfx/geometry/mojom/geometry_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/geometry/point.h", 
+        "ui/gfx/geometry/point_f.h", 
+        "ui/gfx/geometry/point3_f.h", 
+        "ui/gfx/geometry/size.h", 
+        "ui/gfx/geometry/rect.h", 
+        "ui/gfx/geometry/rect_f.h", 
+        "ui/gfx/geometry/safe_integer_conversions.h", 
+        "ui/gfx/geometry/scroll_offset.h", 
+        "ui/gfx/geometry/insets.h", 
+        "ui/gfx/geometry/quaternion.h", 
+        "ui/gfx/geometry/vector2d.h", 
+        "ui/gfx/geometry/vector2d_f.h", 
+        "ui/gfx/geometry/vector3d_f.h"
+      ]
+    }, 
+    "media.mojom.VideoColorSpace.PrimaryID": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::VideoColorSpace::PrimaryID", 
+      "traits_headers": [
+        "media/mojo/mojom/video_color_space_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/video_color_space.h", 
+        "ui/gfx/color_space.h"
+      ]
+    }, 
+    "media.mojom.VideoColorSpace.RangeID": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::gfx::ColorSpace::RangeID", 
+      "traits_headers": [
+        "media/mojo/mojom/video_color_space_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/video_color_space.h", 
+        "ui/gfx/color_space.h"
+      ]
+    }, 
+    "mojo_base.mojom.DictionaryValue": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::base::Value", 
+      "traits_headers": [
+        "mojo/public/cpp/base/values_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": true, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/values.h"
+      ]
+    }, 
+    "gpu.mojom.Dx12VulkanVersionInfo": {
+      "hashable": false, 
+      "typename": "::gpu::Dx12VulkanVersionInfo", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "gpu/ipc/common/gpu_info_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/config/gpu_info.h"
+      ]
+    }, 
+    "media.mojom.ChannelLayout": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::ChannelLayout", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h", 
+        "media/mojo/mojom/video_transformation_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/audio_codecs.h", 
+        "media/base/buffering_state.h", 
+        "media/base/channel_layout.h", 
+        "media/base/container_names.h", 
+        "media/base/decode_status.h", 
+        "media/base/decrypt_config.h", 
+        "media/base/encryption_pattern.h", 
+        "media/base/encryption_scheme.h", 
+        "media/base/hdr_metadata.h", 
+        "media/base/media_log_record.h", 
+        "media/base/media_status.h", 
+        "media/base/output_device_info.h", 
+        "media/base/pipeline_status.h", 
+        "media/base/sample_format.h", 
+        "media/base/subsample_entry.h", 
+        "media/base/video_codecs.h", 
+        "media/base/video_transformation.h", 
+        "media/base/video_types.h", 
+        "media/base/waiting.h", 
+        "media/base/watch_time_keys.h"
+      ]
+    }, 
+    "gfx.mojom.CALayerParams": {
+      "hashable": false, 
+      "typename": "::gfx::CALayerParams", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "ui/gfx/mojom/ca_layer_params_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/ca_layer_params.h"
+      ]
+    }, 
+    "mojo_base.mojom.PlatformSharedMemoryRegion": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::base::subtle::PlatformSharedMemoryRegion", 
+      "traits_headers": [
+        "mojo/public/cpp/base/shared_memory_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": true, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/memory/platform_shared_memory_region.h", 
+        "base/memory/read_only_shared_memory_region.h", 
+        "base/memory/unsafe_shared_memory_region.h", 
+        "base/memory/writable_shared_memory_region.h"
+      ]
+    }, 
+    "mojo_base.mojom.PlatformSharedMemoryHandle": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::base::subtle::PlatformSharedMemoryRegion::ScopedPlatformHandle", 
+      "traits_headers": [
+        "mojo/public/cpp/base/shared_memory_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": true, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/memory/platform_shared_memory_region.h", 
+        "base/memory/read_only_shared_memory_region.h", 
+        "base/memory/unsafe_shared_memory_region.h", 
+        "base/memory/writable_shared_memory_region.h"
+      ]
+    }, 
+    "media.mojom.MediaLogRecord": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::MediaLogRecord", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h", 
+        "media/mojo/mojom/video_transformation_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/audio_codecs.h", 
+        "media/base/buffering_state.h", 
+        "media/base/channel_layout.h", 
+        "media/base/container_names.h", 
+        "media/base/decode_status.h", 
+        "media/base/decrypt_config.h", 
+        "media/base/encryption_pattern.h", 
+        "media/base/encryption_scheme.h", 
+        "media/base/hdr_metadata.h", 
+        "media/base/media_log_record.h", 
+        "media/base/media_status.h", 
+        "media/base/output_device_info.h", 
+        "media/base/pipeline_status.h", 
+        "media/base/sample_format.h", 
+        "media/base/subsample_entry.h", 
+        "media/base/video_codecs.h", 
+        "media/base/video_transformation.h", 
+        "media/base/video_types.h", 
+        "media/base/waiting.h", 
+        "media/base/watch_time_keys.h"
+      ]
+    }, 
+    "media.mojom.OutputDeviceStatus": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::OutputDeviceStatus", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h", 
+        "media/mojo/mojom/video_transformation_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/audio_codecs.h", 
+        "media/base/buffering_state.h", 
+        "media/base/channel_layout.h", 
+        "media/base/container_names.h", 
+        "media/base/decode_status.h", 
+        "media/base/decrypt_config.h", 
+        "media/base/encryption_pattern.h", 
+        "media/base/encryption_scheme.h", 
+        "media/base/hdr_metadata.h", 
+        "media/base/media_log_record.h", 
+        "media/base/media_status.h", 
+        "media/base/output_device_info.h", 
+        "media/base/pipeline_status.h", 
+        "media/base/sample_format.h", 
+        "media/base/subsample_entry.h", 
+        "media/base/video_codecs.h", 
+        "media/base/video_transformation.h", 
+        "media/base/video_types.h", 
+        "media/base/waiting.h", 
+        "media/base/watch_time_keys.h"
+      ]
+    }, 
+    "mojo_base.mojom.UnguessableToken": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::base::UnguessableToken", 
+      "traits_headers": [
+        "mojo/public/cpp/base/unguessable_token_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/unguessable_token.h"
+      ]
+    }, 
+    "media.mojom.WatchTimeKey": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::WatchTimeKey", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h", 
+        "media/mojo/mojom/video_transformation_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/audio_codecs.h", 
+        "media/base/buffering_state.h", 
+        "media/base/channel_layout.h", 
+        "media/base/container_names.h", 
+        "media/base/decode_status.h", 
+        "media/base/decrypt_config.h", 
+        "media/base/encryption_pattern.h", 
+        "media/base/encryption_scheme.h", 
+        "media/base/hdr_metadata.h", 
+        "media/base/media_log_record.h", 
+        "media/base/media_status.h", 
+        "media/base/output_device_info.h", 
+        "media/base/pipeline_status.h", 
+        "media/base/sample_format.h", 
+        "media/base/subsample_entry.h", 
+        "media/base/video_codecs.h", 
+        "media/base/video_transformation.h", 
+        "media/base/video_types.h", 
+        "media/base/waiting.h", 
+        "media/base/watch_time_keys.h"
+      ]
+    }, 
+    "media.mojom.PipelineDecoderInfo": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::PipelineDecoderInfo", 
+      "traits_headers": [
+        "media/mojo/mojom/pipeline_status_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/pipeline_status.h"
+      ]
+    }, 
+    "mojo_base.mojom.PlatformSharedMemoryRegion.Mode": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::base::subtle::PlatformSharedMemoryRegion::Mode", 
+      "traits_headers": [
+        "mojo/public/cpp/base/shared_memory_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/memory/platform_shared_memory_region.h", 
+        "base/memory/read_only_shared_memory_region.h", 
+        "base/memory/unsafe_shared_memory_region.h", 
+        "base/memory/writable_shared_memory_region.h"
+      ]
+    }, 
+    "mojo_base.mojom.ThreadPriority": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::base::ThreadPriority", 
+      "traits_headers": [
+        "mojo/public/cpp/base/thread_priority_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/threading/platform_thread.h"
+      ]
+    }, 
+    "media.mojom.Decryptor.Status": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::Decryptor::Status", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/decryptor.h"
+      ]
+    }, 
+    "media.mojom.CdmKeyInformation": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::std::unique_ptr<::media::CdmKeyInformation>", 
+      "traits_headers": [
+        "media/mojo/mojom/cdm_key_information_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": true, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/cdm_key_information.h"
+      ]
+    }, 
+    "gpu.mojom.VulkanPhysicalDeviceInfo": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::gpu::VulkanPhysicalDeviceInfo", 
+      "traits_headers": [
+        "gpu/ipc/common/vulkan_info_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/config/vulkan_info.h"
+      ]
+    }, 
+    "media.mojom.MediaStatusState": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::MediaStatus::State", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h", 
+        "media/mojo/mojom/video_transformation_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/audio_codecs.h", 
+        "media/base/buffering_state.h", 
+        "media/base/channel_layout.h", 
+        "media/base/container_names.h", 
+        "media/base/decode_status.h", 
+        "media/base/decrypt_config.h", 
+        "media/base/encryption_pattern.h", 
+        "media/base/encryption_scheme.h", 
+        "media/base/hdr_metadata.h", 
+        "media/base/media_log_record.h", 
+        "media/base/media_status.h", 
+        "media/base/output_device_info.h", 
+        "media/base/pipeline_status.h", 
+        "media/base/sample_format.h", 
+        "media/base/subsample_entry.h", 
+        "media/base/video_codecs.h", 
+        "media/base/video_transformation.h", 
+        "media/base/video_types.h", 
+        "media/base/waiting.h", 
+        "media/base/watch_time_keys.h"
+      ]
+    }, 
+    "gfx.mojom.SelectionBound": {
+      "hashable": false, 
+      "typename": "::gfx::SelectionBound", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "ui/gfx/mojom/selection_bound_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/selection_bound.h"
+      ]
+    }, 
+    "gpu.mojom.VkPhysicalDeviceLimits": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::VkPhysicalDeviceLimits", 
+      "traits_headers": [
+        "gpu/ipc/common/vulkan_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/ipc/common/vulkan_types.h"
+      ]
+    }, 
+    "gpu.mojom.CollectInfoResult": {
+      "hashable": false, 
+      "typename": "::gpu::CollectInfoResult", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "gpu/ipc/common/gpu_info_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/config/gpu_info.h"
+      ]
+    }, 
+    "gfx.mojom.Hinting": {
+      "hashable": false, 
+      "typename": "::gfx::FontRenderParams::Hinting", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "ui/gfx/mojom/font_render_params_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/font_render_params.h"
+      ]
+    }, 
+    "gfx.mojom.NativePixmapPlane": {
+      "hashable": false, 
+      "typename": "::gfx::NativePixmapPlane", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "ui/gfx/mojom/buffer_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": true, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/buffer_types.h", 
+        "ui/gfx/gpu_memory_buffer.h", 
+        "ui/gfx/native_pixmap_handle.h"
+      ]
+    }, 
+    "media.mojom.VideoBitrateAllocation": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::VideoBitrateAllocation", 
+      "traits_headers": [
+        "media/mojo/mojom/video_encode_accelerator_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/video/video_encode_accelerator.h"
+      ]
+    }, 
+    "media.mojom.CdmConfig": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::CdmConfig", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/cdm_config.h", 
+        "media/base/cdm_key_information.h", 
+        "media/base/cdm_promise.h", 
+        "media/base/eme_constants.h", 
+        "media/base/content_decryption_module.h"
+      ]
+    }, 
+    "media.mojom.PipelineStatus": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::PipelineStatus", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h", 
+        "media/mojo/mojom/video_transformation_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/audio_codecs.h", 
+        "media/base/buffering_state.h", 
+        "media/base/channel_layout.h", 
+        "media/base/container_names.h", 
+        "media/base/decode_status.h", 
+        "media/base/decrypt_config.h", 
+        "media/base/encryption_pattern.h", 
+        "media/base/encryption_scheme.h", 
+        "media/base/hdr_metadata.h", 
+        "media/base/media_log_record.h", 
+        "media/base/media_status.h", 
+        "media/base/output_device_info.h", 
+        "media/base/pipeline_status.h", 
+        "media/base/sample_format.h", 
+        "media/base/subsample_entry.h", 
+        "media/base/video_codecs.h", 
+        "media/base/video_transformation.h", 
+        "media/base/video_types.h", 
+        "media/base/waiting.h", 
+        "media/base/watch_time_keys.h"
+      ]
+    }, 
+    "gpu.mojom.VkQueueFamilyProperties": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::VkQueueFamilyProperties", 
+      "traits_headers": [
+        "gpu/ipc/common/vulkan_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/ipc/common/vulkan_types.h"
+      ]
+    }, 
+    "media.mojom.ColorSpace": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::ColorSpace", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h", 
+        "media/mojo/mojom/video_transformation_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/audio_codecs.h", 
+        "media/base/buffering_state.h", 
+        "media/base/channel_layout.h", 
+        "media/base/container_names.h", 
+        "media/base/decode_status.h", 
+        "media/base/decrypt_config.h", 
+        "media/base/encryption_pattern.h", 
+        "media/base/encryption_scheme.h", 
+        "media/base/hdr_metadata.h", 
+        "media/base/media_log_record.h", 
+        "media/base/media_status.h", 
+        "media/base/output_device_info.h", 
+        "media/base/pipeline_status.h", 
+        "media/base/sample_format.h", 
+        "media/base/subsample_entry.h", 
+        "media/base/video_codecs.h", 
+        "media/base/video_transformation.h", 
+        "media/base/video_types.h", 
+        "media/base/waiting.h", 
+        "media/base/watch_time_keys.h"
+      ]
+    }, 
+    "media.mojom.DemuxerStream.Type": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::DemuxerStream::Type", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/demuxer_stream.h"
+      ]
+    }, 
+    "gpu.mojom.VulkanInfo": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::gpu::VulkanInfo", 
+      "traits_headers": [
+        "gpu/ipc/common/vulkan_info_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/config/vulkan_info.h"
+      ]
+    }, 
+    "media.mojom.HdcpVersion": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::HdcpVersion", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/cdm_config.h", 
+        "media/base/cdm_key_information.h", 
+        "media/base/cdm_promise.h", 
+        "media/base/eme_constants.h", 
+        "media/base/content_decryption_module.h"
+      ]
+    }, 
+    "media.learning.mojom.LabelledExample": {
+      "hashable": false, 
+      "typename": "::media::learning::LabelledExample", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "media/learning/mojo/public/cpp/learning_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/learning/common/labelled_example.h", 
+        "media/learning/common/learning_task_controller.h", 
+        "media/learning/common/value.h"
+      ]
+    }, 
+    "gfx.mojom.SwapTimings": {
+      "hashable": false, 
+      "typename": "gfx::SwapTimings", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "ui/gfx/mojom/swap_timings_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/swap_result.h"
+      ]
+    }, 
+    "gpu.mojom.VulkanYCbCrInfo": {
+      "hashable": false, 
+      "typename": "::gpu::VulkanYCbCrInfo", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "gpu/ipc/common/vulkan_ycbcr_info_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/ipc/common/vulkan_ycbcr_info.h"
+      ]
+    }, 
+    "gpu.mojom.Capabilities": {
+      "hashable": false, 
+      "typename": "::gpu::Capabilities", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "gpu/ipc/common/gpu_command_buffer_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/command_buffer/common/capabilities.h"
+      ]
+    }, 
+    "media.mojom.EmeInitDataType": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::EmeInitDataType", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/cdm_config.h", 
+        "media/base/cdm_key_information.h", 
+        "media/base/cdm_promise.h", 
+        "media/base/eme_constants.h", 
+        "media/base/content_decryption_module.h"
+      ]
+    }, 
+    "gfx.mojom.PointF": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::gfx::PointF", 
+      "traits_headers": [
+        "ui/gfx/geometry/mojom/geometry_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/geometry/point.h", 
+        "ui/gfx/geometry/point_f.h", 
+        "ui/gfx/geometry/point3_f.h", 
+        "ui/gfx/geometry/size.h", 
+        "ui/gfx/geometry/rect.h", 
+        "ui/gfx/geometry/rect_f.h", 
+        "ui/gfx/geometry/safe_integer_conversions.h", 
+        "ui/gfx/geometry/scroll_offset.h", 
+        "ui/gfx/geometry/insets.h", 
+        "ui/gfx/geometry/quaternion.h", 
+        "ui/gfx/geometry/vector2d.h", 
+        "ui/gfx/geometry/vector2d_f.h", 
+        "ui/gfx/geometry/vector3d_f.h"
+      ]
+    }, 
+    "media.mojom.PipelineStatistics": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::PipelineStatistics", 
+      "traits_headers": [
+        "media/mojo/mojom/pipeline_status_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/pipeline_status.h"
+      ]
+    }, 
+    "media.mojom.Vp8Metadata": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::Vp8Metadata", 
+      "traits_headers": [
+        "media/mojo/mojom/video_encode_accelerator_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/video/video_encode_accelerator.h"
+      ]
+    }, 
+    "mojo_base.mojom.File": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::base::File", 
+      "traits_headers": [
+        "mojo/public/cpp/base/file_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": true, 
+      "nullable_is_same_type": true, 
+      "public_headers": [
+        "base/files/file.h"
+      ]
+    }, 
+    "url.mojom.Url": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::GURL", 
+      "traits_headers": [
+        "url/mojom/url_gurl_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "url/gurl.h"
+      ]
+    }, 
+    "media.mojom.OverlayInfo": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::OverlayInfo", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h", 
+        "media/mojo/mojom/supported_video_decoder_config_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/overlay_info.h", 
+        "media/video/supported_video_decoder_config.h"
+      ]
+    }, 
+    "media.learning.mojom.FeatureValue": {
+      "hashable": false, 
+      "typename": "::media::learning::FeatureValue", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "media/learning/mojo/public/cpp/learning_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/learning/common/labelled_example.h", 
+        "media/learning/common/learning_task_controller.h", 
+        "media/learning/common/value.h"
+      ]
+    }, 
+    "media.mojom.Decryptor.StreamType": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::Decryptor::StreamType", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/decryptor.h"
+      ]
+    }, 
+    "media.mojom.VideoColorSpace.TransferID": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::VideoColorSpace::TransferID", 
+      "traits_headers": [
+        "media/mojo/mojom/video_color_space_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/video_color_space.h", 
+        "ui/gfx/color_space.h"
+      ]
+    }, 
+    "media.mojom.MasteringMetadata": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::MasteringMetadata", 
+      "traits_headers": [
+        "media/mojo/mojom/hdr_metadata_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/hdr_metadata.h"
+      ]
+    }, 
+    "gpu.mojom.VideoCodecProfile": {
+      "hashable": false, 
+      "typename": "::gpu::VideoCodecProfile", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "gpu/ipc/common/gpu_info_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/config/gpu_info.h"
+      ]
+    }, 
+    "media.mojom.VideoEncodeAcceleratorConfig": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::VideoEncodeAccelerator::Config", 
+      "traits_headers": [
+        "media/mojo/mojom/video_encode_accelerator_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/video/video_encode_accelerator.h"
+      ]
+    }, 
+    "gfx.mojom.BufferUsage": {
+      "hashable": false, 
+      "typename": "::gfx::BufferUsage", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "ui/gfx/mojom/buffer_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/buffer_types.h", 
+        "ui/gfx/gpu_memory_buffer.h", 
+        "ui/gfx/native_pixmap_handle.h"
+      ]
+    }, 
+    "gfx.mojom.NativePixmapHandle": {
+      "hashable": false, 
+      "typename": "::gfx::NativePixmapHandle", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "ui/gfx/mojom/buffer_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": true, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/buffer_types.h", 
+        "ui/gfx/gpu_memory_buffer.h", 
+        "ui/gfx/native_pixmap_handle.h"
+      ]
+    }, 
+    "mojo_base.mojom.FileInfo": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::base::File::Info", 
+      "traits_headers": [
+        "mojo/public/cpp/base/file_info_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/files/file.h"
+      ]
+    }, 
+    "gfx.mojom.Transform": {
+      "hashable": false, 
+      "typename": "::gfx::Transform", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "ui/gfx/mojom/transform_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/transform.h"
+      ]
+    }, 
+    "gpu.mojom.VideoDecodeAcceleratorSupportedProfile": {
+      "hashable": false, 
+      "typename": "::gpu::VideoDecodeAcceleratorSupportedProfile", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "gpu/ipc/common/gpu_info_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/config/gpu_info.h"
+      ]
+    }, 
+    "media.mojom.DecodeStatus": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::DecodeStatus", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h", 
+        "media/mojo/mojom/video_transformation_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/audio_codecs.h", 
+        "media/base/buffering_state.h", 
+        "media/base/channel_layout.h", 
+        "media/base/container_names.h", 
+        "media/base/decode_status.h", 
+        "media/base/decrypt_config.h", 
+        "media/base/encryption_pattern.h", 
+        "media/base/encryption_scheme.h", 
+        "media/base/hdr_metadata.h", 
+        "media/base/media_log_record.h", 
+        "media/base/media_status.h", 
+        "media/base/output_device_info.h", 
+        "media/base/pipeline_status.h", 
+        "media/base/sample_format.h", 
+        "media/base/subsample_entry.h", 
+        "media/base/video_codecs.h", 
+        "media/base/video_transformation.h", 
+        "media/base/video_types.h", 
+        "media/base/waiting.h", 
+        "media/base/watch_time_keys.h"
+      ]
+    }, 
+    "mojo_base.mojom.GenericPendingReceiver": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::mojo::GenericPendingReceiver", 
+      "traits_headers": [
+        "mojo/public/cpp/base/generic_pending_receiver_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": true, 
+      "nullable_is_same_type": true, 
+      "public_headers": [
+        "mojo/public/cpp/bindings/generic_pending_receiver.h"
+      ]
+    }, 
+    "media.mojom.EncryptionScheme": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::EncryptionScheme", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h", 
+        "media/mojo/mojom/video_transformation_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/audio_codecs.h", 
+        "media/base/buffering_state.h", 
+        "media/base/channel_layout.h", 
+        "media/base/container_names.h", 
+        "media/base/decode_status.h", 
+        "media/base/decrypt_config.h", 
+        "media/base/encryption_pattern.h", 
+        "media/base/encryption_scheme.h", 
+        "media/base/hdr_metadata.h", 
+        "media/base/media_log_record.h", 
+        "media/base/media_status.h", 
+        "media/base/output_device_info.h", 
+        "media/base/pipeline_status.h", 
+        "media/base/sample_format.h", 
+        "media/base/subsample_entry.h", 
+        "media/base/video_codecs.h", 
+        "media/base/video_transformation.h", 
+        "media/base/video_types.h", 
+        "media/base/waiting.h", 
+        "media/base/watch_time_keys.h"
+      ]
+    }, 
+    "gpu.mojom.ContextResult": {
+      "hashable": false, 
+      "typename": "::gpu::ContextResult", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "gpu/ipc/common/context_result_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/command_buffer/common/context_result.h"
+      ]
+    }, 
+    "audio.mojom.DebugRecordingStreamType": {
+      "hashable": false, 
+      "typename": "::media::AudioDebugRecordingStreamType", 
+      "traits_headers": [
+        "services/audio/public/cpp/debug_recording_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "force_serialize": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "non_copyable_non_movable": false, 
+      "public_headers": [
+        "media/audio/audio_debug_recording_helper.h"
+      ]
+    }, 
+    "media.mojom.VideoEncodeAccelerator.Error": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::VideoEncodeAccelerator::Error", 
+      "traits_headers": [
+        "media/mojo/mojom/video_encode_accelerator_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/video/video_encode_accelerator.h"
+      ]
+    }, 
+    "gpu.mojom.GpuDevice": {
+      "hashable": false, 
+      "typename": "::gpu::GPUInfo::GPUDevice", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "gpu/ipc/common/gpu_info_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/config/gpu_info.h"
+      ]
+    }, 
+    "mojo_base.mojom.BigString": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::std::string", 
+      "traits_headers": [
+        "mojo/public/cpp/base/big_string_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": []
+    }, 
+    "audio.mojom.EchoCancellationType": {
+      "hashable": false, 
+      "typename": "::media::EchoCancellationType", 
+      "traits_headers": [
+        "services/audio/public/cpp/audio_processing_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "force_serialize": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "non_copyable_non_movable": false, 
+      "public_headers": [
+        "media/base/audio_processing.h", 
+        "third_party/webrtc/api/media_stream_interface.h"
+      ]
+    }, 
+    "gpu.mojom.Mailbox": {
+      "hashable": false, 
+      "typename": "::gpu::Mailbox", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "gpu/ipc/common/mailbox_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/command_buffer/common/mailbox.h"
+      ]
+    }, 
+    "media.mojom.AudioDecoderConfig": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::AudioDecoderConfig", 
+      "traits_headers": [
+        "media/mojo/mojom/audio_decoder_config_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/audio_decoder_config.h"
+      ]
+    }, 
+    "mojo_base.mojom.TimeTicks": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::base::TimeTicks", 
+      "traits_headers": [
+        "mojo/public/cpp/base/time_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": true, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/time/time.h"
+      ]
+    }, 
+    "gpu.mojom.GpuFeatureInfo": {
+      "hashable": false, 
+      "typename": "::gpu::GpuFeatureInfo", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "gpu/ipc/common/gpu_feature_info_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/config/gpu_feature_info.h"
+      ]
+    }, 
+    "mojo_base.mojom.ListValue": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::base::Value", 
+      "traits_headers": [
+        "mojo/public/cpp/base/values_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": true, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/values.h"
+      ]
+    }, 
+    "gpu.mojom.ImageDecodeAcceleratorSupportedProfile": {
+      "hashable": false, 
+      "typename": "::gpu::ImageDecodeAcceleratorSupportedProfile", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "gpu/ipc/common/gpu_info_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/config/gpu_info.h"
+      ]
+    }, 
+    "gpu.mojom.DxDiagNode": {
+      "hashable": false, 
+      "typename": "::gpu::DxDiagNode", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "gpu/ipc/common/dx_diag_node_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/config/dx_diag_node.h"
+      ]
+    }, 
+    "gpu.mojom.VkPhysicalDeviceFeatures": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::VkPhysicalDeviceFeatures", 
+      "traits_headers": [
+        "gpu/ipc/common/vulkan_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/ipc/common/vulkan_types.h"
+      ]
+    }, 
+    "mojo_base.mojom.ReadOnlySharedMemoryRegion": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::base::ReadOnlySharedMemoryRegion", 
+      "traits_headers": [
+        "mojo/public/cpp/base/shared_memory_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": true, 
+      "nullable_is_same_type": true, 
+      "public_headers": [
+        "base/memory/platform_shared_memory_region.h", 
+        "base/memory/read_only_shared_memory_region.h", 
+        "base/memory/unsafe_shared_memory_region.h", 
+        "base/memory/writable_shared_memory_region.h"
+      ]
+    }, 
+    "service_manager.mojom.BindSourceInfo": {
+      "hashable": false, 
+      "typename": "::service_manager::BindSourceInfo", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "services/service_manager/public/cpp/bind_source_info_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "services/service_manager/public/cpp/bind_source_info.h"
+      ]
+    }, 
+    "media.mojom.CdmPromiseResult.Exception": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::CdmPromise::Exception", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/cdm_config.h", 
+        "media/base/cdm_key_information.h", 
+        "media/base/cdm_promise.h", 
+        "media/base/eme_constants.h", 
+        "media/base/content_decryption_module.h"
+      ]
+    }, 
+    "media.mojom.EncryptionPattern": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::EncryptionPattern", 
+      "traits_headers": [
+        "media/mojo/mojom/encryption_pattern_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/encryption_pattern.h"
+      ]
+    }, 
+    "audio.mojom.AutomaticGainControlType": {
+      "hashable": false, 
+      "typename": "::media::AutomaticGainControlType", 
+      "traits_headers": [
+        "services/audio/public/cpp/audio_processing_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "force_serialize": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "non_copyable_non_movable": false, 
+      "public_headers": [
+        "media/base/audio_processing.h", 
+        "third_party/webrtc/api/media_stream_interface.h"
+      ]
+    }, 
+    "mojo_base.mojom.ProcessId": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::base::ProcessId", 
+      "traits_headers": [
+        "mojo/public/cpp/base/process_id_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": true, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/process/process_handle.h"
+      ]
+    }, 
+    "media.mojom.VideoEncoderInfo": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::VideoEncoderInfo", 
+      "traits_headers": [
+        "media/mojo/mojom/video_encoder_info_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/video/video_encoder_info.h"
+      ]
+    }, 
+    "service_manager.mojom.Identity": {
+      "hashable": false, 
+      "typename": "::service_manager::Identity", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "services/service_manager/public/cpp/identity_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "services/service_manager/public/cpp/identity.h"
+      ]
+    }, 
+    "media.mojom.WaitingReason": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::WaitingReason", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h", 
+        "media/mojo/mojom/video_transformation_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/audio_codecs.h", 
+        "media/base/buffering_state.h", 
+        "media/base/channel_layout.h", 
+        "media/base/container_names.h", 
+        "media/base/decode_status.h", 
+        "media/base/decrypt_config.h", 
+        "media/base/encryption_pattern.h", 
+        "media/base/encryption_scheme.h", 
+        "media/base/hdr_metadata.h", 
+        "media/base/media_log_record.h", 
+        "media/base/media_status.h", 
+        "media/base/output_device_info.h", 
+        "media/base/pipeline_status.h", 
+        "media/base/sample_format.h", 
+        "media/base/subsample_entry.h", 
+        "media/base/video_codecs.h", 
+        "media/base/video_transformation.h", 
+        "media/base/video_types.h", 
+        "media/base/waiting.h", 
+        "media/base/watch_time_keys.h"
+      ]
+    }, 
+    "media.mojom.CdmMessageType": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::CdmMessageType", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/cdm_config.h", 
+        "media/base/cdm_key_information.h", 
+        "media/base/cdm_promise.h", 
+        "media/base/eme_constants.h", 
+        "media/base/content_decryption_module.h"
+      ]
+    }, 
+    "gpu.mojom.MailboxHolder": {
+      "hashable": false, 
+      "typename": "::gpu::MailboxHolder", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "gpu/ipc/common/mailbox_holder_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/command_buffer/common/mailbox_holder.h"
+      ]
+    }, 
+    "media.mojom.HDRMetadata": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::HDRMetadata", 
+      "traits_headers": [
+        "media/mojo/mojom/hdr_metadata_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/hdr_metadata.h"
+      ]
+    }, 
+    "gpu.mojom.VkPhysicalDeviceSparseProperties": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::VkPhysicalDeviceSparseProperties", 
+      "traits_headers": [
+        "gpu/ipc/common/vulkan_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/ipc/common/vulkan_types.h"
+      ]
+    }, 
+    "gfx.mojom.GpuMemoryBufferType": {
+      "hashable": false, 
+      "typename": "::gfx::GpuMemoryBufferType", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "ui/gfx/mojom/buffer_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/buffer_types.h", 
+        "ui/gfx/gpu_memory_buffer.h", 
+        "ui/gfx/native_pixmap_handle.h"
+      ]
+    }, 
+    "media.mojom.SubsampleEntry": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::SubsampleEntry", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h", 
+        "media/mojo/mojom/video_transformation_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/audio_codecs.h", 
+        "media/base/buffering_state.h", 
+        "media/base/channel_layout.h", 
+        "media/base/container_names.h", 
+        "media/base/decode_status.h", 
+        "media/base/decrypt_config.h", 
+        "media/base/encryption_pattern.h", 
+        "media/base/encryption_scheme.h", 
+        "media/base/hdr_metadata.h", 
+        "media/base/media_log_record.h", 
+        "media/base/media_status.h", 
+        "media/base/output_device_info.h", 
+        "media/base/pipeline_status.h", 
+        "media/base/sample_format.h", 
+        "media/base/subsample_entry.h", 
+        "media/base/video_codecs.h", 
+        "media/base/video_transformation.h", 
+        "media/base/video_types.h", 
+        "media/base/waiting.h", 
+        "media/base/watch_time_keys.h"
+      ]
+    }, 
+    "mojo_base.mojom.MessagePumpType": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::base::MessagePumpType", 
+      "traits_headers": [
+        "mojo/public/cpp/base/message_pump_type_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/message_loop/message_pump_type.h"
+      ]
+    }, 
+    "gpu.mojom.VideoDecodeAcceleratorCapabilities": {
+      "hashable": false, 
+      "typename": "::gpu::VideoDecodeAcceleratorCapabilities", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "gpu/ipc/common/gpu_info_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/config/gpu_info.h"
+      ]
+    }, 
+    "mojo_base.mojom.RefCountedMemory": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::scoped_refptr<::base::RefCountedMemory>", 
+      "traits_headers": [
+        "mojo/public/cpp/base/ref_counted_memory_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": true, 
+      "move_only": false, 
+      "nullable_is_same_type": true, 
+      "public_headers": [
+        "base/memory/ref_counted_memory.h"
+      ]
+    }, 
+    "gfx.mojom.Insets": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::gfx::Insets", 
+      "traits_headers": [
+        "ui/gfx/geometry/mojom/geometry_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/geometry/point.h", 
+        "ui/gfx/geometry/point_f.h", 
+        "ui/gfx/geometry/point3_f.h", 
+        "ui/gfx/geometry/size.h", 
+        "ui/gfx/geometry/rect.h", 
+        "ui/gfx/geometry/rect_f.h", 
+        "ui/gfx/geometry/safe_integer_conversions.h", 
+        "ui/gfx/geometry/scroll_offset.h", 
+        "ui/gfx/geometry/insets.h", 
+        "ui/gfx/geometry/quaternion.h", 
+        "ui/gfx/geometry/vector2d.h", 
+        "ui/gfx/geometry/vector2d_f.h", 
+        "ui/gfx/geometry/vector3d_f.h"
+      ]
+    }, 
+    "media.mojom.AudioCodecProfile": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::AudioCodecProfile", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h", 
+        "media/mojo/mojom/video_transformation_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/audio_codecs.h", 
+        "media/base/buffering_state.h", 
+        "media/base/channel_layout.h", 
+        "media/base/container_names.h", 
+        "media/base/decode_status.h", 
+        "media/base/decrypt_config.h", 
+        "media/base/encryption_pattern.h", 
+        "media/base/encryption_scheme.h", 
+        "media/base/hdr_metadata.h", 
+        "media/base/media_log_record.h", 
+        "media/base/media_status.h", 
+        "media/base/output_device_info.h", 
+        "media/base/pipeline_status.h", 
+        "media/base/sample_format.h", 
+        "media/base/subsample_entry.h", 
+        "media/base/video_codecs.h", 
+        "media/base/video_transformation.h", 
+        "media/base/video_types.h", 
+        "media/base/waiting.h", 
+        "media/base/watch_time_keys.h"
+      ]
+    }, 
+    "service_manager.mojom.InterfaceProviderSpec": {
+      "hashable": false, 
+      "typename": "::service_manager::InterfaceProviderSpec", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "services/service_manager/public/cpp/interface_provider_spec_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "services/service_manager/public/cpp/interface_provider_spec.h"
+      ]
+    }, 
+    "media.mojom.VideoCodecProfile": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::VideoCodecProfile", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h", 
+        "media/mojo/mojom/video_transformation_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/audio_codecs.h", 
+        "media/base/buffering_state.h", 
+        "media/base/channel_layout.h", 
+        "media/base/container_names.h", 
+        "media/base/decode_status.h", 
+        "media/base/decrypt_config.h", 
+        "media/base/encryption_pattern.h", 
+        "media/base/encryption_scheme.h", 
+        "media/base/hdr_metadata.h", 
+        "media/base/media_log_record.h", 
+        "media/base/media_status.h", 
+        "media/base/output_device_info.h", 
+        "media/base/pipeline_status.h", 
+        "media/base/sample_format.h", 
+        "media/base/subsample_entry.h", 
+        "media/base/video_codecs.h", 
+        "media/base/video_transformation.h", 
+        "media/base/video_types.h", 
+        "media/base/waiting.h", 
+        "media/base/watch_time_keys.h"
+      ]
+    }, 
+    "gfx.mojom.Vector2d": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::gfx::Vector2d", 
+      "traits_headers": [
+        "ui/gfx/geometry/mojom/geometry_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/geometry/point.h", 
+        "ui/gfx/geometry/point_f.h", 
+        "ui/gfx/geometry/point3_f.h", 
+        "ui/gfx/geometry/size.h", 
+        "ui/gfx/geometry/rect.h", 
+        "ui/gfx/geometry/rect_f.h", 
+        "ui/gfx/geometry/safe_integer_conversions.h", 
+        "ui/gfx/geometry/scroll_offset.h", 
+        "ui/gfx/geometry/insets.h", 
+        "ui/gfx/geometry/quaternion.h", 
+        "ui/gfx/geometry/vector2d.h", 
+        "ui/gfx/geometry/vector2d_f.h", 
+        "ui/gfx/geometry/vector3d_f.h"
+      ]
+    }, 
+    "gfx.mojom.SwapResult": {
+      "hashable": false, 
+      "typename": "::gfx::SwapResult", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "ui/gfx/mojom/swap_result_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/swap_result.h"
+      ]
+    }, 
+    "gfx.mojom.Point": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::gfx::Point", 
+      "traits_headers": [
+        "ui/gfx/geometry/mojom/geometry_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/geometry/point.h", 
+        "ui/gfx/geometry/point_f.h", 
+        "ui/gfx/geometry/point3_f.h", 
+        "ui/gfx/geometry/size.h", 
+        "ui/gfx/geometry/rect.h", 
+        "ui/gfx/geometry/rect_f.h", 
+        "ui/gfx/geometry/safe_integer_conversions.h", 
+        "ui/gfx/geometry/scroll_offset.h", 
+        "ui/gfx/geometry/insets.h", 
+        "ui/gfx/geometry/quaternion.h", 
+        "ui/gfx/geometry/vector2d.h", 
+        "ui/gfx/geometry/vector2d_f.h", 
+        "ui/gfx/geometry/vector3d_f.h"
+      ]
+    }, 
+    "gfx.mojom.InsetsF": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::gfx::InsetsF", 
+      "traits_headers": [
+        "ui/gfx/geometry/mojom/geometry_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/geometry/point.h", 
+        "ui/gfx/geometry/point_f.h", 
+        "ui/gfx/geometry/point3_f.h", 
+        "ui/gfx/geometry/size.h", 
+        "ui/gfx/geometry/rect.h", 
+        "ui/gfx/geometry/rect_f.h", 
+        "ui/gfx/geometry/safe_integer_conversions.h", 
+        "ui/gfx/geometry/scroll_offset.h", 
+        "ui/gfx/geometry/insets.h", 
+        "ui/gfx/geometry/quaternion.h", 
+        "ui/gfx/geometry/vector2d.h", 
+        "ui/gfx/geometry/vector2d_f.h", 
+        "ui/gfx/geometry/vector3d_f.h"
+      ]
+    }, 
+    "media.mojom.VideoEncodeAcceleratorSupportedProfile": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::VideoEncodeAccelerator::SupportedProfile", 
+      "traits_headers": [
+        "media/mojo/mojom/video_encode_accelerator_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/video/video_encode_accelerator.h"
+      ]
+    }, 
+    "gpu.mojom.GpuInfo": {
+      "hashable": false, 
+      "typename": "::gpu::GPUInfo", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "gpu/ipc/common/gpu_info_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/config/gpu_info.h"
+      ]
+    }, 
+    "media.mojom.BitstreamBufferMetadata": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::BitstreamBufferMetadata", 
+      "traits_headers": [
+        "media/mojo/mojom/video_encode_accelerator_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/video/video_encode_accelerator.h"
+      ]
+    }, 
+    "gfx.mojom.GpuMemoryBufferHandle": {
+      "hashable": false, 
+      "typename": "::gfx::GpuMemoryBufferHandle", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "ui/gfx/mojom/buffer_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": true, 
+      "nullable_is_same_type": true, 
+      "public_headers": [
+        "ui/gfx/buffer_types.h", 
+        "ui/gfx/gpu_memory_buffer.h", 
+        "ui/gfx/native_pixmap_handle.h"
+      ]
+    }, 
+    "media.mojom.VideoDecoderConfig": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::VideoDecoderConfig", 
+      "traits_headers": [
+        "media/mojo/mojom/video_decoder_config_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/video_decoder_config.h"
+      ]
+    }, 
+    "audio.mojom.AudioDeviceDescription": {
+      "hashable": false, 
+      "typename": "::media::AudioDeviceDescription", 
+      "traits_headers": [
+        "services/audio/public/cpp/audio_device_description_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "force_serialize": false, 
+      "move_only": true, 
+      "nullable_is_same_type": false, 
+      "non_copyable_non_movable": false, 
+      "public_headers": [
+        "media/audio/audio_device_description.h"
+      ]
+    }, 
+    "gfx.mojom.SizeF": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::gfx::SizeF", 
+      "traits_headers": [
+        "ui/gfx/geometry/mojom/geometry_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/geometry/point.h", 
+        "ui/gfx/geometry/point_f.h", 
+        "ui/gfx/geometry/point3_f.h", 
+        "ui/gfx/geometry/size.h", 
+        "ui/gfx/geometry/rect.h", 
+        "ui/gfx/geometry/rect_f.h", 
+        "ui/gfx/geometry/safe_integer_conversions.h", 
+        "ui/gfx/geometry/scroll_offset.h", 
+        "ui/gfx/geometry/insets.h", 
+        "ui/gfx/geometry/quaternion.h", 
+        "ui/gfx/geometry/vector2d.h", 
+        "ui/gfx/geometry/vector2d_f.h", 
+        "ui/gfx/geometry/vector3d_f.h"
+      ]
+    }, 
+    "mojo_base.mojom.ApplicationState": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::base::android::ApplicationState", 
+      "traits_headers": [
+        "mojo/public/cpp/base/application_state_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/android/application_status_listener.h"
+      ]
+    }, 
+    "gpu.mojom.VkExtent3D": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::VkExtent3D", 
+      "traits_headers": [
+        "gpu/ipc/common/vulkan_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/ipc/common/vulkan_types.h"
+      ]
+    }, 
+    "mojo_base.mojom.Time": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::base::Time", 
+      "traits_headers": [
+        "mojo/public/cpp/base/time_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": true, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/time/time.h"
+      ]
+    }, 
+    "mojo_base.mojom.TextDirection": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::base::i18n::TextDirection", 
+      "traits_headers": [
+        "mojo/public/cpp/base/text_direction_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/i18n/rtl.h"
+      ]
+    }, 
+    "gpu.mojom.VkExtensionProperties": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::VkExtensionProperties", 
+      "traits_headers": [
+        "gpu/ipc/common/vulkan_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/ipc/common/vulkan_types.h"
+      ]
+    }, 
+    "mojo_base.mojom.BigString16": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::base::string16", 
+      "traits_headers": [
+        "mojo/public/cpp/base/string16_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/strings/string16.h"
+      ]
+    }, 
+    "media.mojom.AudioParameters": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::AudioParameters", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/audio_parameters.h"
+      ]
+    }, 
+    "gfx.mojom.ScrollOffset": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::gfx::ScrollOffset", 
+      "traits_headers": [
+        "ui/gfx/geometry/mojom/geometry_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/geometry/point.h", 
+        "ui/gfx/geometry/point_f.h", 
+        "ui/gfx/geometry/point3_f.h", 
+        "ui/gfx/geometry/size.h", 
+        "ui/gfx/geometry/rect.h", 
+        "ui/gfx/geometry/rect_f.h", 
+        "ui/gfx/geometry/safe_integer_conversions.h", 
+        "ui/gfx/geometry/scroll_offset.h", 
+        "ui/gfx/geometry/insets.h", 
+        "ui/gfx/geometry/quaternion.h", 
+        "ui/gfx/geometry/vector2d.h", 
+        "ui/gfx/geometry/vector2d_f.h", 
+        "ui/gfx/geometry/vector3d_f.h"
+      ]
+    }, 
+    "gpu.mojom.ANGLEFeature": {
+      "hashable": false, 
+      "typename": "::gpu::ANGLEFeature", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "gpu/ipc/common/gpu_extra_info_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/config/gpu_extra_info.h"
+      ]
+    }, 
+    "mojo_base.mojom.MemoryPressureLevel": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::base::MemoryPressureListener::MemoryPressureLevel", 
+      "traits_headers": [
+        "mojo/public/cpp/base/memory_pressure_level_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/memory/memory_pressure_listener.h"
+      ]
+    }, 
+    "gfx.mojom.ColorSpace": {
+      "hashable": false, 
+      "typename": "::gfx::ColorSpace", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "ui/gfx/mojom/color_space_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/color_space.h"
+      ]
+    }, 
+    "media.mojom.CdmSessionType": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::CdmSessionType", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/cdm_config.h", 
+        "media/base/cdm_key_information.h", 
+        "media/base/cdm_promise.h", 
+        "media/base/eme_constants.h", 
+        "media/base/content_decryption_module.h"
+      ]
+    }, 
+    "gpu.mojom.VideoMemoryProcessStats": {
+      "hashable": false, 
+      "typename": "::gpu::VideoMemoryUsageStats::ProcessStats", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "gpu/ipc/common/memory_stats_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/ipc/common/memory_stats.h"
+      ]
+    }, 
+    "gpu.mojom.GpuPreferences": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::gpu::GpuPreferences", 
+      "traits_headers": [
+        "gpu/ipc/common/gpu_preferences_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/config/gpu_preferences.h"
+      ]
+    }, 
+    "mojo_base.mojom.MemoryAllocatorDumpCrossProcessUid": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::base::trace_event::MemoryAllocatorDumpGuid", 
+      "traits_headers": [
+        "mojo/public/cpp/base/memory_allocator_dump_cross_process_uid_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/trace_event/memory_allocator_dump_guid.h"
+      ]
+    }, 
+    "media.mojom.DemuxerStream.Status": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::DemuxerStream::Status", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/demuxer_stream.h"
+      ]
+    }, 
+    "gpu.mojom.GpuFeatureStatus": {
+      "hashable": false, 
+      "typename": "::gpu::GpuFeatureStatus", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "gpu/ipc/common/gpu_feature_info_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/config/gpu_feature_info.h"
+      ]
+    }, 
+    "gpu.mojom.SyncToken": {
+      "hashable": false, 
+      "typename": "::gpu::SyncToken", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "gpu/ipc/common/sync_token_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/command_buffer/common/sync_token.h"
+      ]
+    }, 
+    "service_manager.mojom.CapabilitySet": {
+      "hashable": false, 
+      "typename": "::service_manager::CapabilitySet", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "services/service_manager/public/cpp/interface_provider_spec_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "services/service_manager/public/cpp/interface_provider_spec.h"
+      ]
+    }, 
+    "gfx.mojom.Size": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::gfx::Size", 
+      "traits_headers": [
+        "ui/gfx/geometry/mojom/geometry_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/geometry/point.h", 
+        "ui/gfx/geometry/point_f.h", 
+        "ui/gfx/geometry/point3_f.h", 
+        "ui/gfx/geometry/size.h", 
+        "ui/gfx/geometry/rect.h", 
+        "ui/gfx/geometry/rect_f.h", 
+        "ui/gfx/geometry/safe_integer_conversions.h", 
+        "ui/gfx/geometry/scroll_offset.h", 
+        "ui/gfx/geometry/insets.h", 
+        "ui/gfx/geometry/quaternion.h", 
+        "ui/gfx/geometry/vector2d.h", 
+        "ui/gfx/geometry/vector2d_f.h", 
+        "ui/gfx/geometry/vector3d_f.h"
+      ]
+    }, 
+    "media.mojom.SessionData.KeyType": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::MediaDrmKeyType", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/media_drm_key_type.h"
+      ]
+    }, 
+    "mojo_base.mojom.UnsafeSharedMemoryRegion": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::base::UnsafeSharedMemoryRegion", 
+      "traits_headers": [
+        "mojo/public/cpp/base/shared_memory_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": true, 
+      "nullable_is_same_type": true, 
+      "public_headers": [
+        "base/memory/platform_shared_memory_region.h", 
+        "base/memory/read_only_shared_memory_region.h", 
+        "base/memory/unsafe_shared_memory_region.h", 
+        "base/memory/writable_shared_memory_region.h"
+      ]
+    }, 
+    "media.mojom.AudioCodec": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::AudioCodec", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h", 
+        "media/mojo/mojom/video_transformation_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/audio_codecs.h", 
+        "media/base/buffering_state.h", 
+        "media/base/channel_layout.h", 
+        "media/base/container_names.h", 
+        "media/base/decode_status.h", 
+        "media/base/decrypt_config.h", 
+        "media/base/encryption_pattern.h", 
+        "media/base/encryption_scheme.h", 
+        "media/base/hdr_metadata.h", 
+        "media/base/media_log_record.h", 
+        "media/base/media_status.h", 
+        "media/base/output_device_info.h", 
+        "media/base/pipeline_status.h", 
+        "media/base/sample_format.h", 
+        "media/base/subsample_entry.h", 
+        "media/base/video_codecs.h", 
+        "media/base/video_transformation.h", 
+        "media/base/video_types.h", 
+        "media/base/waiting.h", 
+        "media/base/watch_time_keys.h"
+      ]
+    }, 
+    "gpu.mojom.VideoEncodeAcceleratorSupportedProfile": {
+      "hashable": false, 
+      "typename": "::gpu::VideoEncodeAcceleratorSupportedProfile", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "gpu/ipc/common/gpu_info_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/config/gpu_info.h"
+      ]
+    }, 
+    "media.mojom.MediaContainerName": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::container_names::MediaContainerName", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h", 
+        "media/mojo/mojom/video_transformation_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/audio_codecs.h", 
+        "media/base/buffering_state.h", 
+        "media/base/channel_layout.h", 
+        "media/base/container_names.h", 
+        "media/base/decode_status.h", 
+        "media/base/decrypt_config.h", 
+        "media/base/encryption_pattern.h", 
+        "media/base/encryption_scheme.h", 
+        "media/base/hdr_metadata.h", 
+        "media/base/media_log_record.h", 
+        "media/base/media_status.h", 
+        "media/base/output_device_info.h", 
+        "media/base/pipeline_status.h", 
+        "media/base/sample_format.h", 
+        "media/base/subsample_entry.h", 
+        "media/base/video_codecs.h", 
+        "media/base/video_transformation.h", 
+        "media/base/video_types.h", 
+        "media/base/waiting.h", 
+        "media/base/watch_time_keys.h"
+      ]
+    }, 
+    "mojo_base.mojom.BigBuffer": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::mojo_base::BigBuffer", 
+      "traits_headers": [
+        "mojo/public/cpp/base/big_buffer_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": true, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "mojo/public/cpp/base/big_buffer.h"
+      ]
+    }, 
+    "media.mojom.VideoCodec": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::VideoCodec", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h", 
+        "media/mojo/mojom/video_transformation_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/audio_codecs.h", 
+        "media/base/buffering_state.h", 
+        "media/base/channel_layout.h", 
+        "media/base/container_names.h", 
+        "media/base/decode_status.h", 
+        "media/base/decrypt_config.h", 
+        "media/base/encryption_pattern.h", 
+        "media/base/encryption_scheme.h", 
+        "media/base/hdr_metadata.h", 
+        "media/base/media_log_record.h", 
+        "media/base/media_status.h", 
+        "media/base/output_device_info.h", 
+        "media/base/pipeline_status.h", 
+        "media/base/sample_format.h", 
+        "media/base/subsample_entry.h", 
+        "media/base/video_codecs.h", 
+        "media/base/video_transformation.h", 
+        "media/base/video_types.h", 
+        "media/base/waiting.h", 
+        "media/base/watch_time_keys.h"
+      ]
+    }, 
+    "gfx.mojom.Vector2dF": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::gfx::Vector2dF", 
+      "traits_headers": [
+        "ui/gfx/geometry/mojom/geometry_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/geometry/point.h", 
+        "ui/gfx/geometry/point_f.h", 
+        "ui/gfx/geometry/point3_f.h", 
+        "ui/gfx/geometry/size.h", 
+        "ui/gfx/geometry/rect.h", 
+        "ui/gfx/geometry/rect_f.h", 
+        "ui/gfx/geometry/safe_integer_conversions.h", 
+        "ui/gfx/geometry/scroll_offset.h", 
+        "ui/gfx/geometry/insets.h", 
+        "ui/gfx/geometry/quaternion.h", 
+        "ui/gfx/geometry/vector2d.h", 
+        "ui/gfx/geometry/vector2d_f.h", 
+        "ui/gfx/geometry/vector3d_f.h"
+      ]
+    }, 
+    "gfx.mojom.BufferUsageAndFormat": {
+      "hashable": false, 
+      "typename": "::gfx::BufferUsageAndFormat", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "ui/gfx/mojom/buffer_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/buffer_types.h", 
+        "ui/gfx/gpu_memory_buffer.h", 
+        "ui/gfx/native_pixmap_handle.h"
+      ]
+    }, 
+    "mojo_base.mojom.String16": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::base::string16", 
+      "traits_headers": [
+        "mojo/public/cpp/base/string16_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/strings/string16.h"
+      ]
+    }, 
+    "media.mojom.SampleFormat": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::SampleFormat", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits_macros.h", 
+        "media/mojo/mojom/video_transformation_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/audio_codecs.h", 
+        "media/base/buffering_state.h", 
+        "media/base/channel_layout.h", 
+        "media/base/container_names.h", 
+        "media/base/decode_status.h", 
+        "media/base/decrypt_config.h", 
+        "media/base/encryption_pattern.h", 
+        "media/base/encryption_scheme.h", 
+        "media/base/hdr_metadata.h", 
+        "media/base/media_log_record.h", 
+        "media/base/media_status.h", 
+        "media/base/output_device_info.h", 
+        "media/base/pipeline_status.h", 
+        "media/base/sample_format.h", 
+        "media/base/subsample_entry.h", 
+        "media/base/video_codecs.h", 
+        "media/base/video_transformation.h", 
+        "media/base/video_types.h", 
+        "media/base/waiting.h", 
+        "media/base/watch_time_keys.h"
+      ]
+    }, 
+    "gfx.mojom.Vector3dF": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::gfx::Vector3dF", 
+      "traits_headers": [
+        "ui/gfx/geometry/mojom/geometry_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/geometry/point.h", 
+        "ui/gfx/geometry/point_f.h", 
+        "ui/gfx/geometry/point3_f.h", 
+        "ui/gfx/geometry/size.h", 
+        "ui/gfx/geometry/rect.h", 
+        "ui/gfx/geometry/rect_f.h", 
+        "ui/gfx/geometry/safe_integer_conversions.h", 
+        "ui/gfx/geometry/scroll_offset.h", 
+        "ui/gfx/geometry/insets.h", 
+        "ui/gfx/geometry/quaternion.h", 
+        "ui/gfx/geometry/vector2d.h", 
+        "ui/gfx/geometry/vector2d_f.h", 
+        "ui/gfx/geometry/vector3d_f.h"
+      ]
+    }, 
+    "media.mojom.VideoColorSpace.MatrixID": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::VideoColorSpace::MatrixID", 
+      "traits_headers": [
+        "media/mojo/mojom/video_color_space_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/video_color_space.h", 
+        "ui/gfx/color_space.h"
+      ]
+    }
+  }
+}

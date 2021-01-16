@@ -1,0 +1,4 @@
+../../components/background_task_scheduler/android/javatests/src/org/chromium/components/background_task_scheduler/BackgroundTaskSchedulerImplWithMockTest.java
+../../components/background_task_scheduler/android/javatests/src/org/chromium/components/background_task_scheduler/BackgroundTaskSchedulerJobServiceTest.java
+../../components/background_task_scheduler/android/javatests/src/org/chromium/components/background_task_scheduler/BundleToPersistableBundleConverterTest.java
+../../components/background_task_scheduler/android/javatests/src/org/chromium/components/background_task_scheduler/MockBackgroundTaskSchedulerDelegate.java

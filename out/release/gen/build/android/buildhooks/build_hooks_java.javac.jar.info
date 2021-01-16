@@ -1,0 +1,2 @@
+org.chromium.build.BuildHooks,../../build/android/buildhooks/java/org/chromium/build/BuildHooks.java
+org.chromium.build.BuildHooksConfig,gen/build/android/buildhooks/base_build_hooks_config.srcjar/org/chromium/build/BuildHooksConfig.java

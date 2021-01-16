@@ -1,0 +1,8 @@
+defines = -DUSE_UDEV -DUSE_AURA=1 -DUSE_GLIB=1 -DUSE_NSS_CERTS=1 -DUSE_X11=1 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -DCR_CLANG_REVISION=\"n340759-eaabaf7e-1\" -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D_FORTIFY_SOURCE=2 -D_LIBCPP_ABI_UNSTABLE -D_LIBCPP_DISABLE_VISIBILITY_ANNOTATIONS -D_LIBCXXABI_DISABLE_VISIBILITY_ANNOTATIONS -D_LIBCPP_ENABLE_NODISCARD -DCR_LIBCXX_REVISION=375504 -DCR_SYSROOT_HASH=9c905c99558f10e19cc878b5dca1d4bd58c607ae -DNDEBUG -DNVALGRIND -DDYNAMIC_ANNOTATIONS_ENABLED=0 -DGLIB_VERSION_MAX_ALLOWED=GLIB_VERSION_2_40 -DGLIB_VERSION_MIN_REQUIRED=GLIB_VERSION_2_40
+include_dirs = -I../.. -Iclang_x64/gen -I../../third_party/boringssl/src/include
+label_name = traffic_annotation
+target_out_dir = clang_x64/obj/net/traffic_annotation
+target_output_name = traffic_annotation
+
+
+build clang_x64/obj/net/traffic_annotation/traffic_annotation.stamp: clang_x64_stamp || clang_x64/obj/base/libbase.a clang_x64/obj/base/libbase_static.a clang_x64/obj/base/numerics/base_numerics.stamp clang_x64/obj/third_party/boringssl/libboringssl.a clang_x64/obj/third_party/boringssl/boringssl_asm.stamp clang_x64/obj/third_party/boringssl/src/third_party/fiat/fiat_license.stamp clang_x64/obj/base/allocator/tcmalloc.stamp clang_x64/obj/base/third_party/dynamic_annotations/libdynamic_annotations.a clang_x64/obj/base/third_party/double_conversion/libdouble_conversion.a clang_x64/obj/third_party/modp_b64/libmodp_b64.a clang_x64/obj/base/third_party/symbolize/libsymbolize.a clang_x64/obj/base/third_party/xdg_mime/libxdg_mime.a clang_x64/obj/base/third_party/xdg_user_dirs/libxdg_user_dirs.a clang_x64/obj/base/third_party/libevent/libevent.a

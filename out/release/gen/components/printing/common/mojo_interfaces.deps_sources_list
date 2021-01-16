@@ -1,0 +1,3 @@
+gen/components/printing/common/mojo_interfaces.sources_list
+gen/mojo/public/mojom/base/base.sources_list
+gen/ui/gfx/geometry/mojom/mojom.sources_list

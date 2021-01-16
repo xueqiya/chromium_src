@@ -1,0 +1,3 @@
+../../android_webview/java/src/org/chromium/android_webview/common/MetricsLogUploaderAdapter.java
+../../android_webview/java/src/org/chromium/android_webview/common/PlatformServiceBridge.java
+../../android_webview/java/src/org/chromium/android_webview/common/PlatformServiceBridgeImpl.java

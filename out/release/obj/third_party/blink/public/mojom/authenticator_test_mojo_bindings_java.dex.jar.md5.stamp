@@ -1,0 +1,313 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "7b275225f04f63b269f1c0905da94d14", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/third_party/blink/public/mojom/authenticator_test_mojo_bindings_java.jar", 
+      "tag": "68ac98e76978bd8d1339337bb573c036", 
+      "entries": [
+        {
+          "path": "org/chromium/blink/test/mojom/ClientToAuthenticatorProtocol.class", 
+          "tag": 1115472882
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/RegisteredKey.class", 
+          "tag": 1332193097
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator$AddRegistrationResponse.class", 
+          "tag": 2503563426
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator$ClearRegistrationsResponse.class", 
+          "tag": 3832616486
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator$GetRegistrationsResponse.class", 
+          "tag": 3662574106
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator$GetUniqueIdResponse.class", 
+          "tag": 3367843756
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator$Proxy.class", 
+          "tag": 1424454955
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator$RemoveRegistrationResponse.class", 
+          "tag": 706840573
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator$SetUserVerifiedResponse.class", 
+          "tag": 66014921
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator.class", 
+          "tag": 2939299875
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticatorManager$ClearAuthenticatorsResponse.class", 
+          "tag": 3720613984
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticatorManager$CreateAuthenticatorResponse.class", 
+          "tag": 4259272399
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticatorManager$GetAuthenticatorsResponse.class", 
+          "tag": 3348239862
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticatorManager$Proxy.class", 
+          "tag": 3443338377
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticatorManager$RemoveAuthenticatorResponse.class", 
+          "tag": 2375323966
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticatorManager.class", 
+          "tag": 3051918559
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticatorManager_Internal$1.class", 
+          "tag": 3175303373
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticatorManager_Internal$Proxy.class", 
+          "tag": 4175774814
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticatorManager_Internal$Stub.class", 
+          "tag": 2537712094
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticatorManager_Internal$VirtualAuthenticatorManagerClearAuthenticatorsParams.class", 
+          "tag": 449876586
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticatorManager_Internal$VirtualAuthenticatorManagerClearAuthenticatorsResponseParams.class", 
+          "tag": 2520063703
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticatorManager_Internal$VirtualAuthenticatorManagerClearAuthenticatorsResponseParamsForwardToCallback.class", 
+          "tag": 4256046573
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticatorManager_Internal$VirtualAuthenticatorManagerClearAuthenticatorsResponseParamsProxyToResponder.class", 
+          "tag": 2101894109
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticatorManager_Internal$VirtualAuthenticatorManagerCreateAuthenticatorParams.class", 
+          "tag": 63631819
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticatorManager_Internal$VirtualAuthenticatorManagerCreateAuthenticatorResponseParams.class", 
+          "tag": 1677486183
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticatorManager_Internal$VirtualAuthenticatorManagerCreateAuthenticatorResponseParamsForwardToCallback.class", 
+          "tag": 3223722832
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticatorManager_Internal$VirtualAuthenticatorManagerCreateAuthenticatorResponseParamsProxyToResponder.class", 
+          "tag": 3447023192
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticatorManager_Internal$VirtualAuthenticatorManagerGetAuthenticatorsParams.class", 
+          "tag": 1351980218
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticatorManager_Internal$VirtualAuthenticatorManagerGetAuthenticatorsResponseParams.class", 
+          "tag": 4022419941
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticatorManager_Internal$VirtualAuthenticatorManagerGetAuthenticatorsResponseParamsForwardToCallback.class", 
+          "tag": 1408069488
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticatorManager_Internal$VirtualAuthenticatorManagerGetAuthenticatorsResponseParamsProxyToResponder.class", 
+          "tag": 3207089224
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticatorManager_Internal$VirtualAuthenticatorManagerRemoveAuthenticatorParams.class", 
+          "tag": 4152144894
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticatorManager_Internal$VirtualAuthenticatorManagerRemoveAuthenticatorResponseParams.class", 
+          "tag": 4074644350
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticatorManager_Internal$VirtualAuthenticatorManagerRemoveAuthenticatorResponseParamsForwardToCallback.class", 
+          "tag": 198059524
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticatorManager_Internal$VirtualAuthenticatorManagerRemoveAuthenticatorResponseParamsProxyToResponder.class", 
+          "tag": 2069740370
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticatorManager_Internal.class", 
+          "tag": 2460823915
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticatorOptions.class", 
+          "tag": 253386133
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator_Internal$1.class", 
+          "tag": 968853310
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator_Internal$Proxy.class", 
+          "tag": 3788895027
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator_Internal$Stub.class", 
+          "tag": 1491508491
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator_Internal$VirtualAuthenticatorAddRegistrationParams.class", 
+          "tag": 2373982546
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator_Internal$VirtualAuthenticatorAddRegistrationResponseParams.class", 
+          "tag": 1118554700
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator_Internal$VirtualAuthenticatorAddRegistrationResponseParamsForwardToCallback.class", 
+          "tag": 237885490
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator_Internal$VirtualAuthenticatorAddRegistrationResponseParamsProxyToResponder.class", 
+          "tag": 1693683067
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator_Internal$VirtualAuthenticatorClearRegistrationsParams.class", 
+          "tag": 2147501509
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator_Internal$VirtualAuthenticatorClearRegistrationsResponseParams.class", 
+          "tag": 297658367
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator_Internal$VirtualAuthenticatorClearRegistrationsResponseParamsForwardToCallback.class", 
+          "tag": 3157062742
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator_Internal$VirtualAuthenticatorClearRegistrationsResponseParamsProxyToResponder.class", 
+          "tag": 2372193277
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator_Internal$VirtualAuthenticatorGetRegistrationsParams.class", 
+          "tag": 2624603303
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator_Internal$VirtualAuthenticatorGetRegistrationsResponseParams.class", 
+          "tag": 3663632795
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator_Internal$VirtualAuthenticatorGetRegistrationsResponseParamsForwardToCallback.class", 
+          "tag": 3317853559
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator_Internal$VirtualAuthenticatorGetRegistrationsResponseParamsProxyToResponder.class", 
+          "tag": 2195179640
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator_Internal$VirtualAuthenticatorGetUniqueIdParams.class", 
+          "tag": 737666174
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator_Internal$VirtualAuthenticatorGetUniqueIdResponseParams.class", 
+          "tag": 755374675
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator_Internal$VirtualAuthenticatorGetUniqueIdResponseParamsForwardToCallback.class", 
+          "tag": 1567880021
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator_Internal$VirtualAuthenticatorGetUniqueIdResponseParamsProxyToResponder.class", 
+          "tag": 555158323
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator_Internal$VirtualAuthenticatorRemoveRegistrationParams.class", 
+          "tag": 2320445458
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator_Internal$VirtualAuthenticatorRemoveRegistrationResponseParams.class", 
+          "tag": 1945335251
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator_Internal$VirtualAuthenticatorRemoveRegistrationResponseParamsForwardToCallback.class", 
+          "tag": 950133896
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator_Internal$VirtualAuthenticatorRemoveRegistrationResponseParamsProxyToResponder.class", 
+          "tag": 2237668442
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator_Internal$VirtualAuthenticatorSetUserVerifiedParams.class", 
+          "tag": 625499401
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator_Internal$VirtualAuthenticatorSetUserVerifiedResponseParams.class", 
+          "tag": 3842465661
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator_Internal$VirtualAuthenticatorSetUserVerifiedResponseParamsForwardToCallback.class", 
+          "tag": 383501564
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator_Internal$VirtualAuthenticatorSetUserVerifiedResponseParamsProxyToResponder.class", 
+          "tag": 2917197521
+        }, 
+        {
+          "path": "org/chromium/blink/test/mojom/VirtualAuthenticator_Internal.class", 
+          "tag": 53482881
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

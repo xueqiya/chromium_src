@@ -1,0 +1,3 @@
+gen/components/services/unzip/public/mojom/mojom.sources_list
+gen/components/services/filesystem/public/mojom/mojom.sources_list
+gen/mojo/public/mojom/base/base.sources_list

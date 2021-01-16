@@ -1,0 +1,68 @@
+{
+  "android": {
+    "sdk_interface_jars": [
+      "lib.java/third_party/android_sdk/android.interface.jar"
+    ],
+    "sdk_jars": [
+      "lib.java/third_party/android_sdk/android.jar"
+    ]
+  },
+  "deps_info": {
+    "base_whitelist_rtxt_path": "",
+    "deps_configs": [
+      "gen/build/android/buildhooks/build_hooks_android_java.build_config",
+      "gen/third_party/android_sdk/android_sdk_java.build_config"
+    ],
+    "dex_path": "obj/build/android/buildhooks/build_hooks_android_impl_java.dex.jar",
+    "extra_main_r_text_files": [],
+    "gradle_treat_as_prebuilt": null,
+    "interface_jar_path": "lib.java/build/android/buildhooks/build_hooks_android_impl_java.interface.jar",
+    "is_prebuilt": false,
+    "jar_path": "lib.java/build/android/buildhooks/build_hooks_android_impl_java.jar",
+    "java_sources_file": "gen/build/android/buildhooks/build_hooks_android_impl_java.sources",
+    "javac_full_classpath": [
+      "gen/build/android/buildhooks/build_hooks_android_java.javac.jar"
+    ],
+    "javac_full_interface_classpath": [
+      "lib.java/build/android/buildhooks/build_hooks_android_java.interface.jar"
+    ],
+    "jni": {
+      "all_source": [
+        "gen/build/android/buildhooks/build_hooks_android_impl_java.sources",
+        "gen/build/android/buildhooks/build_hooks_android_java.sources"
+      ]
+    },
+    "module_pathmap_path": "",
+    "name": "build_hooks_android_impl_java.build_config",
+    "owned_resource_srcjars": [],
+    "owned_resources_dirs": [],
+    "owned_resources_zips": [],
+    "path": "gen/build/android/buildhooks/build_hooks_android_impl_java.build_config",
+    "proguard_configs": [],
+    "requires_android": true,
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "supports_android": true,
+    "type": "java_library",
+    "unprocessed_jar_path": "gen/build/android/buildhooks/build_hooks_android_impl_java.javac.jar"
+  },
+  "gradle": {
+    "bundled_srcjars": [],
+    "dependent_android_projects": [
+      "gen/build/android/buildhooks/build_hooks_android_java.build_config"
+    ],
+    "dependent_java_projects": [],
+    "dependent_prebuilt_jars": []
+  },
+  "javac": {
+    "classpath": [
+      "gen/build/android/buildhooks/build_hooks_android_java.javac.jar"
+    ],
+    "interface_classpath": [
+      "lib.java/build/android/buildhooks/build_hooks_android_java.interface.jar"
+    ],
+    "processor_classes": [],
+    "processor_classpath": [],
+    "resource_packages": []
+  }
+}

@@ -1,0 +1,1786 @@
+{
+  "c++": {
+    "blink.mojom.SerializedBlob": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::scoped_refptr<::blink::BlobDataHandle>", 
+      "traits_headers": [
+        "third_party/blink/renderer/platform/blob/serialized_blob_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": true, 
+      "public_headers": [
+        "third_party/blink/renderer/platform/blob/blob_data.h"
+      ]
+    }, 
+    "mojo_base.mojom.Value": {
+      "hashable": false, 
+      "typename": "::base::Value", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "mojo/public/cpp/base/values_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": true, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/values.h"
+      ]
+    }, 
+    "viz.mojom.SurfaceId": {
+      "hashable": false, 
+      "typename": "::viz::SurfaceId", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "services/viz/public/cpp/compositing/surface_id_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "components/viz/common/surfaces/surface_id.h"
+      ]
+    }, 
+    "network.mojom.MutableNetworkTrafficAnnotationTag": {
+      "hashable": false, 
+      "typename": "::net::MutableNetworkTrafficAnnotationTag", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "services/network/public/cpp/mutable_network_traffic_annotation_tag_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "net/traffic_annotation/network_traffic_annotation.h"
+      ]
+    }, 
+    "cc.mojom.TouchAction": {
+      "hashable": false, 
+      "typename": "::cc::TouchAction", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "cc/ipc/cc_param_traits_macros.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "cc/input/touch_action.h"
+      ]
+    }, 
+    "gfx.mojom.Quaternion": {
+      "hashable": false, 
+      "typename": "::gfx::Quaternion", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "third_party/blink/renderer/platform/mojo/geometry_mojom_traits.h", 
+        "ui/gfx/geometry/mojom/geometry_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/geometry/quaternion.h", 
+        "ui/gfx/geometry/vector3d_f.h", 
+        "third_party/blink/public/platform/web_float_rect.h", 
+        "third_party/blink/public/platform/web_rect.h", 
+        "third_party/blink/public/platform/web_size.h", 
+        "third_party/blink/renderer/platform/geometry/float_point_3d.h"
+      ]
+    }, 
+    "network.mojom.URLRequest": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::network::ResourceRequest", 
+      "traits_headers": [
+        "services/network/public/cpp/network_ipc_param_traits.h", 
+        "services/network/public/cpp/url_request_mojom_traits.h", 
+        "services/network/public/cpp/network_isolation_key_mojom_traits.h", 
+        "url/mojom/origin_mojom_traits.h", 
+        "url/mojom/url_gurl_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/memory/scoped_refptr.h", 
+        "services/network/public/cpp/data_element.h", 
+        "services/network/public/cpp/resource_request.h", 
+        "services/network/public/cpp/resource_request_body.h"
+      ]
+    }, 
+    "blink.mojom.TrackControls": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::blink::TrackControls", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits.h", 
+        "media/capture/mojom/video_capture_types_mojom_traits.h", 
+        "third_party/blink/public/common/mediastream/media_stream_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "third_party/blink/public/common/mediastream/media_stream_controls.h", 
+        "third_party/blink/public/common/mediastream/media_stream_request.h", 
+        "third_party/blink/public/common/common_export.h"
+      ]
+    }, 
+    "viz.mojom.BeginFrameAck": {
+      "hashable": false, 
+      "typename": "::viz::BeginFrameAck", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "services/viz/public/cpp/compositing/begin_frame_args_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "components/viz/common/frame_sinks/begin_frame_args.h"
+      ]
+    }, 
+    "gfx.mojom.BufferFormat": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "gfx::BufferFormat", 
+      "traits_headers": [
+        "ui/gfx/mojom/buffer_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/buffer_types.h", 
+        "ui/gfx/gpu_memory_buffer.h", 
+        "ui/gfx/native_pixmap_handle.h"
+      ]
+    }, 
+    "network.mojom.HttpRequestHeaders": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::net::HttpRequestHeaders", 
+      "traits_headers": [
+        "services/network/public/cpp/http_request_headers_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "net/http/http_request_headers.h"
+      ]
+    }, 
+    "url.mojom.Origin": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::scoped_refptr<const ::blink::SecurityOrigin>", 
+      "traits_headers": [
+        "third_party/blink/renderer/platform/mojo/security_origin_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": true, 
+      "public_headers": [
+        "third_party/blink/renderer/platform/weborigin/security_origin.h"
+      ]
+    }, 
+    "gpu.mojom.SyncToken": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::gpu::SyncToken", 
+      "traits_headers": [
+        "gpu/ipc/common/sync_token_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/command_buffer/common/sync_token.h"
+      ]
+    }, 
+    "network.mojom.CanonicalCookie": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::blink::CanonicalCookie", 
+      "traits_headers": [
+        "third_party/blink/renderer/platform/cookie/canonical_cookie_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "third_party/blink/renderer/platform/cookie/canonical_cookie.h"
+      ]
+    }, 
+    "mojo_base.mojom.WritableSharedMemoryRegion": {
+      "hashable": false, 
+      "typename": "::base::WritableSharedMemoryRegion", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "mojo/public/cpp/base/shared_memory_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": true, 
+      "nullable_is_same_type": true, 
+      "public_headers": [
+        "base/memory/platform_shared_memory_region.h", 
+        "base/memory/read_only_shared_memory_region.h", 
+        "base/memory/unsafe_shared_memory_region.h", 
+        "base/memory/writable_shared_memory_region.h"
+      ]
+    }, 
+    "media.mojom.VideoCaptureFrameDropReason": {
+      "hashable": false, 
+      "typename": "::media::VideoCaptureFrameDropReason", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "media/capture/mojom/video_capture_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/capture/video_capture_types.h", 
+        "media/capture/video/video_capture_device_descriptor.h", 
+        "media/capture/video/video_capture_device_info.h"
+      ]
+    }, 
+    "media.mojom.VideoFacingMode": {
+      "hashable": false, 
+      "typename": "::media::VideoFacingMode", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "media/capture/mojom/video_capture_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/capture/video_capture_types.h", 
+        "media/capture/video/video_capture_device_descriptor.h", 
+        "media/capture/video/video_capture_device_info.h"
+      ]
+    }, 
+    "viz.mojom.FrameSinkId": {
+      "hashable": false, 
+      "typename": "::viz::FrameSinkId", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "services/viz/public/cpp/compositing/frame_sink_id_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "components/viz/common/surfaces/frame_sink_id.h"
+      ]
+    }, 
+    "network.mojom.P2PSocketType": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::network::P2PSocketType", 
+      "traits_headers": [
+        "services/network/public/cpp/p2p_param_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "services/network/public/cpp/p2p_socket_type.h"
+      ]
+    }, 
+    "gfx.mojom.RectF": {
+      "hashable": false, 
+      "typename": "::blink::WebFloatRect", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "third_party/blink/renderer/platform/mojo/geometry_mojom_traits.h", 
+        "ui/gfx/geometry/mojom/geometry_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/geometry/quaternion.h", 
+        "ui/gfx/geometry/vector3d_f.h", 
+        "third_party/blink/public/platform/web_float_rect.h", 
+        "third_party/blink/public/platform/web_rect.h", 
+        "third_party/blink/public/platform/web_size.h", 
+        "third_party/blink/renderer/platform/geometry/float_point_3d.h"
+      ]
+    }, 
+    "gfx.mojom.GpuFenceHandle": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::gfx::GpuFenceHandle", 
+      "traits_headers": [
+        "ui/gfx/mojom/gpu_fence_handle_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/gpu_fence_handle.h"
+      ]
+    }, 
+    "gfx.mojom.Point3F": {
+      "hashable": false, 
+      "typename": "::gfx::Point3F", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "third_party/blink/renderer/platform/mojo/geometry_mojom_traits.h", 
+        "ui/gfx/geometry/mojom/geometry_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/geometry/quaternion.h", 
+        "ui/gfx/geometry/vector3d_f.h", 
+        "third_party/blink/public/platform/web_float_rect.h", 
+        "third_party/blink/public/platform/web_rect.h", 
+        "third_party/blink/public/platform/web_size.h", 
+        "third_party/blink/renderer/platform/geometry/float_point_3d.h"
+      ]
+    }, 
+    "mojo_base.mojom.ReadOnlyBuffer": {
+      "hashable": false, 
+      "typename": "::base::span<const ::uint8_t>", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": true, 
+      "traits_headers": [
+        "mojo/public/cpp/base/read_only_buffer_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": true, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/containers/span.h"
+      ]
+    }, 
+    "mojo_base.mojom.TimeDelta": {
+      "hashable": false, 
+      "typename": "::base::TimeDelta", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "mojo/public/cpp/base/time_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": true, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/time/time.h"
+      ]
+    }, 
+    "mojo_base.mojom.FilePath": {
+      "hashable": false, 
+      "typename": "::base::FilePath", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "mojo/public/cpp/base/file_path_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/files/file_path.h"
+      ]
+    }, 
+    "network.mojom.TrustedUrlRequestParams": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::network::ResourceRequest::TrustedParams", 
+      "traits_headers": [
+        "services/network/public/cpp/network_ipc_param_traits.h", 
+        "services/network/public/cpp/url_request_mojom_traits.h", 
+        "services/network/public/cpp/network_isolation_key_mojom_traits.h", 
+        "url/mojom/origin_mojom_traits.h", 
+        "url/mojom/url_gurl_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/memory/scoped_refptr.h", 
+        "services/network/public/cpp/data_element.h", 
+        "services/network/public/cpp/resource_request.h", 
+        "services/network/public/cpp/resource_request_body.h"
+      ]
+    }, 
+    "gfx.mojom.Rect": {
+      "hashable": false, 
+      "typename": "::blink::WebRect", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "third_party/blink/renderer/platform/mojo/geometry_mojom_traits.h", 
+        "ui/gfx/geometry/mojom/geometry_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/geometry/quaternion.h", 
+        "ui/gfx/geometry/vector3d_f.h", 
+        "third_party/blink/public/platform/web_float_rect.h", 
+        "third_party/blink/public/platform/web_rect.h", 
+        "third_party/blink/public/platform/web_size.h", 
+        "third_party/blink/renderer/platform/geometry/float_point_3d.h"
+      ]
+    }, 
+    "network.mojom.P2PPortRange": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::network::P2PPortRange", 
+      "traits_headers": [
+        "services/network/public/cpp/p2p_param_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "services/network/public/cpp/p2p_socket_type.h"
+      ]
+    }, 
+    "blink.mojom.TransferableMessage": {
+      "hashable": false, 
+      "typename": "::blink::BlinkTransferableMessage", 
+      "traits_headers": [
+        "third_party/blink/renderer/core/messaging/blink_transferable_message_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "force_serialize": false, 
+      "move_only": true, 
+      "nullable_is_same_type": false, 
+      "non_copyable_non_movable": false, 
+      "public_headers": [
+        "third_party/blink/renderer/core/messaging/blink_transferable_message.h"
+      ]
+    }, 
+    "media.mojom.VideoCaptureError": {
+      "hashable": false, 
+      "typename": "::media::VideoCaptureError", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "media/capture/mojom/video_capture_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/capture/video_capture_types.h", 
+        "media/capture/video/video_capture_device_descriptor.h", 
+        "media/capture/video/video_capture_device_info.h"
+      ]
+    }, 
+    "mojo_base.mojom.ReadOnlySharedMemoryRegion": {
+      "hashable": false, 
+      "typename": "::base::ReadOnlySharedMemoryRegion", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "mojo/public/cpp/base/shared_memory_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": true, 
+      "nullable_is_same_type": true, 
+      "public_headers": [
+        "base/memory/platform_shared_memory_region.h", 
+        "base/memory/read_only_shared_memory_region.h", 
+        "base/memory/unsafe_shared_memory_region.h", 
+        "base/memory/writable_shared_memory_region.h"
+      ]
+    }, 
+    "viz.mojom.ReturnedResourceArray": {
+      "hashable": false, 
+      "typename": "::viz::ReturnedResourceArray", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "services/viz/public/cpp/compositing/returned_resource_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "components/viz/common/resources/returned_resource.h"
+      ]
+    }, 
+    "skia.mojom.BlurTileMode": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::SkBlurImageFilter::TileMode", 
+      "traits_headers": [
+        "skia/public/mojom/blur_image_filter_tile_mode_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "third_party/skia/include/effects/SkBlurImageFilter.h"
+      ]
+    }, 
+    "mojo_base.mojom.PlatformSharedMemoryRegion": {
+      "hashable": false, 
+      "typename": "::base::subtle::PlatformSharedMemoryRegion", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "mojo/public/cpp/base/shared_memory_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": true, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/memory/platform_shared_memory_region.h", 
+        "base/memory/read_only_shared_memory_region.h", 
+        "base/memory/unsafe_shared_memory_region.h", 
+        "base/memory/writable_shared_memory_region.h"
+      ]
+    }, 
+    "mojo_base.mojom.PlatformSharedMemoryHandle": {
+      "hashable": false, 
+      "typename": "::base::subtle::PlatformSharedMemoryRegion::ScopedPlatformHandle", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "mojo/public/cpp/base/shared_memory_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": true, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/memory/platform_shared_memory_region.h", 
+        "base/memory/read_only_shared_memory_region.h", 
+        "base/memory/unsafe_shared_memory_region.h", 
+        "base/memory/writable_shared_memory_region.h"
+      ]
+    }, 
+    "mojo_base.mojom.UnguessableToken": {
+      "hashable": false, 
+      "typename": "::base::UnguessableToken", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "mojo/public/cpp/base/unguessable_token_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/unguessable_token.h"
+      ]
+    }, 
+    "blink.mojom.SerializedArrayBufferContents": {
+      "hashable": false, 
+      "typename": "::blink::ArrayBufferContents", 
+      "traits_headers": [
+        "third_party/blink/renderer/core/messaging/blink_transferable_message_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "force_serialize": false, 
+      "move_only": true, 
+      "nullable_is_same_type": false, 
+      "non_copyable_non_movable": false, 
+      "public_headers": [
+        "third_party/blink/renderer/core/messaging/blink_transferable_message.h"
+      ]
+    }, 
+    "network.mojom.DataElement": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::network::DataElement", 
+      "traits_headers": [
+        "services/network/public/cpp/network_ipc_param_traits.h", 
+        "services/network/public/cpp/url_request_mojom_traits.h", 
+        "services/network/public/cpp/network_isolation_key_mojom_traits.h", 
+        "url/mojom/origin_mojom_traits.h", 
+        "url/mojom/url_gurl_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": true, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/memory/scoped_refptr.h", 
+        "services/network/public/cpp/data_element.h", 
+        "services/network/public/cpp/resource_request.h", 
+        "services/network/public/cpp/resource_request_body.h"
+      ]
+    }, 
+    "mojo_base.mojom.PlatformSharedMemoryRegion.Mode": {
+      "hashable": false, 
+      "typename": "::base::subtle::PlatformSharedMemoryRegion::Mode", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "mojo/public/cpp/base/shared_memory_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/memory/platform_shared_memory_region.h", 
+        "base/memory/read_only_shared_memory_region.h", 
+        "base/memory/unsafe_shared_memory_region.h", 
+        "base/memory/writable_shared_memory_region.h"
+      ]
+    }, 
+    "gfx.mojom.Size": {
+      "hashable": false, 
+      "typename": "::blink::WebSize", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "third_party/blink/renderer/platform/mojo/geometry_mojom_traits.h", 
+        "ui/gfx/geometry/mojom/geometry_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/geometry/quaternion.h", 
+        "ui/gfx/geometry/vector3d_f.h", 
+        "third_party/blink/public/platform/web_float_rect.h", 
+        "third_party/blink/public/platform/web_rect.h", 
+        "third_party/blink/public/platform/web_size.h", 
+        "third_party/blink/renderer/platform/geometry/float_point_3d.h"
+      ]
+    }, 
+    "media.mojom.VideoCaptureDeviceDescriptor": {
+      "hashable": false, 
+      "typename": "::media::VideoCaptureDeviceDescriptor", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "media/capture/mojom/video_capture_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/capture/video_capture_types.h", 
+        "media/capture/video/video_capture_device_descriptor.h", 
+        "media/capture/video/video_capture_device_info.h"
+      ]
+    }, 
+    "gfx.mojom.NativePixmapPlane": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "gfx::NativePixmapPlane", 
+      "traits_headers": [
+        "ui/gfx/mojom/buffer_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": true, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/buffer_types.h", 
+        "ui/gfx/gpu_memory_buffer.h", 
+        "ui/gfx/native_pixmap_handle.h"
+      ]
+    }, 
+    "network.mojom.P2PPacketInfo": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::network::P2PPacketInfo", 
+      "traits_headers": [
+        "services/network/public/cpp/p2p_param_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "services/network/public/cpp/p2p_socket_type.h"
+      ]
+    }, 
+    "viz.mojom.LocalSurfaceId": {
+      "hashable": false, 
+      "typename": "::viz::LocalSurfaceId", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "services/viz/public/cpp/compositing/local_surface_id_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "components/viz/common/surfaces/local_surface_id.h"
+      ]
+    }, 
+    "gfx.mojom.GpuMemoryBufferId": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "gfx::GpuMemoryBufferId", 
+      "traits_headers": [
+        "ui/gfx/mojom/buffer_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": true, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/buffer_types.h", 
+        "ui/gfx/gpu_memory_buffer.h", 
+        "ui/gfx/native_pixmap_handle.h"
+      ]
+    }, 
+    "mojo_base.mojom.FileError": {
+      "hashable": false, 
+      "typename": "::base::File::Error", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "mojo/public/cpp/base/file_error_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/files/file.h"
+      ]
+    }, 
+    "media.mojom.VideoCaptureParams": {
+      "hashable": false, 
+      "typename": "::media::VideoCaptureParams", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "media/capture/mojom/video_capture_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/capture/video_capture_types.h", 
+        "media/capture/video/video_capture_device_descriptor.h", 
+        "media/capture/video/video_capture_device_info.h"
+      ]
+    }, 
+    "network.mojom.URLRequestBody": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::scoped_refptr<::network::ResourceRequestBody>", 
+      "traits_headers": [
+        "services/network/public/cpp/network_ipc_param_traits.h", 
+        "services/network/public/cpp/url_request_mojom_traits.h", 
+        "services/network/public/cpp/network_isolation_key_mojom_traits.h", 
+        "url/mojom/origin_mojom_traits.h", 
+        "url/mojom/url_gurl_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": true, 
+      "move_only": false, 
+      "nullable_is_same_type": true, 
+      "public_headers": [
+        "base/memory/scoped_refptr.h", 
+        "services/network/public/cpp/data_element.h", 
+        "services/network/public/cpp/resource_request.h", 
+        "services/network/public/cpp/resource_request_body.h"
+      ]
+    }, 
+    "blink.mojom.StreamControls": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::blink::StreamControls", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits.h", 
+        "media/capture/mojom/video_capture_types_mojom_traits.h", 
+        "third_party/blink/public/common/mediastream/media_stream_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "third_party/blink/public/common/mediastream/media_stream_controls.h", 
+        "third_party/blink/public/common/mediastream/media_stream_request.h", 
+        "third_party/blink/public/common/common_export.h"
+      ]
+    }, 
+    "mojo_base.mojom.File": {
+      "hashable": false, 
+      "typename": "::base::File", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "mojo/public/cpp/base/file_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": true, 
+      "nullable_is_same_type": true, 
+      "public_headers": [
+        "base/files/file.h"
+      ]
+    }, 
+    "viz.mojom.BeginFrameArgs": {
+      "hashable": false, 
+      "typename": "::viz::BeginFrameArgs", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "services/viz/public/cpp/compositing/begin_frame_args_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "components/viz/common/frame_sinks/begin_frame_args.h"
+      ]
+    }, 
+    "viz.mojom.ReturnedResource": {
+      "hashable": false, 
+      "typename": "::viz::ReturnedResource", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "services/viz/public/cpp/compositing/returned_resource_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "components/viz/common/resources/returned_resource.h"
+      ]
+    }, 
+    "skia.mojom.Bitmap": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::SkBitmap", 
+      "traits_headers": [
+        "skia/public/mojom/bitmap_skbitmap_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": true, 
+      "public_headers": [
+        "third_party/skia/include/core/SkBitmap.h"
+      ]
+    }, 
+    "gfx.mojom.BufferUsage": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "gfx::BufferUsage", 
+      "traits_headers": [
+        "ui/gfx/mojom/buffer_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/buffer_types.h", 
+        "ui/gfx/gpu_memory_buffer.h", 
+        "ui/gfx/native_pixmap_handle.h"
+      ]
+    }, 
+    "gfx.mojom.NativePixmapHandle": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "gfx::NativePixmapHandle", 
+      "traits_headers": [
+        "ui/gfx/mojom/buffer_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": true, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/buffer_types.h", 
+        "ui/gfx/gpu_memory_buffer.h", 
+        "ui/gfx/native_pixmap_handle.h"
+      ]
+    }, 
+    "ui.mojom.ScrollGranularity": {
+      "hashable": false, 
+      "typename": "::ui::input_types::ScrollGranularity", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "ui/events/ipc/ui_events_param_traits_macros.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/events/types/scroll_types.h"
+      ]
+    }, 
+    "mojo_base.mojom.FileInfo": {
+      "hashable": false, 
+      "typename": "::base::File::Info", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "mojo/public/cpp/base/file_info_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/files/file.h"
+      ]
+    }, 
+    "network.mojom.IPAddress": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::net::IPAddress", 
+      "traits_headers": [
+        "services/network/public/cpp/ip_address_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "net/base/ip_address.h"
+      ]
+    }, 
+    "gfx.mojom.Transform": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::gfx::Transform", 
+      "traits_headers": [
+        "ui/gfx/mojom/transform_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/transform.h"
+      ]
+    }, 
+    "viz.mojom.SurfaceInfo": {
+      "hashable": false, 
+      "typename": "::viz::SurfaceInfo", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "services/viz/public/cpp/compositing/surface_info_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "components/viz/common/surfaces/surface_info.h"
+      ]
+    }, 
+    "mojo_base.mojom.GenericPendingReceiver": {
+      "hashable": false, 
+      "typename": "::mojo::GenericPendingReceiver", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "mojo/public/cpp/base/generic_pending_receiver_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": true, 
+      "nullable_is_same_type": true, 
+      "public_headers": [
+        "mojo/public/cpp/bindings/generic_pending_receiver.h"
+      ]
+    }, 
+    "media.mojom.PowerLineFrequency": {
+      "hashable": false, 
+      "typename": "::media::PowerLineFrequency", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "media/capture/mojom/video_capture_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/capture/video_capture_types.h", 
+        "media/capture/video/video_capture_device_descriptor.h", 
+        "media/capture/video/video_capture_device_info.h"
+      ]
+    }, 
+    "network.mojom.IPEndPoint": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::net::IPEndPoint", 
+      "traits_headers": [
+        "services/network/public/cpp/ip_endpoint_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "net/base/ip_endpoint.h"
+      ]
+    }, 
+    "url.mojom.Url": {
+      "hashable": false, 
+      "typename": "::blink::KURL", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": true, 
+      "traits_headers": [
+        "third_party/blink/renderer/platform/mojo/kurl_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "third_party/blink/renderer/platform/weborigin/kurl.h", 
+        "third_party/blink/renderer/platform/weborigin/kurl_hash.h"
+      ]
+    }, 
+    "mojo_base.mojom.BigString": {
+      "hashable": false, 
+      "typename": "::WTF::String", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "third_party/blink/renderer/platform/mojo/big_string_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": true, 
+      "public_headers": [
+        "third_party/blink/renderer/platform/wtf/text/wtf_string.h"
+      ]
+    }, 
+    "network.mojom.RequestPriority": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::net::RequestPriority", 
+      "traits_headers": [
+        "services/network/public/cpp/network_ipc_param_traits.h", 
+        "services/network/public/cpp/url_request_mojom_traits.h", 
+        "services/network/public/cpp/network_isolation_key_mojom_traits.h", 
+        "url/mojom/origin_mojom_traits.h", 
+        "url/mojom/url_gurl_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/memory/scoped_refptr.h", 
+        "services/network/public/cpp/data_element.h", 
+        "services/network/public/cpp/resource_request.h", 
+        "services/network/public/cpp/resource_request_body.h"
+      ]
+    }, 
+    "network.mojom.SiteForCookies": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::net::SiteForCookies", 
+      "traits_headers": [
+        "services/network/public/cpp/site_for_cookies_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "net/cookies/site_for_cookies.h"
+      ]
+    }, 
+    "display.mojom.Rotation": {
+      "hashable": false, 
+      "typename": "::display::Display::Rotation", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "ui/display/mojom/display_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/display/display.h"
+      ]
+    }, 
+    "mojo_base.mojom.TimeTicks": {
+      "hashable": false, 
+      "typename": "::base::TimeTicks", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "mojo/public/cpp/base/time_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": true, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/time/time.h"
+      ]
+    }, 
+    "device.mojom.ScreenOrientationLockType": {
+      "hashable": false, 
+      "typename": "::blink::WebScreenOrientationLockType", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "third_party/blink/public/common/screen_orientation/web_screen_orientation_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "third_party/blink/public/common/screen_orientation/web_screen_orientation_lock_type.h"
+      ]
+    }, 
+    "mojo_base.mojom.ListValue": {
+      "hashable": false, 
+      "typename": "::base::Value", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "mojo/public/cpp/base/values_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": true, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/values.h"
+      ]
+    }, 
+    "mojo_base.mojom.DictionaryValue": {
+      "hashable": false, 
+      "typename": "::base::Value", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "mojo/public/cpp/base/values_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": true, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/values.h"
+      ]
+    }, 
+    "media.mojom.VideoCaptureFormat": {
+      "hashable": false, 
+      "typename": "::media::VideoCaptureFormat", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "media/capture/mojom/video_capture_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/capture/video_capture_types.h", 
+        "media/capture/video/video_capture_device_descriptor.h", 
+        "media/capture/video/video_capture_device_info.h"
+      ]
+    }, 
+    "media.mojom.ResolutionChangePolicy": {
+      "hashable": false, 
+      "typename": "::media::ResolutionChangePolicy", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "media/capture/mojom/video_capture_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/capture/video_capture_types.h", 
+        "media/capture/video/video_capture_device_descriptor.h", 
+        "media/capture/video/video_capture_device_info.h"
+      ]
+    }, 
+    "network.mojom.NetworkInterface": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::net::NetworkInterface", 
+      "traits_headers": [
+        "services/network/public/cpp/network_interface_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "net/base/network_interfaces.h"
+      ]
+    }, 
+    "gfx.mojom.GpuMemoryBufferHandle": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "gfx::GpuMemoryBufferHandle", 
+      "traits_headers": [
+        "ui/gfx/mojom/buffer_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": true, 
+      "nullable_is_same_type": true, 
+      "public_headers": [
+        "ui/gfx/buffer_types.h", 
+        "ui/gfx/gpu_memory_buffer.h", 
+        "ui/gfx/native_pixmap_handle.h"
+      ]
+    }, 
+    "skia.mojom.InlineBitmap": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::SkBitmap", 
+      "traits_headers": [
+        "skia/public/mojom/bitmap_skbitmap_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": true, 
+      "public_headers": [
+        "third_party/skia/include/core/SkBitmap.h"
+      ]
+    }, 
+    "gpu.mojom.MailboxHolder": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::gpu::MailboxHolder", 
+      "traits_headers": [
+        "gpu/ipc/common/mailbox_holder_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "gpu/command_buffer/common/mailbox_holder.h"
+      ]
+    }, 
+    "gfx.mojom.GpuMemoryBufferType": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "gfx::GpuMemoryBufferType", 
+      "traits_headers": [
+        "ui/gfx/mojom/buffer_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/buffer_types.h", 
+        "ui/gfx/gpu_memory_buffer.h", 
+        "ui/gfx/native_pixmap_handle.h"
+      ]
+    }, 
+    "skia.mojom.ImageInfo": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::SkImageInfo", 
+      "traits_headers": [
+        "skia/public/mojom/image_info_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "third_party/skia/include/core/SkImageInfo.h"
+      ]
+    }, 
+    "viz.mojom.CompositorFrame": {
+      "hashable": false, 
+      "typename": "::viz::CompositorFrame", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "gpu/ipc/common/mailbox_holder_mojom_traits.h", 
+        "gpu/ipc/common/mailbox_mojom_traits.h", 
+        "gpu/ipc/common/sync_token_mojom_traits.h", 
+        "ipc/ipc_message_utils.h", 
+        "services/viz/public/cpp/compositing/compositor_frame_mojom_traits.h", 
+        "services/viz/public/cpp/compositing/compositor_frame_metadata_mojom_traits.h", 
+        "services/viz/public/cpp/compositing/filter_operation_mojom_traits.h", 
+        "services/viz/public/cpp/compositing/filter_operations_mojom_traits.h", 
+        "services/viz/public/cpp/compositing/quads_mojom_traits.h", 
+        "services/viz/public/cpp/compositing/render_pass_mojom_traits.h", 
+        "services/viz/public/cpp/compositing/selection_mojom_traits.h", 
+        "services/viz/public/cpp/compositing/shared_quad_state_mojom_traits.h", 
+        "services/viz/public/cpp/compositing/transferable_resource_mojom_traits.h", 
+        "ui/gfx/mojom/selection_bound_mojom_traits.h", 
+        "ui/gfx/mojom/transform_mojom_traits.h", 
+        "ui/latency/mojom/latency_info_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": true, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "components/viz/common/quads/compositor_frame.h"
+      ]
+    }, 
+    "network.mojom.P2PHostAndIPEndPoint": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::network::P2PHostAndIPEndPoint", 
+      "traits_headers": [
+        "services/network/public/cpp/p2p_param_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "services/network/public/cpp/p2p_socket_type.h"
+      ]
+    }, 
+    "gfx.mojom.Point": {
+      "hashable": false, 
+      "typename": "::gfx::Point", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "third_party/blink/renderer/platform/mojo/geometry_mojom_traits.h", 
+        "ui/gfx/geometry/mojom/geometry_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/geometry/quaternion.h", 
+        "ui/gfx/geometry/vector3d_f.h", 
+        "third_party/blink/public/platform/web_float_rect.h", 
+        "third_party/blink/public/platform/web_rect.h", 
+        "third_party/blink/public/platform/web_size.h", 
+        "third_party/blink/renderer/platform/geometry/float_point_3d.h"
+      ]
+    }, 
+    "blink.mojom.FetchAPIDataElement": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::blink::FormDataElement", 
+      "traits_headers": [
+        "third_party/blink/renderer/platform/network/encoded_form_data_element_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": true, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "third_party/blink/renderer/platform/network/encoded_form_data.h"
+      ]
+    }, 
+    "blink.mojom.FacingMode": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::media::VideoFacingMode", 
+      "traits_headers": [
+        "third_party/blink/public/common/mediastream/media_devices_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "third_party/blink/public/common/mediastream/media_devices.h", 
+        "third_party/blink/public/common/common_export.h"
+      ]
+    }, 
+    "network.mojom.P2PSocketOption": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::network::P2PSocketOption", 
+      "traits_headers": [
+        "services/network/public/cpp/p2p_param_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "services/network/public/cpp/p2p_socket_type.h"
+      ]
+    }, 
+    "blink.mojom.CloneableMessage": {
+      "hashable": false, 
+      "typename": "::blink::BlinkCloneableMessage", 
+      "traits_headers": [
+        "third_party/blink/renderer/core/messaging/blink_cloneable_message_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "force_serialize": false, 
+      "move_only": true, 
+      "nullable_is_same_type": false, 
+      "non_copyable_non_movable": false, 
+      "public_headers": [
+        "third_party/blink/renderer/core/messaging/blink_cloneable_message.h"
+      ]
+    }, 
+    "media.mojom.VideoCaptureDeviceInfo": {
+      "hashable": false, 
+      "typename": "::media::VideoCaptureDeviceInfo", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "media/capture/mojom/video_capture_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/capture/video_capture_types.h", 
+        "media/capture/video/video_capture_device_descriptor.h", 
+        "media/capture/video/video_capture_device_info.h"
+      ]
+    }, 
+    "mojo_base.mojom.Time": {
+      "hashable": false, 
+      "typename": "::base::Time", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "mojo/public/cpp/base/time_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": true, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/time/time.h"
+      ]
+    }, 
+    "skia.mojom.SkColor": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::SkColor", 
+      "traits_headers": [
+        "skia/public/mojom/skcolor_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "third_party/skia/include/core/SkColor.h"
+      ]
+    }, 
+    "media.mojom.AudioParameters": {
+      "hashable": false, 
+      "typename": "::media::AudioParameters", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/base/audio_parameters.h"
+      ]
+    }, 
+    "blink.mojom.MessagePortDescriptor": {
+      "hashable": false, 
+      "typename": "::blink::MessagePortDescriptor", 
+      "traits_headers": [
+        "third_party/blink/public/common/messaging/message_port_descriptor_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "force_serialize": false, 
+      "move_only": true, 
+      "nullable_is_same_type": false, 
+      "non_copyable_non_movable": false, 
+      "public_headers": [
+        "third_party/blink/public/common/messaging/message_port_descriptor.h"
+      ]
+    }, 
+    "media.mojom.VideoCapturePixelFormat": {
+      "hashable": false, 
+      "typename": "::media::VideoPixelFormat", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "media/capture/mojom/video_capture_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/capture/video_capture_types.h", 
+        "media/capture/video/video_capture_device_descriptor.h", 
+        "media/capture/video/video_capture_device_info.h"
+      ]
+    }, 
+    "gfx.mojom.ColorSpace": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::gfx::ColorSpace", 
+      "traits_headers": [
+        "ui/gfx/mojom/color_space_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/color_space.h"
+      ]
+    }, 
+    "network.mojom.P2PSendPacketMetrics": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::network::P2PSendPacketMetrics", 
+      "traits_headers": [
+        "services/network/public/cpp/p2p_param_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "services/network/public/cpp/p2p_socket_type.h"
+      ]
+    }, 
+    "gfx.mojom.PointF": {
+      "hashable": false, 
+      "typename": "::gfx::PointF", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "third_party/blink/renderer/platform/mojo/geometry_mojom_traits.h", 
+        "ui/gfx/geometry/mojom/geometry_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/geometry/quaternion.h", 
+        "ui/gfx/geometry/vector3d_f.h", 
+        "third_party/blink/public/platform/web_float_rect.h", 
+        "third_party/blink/public/platform/web_rect.h", 
+        "third_party/blink/public/platform/web_size.h", 
+        "third_party/blink/renderer/platform/geometry/float_point_3d.h"
+      ]
+    }, 
+    "blink.mojom.FetchAPIRequestHeaders": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::WTF::HashMap<::WTF::String, WTF::String, WTF::CaseFoldingHash>", 
+      "traits_headers": [
+        "third_party/blink/renderer/platform/mojo/fetch_api_request_headers_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": true, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "third_party/blink/renderer/platform/wtf/hash_map.h", 
+        "third_party/blink/renderer/platform/wtf/text/string_hash.h", 
+        "third_party/blink/renderer/platform/wtf/text/wtf_string.h"
+      ]
+    }, 
+    "mojo_base.mojom.BigString16": {
+      "hashable": false, 
+      "typename": "::WTF::String", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": true, 
+      "traits_headers": [
+        "third_party/blink/renderer/platform/mojo/string16_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": true, 
+      "public_headers": [
+        "third_party/blink/renderer/platform/wtf/text/wtf_string.h"
+      ]
+    }, 
+    "mojo_base.mojom.UnsafeSharedMemoryRegion": {
+      "hashable": false, 
+      "typename": "::base::UnsafeSharedMemoryRegion", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "mojo/public/cpp/base/shared_memory_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": true, 
+      "nullable_is_same_type": true, 
+      "public_headers": [
+        "base/memory/platform_shared_memory_region.h", 
+        "base/memory/read_only_shared_memory_region.h", 
+        "base/memory/unsafe_shared_memory_region.h", 
+        "base/memory/writable_shared_memory_region.h"
+      ]
+    }, 
+    "blink.mojom.FetchAPIRequestBody": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::scoped_refptr<::blink::EncodedFormData>", 
+      "traits_headers": [
+        "third_party/blink/renderer/platform/network/encoded_form_data_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": true, 
+      "move_only": false, 
+      "nullable_is_same_type": true, 
+      "public_headers": [
+        "third_party/blink/renderer/platform/network/encoded_form_data.h"
+      ]
+    }, 
+    "mojo_base.mojom.BigBuffer": {
+      "hashable": false, 
+      "typename": "::mojo_base::BigBuffer", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "mojo/public/cpp/base/big_buffer_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": true, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "mojo/public/cpp/base/big_buffer.h"
+      ]
+    }, 
+    "blink.mojom.MediaStreamDevice": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::blink::MediaStreamDevice", 
+      "traits_headers": [
+        "media/base/ipc/media_param_traits.h", 
+        "media/capture/mojom/video_capture_types_mojom_traits.h", 
+        "third_party/blink/public/common/mediastream/media_stream_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "third_party/blink/public/common/mediastream/media_stream_controls.h", 
+        "third_party/blink/public/common/mediastream/media_stream_request.h", 
+        "third_party/blink/public/common/common_export.h"
+      ]
+    }, 
+    "mojo_base.mojom.String16": {
+      "hashable": false, 
+      "typename": "::WTF::String", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": true, 
+      "traits_headers": [
+        "third_party/blink/renderer/platform/mojo/string16_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": true, 
+      "public_headers": [
+        "third_party/blink/renderer/platform/wtf/text/wtf_string.h"
+      ]
+    }, 
+    "media.mojom.VideoCaptureBufferType": {
+      "hashable": false, 
+      "typename": "::media::VideoCaptureBufferType", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "media/capture/mojom/video_capture_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "media/capture/video_capture_types.h", 
+        "media/capture/video/video_capture_device_descriptor.h", 
+        "media/capture/video/video_capture_device_info.h"
+      ]
+    }, 
+    "gfx.mojom.Vector3dF": {
+      "hashable": false, 
+      "typename": "::gfx::Vector3dF", 
+      "non_copyable_non_movable": false, 
+      "force_serialize": false, 
+      "traits_headers": [
+        "third_party/blink/renderer/platform/mojo/geometry_mojom_traits.h", 
+        "ui/gfx/geometry/mojom/geometry_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/geometry/quaternion.h", 
+        "ui/gfx/geometry/vector3d_f.h", 
+        "third_party/blink/public/platform/web_float_rect.h", 
+        "third_party/blink/public/platform/web_rect.h", 
+        "third_party/blink/public/platform/web_size.h", 
+        "third_party/blink/renderer/platform/geometry/float_point_3d.h"
+      ]
+    }, 
+    "network.mojom.URLRequestReferrerPolicy": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "::net::URLRequest::ReferrerPolicy", 
+      "traits_headers": [
+        "services/network/public/cpp/network_ipc_param_traits.h", 
+        "services/network/public/cpp/url_request_mojom_traits.h", 
+        "services/network/public/cpp/network_isolation_key_mojom_traits.h", 
+        "url/mojom/origin_mojom_traits.h", 
+        "url/mojom/url_gurl_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "base/memory/scoped_refptr.h", 
+        "services/network/public/cpp/data_element.h", 
+        "services/network/public/cpp/resource_request.h", 
+        "services/network/public/cpp/resource_request_body.h"
+      ]
+    }, 
+    "gfx.mojom.BufferUsageAndFormat": {
+      "hashable": false, 
+      "force_serialize": false, 
+      "non_copyable_non_movable": false, 
+      "typename": "gfx::BufferUsageAndFormat", 
+      "traits_headers": [
+        "ui/gfx/mojom/buffer_types_mojom_traits.h"
+      ], 
+      "copyable_pass_by_value": false, 
+      "move_only": false, 
+      "nullable_is_same_type": false, 
+      "public_headers": [
+        "ui/gfx/buffer_types.h", 
+        "ui/gfx/gpu_memory_buffer.h", 
+        "ui/gfx/native_pixmap_handle.h"
+      ]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+org.chromium.device.nfc.InvalidNdefMessageException,../../services/device/nfc/android/java/src/org/chromium/device/nfc/InvalidNdefMessageException.java
+org.chromium.device.nfc.NdefMessageUtils,../../services/device/nfc/android/java/src/org/chromium/device/nfc/NdefMessageUtils.java
+org.chromium.device.nfc.NdefMessageValidator,../../services/device/nfc/android/java/src/org/chromium/device/nfc/NdefMessageValidator.java
+org.chromium.device.nfc.NfcImpl,../../services/device/nfc/android/java/src/org/chromium/device/nfc/NfcImpl.java
+org.chromium.device.nfc.NfcProviderImpl,../../services/device/nfc/android/java/src/org/chromium/device/nfc/NfcProviderImpl.java
+org.chromium.device.nfc.NfcTagHandler,../../services/device/nfc/android/java/src/org/chromium/device/nfc/NfcTagHandler.java

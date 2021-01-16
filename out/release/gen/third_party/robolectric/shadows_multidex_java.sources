@@ -1,0 +1,3 @@
+../../third_party/robolectric/robolectric/shadows/multidex/src/main/java/org/robolectric/shadows/multidex/ShadowAndroidXMultiDex.java
+../../third_party/robolectric/robolectric/shadows/multidex/src/main/java/org/robolectric/shadows/multidex/ShadowMultiDex.java
+../../third_party/robolectric/robolectric/shadows/multidex/src/main/java/org/robolectric/shadows/multidex/package-info.java

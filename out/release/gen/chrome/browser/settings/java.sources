@@ -1,0 +1,12 @@
+../../chrome/browser/settings/android/java/src/org/chromium/chrome/browser/settings/ManagedPreferenceDelegate.java
+../../chrome/browser/settings/android/java/src/org/chromium/chrome/browser/settings/ManagedPreferencesUtils.java
+../../chrome/browser/settings/android/java/src/org/chromium/chrome/browser/settings/SearchUtils.java
+../../chrome/browser/settings/android/java/src/org/chromium/chrome/browser/settings/SettingsUtils.java
+../../chrome/browser/settings/android/widget/java/src/org/chromium/chrome/browser/settings/ButtonPreference.java
+../../chrome/browser/settings/android/widget/java/src/org/chromium/chrome/browser/settings/ChromeBaseCheckBoxPreference.java
+../../chrome/browser/settings/android/widget/java/src/org/chromium/chrome/browser/settings/ChromeBasePreference.java
+../../chrome/browser/settings/android/widget/java/src/org/chromium/chrome/browser/settings/ChromeImageViewPreference.java
+../../chrome/browser/settings/android/widget/java/src/org/chromium/chrome/browser/settings/ChromeSwitchPreference.java
+../../chrome/browser/settings/android/widget/java/src/org/chromium/chrome/browser/settings/ExpandablePreferenceGroup.java
+../../chrome/browser/settings/android/widget/java/src/org/chromium/chrome/browser/settings/SpinnerPreference.java
+../../chrome/browser/settings/android/widget/java/src/org/chromium/chrome/browser/settings/TextMessagePreference.java

@@ -1,0 +1,6 @@
+org.chromium.device.gamepad.CanonicalAxisIndex,gen/device/gamepad/java_enums_srcjar.srcjar/org/chromium/device/gamepad/CanonicalAxisIndex.java
+org.chromium.device.gamepad.CanonicalButtonIndex,gen/device/gamepad/java_enums_srcjar.srcjar/org/chromium/device/gamepad/CanonicalButtonIndex.java
+org.chromium.device.gamepad.GamepadDevice,../../device/gamepad/android/java/src/org/chromium/device/gamepad/GamepadDevice.java
+org.chromium.device.gamepad.GamepadList,../../device/gamepad/android/java/src/org/chromium/device/gamepad/GamepadList.java
+org.chromium.device.gamepad.GamepadListJni,gen/device/gamepad/java/generated_java/annotation_processor_outputs/org/chromium/device/gamepad/GamepadListJni.java
+org.chromium.device.gamepad.GamepadMappings,../../device/gamepad/android/java/src/org/chromium/device/gamepad/GamepadMappings.java

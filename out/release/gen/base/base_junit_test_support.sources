@@ -1,0 +1,9 @@
+../../third_party/robolectric/custom_asynctask/java/src/org/chromium/base/task/test/ShadowAsyncTask.java
+../../third_party/robolectric/custom_asynctask/java/src/org/chromium/base/task/test/ShadowAsyncTaskBridge.java
+../../base/android/junit/src/org/chromium/base/metrics/test/DisableHistogramsRule.java
+../../base/android/junit/src/org/chromium/base/metrics/test/ShadowRecordHistogram.java
+../../base/test/android/junit/src/org/chromium/base/task/test/BackgroundShadowAsyncTask.java
+../../base/test/android/junit/src/org/chromium/base/task/test/CustomShadowAsyncTask.java
+../../base/test/android/junit/src/org/chromium/base/task/test/ShadowPostTask.java
+../../base/test/android/junit/src/org/chromium/base/test/BaseRobolectricTestRunner.java
+../../base/test/android/junit/src/org/chromium/base/test/util/TestRunnerTestRule.java

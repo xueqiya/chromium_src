@@ -1,0 +1,61 @@
+{
+  "deps_info": {
+    "deps_configs": [
+      "gen/third_party/android_deps/com_google_auto_service_auto_service_java.build_config"
+    ],
+    "extra_main_r_text_files": [],
+    "javac_full_classpath": [
+      "../../third_party/android_deps/libs/com_google_code_findbugs_jsr305/jsr305-3.0.2.jar",
+      "../../third_party/android_deps/libs/com_google_errorprone_error_prone_annotations/error_prone_annotations-2.3.4.jar",
+      "../../third_party/android_deps/libs/com_google_guava_failureaccess/failureaccess-1.0.1.jar",
+      "../../third_party/android_deps/libs/com_google_guava_listenablefuture/listenablefuture-1.0.jar",
+      "../../third_party/android_deps/libs/com_google_j2objc_j2objc_annotations/j2objc-annotations-1.1.jar",
+      "../../third_party/android_deps/libs/org_checkerframework_checker_qual/checker-qual-3.0.0.jar",
+      "../../third_party/android_deps/libs/org_codehaus_mojo_animal_sniffer_annotations/animal-sniffer-annotations-1.17.jar",
+      "../../third_party/android_deps/libs/com_google_guava_guava/guava-27.0.1-jre.jar",
+      "../../third_party/android_deps/libs/com_google_auto_auto_common/auto-common-0.10.jar",
+      "../../third_party/android_deps/libs/com_google_auto_service_auto_service_annotations/auto-service-annotations-1.0-rc6.jar",
+      "../../third_party/android_deps/libs/com_google_auto_service_auto_service/auto-service-1.0-rc6.jar"
+    ],
+    "javac_full_interface_classpath": [
+      "lib.java/third_party/android_deps/com_google_code_findbugs_jsr305.interface.jar",
+      "lib.java/third_party/android_deps/com_google_errorprone_error_prone_annotations.interface.jar",
+      "lib.java/third_party/android_deps/com_google_guava_failureaccess.interface.jar",
+      "lib.java/third_party/android_deps/com_google_guava_listenablefuture.interface.jar",
+      "lib.java/third_party/android_deps/com_google_j2objc_j2objc_annotations.interface.jar",
+      "lib.java/third_party/android_deps/org_checkerframework_checker_qual.interface.jar",
+      "lib.java/third_party/android_deps/org_codehaus_mojo_animal_sniffer_annotations.interface.jar",
+      "lib.java/third_party/android_deps/com_google_guava_guava.interface.jar",
+      "lib.java/third_party/android_deps/com_google_auto_auto_common.interface.jar",
+      "lib.java/third_party/android_deps/com_google_auto_service_auto_service_annotations.interface.jar",
+      "lib.java/third_party/android_deps/com_google_auto_service_auto_service.interface.jar"
+    ],
+    "main_class": "com.google.auto.service.processor.AutoServiceProcessor",
+    "name": "auto_service_processor.build_config",
+    "path": "gen/third_party/android_deps/auto_service_processor.build_config",
+    "proguard_configs": [],
+    "requires_android": false,
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "supports_android": false,
+    "type": "java_annotation_processor"
+  },
+  "gradle": {
+    "bundled_srcjars": [],
+    "dependent_android_projects": [],
+    "dependent_java_projects": [],
+    "dependent_prebuilt_jars": [
+      "lib.java/third_party/android_deps/com_google_auto_service_auto_service.jar"
+    ]
+  },
+  "javac": {
+    "classpath": [
+      "../../third_party/android_deps/libs/com_google_auto_service_auto_service/auto-service-1.0-rc6.jar"
+    ],
+    "interface_classpath": [
+      "lib.java/third_party/android_deps/com_google_auto_service_auto_service.interface.jar"
+    ],
+    "processor_classes": [],
+    "processor_classpath": []
+  }
+}

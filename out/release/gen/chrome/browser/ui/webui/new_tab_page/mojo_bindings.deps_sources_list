@@ -1,0 +1,4 @@
+gen/chrome/browser/ui/webui/new_tab_page/mojo_bindings.sources_list
+gen/mojo/public/mojom/base/base.sources_list
+gen/skia/public/mojom/mojom.sources_list
+gen/url/mojom/url_mojom_gurl.sources_list

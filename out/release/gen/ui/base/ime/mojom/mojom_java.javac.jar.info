@@ -1,0 +1,5 @@
+org.chromium.ui.mojom.ImeTextSpan,gen/ui/base/ime/mojom/mojom_java_sources.srcjar/org/chromium/ui/mojom/ImeTextSpan.java
+org.chromium.ui.mojom.ImeTextSpanThickness,gen/ui/base/ime/mojom/mojom_java_sources.srcjar/org/chromium/ui/mojom/ImeTextSpanThickness.java
+org.chromium.ui.mojom.ImeTextSpanType,gen/ui/base/ime/mojom/mojom_java_sources.srcjar/org/chromium/ui/mojom/ImeTextSpanType.java
+org.chromium.ui.mojom.ImeTextSpanUnderlineStyle,gen/ui/base/ime/mojom/mojom_java_sources.srcjar/org/chromium/ui/mojom/ImeTextSpanUnderlineStyle.java
+org.chromium.ui.mojom.TextInputType,gen/ui/base/ime/mojom/mojom_java_sources.srcjar/org/chromium/ui/mojom/TextInputType.java

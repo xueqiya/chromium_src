@@ -1,0 +1,8 @@
+IDS_ERRORPAGES_SUMMARY_BLOCKED_ENROLLMENT_CHECK_PENDING,12602,../../components/components_google_chrome_strings.grd
+IDS_FLAGS_UI_RELAUNCH_NOTICE,12604,../../components/components_google_chrome_strings.grd
+IDS_DEPRECATED_FEATURES_RELAUNCH_NOTICE,12605,../../components/components_google_chrome_strings.grd
+IDS_CRASH_DISABLED_MESSAGE,12606,../../components/components_google_chrome_strings.grd
+IDS_VERSION_UI_LICENSE,12607,../../components/components_google_chrome_strings.grd
+IDS_PAGE_INFO_INTERNAL_PAGE,12608,../../components/components_google_chrome_strings.grd
+IDS_PAGE_INFO_SECURE_IDENTITY_VERIFIED,12609,../../components/components_google_chrome_strings.grd
+IDS_SESSION_CRASHED_VIEW_MESSAGE,12610,../../components/components_google_chrome_strings.grd

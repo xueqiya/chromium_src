@@ -1,0 +1,149 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "6e59634d4a027ff6abfc6c235355d789", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/gpu/ipc/common/interfaces_java.jar", 
+      "tag": "d1e344c882b34f0f4b5214403e6ed2df", 
+      "entries": [
+        {
+          "path": "org/chromium/gpu/mojom/AngleFeature.class", 
+          "tag": 2479341841
+        }, 
+        {
+          "path": "org/chromium/gpu/mojom/Capabilities.class", 
+          "tag": 1785751615
+        }, 
+        {
+          "path": "org/chromium/gpu/mojom/CommandBufferNamespace.class", 
+          "tag": 3888708853
+        }, 
+        {
+          "path": "org/chromium/gpu/mojom/ContextResult.class", 
+          "tag": 3419305386
+        }, 
+        {
+          "path": "org/chromium/gpu/mojom/DxDiagNode.class", 
+          "tag": 2890648103
+        }, 
+        {
+          "path": "org/chromium/gpu/mojom/GpuDevice.class", 
+          "tag": 423587357
+        }, 
+        {
+          "path": "org/chromium/gpu/mojom/GpuExtraInfo.class", 
+          "tag": 371354306
+        }, 
+        {
+          "path": "org/chromium/gpu/mojom/GpuFeatureInfo.class", 
+          "tag": 4058356487
+        }, 
+        {
+          "path": "org/chromium/gpu/mojom/GpuFeatureStatus.class", 
+          "tag": 864554399
+        }, 
+        {
+          "path": "org/chromium/gpu/mojom/GpuInfo.class", 
+          "tag": 231899808
+        }, 
+        {
+          "path": "org/chromium/gpu/mojom/ImageDecodeAcceleratorSubsampling.class", 
+          "tag": 243225898
+        }, 
+        {
+          "path": "org/chromium/gpu/mojom/ImageDecodeAcceleratorSupportedProfile.class", 
+          "tag": 2366880165
+        }, 
+        {
+          "path": "org/chromium/gpu/mojom/ImageDecodeAcceleratorType.class", 
+          "tag": 4206562324
+        }, 
+        {
+          "path": "org/chromium/gpu/mojom/Mailbox.class", 
+          "tag": 4135802175
+        }, 
+        {
+          "path": "org/chromium/gpu/mojom/MailboxHolder.class", 
+          "tag": 4257263320
+        }, 
+        {
+          "path": "org/chromium/gpu/mojom/SurfaceHandle.class", 
+          "tag": 851002160
+        }, 
+        {
+          "path": "org/chromium/gpu/mojom/SyncToken.class", 
+          "tag": 4162779088
+        }, 
+        {
+          "path": "org/chromium/gpu/mojom/VideoCodecProfile.class", 
+          "tag": 3525378422
+        }, 
+        {
+          "path": "org/chromium/gpu/mojom/VideoDecodeAcceleratorCapabilities.class", 
+          "tag": 1728751245
+        }, 
+        {
+          "path": "org/chromium/gpu/mojom/VideoDecodeAcceleratorSupportedProfile.class", 
+          "tag": 3192022853
+        }, 
+        {
+          "path": "org/chromium/gpu/mojom/VideoEncodeAcceleratorSupportedProfile.class", 
+          "tag": 4181986090
+        }, 
+        {
+          "path": "org/chromium/gpu/mojom/VideoMemoryProcessStats.class", 
+          "tag": 83877106
+        }, 
+        {
+          "path": "org/chromium/gpu/mojom/VideoMemoryUsageStats.class", 
+          "tag": 1051306296
+        }, 
+        {
+          "path": "org/chromium/gpu/mojom/VulkanYCbCrInfo.class", 
+          "tag": 2211140531
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

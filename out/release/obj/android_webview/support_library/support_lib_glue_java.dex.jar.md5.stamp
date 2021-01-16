@@ -1,0 +1,153 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "cc21e07b9c57a4bc1f2559721231dc44", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/android_webview/support_library/support_lib_glue_java.jar", 
+      "tag": "ddeb89f998394dbe69efd8ad06651072", 
+      "entries": [
+        {
+          "path": "org/chromium/support_lib_glue/IsomorphicAdapter.class", 
+          "tag": 1798053801
+        }, 
+        {
+          "path": "org/chromium/support_lib_glue/SupportLibJsReplyProxyAdapter.class", 
+          "tag": 3764391598
+        }, 
+        {
+          "path": "org/chromium/support_lib_glue/SupportLibProxyControllerAdapter.class", 
+          "tag": 2192456007
+        }, 
+        {
+          "path": "org/chromium/support_lib_glue/SupportLibReflectionUtil.class", 
+          "tag": 3864469804
+        }, 
+        {
+          "path": "org/chromium/support_lib_glue/SupportLibServiceWorkerClientAdapter.class", 
+          "tag": 2148670319
+        }, 
+        {
+          "path": "org/chromium/support_lib_glue/SupportLibServiceWorkerControllerAdapter.class", 
+          "tag": 2777415186
+        }, 
+        {
+          "path": "org/chromium/support_lib_glue/SupportLibServiceWorkerSettingsAdapter.class", 
+          "tag": 358218982
+        }, 
+        {
+          "path": "org/chromium/support_lib_glue/SupportLibTracingControllerAdapter.class", 
+          "tag": 1582245776
+        }, 
+        {
+          "path": "org/chromium/support_lib_glue/SupportLibWebMessageAdapter.class", 
+          "tag": 802213918
+        }, 
+        {
+          "path": "org/chromium/support_lib_glue/SupportLibWebMessageCallbackAdapter.class", 
+          "tag": 1608191792
+        }, 
+        {
+          "path": "org/chromium/support_lib_glue/SupportLibWebMessageListenerAdapter.class", 
+          "tag": 117041588
+        }, 
+        {
+          "path": "org/chromium/support_lib_glue/SupportLibWebMessagePortAdapter$1.class", 
+          "tag": 1461303293
+        }, 
+        {
+          "path": "org/chromium/support_lib_glue/SupportLibWebMessagePortAdapter.class", 
+          "tag": 3745014383
+        }, 
+        {
+          "path": "org/chromium/support_lib_glue/SupportLibWebResourceRequest.class", 
+          "tag": 1487123953
+        }, 
+        {
+          "path": "org/chromium/support_lib_glue/SupportLibWebSettingsAdapter.class", 
+          "tag": 1812207510
+        }, 
+        {
+          "path": "org/chromium/support_lib_glue/SupportLibWebViewChromium$1.class", 
+          "tag": 3602849712
+        }, 
+        {
+          "path": "org/chromium/support_lib_glue/SupportLibWebViewChromium.class", 
+          "tag": 118522201
+        }, 
+        {
+          "path": "org/chromium/support_lib_glue/SupportLibWebViewChromiumFactory$ApiCall.class", 
+          "tag": 1209699371
+        }, 
+        {
+          "path": "org/chromium/support_lib_glue/SupportLibWebViewChromiumFactory$StaticsAdapter.class", 
+          "tag": 2182398559
+        }, 
+        {
+          "path": "org/chromium/support_lib_glue/SupportLibWebViewChromiumFactory.class", 
+          "tag": 744154436
+        }, 
+        {
+          "path": "org/chromium/support_lib_glue/SupportLibWebViewRendererAdapter.class", 
+          "tag": 1543666028
+        }, 
+        {
+          "path": "org/chromium/support_lib_glue/SupportLibWebViewRendererClientAdapter.class", 
+          "tag": 3892454287
+        }, 
+        {
+          "path": "org/chromium/support_lib_glue/SupportLibWebkitToCompatConverterAdapter.class", 
+          "tag": 4123257577
+        }, 
+        {
+          "path": "org/chromium/support_lib_glue/SupportLibProxyControllerAdapter$$Lambda$0.class", 
+          "tag": 3381049070
+        }, 
+        {
+          "path": "org/chromium/support_lib_glue/SupportLibProxyControllerAdapter$$Lambda$1.class", 
+          "tag": 3383892994
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

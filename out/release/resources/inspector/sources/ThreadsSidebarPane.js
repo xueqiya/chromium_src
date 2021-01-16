@@ -1,0 +1,16 @@
+export class ThreadsSidebarPane extends UI.VBox{constructor(){super(true);this.registerRequiredCSS('sources/threadsSidebarPane.css');this._items=new UI.ListModel();this._list=new UI.ListControl(this._items,this,UI.ListMode.NonViewport);const currentTarget=self.UI.context.flavor(SDK.Target);this._selectedModel=!!currentTarget?currentTarget.model(SDK.DebuggerModel):null;this.contentElement.appendChild(this._list.element);self.UI.context.addFlavorChangeListener(SDK.Target,this._targetFlavorChanged,this);self.SDK.targetManager.observeModels(SDK.DebuggerModel,this);}
+static shouldBeShown(){return self.SDK.targetManager.models(SDK.DebuggerModel).length>=2;}
+createElementForItem(debuggerModel){const element=createElementWithClass('div','thread-item');const title=element.createChild('div','thread-item-title');const pausedState=element.createChild('div','thread-item-paused-state');element.appendChild(UI.Icon.create('smallicon-thick-right-arrow','selected-thread-icon'));element.tabIndex=-1;self.onInvokeElement(element,event=>{self.UI.context.setFlavor(SDK.Target,debuggerModel.target());event.consume(true);});const isSelected=self.UI.context.flavor(SDK.Target)===debuggerModel.target();element.classList.toggle('selected',isSelected);UI.ARIAUtils.setSelected(element,isSelected);function updateTitle(){const executionContext=debuggerModel.runtimeModel().defaultExecutionContext();title.textContent=executionContext&&executionContext.label()?executionContext.label():debuggerModel.target().name();}
+function updatePausedState(){pausedState.textContent=debuggerModel.isPaused()?ls`paused`:'';}
+function targetNameChanged(event){const target=(event.data);if(target===debuggerModel.target()){updateTitle();}}
+debuggerModel.addEventListener(SDK.DebuggerModel.Events.DebuggerPaused,updatePausedState);debuggerModel.addEventListener(SDK.DebuggerModel.Events.DebuggerResumed,updatePausedState);debuggerModel.runtimeModel().addEventListener(SDK.RuntimeModel.Events.ExecutionContextChanged,updateTitle);self.SDK.targetManager.addEventListener(SDK.TargetManager.Events.NameChanged,targetNameChanged);updatePausedState();updateTitle();return element;}
+heightForItem(debuggerModel){console.assert(false);return 0;}
+isItemSelectable(debuggerModel){return true;}
+selectedItemChanged(from,to,fromElement,toElement){if(fromElement){fromElement.tabIndex=-1;}
+if(toElement){this.setDefaultFocusedElement(toElement);toElement.tabIndex=0;if(this.hasFocus()){toElement.focus();}}}
+updateSelectedItemARIA(fromElement,toElement){return false;}
+modelAdded(debuggerModel){this._items.insert(this._items.length,debuggerModel);const currentTarget=self.UI.context.flavor(SDK.Target);if(currentTarget===debuggerModel.target()){this._list.selectItem(debuggerModel);}}
+modelRemoved(debuggerModel){this._items.remove(this._items.indexOf(debuggerModel));}
+_targetFlavorChanged(event){const hadFocus=this.hasFocus();const target=(event.data);const debuggerModel=target.model(SDK.DebuggerModel);if(debuggerModel){this._list.refreshItem(debuggerModel);}
+if(!!this._selectedModel){this._list.refreshItem(this._selectedModel);}
+this._selectedModel=debuggerModel;if(hadFocus){this.focus();}}}

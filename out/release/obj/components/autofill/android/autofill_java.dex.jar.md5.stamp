@@ -1,0 +1,101 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "55098ca1311ff6c86e83564a1af8f8ab", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/components/autofill/android/autofill_java.jar", 
+      "tag": "be04d1e25db4ee9445369b603d469252", 
+      "entries": [
+        {
+          "path": "org/chromium/chrome/browser/keyboard_accessory/AccessoryAction.class", 
+          "tag": 3795383730
+        }, 
+        {
+          "path": "org/chromium/chrome/browser/keyboard_accessory/AccessoryTabType.class", 
+          "tag": 771907247
+        }, 
+        {
+          "path": "org/chromium/components/autofill/AutofillDelegate.class", 
+          "tag": 3220178927
+        }, 
+        {
+          "path": "org/chromium/components/autofill/AutofillDropdownAdapter.class", 
+          "tag": 3884672701
+        }, 
+        {
+          "path": "org/chromium/components/autofill/AutofillDropdownFooter$FooterRow.class", 
+          "tag": 3240101879
+        }, 
+        {
+          "path": "org/chromium/components/autofill/AutofillDropdownFooter$Observer.class", 
+          "tag": 1162053559
+        }, 
+        {
+          "path": "org/chromium/components/autofill/AutofillDropdownFooter.class", 
+          "tag": 1196252274
+        }, 
+        {
+          "path": "org/chromium/components/autofill/AutofillPopup$1.class", 
+          "tag": 3776953843
+        }, 
+        {
+          "path": "org/chromium/components/autofill/AutofillPopup$2.class", 
+          "tag": 2665008086
+        }, 
+        {
+          "path": "org/chromium/components/autofill/AutofillPopup.class", 
+          "tag": 2012964065
+        }, 
+        {
+          "path": "org/chromium/components/autofill/AutofillSuggestion.class", 
+          "tag": 4190669538
+        }, 
+        {
+          "path": "org/chromium/components/autofill/PopupItemId.class", 
+          "tag": 922232308
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

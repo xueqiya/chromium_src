@@ -1,0 +1,193 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "af36b3064ad532ea6361ec550b1e55ca", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/third_party/jsr-305/jsr_305_javalib.jar", 
+      "tag": "42912dabbfbf2761589f33b9b904a9e1", 
+      "entries": [
+        {
+          "path": "javax/annotation/CheckForNull.class", 
+          "tag": 2678926925
+        }, 
+        {
+          "path": "javax/annotation/CheckForSigned.class", 
+          "tag": 3644016968
+        }, 
+        {
+          "path": "javax/annotation/CheckReturnValue.class", 
+          "tag": 3085332834
+        }, 
+        {
+          "path": "javax/annotation/Detainted.class", 
+          "tag": 2120211936
+        }, 
+        {
+          "path": "javax/annotation/MatchesPattern$Checker.class", 
+          "tag": 3294005798
+        }, 
+        {
+          "path": "javax/annotation/MatchesPattern.class", 
+          "tag": 1479780524
+        }, 
+        {
+          "path": "javax/annotation/Nonnegative$Checker.class", 
+          "tag": 3055407065
+        }, 
+        {
+          "path": "javax/annotation/Nonnegative.class", 
+          "tag": 3464189298
+        }, 
+        {
+          "path": "javax/annotation/Nonnull$Checker.class", 
+          "tag": 441704611
+        }, 
+        {
+          "path": "javax/annotation/Nonnull.class", 
+          "tag": 2823387630
+        }, 
+        {
+          "path": "javax/annotation/Nullable.class", 
+          "tag": 2362908435
+        }, 
+        {
+          "path": "javax/annotation/OverridingMethodsMustInvokeSuper.class", 
+          "tag": 1184929489
+        }, 
+        {
+          "path": "javax/annotation/ParametersAreNonnullByDefault.class", 
+          "tag": 2081800175
+        }, 
+        {
+          "path": "javax/annotation/ParametersAreNullableByDefault.class", 
+          "tag": 4284586164
+        }, 
+        {
+          "path": "javax/annotation/PropertyKey.class", 
+          "tag": 1478415054
+        }, 
+        {
+          "path": "javax/annotation/RegEx$Checker.class", 
+          "tag": 2051427264
+        }, 
+        {
+          "path": "javax/annotation/RegEx.class", 
+          "tag": 2150930098
+        }, 
+        {
+          "path": "javax/annotation/Signed.class", 
+          "tag": 851634826
+        }, 
+        {
+          "path": "javax/annotation/Syntax.class", 
+          "tag": 547324137
+        }, 
+        {
+          "path": "javax/annotation/Tainted.class", 
+          "tag": 482163282
+        }, 
+        {
+          "path": "javax/annotation/Untainted.class", 
+          "tag": 285164166
+        }, 
+        {
+          "path": "javax/annotation/WillClose.class", 
+          "tag": 2973528506
+        }, 
+        {
+          "path": "javax/annotation/WillCloseWhenClosed.class", 
+          "tag": 1765894059
+        }, 
+        {
+          "path": "javax/annotation/WillNotClose.class", 
+          "tag": 996883304
+        }, 
+        {
+          "path": "javax/annotation/concurrent/GuardedBy.class", 
+          "tag": 4093857558
+        }, 
+        {
+          "path": "javax/annotation/concurrent/Immutable.class", 
+          "tag": 1185369774
+        }, 
+        {
+          "path": "javax/annotation/concurrent/NotThreadSafe.class", 
+          "tag": 2853731077
+        }, 
+        {
+          "path": "javax/annotation/concurrent/ThreadSafe.class", 
+          "tag": 2791225600
+        }, 
+        {
+          "path": "javax/annotation/meta/Exclusive.class", 
+          "tag": 4013076759
+        }, 
+        {
+          "path": "javax/annotation/meta/Exhaustive.class", 
+          "tag": 1278345394
+        }, 
+        {
+          "path": "javax/annotation/meta/TypeQualifier.class", 
+          "tag": 959657935
+        }, 
+        {
+          "path": "javax/annotation/meta/TypeQualifierDefault.class", 
+          "tag": 1591929795
+        }, 
+        {
+          "path": "javax/annotation/meta/TypeQualifierNickname.class", 
+          "tag": 2893047628
+        }, 
+        {
+          "path": "javax/annotation/meta/TypeQualifierValidator.class", 
+          "tag": 1126122176
+        }, 
+        {
+          "path": "javax/annotation/meta/When.class", 
+          "tag": 2747584475
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

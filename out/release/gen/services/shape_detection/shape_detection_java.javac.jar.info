@@ -1,0 +1,8 @@
+org.chromium.shape_detection.BarcodeDetectionImpl,../../services/shape_detection/android/java/src/org/chromium/shape_detection/BarcodeDetectionImpl.java
+org.chromium.shape_detection.BarcodeDetectionProviderImpl,../../services/shape_detection/android/java/src/org/chromium/shape_detection/BarcodeDetectionProviderImpl.java
+org.chromium.shape_detection.BitmapUtils,../../services/shape_detection/android/java/src/org/chromium/shape_detection/BitmapUtils.java
+org.chromium.shape_detection.FaceDetectionImpl,../../services/shape_detection/android/java/src/org/chromium/shape_detection/FaceDetectionImpl.java
+org.chromium.shape_detection.FaceDetectionImplGmsCore,../../services/shape_detection/android/java/src/org/chromium/shape_detection/FaceDetectionImplGmsCore.java
+org.chromium.shape_detection.FaceDetectionProviderImpl,../../services/shape_detection/android/java/src/org/chromium/shape_detection/FaceDetectionProviderImpl.java
+org.chromium.shape_detection.InterfaceRegistrar,../../services/shape_detection/android/java/src/org/chromium/shape_detection/InterfaceRegistrar.java
+org.chromium.shape_detection.TextDetectionImpl,../../services/shape_detection/android/java/src/org/chromium/shape_detection/TextDetectionImpl.java

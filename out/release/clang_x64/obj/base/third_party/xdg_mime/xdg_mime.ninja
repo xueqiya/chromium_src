@@ -1,0 +1,21 @@
+defines = -DUSE_UDEV -DUSE_AURA=1 -DUSE_GLIB=1 -DUSE_NSS_CERTS=1 -DUSE_X11=1 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -DCR_CLANG_REVISION=\"n340759-eaabaf7e-1\" -D_LIBCPP_ABI_UNSTABLE -D_LIBCPP_DISABLE_VISIBILITY_ANNOTATIONS -D_LIBCXXABI_DISABLE_VISIBILITY_ANNOTATIONS -D_LIBCPP_ENABLE_NODISCARD -DCR_LIBCXX_REVISION=375504 -DCR_SYSROOT_HASH=9c905c99558f10e19cc878b5dca1d4bd58c607ae -DNDEBUG -DNVALGRIND -DDYNAMIC_ANNOTATIONS_ENABLED=0
+include_dirs = -I../.. -Iclang_x64/gen
+cflags = -fno-strict-aliasing --param=ssp-buffer-size=4 -fstack-protector -funwind-tables -fPIC -B../../third_party/binutils/Linux_x64/Release/bin -pthread -fcolor-diagnostics -fmerge-all-constants -fcrash-diagnostics-dir=../../tools/clang/crashreports -Xclang -mllvm -Xclang -instcombine-lower-dbg-declare=0 -fcomplete-member-pointers -m64 -march=x86-64 -Wno-builtin-macro-redefined -D__DATE__= -D__TIME__= -D__TIMESTAMP__= -no-canonical-prefixes -O2 -fno-ident -fdata-sections -ffunction-sections -fno-omit-frame-pointer -g0 -ftrivial-auto-var-init=pattern -fvisibility=hidden -Wheader-hygiene -Wstring-conversion -Wtautological-overlap-compare -Werror -Wall -Wno-unused-variable -Wno-missing-field-initializers -Wno-unused-parameter -Wno-c++11-narrowing -Wno-unneeded-internal-declaration -Wno-undefined-var-template -Wno-ignored-pragma-optimize -Wno-implicit-int-float-conversion -Wno-final-dtor-non-final-class -Wno-bitwise-conditional-parentheses -Wno-builtin-assume-aligned-alignment -Wno-deprecated-copy -Wno-misleading-indentation -Wno-range-loop-analysis
+cflags_c = -std=c11 --sysroot=../../build/linux/debian_sid_amd64-sysroot -Wno-implicit-fallthrough
+label_name = xdg_mime
+target_out_dir = clang_x64/obj/base/third_party/xdg_mime
+target_output_name = libxdg_mime
+
+build clang_x64/obj/base/third_party/xdg_mime/xdg_mime/xdgmime.o: clang_x64_cc ../../base/third_party/xdg_mime/xdgmime.c
+build clang_x64/obj/base/third_party/xdg_mime/xdg_mime/xdgmimealias.o: clang_x64_cc ../../base/third_party/xdg_mime/xdgmimealias.c
+build clang_x64/obj/base/third_party/xdg_mime/xdg_mime/xdgmimecache.o: clang_x64_cc ../../base/third_party/xdg_mime/xdgmimecache.c
+build clang_x64/obj/base/third_party/xdg_mime/xdg_mime/xdgmimeglob.o: clang_x64_cc ../../base/third_party/xdg_mime/xdgmimeglob.c
+build clang_x64/obj/base/third_party/xdg_mime/xdg_mime/xdgmimeicon.o: clang_x64_cc ../../base/third_party/xdg_mime/xdgmimeicon.c
+build clang_x64/obj/base/third_party/xdg_mime/xdg_mime/xdgmimeint.o: clang_x64_cc ../../base/third_party/xdg_mime/xdgmimeint.c
+build clang_x64/obj/base/third_party/xdg_mime/xdg_mime/xdgmimemagic.o: clang_x64_cc ../../base/third_party/xdg_mime/xdgmimemagic.c
+build clang_x64/obj/base/third_party/xdg_mime/xdg_mime/xdgmimeparent.o: clang_x64_cc ../../base/third_party/xdg_mime/xdgmimeparent.c
+
+build clang_x64/obj/base/third_party/xdg_mime/libxdg_mime.a: clang_x64_alink clang_x64/obj/base/third_party/xdg_mime/xdg_mime/xdgmime.o clang_x64/obj/base/third_party/xdg_mime/xdg_mime/xdgmimealias.o clang_x64/obj/base/third_party/xdg_mime/xdg_mime/xdgmimecache.o clang_x64/obj/base/third_party/xdg_mime/xdg_mime/xdgmimeglob.o clang_x64/obj/base/third_party/xdg_mime/xdg_mime/xdgmimeicon.o clang_x64/obj/base/third_party/xdg_mime/xdg_mime/xdgmimeint.o clang_x64/obj/base/third_party/xdg_mime/xdg_mime/xdgmimemagic.o clang_x64/obj/base/third_party/xdg_mime/xdg_mime/xdgmimeparent.o
+  arflags = -T
+  output_extension = .a
+  output_dir = clang_x64/obj/base/third_party/xdg_mime

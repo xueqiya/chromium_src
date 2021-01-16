@@ -1,0 +1,269 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "fd73ca20c3885073c53fe64d943e5dec", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/media/capture/mojom/video_capture_java.jar", 
+      "tag": "1cefa7500f7c959fa0f66ff3cb06c968", 
+      "entries": [
+        {
+          "path": "org/chromium/media/mojom/MailboxBufferHandleSet.class", 
+          "tag": 1042482917
+        }, 
+        {
+          "path": "org/chromium/media/mojom/PlaneStrides.class", 
+          "tag": 3586794229
+        }, 
+        {
+          "path": "org/chromium/media/mojom/PowerLineFrequency.class", 
+          "tag": 1951673027
+        }, 
+        {
+          "path": "org/chromium/media/mojom/ResolutionChangePolicy.class", 
+          "tag": 1891168404
+        }, 
+        {
+          "path": "org/chromium/media/mojom/SharedMemoryViaRawFileDescriptor.class", 
+          "tag": 4169698993
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoBufferHandle$Tag.class", 
+          "tag": 518300003
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoBufferHandle.class", 
+          "tag": 3150549420
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureApi.class", 
+          "tag": 2964854322
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureBufferType.class", 
+          "tag": 336611544
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureDeviceDescriptor.class", 
+          "tag": 3207968132
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureDeviceInfo.class", 
+          "tag": 2260896964
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureError.class", 
+          "tag": 129164714
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureFormat.class", 
+          "tag": 3531570892
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureFrameDropReason.class", 
+          "tag": 2343912488
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureHost$GetDeviceFormatsInUseResponse.class", 
+          "tag": 2350567109
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureHost$GetDeviceSupportedFormatsResponse.class", 
+          "tag": 2041304299
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureHost$Proxy.class", 
+          "tag": 3937159751
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureHost.class", 
+          "tag": 3739134377
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureHost_Internal$1.class", 
+          "tag": 1689678210
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureHost_Internal$Proxy.class", 
+          "tag": 3950119610
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureHost_Internal$Stub.class", 
+          "tag": 1583485237
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureHost_Internal$VideoCaptureHostGetDeviceFormatsInUseParams.class", 
+          "tag": 2397368240
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureHost_Internal$VideoCaptureHostGetDeviceFormatsInUseResponseParams.class", 
+          "tag": 2303808641
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureHost_Internal$VideoCaptureHostGetDeviceFormatsInUseResponseParamsForwardToCallback.class", 
+          "tag": 3652806108
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureHost_Internal$VideoCaptureHostGetDeviceFormatsInUseResponseParamsProxyToResponder.class", 
+          "tag": 3893320199
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureHost_Internal$VideoCaptureHostGetDeviceSupportedFormatsParams.class", 
+          "tag": 715067612
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureHost_Internal$VideoCaptureHostGetDeviceSupportedFormatsResponseParams.class", 
+          "tag": 556773003
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureHost_Internal$VideoCaptureHostGetDeviceSupportedFormatsResponseParamsForwardToCallback.class", 
+          "tag": 658243416
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureHost_Internal$VideoCaptureHostGetDeviceSupportedFormatsResponseParamsProxyToResponder.class", 
+          "tag": 1272205446
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureHost_Internal$VideoCaptureHostOnFrameDroppedParams.class", 
+          "tag": 1851154007
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureHost_Internal$VideoCaptureHostOnLogParams.class", 
+          "tag": 3658329385
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureHost_Internal$VideoCaptureHostPauseParams.class", 
+          "tag": 1877621055
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureHost_Internal$VideoCaptureHostReleaseBufferParams.class", 
+          "tag": 978079203
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureHost_Internal$VideoCaptureHostRequestRefreshFrameParams.class", 
+          "tag": 2364954935
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureHost_Internal$VideoCaptureHostResumeParams.class", 
+          "tag": 3369181656
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureHost_Internal$VideoCaptureHostStartParams.class", 
+          "tag": 42414545
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureHost_Internal$VideoCaptureHostStopParams.class", 
+          "tag": 1625909059
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureHost_Internal.class", 
+          "tag": 4132643386
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureObserver$Proxy.class", 
+          "tag": 3995450639
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureObserver.class", 
+          "tag": 2770996553
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureObserver_Internal$1.class", 
+          "tag": 2047037243
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureObserver_Internal$Proxy.class", 
+          "tag": 2421712332
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureObserver_Internal$Stub.class", 
+          "tag": 975556576
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureObserver_Internal$VideoCaptureObserverOnBufferDestroyedParams.class", 
+          "tag": 3359096956
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureObserver_Internal$VideoCaptureObserverOnBufferReadyParams.class", 
+          "tag": 2205527933
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureObserver_Internal$VideoCaptureObserverOnNewBufferParams.class", 
+          "tag": 2651122088
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureObserver_Internal$VideoCaptureObserverOnStateChangedParams.class", 
+          "tag": 1205773044
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureObserver_Internal.class", 
+          "tag": 4202095831
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureParams.class", 
+          "tag": 177458242
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCapturePixelFormat.class", 
+          "tag": 2599910180
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureState.class", 
+          "tag": 3174034256
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoCaptureTransportType.class", 
+          "tag": 2541797554
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoFacingMode.class", 
+          "tag": 3927046319
+        }, 
+        {
+          "path": "org/chromium/media/mojom/VideoFrameInfo.class", 
+          "tag": 686327189
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

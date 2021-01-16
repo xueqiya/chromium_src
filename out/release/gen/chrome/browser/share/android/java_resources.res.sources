@@ -1,0 +1,7 @@
+../../chrome/browser/share/android/java/res/values-sw600dp/dimens.xml
+../../chrome/browser/share/android/java/res/layout/qrcode_permission_layout.xml
+../../chrome/browser/share/android/java/res/layout/qrcode_dialog.xml
+../../chrome/browser/share/android/java/res/layout/qrcode_share_layout.xml
+../../chrome/browser/share/android/java/res/values/colors.xml
+../../chrome/browser/share/android/java/res/values/dimens.xml
+../../chrome/browser/share/android/java/res/drawable/qrcode_background.xml

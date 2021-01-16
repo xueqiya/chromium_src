@@ -1,0 +1,7 @@
+gen/services/viz/privileged/mojom/mojom.sources_list
+gen/components/discardable_memory/public/mojom/mojom.sources_list
+gen/services/network/public/mojom/mojom.sources_list
+gen/services/viz/privileged/mojom/compositing/compositing.sources_list
+gen/services/viz/privileged/mojom/gl/gl.sources_list
+gen/services/viz/public/mojom/mojom.sources_list
+gen/ui/gfx/mojom/mojom.sources_list

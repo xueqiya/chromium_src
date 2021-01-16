@@ -1,0 +1,2 @@
+org.chromium.components.spellcheck.SpellCheckerSessionBridge,../../components/spellcheck/browser/android/java/src/org/chromium/components/spellcheck/SpellCheckerSessionBridge.java
+org.chromium.components.spellcheck.SpellCheckerSessionBridgeJni,gen/components/spellcheck/browser/android/java/generated_java/annotation_processor_outputs/org/chromium/components/spellcheck/SpellCheckerSessionBridgeJni.java

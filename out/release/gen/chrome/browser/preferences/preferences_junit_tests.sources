@@ -1,0 +1,4 @@
+../../chrome/browser/preferences/android/java/src/org/chromium/chrome/browser/preferences/ChromePreferenceKeyCheckerTest.java
+../../chrome/browser/preferences/android/java/src/org/chromium/chrome/browser/preferences/ChromePreferenceKeysTest.java
+../../chrome/browser/preferences/android/java/src/org/chromium/chrome/browser/preferences/KeyPrefixTest.java
+../../chrome/browser/preferences/android/java/src/org/chromium/chrome/browser/preferences/SharedPreferencesManagerTest.java

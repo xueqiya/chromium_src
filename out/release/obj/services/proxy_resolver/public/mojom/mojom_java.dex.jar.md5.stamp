@@ -1,0 +1,233 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "8d3bd744155438d6d8396cf1ae01010b", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/services/proxy_resolver/public/mojom/mojom_java.jar", 
+      "tag": "864df3c5a7487a5c16b557b9483b4f59", 
+      "entries": [
+        {
+          "path": "org/chromium/proxy_resolver/mojom/HostResolveOperation.class", 
+          "tag": 1719962820
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/HostResolverRequestClient$Proxy.class", 
+          "tag": 1663739667
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/HostResolverRequestClient.class", 
+          "tag": 267806137
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/HostResolverRequestClient_Internal$1.class", 
+          "tag": 2963962051
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/HostResolverRequestClient_Internal$HostResolverRequestClientReportResultParams.class", 
+          "tag": 2735006989
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/HostResolverRequestClient_Internal$Proxy.class", 
+          "tag": 1684024447
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/HostResolverRequestClient_Internal$Stub.class", 
+          "tag": 2906774322
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/HostResolverRequestClient_Internal.class", 
+          "tag": 42983055
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyInfo.class", 
+          "tag": 1356378618
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolver$Proxy.class", 
+          "tag": 2325267367
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolver.class", 
+          "tag": 3358852583
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolverFactory$Proxy.class", 
+          "tag": 2196008389
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolverFactory.class", 
+          "tag": 688178378
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolverFactoryRequestClient$Proxy.class", 
+          "tag": 3316691749
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolverFactoryRequestClient.class", 
+          "tag": 3371958792
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolverFactoryRequestClient_Internal$1.class", 
+          "tag": 2603158452
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolverFactoryRequestClient_Internal$Proxy.class", 
+          "tag": 20686744
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolverFactoryRequestClient_Internal$ProxyResolverFactoryRequestClientAlertParams.class", 
+          "tag": 1274953325
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolverFactoryRequestClient_Internal$ProxyResolverFactoryRequestClientOnErrorParams.class", 
+          "tag": 461201313
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolverFactoryRequestClient_Internal$ProxyResolverFactoryRequestClientReportResultParams.class", 
+          "tag": 1699029208
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolverFactoryRequestClient_Internal$ProxyResolverFactoryRequestClientResolveDnsParams.class", 
+          "tag": 2197958246
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolverFactoryRequestClient_Internal$Stub.class", 
+          "tag": 3861710198
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolverFactoryRequestClient_Internal.class", 
+          "tag": 3558236059
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolverFactory_Internal$1.class", 
+          "tag": 1938052152
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolverFactory_Internal$Proxy.class", 
+          "tag": 3779257566
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolverFactory_Internal$ProxyResolverFactoryCreateResolverParams.class", 
+          "tag": 809897910
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolverFactory_Internal$Stub.class", 
+          "tag": 1334701135
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolverFactory_Internal.class", 
+          "tag": 1004786614
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolverRequestClient$Proxy.class", 
+          "tag": 2288357416
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolverRequestClient.class", 
+          "tag": 1157570895
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolverRequestClient_Internal$1.class", 
+          "tag": 1427260501
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolverRequestClient_Internal$Proxy.class", 
+          "tag": 3262721469
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolverRequestClient_Internal$ProxyResolverRequestClientAlertParams.class", 
+          "tag": 3615629762
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolverRequestClient_Internal$ProxyResolverRequestClientOnErrorParams.class", 
+          "tag": 3480047029
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolverRequestClient_Internal$ProxyResolverRequestClientReportResultParams.class", 
+          "tag": 3960029188
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolverRequestClient_Internal$ProxyResolverRequestClientResolveDnsParams.class", 
+          "tag": 1454017406
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolverRequestClient_Internal$Stub.class", 
+          "tag": 1205640884
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolverRequestClient_Internal.class", 
+          "tag": 2571520607
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolver_Internal$1.class", 
+          "tag": 1056093877
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolver_Internal$Proxy.class", 
+          "tag": 1521470116
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolver_Internal$ProxyResolverGetProxyForUrlParams.class", 
+          "tag": 588980263
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolver_Internal$Stub.class", 
+          "tag": 3634534044
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyResolver_Internal.class", 
+          "tag": 3257921611
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyScheme.class", 
+          "tag": 1072936251
+        }, 
+        {
+          "path": "org/chromium/proxy_resolver/mojom/ProxyServer.class", 
+          "tag": 595078549
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

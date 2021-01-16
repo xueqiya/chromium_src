@@ -1,0 +1,181 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "a36dba8a2225e80cf1aed2aad47fa7b4", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/third_party/blink/public/mojom/frame/frame_java.jar", 
+      "tag": "8c17456795343be6850524c91aa10d81", 
+      "entries": [
+        {
+          "path": "org/chromium/blink/mojom/FindInPage$FindMatchRectsResponse.class", 
+          "tag": 2345933851
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/FindInPage$GetNearestFindResultResponse.class", 
+          "tag": 2151260662
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/FindInPage$Proxy.class", 
+          "tag": 3357927042
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/FindInPage.class", 
+          "tag": 3515057618
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/FindInPageClient$Proxy.class", 
+          "tag": 1860344851
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/FindInPageClient.class", 
+          "tag": 2801971483
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/FindInPageClient_Internal$1.class", 
+          "tag": 266972863
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/FindInPageClient_Internal$FindInPageClientSetActiveMatchParams.class", 
+          "tag": 4235379133
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/FindInPageClient_Internal$FindInPageClientSetNumberOfMatchesParams.class", 
+          "tag": 3634616245
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/FindInPageClient_Internal$Proxy.class", 
+          "tag": 777610030
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/FindInPageClient_Internal$Stub.class", 
+          "tag": 3680683285
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/FindInPageClient_Internal.class", 
+          "tag": 71573045
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/FindInPage_Internal$1.class", 
+          "tag": 1443306853
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/FindInPage_Internal$FindInPageActivateNearestFindResultParams.class", 
+          "tag": 3052768634
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/FindInPage_Internal$FindInPageClearActiveFindMatchParams.class", 
+          "tag": 1457715126
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/FindInPage_Internal$FindInPageFindMatchRectsParams.class", 
+          "tag": 210138324
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/FindInPage_Internal$FindInPageFindMatchRectsResponseParams.class", 
+          "tag": 3436269994
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/FindInPage_Internal$FindInPageFindMatchRectsResponseParamsForwardToCallback.class", 
+          "tag": 1776764291
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/FindInPage_Internal$FindInPageFindMatchRectsResponseParamsProxyToResponder.class", 
+          "tag": 2427754182
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/FindInPage_Internal$FindInPageFindParams.class", 
+          "tag": 1763753856
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/FindInPage_Internal$FindInPageGetNearestFindResultParams.class", 
+          "tag": 4005963401
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/FindInPage_Internal$FindInPageGetNearestFindResultResponseParams.class", 
+          "tag": 1396292662
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/FindInPage_Internal$FindInPageGetNearestFindResultResponseParamsForwardToCallback.class", 
+          "tag": 280362206
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/FindInPage_Internal$FindInPageGetNearestFindResultResponseParamsProxyToResponder.class", 
+          "tag": 2689117353
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/FindInPage_Internal$FindInPageSetClientParams.class", 
+          "tag": 2856278195
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/FindInPage_Internal$FindInPageStopFindingParams.class", 
+          "tag": 3886240140
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/FindInPage_Internal$Proxy.class", 
+          "tag": 4171262600
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/FindInPage_Internal$Stub.class", 
+          "tag": 1934709784
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/FindInPage_Internal.class", 
+          "tag": 2676312858
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/FindMatchUpdateType.class", 
+          "tag": 1843823470
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/FindOptions.class", 
+          "tag": 2246797605
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StopFindAction.class", 
+          "tag": 3663591380
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

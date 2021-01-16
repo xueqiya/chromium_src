@@ -1,0 +1,4 @@
+libangle_util.so
+libGLESv2_angle.so
+libEGL_angle.so
+libangle_perftests__library.so

@@ -1,0 +1,19 @@
+{
+  "deps_info": {
+    "assets": {
+      "disable_compression": true,
+      "sources": [
+        "icudtl.dat"
+      ]
+    },
+    "deps_configs": [],
+    "extra_main_r_text_files": [],
+    "name": "icu_assets.build_config",
+    "path": "gen/third_party/icu/icu_assets.build_config",
+    "proguard_configs": [],
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "type": "android_assets"
+  },
+  "gradle": {}
+}

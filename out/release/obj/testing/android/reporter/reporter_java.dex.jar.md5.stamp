@@ -1,0 +1,89 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "55f53c575c43fb8cc8200d50ad7e59a8", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/testing/android/reporter/reporter_java.jar", 
+      "tag": "a10fbc310b208049e74a82875136469f", 
+      "entries": [
+        {
+          "path": "org/chromium/test/reporter/TestStatusListener.class", 
+          "tag": 1468671649
+        }, 
+        {
+          "path": "org/chromium/test/reporter/TestStatusReceiver$FailCallback.class", 
+          "tag": 1537769607
+        }, 
+        {
+          "path": "org/chromium/test/reporter/TestStatusReceiver$HeartbeatCallback.class", 
+          "tag": 1192738274
+        }, 
+        {
+          "path": "org/chromium/test/reporter/TestStatusReceiver$PassCallback.class", 
+          "tag": 1237886529
+        }, 
+        {
+          "path": "org/chromium/test/reporter/TestStatusReceiver$StartCallback.class", 
+          "tag": 54439982
+        }, 
+        {
+          "path": "org/chromium/test/reporter/TestStatusReceiver$TestRunCallback.class", 
+          "tag": 358305603
+        }, 
+        {
+          "path": "org/chromium/test/reporter/TestStatusReceiver.class", 
+          "tag": 674517160
+        }, 
+        {
+          "path": "org/chromium/test/reporter/TestStatusReporter$1.class", 
+          "tag": 2552807028
+        }, 
+        {
+          "path": "org/chromium/test/reporter/TestStatusReporter.class", 
+          "tag": 3328449081
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

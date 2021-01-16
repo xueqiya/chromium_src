@@ -1,0 +1,1 @@
+obj/android_webview/test/webview_instrumentation_apk_resources.resources.zip: ../../android_webview/test/shell/res/layout/testshell_activity.xml ../../android_webview/test/shell/res/values/config.xml ../../android_webview/test/shell/res/raw/resource_icon.png ../../android_webview/test/shell/res/raw/resource_file.html

@@ -1,0 +1,773 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "e87e401f20fe8b063078eea131a4e9b1", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/services/media_session/public/mojom/mojom_java.jar", 
+      "tag": "82d1e05832db557274e9138c1d45b76b", 
+      "entries": [
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManager$GetFocusRequestsResponse.class", 
+          "tag": 3818610498
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManager$GetSourceFocusRequestsResponse.class", 
+          "tag": 3249949952
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManager$Proxy.class", 
+          "tag": 3979762737
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManager$RequestAudioFocusResponse.class", 
+          "tag": 3987678971
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManager$RequestGroupedAudioFocusResponse.class", 
+          "tag": 2847418076
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManager.class", 
+          "tag": 438211107
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManagerDebug$GetDebugInfoForRequestResponse.class", 
+          "tag": 3332741932
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManagerDebug$Proxy.class", 
+          "tag": 2318184276
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManagerDebug.class", 
+          "tag": 362852373
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManagerDebug_Internal$1.class", 
+          "tag": 2307996171
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManagerDebug_Internal$AudioFocusManagerDebugGetDebugInfoForRequestParams.class", 
+          "tag": 1013159302
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManagerDebug_Internal$AudioFocusManagerDebugGetDebugInfoForRequestResponseParams.class", 
+          "tag": 1176832536
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManagerDebug_Internal$AudioFocusManagerDebugGetDebugInfoForRequestResponseParamsForwardToCallback.class", 
+          "tag": 856125759
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManagerDebug_Internal$AudioFocusManagerDebugGetDebugInfoForRequestResponseParamsProxyToResponder.class", 
+          "tag": 287610818
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManagerDebug_Internal$Proxy.class", 
+          "tag": 3247969545
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManagerDebug_Internal$Stub.class", 
+          "tag": 3654636683
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManagerDebug_Internal.class", 
+          "tag": 2460133463
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManager_Internal$1.class", 
+          "tag": 3789699865
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManager_Internal$AudioFocusManagerAddObserverParams.class", 
+          "tag": 2770855046
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManager_Internal$AudioFocusManagerAddSourceObserverParams.class", 
+          "tag": 2426849178
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManager_Internal$AudioFocusManagerGetFocusRequestsParams.class", 
+          "tag": 2155501402
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManager_Internal$AudioFocusManagerGetFocusRequestsResponseParams.class", 
+          "tag": 3181675297
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManager_Internal$AudioFocusManagerGetFocusRequestsResponseParamsForwardToCallback.class", 
+          "tag": 1210788911
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManager_Internal$AudioFocusManagerGetFocusRequestsResponseParamsProxyToResponder.class", 
+          "tag": 54466948
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManager_Internal$AudioFocusManagerGetSourceFocusRequestsParams.class", 
+          "tag": 3334173281
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManager_Internal$AudioFocusManagerGetSourceFocusRequestsResponseParams.class", 
+          "tag": 3160532845
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManager_Internal$AudioFocusManagerGetSourceFocusRequestsResponseParamsForwardToCallback.class", 
+          "tag": 2035794192
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManager_Internal$AudioFocusManagerGetSourceFocusRequestsResponseParamsProxyToResponder.class", 
+          "tag": 4049933334
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManager_Internal$AudioFocusManagerRequestAudioFocusParams.class", 
+          "tag": 4207464705
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManager_Internal$AudioFocusManagerRequestAudioFocusResponseParams.class", 
+          "tag": 348223443
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManager_Internal$AudioFocusManagerRequestAudioFocusResponseParamsForwardToCallback.class", 
+          "tag": 2522525521
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManager_Internal$AudioFocusManagerRequestAudioFocusResponseParamsProxyToResponder.class", 
+          "tag": 672392330
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManager_Internal$AudioFocusManagerRequestGroupedAudioFocusParams.class", 
+          "tag": 2588105480
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManager_Internal$AudioFocusManagerRequestGroupedAudioFocusResponseParams.class", 
+          "tag": 1810675604
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManager_Internal$AudioFocusManagerRequestGroupedAudioFocusResponseParamsForwardToCallback.class", 
+          "tag": 2687439802
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManager_Internal$AudioFocusManagerRequestGroupedAudioFocusResponseParamsProxyToResponder.class", 
+          "tag": 1710963631
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManager_Internal$AudioFocusManagerSetEnforcementModeParams.class", 
+          "tag": 3329910716
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManager_Internal$AudioFocusManagerSetSourceParams.class", 
+          "tag": 807578465
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManager_Internal$Proxy.class", 
+          "tag": 3099336720
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManager_Internal$Stub.class", 
+          "tag": 3093782031
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusManager_Internal.class", 
+          "tag": 370534461
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusObserver$Proxy.class", 
+          "tag": 3815036447
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusObserver.class", 
+          "tag": 1982464483
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusObserver_Internal$1.class", 
+          "tag": 4199637683
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusObserver_Internal$AudioFocusObserverOnFocusGainedParams.class", 
+          "tag": 845376793
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusObserver_Internal$AudioFocusObserverOnFocusLostParams.class", 
+          "tag": 4198647498
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusObserver_Internal$Proxy.class", 
+          "tag": 2195161926
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusObserver_Internal$Stub.class", 
+          "tag": 344448519
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusObserver_Internal.class", 
+          "tag": 2235361915
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusRequestClient$Proxy.class", 
+          "tag": 2914010373
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusRequestClient$RequestAudioFocusResponse.class", 
+          "tag": 4091788305
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusRequestClient.class", 
+          "tag": 3278132808
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusRequestClient_Internal$1.class", 
+          "tag": 3761773216
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusRequestClient_Internal$AudioFocusRequestClientAbandonAudioFocusParams.class", 
+          "tag": 2008192506
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusRequestClient_Internal$AudioFocusRequestClientMediaSessionInfoChangedParams.class", 
+          "tag": 127069295
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusRequestClient_Internal$AudioFocusRequestClientRequestAudioFocusParams.class", 
+          "tag": 3972091650
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusRequestClient_Internal$AudioFocusRequestClientRequestAudioFocusResponseParams.class", 
+          "tag": 1295149197
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusRequestClient_Internal$AudioFocusRequestClientRequestAudioFocusResponseParamsForwardToCallback.class", 
+          "tag": 3361944012
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusRequestClient_Internal$AudioFocusRequestClientRequestAudioFocusResponseParamsProxyToResponder.class", 
+          "tag": 1919008098
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusRequestClient_Internal$Proxy.class", 
+          "tag": 1504246571
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusRequestClient_Internal$Stub.class", 
+          "tag": 3846601096
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusRequestClient_Internal.class", 
+          "tag": 3840083699
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusRequestState.class", 
+          "tag": 2179392149
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/AudioFocusType.class", 
+          "tag": 4206406085
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/ConstantsConstants.class", 
+          "tag": 2731408526
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/EnforcementMode.class", 
+          "tag": 48880274
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaController$Proxy.class", 
+          "tag": 4074080751
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaController.class", 
+          "tag": 463615858
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaControllerImageObserver$Proxy.class", 
+          "tag": 2066935077
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaControllerImageObserver.class", 
+          "tag": 3390898205
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaControllerImageObserver_Internal$1.class", 
+          "tag": 1515604419
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaControllerImageObserver_Internal$MediaControllerImageObserverMediaControllerImageChangedParams.class", 
+          "tag": 3521100899
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaControllerImageObserver_Internal$Proxy.class", 
+          "tag": 1282416320
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaControllerImageObserver_Internal$Stub.class", 
+          "tag": 1896816597
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaControllerImageObserver_Internal.class", 
+          "tag": 450127033
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaControllerManager$Proxy.class", 
+          "tag": 432188545
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaControllerManager.class", 
+          "tag": 1028108829
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaControllerManager_Internal$1.class", 
+          "tag": 3264395869
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaControllerManager_Internal$MediaControllerManagerCreateActiveMediaControllerParams.class", 
+          "tag": 1313578879
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaControllerManager_Internal$MediaControllerManagerCreateMediaControllerForSessionParams.class", 
+          "tag": 3011799629
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaControllerManager_Internal$MediaControllerManagerSuspendAllSessionsParams.class", 
+          "tag": 2390764867
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaControllerManager_Internal$Proxy.class", 
+          "tag": 2341187019
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaControllerManager_Internal$Stub.class", 
+          "tag": 1591502424
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaControllerManager_Internal.class", 
+          "tag": 861556943
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaControllerObserver$Proxy.class", 
+          "tag": 2865885746
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaControllerObserver.class", 
+          "tag": 2905113418
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaControllerObserver_Internal$1.class", 
+          "tag": 831520275
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaControllerObserver_Internal$MediaControllerObserverMediaSessionActionsChangedParams.class", 
+          "tag": 1049262216
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaControllerObserver_Internal$MediaControllerObserverMediaSessionChangedParams.class", 
+          "tag": 4152918991
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaControllerObserver_Internal$MediaControllerObserverMediaSessionInfoChangedParams.class", 
+          "tag": 3610029209
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaControllerObserver_Internal$MediaControllerObserverMediaSessionMetadataChangedParams.class", 
+          "tag": 767458192
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaControllerObserver_Internal$MediaControllerObserverMediaSessionPositionChangedParams.class", 
+          "tag": 3599758680
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaControllerObserver_Internal$Proxy.class", 
+          "tag": 1735303839
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaControllerObserver_Internal$Stub.class", 
+          "tag": 2566064657
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaControllerObserver_Internal.class", 
+          "tag": 1937763137
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaController_Internal$1.class", 
+          "tag": 3418869800
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaController_Internal$MediaControllerAddObserverParams.class", 
+          "tag": 1278469959
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaController_Internal$MediaControllerEnterPictureInPictureParams.class", 
+          "tag": 3188971066
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaController_Internal$MediaControllerExitPictureInPictureParams.class", 
+          "tag": 686954306
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaController_Internal$MediaControllerNextTrackParams.class", 
+          "tag": 3587154322
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaController_Internal$MediaControllerObserveImagesParams.class", 
+          "tag": 4235056086
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaController_Internal$MediaControllerPreviousTrackParams.class", 
+          "tag": 766515581
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaController_Internal$MediaControllerResumeParams.class", 
+          "tag": 1190575291
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaController_Internal$MediaControllerScrubToParams.class", 
+          "tag": 3526821655
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaController_Internal$MediaControllerSeekParams.class", 
+          "tag": 3568488947
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaController_Internal$MediaControllerSeekToParams.class", 
+          "tag": 2096282852
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaController_Internal$MediaControllerStopParams.class", 
+          "tag": 3821259746
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaController_Internal$MediaControllerSuspendParams.class", 
+          "tag": 2368252110
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaController_Internal$MediaControllerToggleSuspendResumeParams.class", 
+          "tag": 3210514411
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaController_Internal$Proxy.class", 
+          "tag": 2863286417
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaController_Internal$Stub.class", 
+          "tag": 3660939651
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaController_Internal.class", 
+          "tag": 292385697
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaImage.class", 
+          "tag": 1826793021
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaImageBitmap.class", 
+          "tag": 2038252207
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaImageBitmapColorType.class", 
+          "tag": 3497503841
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaMetadata.class", 
+          "tag": 2969487106
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaPictureInPictureState.class", 
+          "tag": 2374694355
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaPlaybackState.class", 
+          "tag": 3714184675
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaPosition.class", 
+          "tag": 1466094353
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession$GetDebugInfoResponse.class", 
+          "tag": 376713885
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession$GetMediaImageBitmapResponse.class", 
+          "tag": 774129460
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession$GetMediaSessionInfoResponse.class", 
+          "tag": 2292085784
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession$Proxy.class", 
+          "tag": 2653802166
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession$SuspendType.class", 
+          "tag": 1193063021
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession.class", 
+          "tag": 3993604927
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSessionAction.class", 
+          "tag": 777638484
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSessionDebugInfo.class", 
+          "tag": 3626766647
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSessionImageType.class", 
+          "tag": 3807617077
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSessionInfo$SessionState.class", 
+          "tag": 1425778849
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSessionInfo.class", 
+          "tag": 3973082038
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSessionObserver$Proxy.class", 
+          "tag": 1093742177
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSessionObserver.class", 
+          "tag": 467246472
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSessionObserver_Internal$1.class", 
+          "tag": 1241936129
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSessionObserver_Internal$MediaSessionObserverMediaSessionActionsChangedParams.class", 
+          "tag": 3502888395
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSessionObserver_Internal$MediaSessionObserverMediaSessionImagesChangedParams.class", 
+          "tag": 2905598233
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSessionObserver_Internal$MediaSessionObserverMediaSessionInfoChangedParams.class", 
+          "tag": 1463234017
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSessionObserver_Internal$MediaSessionObserverMediaSessionMetadataChangedParams.class", 
+          "tag": 1804679574
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSessionObserver_Internal$MediaSessionObserverMediaSessionPositionChangedParams.class", 
+          "tag": 2065651020
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSessionObserver_Internal$Proxy.class", 
+          "tag": 3241550984
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSessionObserver_Internal$Stub.class", 
+          "tag": 290816443
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSessionObserver_Internal.class", 
+          "tag": 842222625
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSessionService$Proxy.class", 
+          "tag": 1476869492
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSessionService.class", 
+          "tag": 1057029158
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSessionService_Internal$1.class", 
+          "tag": 1958227901
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSessionService_Internal$MediaSessionServiceBindAudioFocusManagerDebugParams.class", 
+          "tag": 1085254306
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSessionService_Internal$MediaSessionServiceBindAudioFocusManagerParams.class", 
+          "tag": 782631974
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSessionService_Internal$MediaSessionServiceBindMediaControllerManagerParams.class", 
+          "tag": 505248031
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSessionService_Internal$Proxy.class", 
+          "tag": 4275419805
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSessionService_Internal$Stub.class", 
+          "tag": 2143276941
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSessionService_Internal.class", 
+          "tag": 1643881350
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession_Internal$1.class", 
+          "tag": 1088554342
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession_Internal$MediaSessionAddObserverParams.class", 
+          "tag": 387187891
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession_Internal$MediaSessionEnterPictureInPictureParams.class", 
+          "tag": 542136443
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession_Internal$MediaSessionExitPictureInPictureParams.class", 
+          "tag": 1898349516
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession_Internal$MediaSessionGetDebugInfoParams.class", 
+          "tag": 1131517367
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession_Internal$MediaSessionGetDebugInfoResponseParams.class", 
+          "tag": 4104247684
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession_Internal$MediaSessionGetDebugInfoResponseParamsForwardToCallback.class", 
+          "tag": 439044436
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession_Internal$MediaSessionGetDebugInfoResponseParamsProxyToResponder.class", 
+          "tag": 2540895252
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession_Internal$MediaSessionGetMediaImageBitmapParams.class", 
+          "tag": 2524964322
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession_Internal$MediaSessionGetMediaImageBitmapResponseParams.class", 
+          "tag": 1714166248
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession_Internal$MediaSessionGetMediaImageBitmapResponseParamsForwardToCallback.class", 
+          "tag": 2215414038
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession_Internal$MediaSessionGetMediaImageBitmapResponseParamsProxyToResponder.class", 
+          "tag": 71229706
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession_Internal$MediaSessionGetMediaSessionInfoParams.class", 
+          "tag": 2800365950
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession_Internal$MediaSessionGetMediaSessionInfoResponseParams.class", 
+          "tag": 2184866473
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession_Internal$MediaSessionGetMediaSessionInfoResponseParamsForwardToCallback.class", 
+          "tag": 999433342
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession_Internal$MediaSessionGetMediaSessionInfoResponseParamsProxyToResponder.class", 
+          "tag": 4099607761
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession_Internal$MediaSessionNextTrackParams.class", 
+          "tag": 3733013097
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession_Internal$MediaSessionPreviousTrackParams.class", 
+          "tag": 3228178231
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession_Internal$MediaSessionResumeParams.class", 
+          "tag": 1315750157
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession_Internal$MediaSessionScrubToParams.class", 
+          "tag": 3008546296
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession_Internal$MediaSessionSeekParams.class", 
+          "tag": 4054046674
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession_Internal$MediaSessionSeekToParams.class", 
+          "tag": 4108570763
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession_Internal$MediaSessionSkipAdParams.class", 
+          "tag": 1456579945
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession_Internal$MediaSessionStartDuckingParams.class", 
+          "tag": 3609370304
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession_Internal$MediaSessionStopDuckingParams.class", 
+          "tag": 424966365
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession_Internal$MediaSessionStopParams.class", 
+          "tag": 1776500455
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession_Internal$MediaSessionSuspendParams.class", 
+          "tag": 2699390113
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession_Internal$Proxy.class", 
+          "tag": 794514061
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession_Internal$Stub.class", 
+          "tag": 2999029252
+        }, 
+        {
+          "path": "org/chromium/media_session/mojom/MediaSession_Internal.class", 
+          "tag": 216152147
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

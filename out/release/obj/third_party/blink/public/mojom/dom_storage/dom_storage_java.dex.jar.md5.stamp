@@ -1,0 +1,321 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "6c491d472ec34158e86b5b4859fd8463", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/third_party/blink/public/mojom/dom_storage/dom_storage_java.jar", 
+      "tag": "76f6cd0e5e184365db7b14735e5377fd", 
+      "entries": [
+        {
+          "path": "org/chromium/blink/mojom/KeyValue.class", 
+          "tag": 194301458
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/SessionStorageNamespace$Proxy.class", 
+          "tag": 2462559636
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/SessionStorageNamespace.class", 
+          "tag": 1936624406
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/SessionStorageNamespace_Internal$1.class", 
+          "tag": 4077779991
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/SessionStorageNamespace_Internal$Proxy.class", 
+          "tag": 2313905951
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/SessionStorageNamespace_Internal$SessionStorageNamespaceCloneParams.class", 
+          "tag": 3580594455
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/SessionStorageNamespace_Internal$SessionStorageNamespaceOpenAreaParams.class", 
+          "tag": 2426691800
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/SessionStorageNamespace_Internal$Stub.class", 
+          "tag": 1975012559
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/SessionStorageNamespace_Internal.class", 
+          "tag": 2334051166
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageArea$DeleteAllResponse.class", 
+          "tag": 134200135
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageArea$DeleteResponse.class", 
+          "tag": 1940339624
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageArea$GetAllResponse.class", 
+          "tag": 731766935
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageArea$GetResponse.class", 
+          "tag": 241603106
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageArea$Proxy.class", 
+          "tag": 2407354191
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageArea$PutResponse.class", 
+          "tag": 4285300769
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageArea.class", 
+          "tag": 3767384976
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageAreaGetAllCallback$Proxy.class", 
+          "tag": 4204890127
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageAreaGetAllCallback.class", 
+          "tag": 2654567998
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageAreaGetAllCallback_Internal$1.class", 
+          "tag": 184873446
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageAreaGetAllCallback_Internal$Proxy.class", 
+          "tag": 3685787057
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageAreaGetAllCallback_Internal$StorageAreaGetAllCallbackCompleteParams.class", 
+          "tag": 4276929671
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageAreaGetAllCallback_Internal$Stub.class", 
+          "tag": 3783281171
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageAreaGetAllCallback_Internal.class", 
+          "tag": 3099087551
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageAreaObserver$Proxy.class", 
+          "tag": 1479559294
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageAreaObserver.class", 
+          "tag": 4003691236
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageAreaObserver_Internal$1.class", 
+          "tag": 975493608
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageAreaObserver_Internal$Proxy.class", 
+          "tag": 1184876844
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageAreaObserver_Internal$StorageAreaObserverAllDeletedParams.class", 
+          "tag": 325779109
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageAreaObserver_Internal$StorageAreaObserverKeyAddedParams.class", 
+          "tag": 630011515
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageAreaObserver_Internal$StorageAreaObserverKeyChangedParams.class", 
+          "tag": 460391094
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageAreaObserver_Internal$StorageAreaObserverKeyDeletedParams.class", 
+          "tag": 1960284037
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageAreaObserver_Internal$StorageAreaObserverShouldSendOldValueOnMutationsParams.class", 
+          "tag": 2312159115
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageAreaObserver_Internal$Stub.class", 
+          "tag": 1110948692
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageAreaObserver_Internal.class", 
+          "tag": 2863753798
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageArea_Internal$1.class", 
+          "tag": 2096054943
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageArea_Internal$Proxy.class", 
+          "tag": 3868994915
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageArea_Internal$StorageAreaAddObserverParams.class", 
+          "tag": 1712804584
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageArea_Internal$StorageAreaDeleteAllParams.class", 
+          "tag": 3208096031
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageArea_Internal$StorageAreaDeleteAllResponseParams.class", 
+          "tag": 984065690
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageArea_Internal$StorageAreaDeleteAllResponseParamsForwardToCallback.class", 
+          "tag": 4166075687
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageArea_Internal$StorageAreaDeleteAllResponseParamsProxyToResponder.class", 
+          "tag": 2696487656
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageArea_Internal$StorageAreaDeleteParams.class", 
+          "tag": 3473697314
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageArea_Internal$StorageAreaDeleteResponseParams.class", 
+          "tag": 2245444914
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageArea_Internal$StorageAreaDeleteResponseParamsForwardToCallback.class", 
+          "tag": 100664650
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageArea_Internal$StorageAreaDeleteResponseParamsProxyToResponder.class", 
+          "tag": 2569353744
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageArea_Internal$StorageAreaGetAllParams.class", 
+          "tag": 2994533172
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageArea_Internal$StorageAreaGetAllResponseParams.class", 
+          "tag": 962243334
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageArea_Internal$StorageAreaGetAllResponseParamsForwardToCallback.class", 
+          "tag": 322878786
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageArea_Internal$StorageAreaGetAllResponseParamsProxyToResponder.class", 
+          "tag": 3319654271
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageArea_Internal$StorageAreaGetParams.class", 
+          "tag": 3150957899
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageArea_Internal$StorageAreaGetResponseParams.class", 
+          "tag": 764081805
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageArea_Internal$StorageAreaGetResponseParamsForwardToCallback.class", 
+          "tag": 1100750166
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageArea_Internal$StorageAreaGetResponseParamsProxyToResponder.class", 
+          "tag": 2773030788
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageArea_Internal$StorageAreaPutParams.class", 
+          "tag": 1380584170
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageArea_Internal$StorageAreaPutResponseParams.class", 
+          "tag": 3353656790
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageArea_Internal$StorageAreaPutResponseParamsForwardToCallback.class", 
+          "tag": 596506294
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageArea_Internal$StorageAreaPutResponseParamsProxyToResponder.class", 
+          "tag": 1220292052
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageArea_Internal$Stub.class", 
+          "tag": 3057251873
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StorageArea_Internal.class", 
+          "tag": 2023124791
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StoragePartitionService$Proxy.class", 
+          "tag": 2145667300
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StoragePartitionService.class", 
+          "tag": 443059086
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StoragePartitionService_Internal$1.class", 
+          "tag": 389448213
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StoragePartitionService_Internal$Proxy.class", 
+          "tag": 631660600
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StoragePartitionService_Internal$StoragePartitionServiceOpenLocalStorageParams.class", 
+          "tag": 1786312962
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StoragePartitionService_Internal$StoragePartitionServiceOpenSessionStorageParams.class", 
+          "tag": 1376302078
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StoragePartitionService_Internal$Stub.class", 
+          "tag": 3787461701
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/StoragePartitionService_Internal.class", 
+          "tag": 360960690
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

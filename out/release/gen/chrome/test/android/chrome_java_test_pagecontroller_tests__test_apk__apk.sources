@@ -1,0 +1,4 @@
+../../chrome/test/android/javatests/src/org/chromium/chrome/test/pagecontroller/tests/ExampleTest.java
+../../chrome/test/android/javatests/src/org/chromium/chrome/test/pagecontroller/tests/FirstRunControllerTest.java
+../../chrome/test/android/javatests/src/org/chromium/chrome/test/pagecontroller/tests/NewTabPageControllerTest.java
+../../chrome/test/android/javatests/src/org/chromium/chrome/test/pagecontroller/tests/TabSwitcherControllerTest.java

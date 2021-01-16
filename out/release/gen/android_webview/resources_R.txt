@@ -1,0 +1,3 @@
+int string private_browsing_warning 0x7f010001
+int drawable ic_play_circle_outline_black_48dp 0x7f010001
+int string license_activity_title 0x7f010001

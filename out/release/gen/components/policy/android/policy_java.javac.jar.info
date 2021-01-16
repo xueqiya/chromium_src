@@ -1,0 +1,7 @@
+org.chromium.policy.AbstractAppRestrictionsProvider,../../components/policy/android/java/src/org/chromium/policy/AbstractAppRestrictionsProvider.java
+org.chromium.policy.AppRestrictionsProvider,../../components/policy/android/java/src/org/chromium/policy/AppRestrictionsProvider.java
+org.chromium.policy.CombinedPolicyProvider,../../components/policy/android/java/src/org/chromium/policy/CombinedPolicyProvider.java
+org.chromium.policy.CombinedPolicyProviderJni,gen/components/policy/android/policy_java/generated_java/annotation_processor_outputs/org/chromium/policy/CombinedPolicyProviderJni.java
+org.chromium.policy.PolicyConverter,../../components/policy/android/java/src/org/chromium/policy/PolicyConverter.java
+org.chromium.policy.PolicyConverterJni,gen/components/policy/android/policy_java/generated_java/annotation_processor_outputs/org/chromium/policy/PolicyConverterJni.java
+org.chromium.policy.PolicyProvider,../../components/policy/android/java/src/org/chromium/policy/PolicyProvider.java

@@ -1,0 +1,209 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "4947a96f4fc958b92fd06635c5db35ef", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/android_webview/nonembedded/devui_java.jar", 
+      "tag": "3ef4530a6408d3fa84502b33811aff5c", 
+      "entries": [
+        {
+          "path": "org/chromium/android_webview/devui/CrashesListActivity$1.class", 
+          "tag": 1061481141
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/CrashesListActivity$CrashListExpandableAdapter$1.class", 
+          "tag": 3085447690
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/CrashesListActivity$CrashListExpandableAdapter$2.class", 
+          "tag": 1290046320
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/CrashesListActivity$CrashListExpandableAdapter.class", 
+          "tag": 3703471283
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/CrashesListActivity.class", 
+          "tag": 1406584180
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/FlagsActivity$1.class", 
+          "tag": 1932953240
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/FlagsActivity$FlagStateSpinnerSelectedListener.class", 
+          "tag": 1150089166
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/FlagsActivity$FlagsListAdapter.class", 
+          "tag": 1496996097
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/FlagsActivity$FlagsServiceConnection.class", 
+          "tag": 2418763429
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/FlagsActivity.class", 
+          "tag": 3221750079
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/MainActivity$InfoItem.class", 
+          "tag": 4065733035
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/MainActivity$InfoListAdapter.class", 
+          "tag": 516815999
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/MainActivity.class", 
+          "tag": 1459323156
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/PersistentErrorView$1.class", 
+          "tag": 3297167976
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/PersistentErrorView$Type.class", 
+          "tag": 651000810
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/PersistentErrorView.class", 
+          "tag": 650283674
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/WebViewPackageError.class", 
+          "tag": 1272826876
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/util/CrashInfoLoader.class", 
+          "tag": 2115217952
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/util/NavigationMenuHelper.class", 
+          "tag": 3991302679
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/util/UnuploadedFilesStateLoader.class", 
+          "tag": 1101848359
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/util/UploadedCrashesInfoLoader.class", 
+          "tag": 3465335137
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/util/WebViewCrashInfoCollector.class", 
+          "tag": 212052298
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/util/WebViewCrashLogParser.class", 
+          "tag": 2655304534
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/util/WebViewPackageHelper.class", 
+          "tag": 479102153
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/CrashesListActivity$CrashListExpandableAdapter$$Lambda$0.class", 
+          "tag": 3400366391
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/CrashesListActivity$CrashListExpandableAdapter$$Lambda$1.class", 
+          "tag": 1962106466
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/CrashesListActivity$CrashListExpandableAdapter$$Lambda$2.class", 
+          "tag": 3496953405
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/CrashesListActivity$CrashListExpandableAdapter$$Lambda$3.class", 
+          "tag": 768846306
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/CrashesListActivity$CrashListExpandableAdapter$$Lambda$4.class", 
+          "tag": 79757381
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/CrashesListActivity$CrashListExpandableAdapter$$Lambda$5.class", 
+          "tag": 2245199539
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/CrashesListActivity$$Lambda$0.class", 
+          "tag": 2438760579
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/CrashesListActivity$$Lambda$1.class", 
+          "tag": 1127377167
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/FlagsActivity$$Lambda$0.class", 
+          "tag": 216854041
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/MainActivity$$Lambda$0.class", 
+          "tag": 401608941
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/PersistentErrorView$$Lambda$0.class", 
+          "tag": 2535120081
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/WebViewPackageError$$Lambda$0.class", 
+          "tag": 2477840745
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/WebViewPackageError$$Lambda$1.class", 
+          "tag": 2046824973
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/WebViewPackageError$$Lambda$2.class", 
+          "tag": 1877961238
+        }, 
+        {
+          "path": "org/chromium/android_webview/devui/util/WebViewCrashInfoCollector$$Lambda$0.class", 
+          "tag": 723272056
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

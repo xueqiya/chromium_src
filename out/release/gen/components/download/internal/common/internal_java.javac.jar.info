@@ -1,0 +1,2 @@
+org.chromium.components.download.DownloadCollectionBridge,../../components/download/internal/common/android/java/src/org/chromium/components/download/DownloadCollectionBridge.java
+org.chromium.components.download.DownloadCollectionBridgeJni,gen/components/download/internal/common/internal_java/generated_java/annotation_processor_outputs/org/chromium/components/download/DownloadCollectionBridgeJni.java

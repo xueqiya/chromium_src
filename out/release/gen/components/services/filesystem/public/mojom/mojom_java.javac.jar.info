@@ -1,0 +1,12 @@
+org.chromium.filesystem.mojom.Directory,gen/components/services/filesystem/public/mojom/mojom_java_sources.srcjar/org/chromium/filesystem/mojom/Directory.java
+org.chromium.filesystem.mojom.DirectoryEntry,gen/components/services/filesystem/public/mojom/mojom_java_sources.srcjar/org/chromium/filesystem/mojom/DirectoryEntry.java
+org.chromium.filesystem.mojom.Directory_Internal,gen/components/services/filesystem/public/mojom/mojom_java_sources.srcjar/org/chromium/filesystem/mojom/Directory_Internal.java
+org.chromium.filesystem.mojom.File,gen/components/services/filesystem/public/mojom/mojom_java_sources.srcjar/org/chromium/filesystem/mojom/File.java
+org.chromium.filesystem.mojom.FileInformation,gen/components/services/filesystem/public/mojom/mojom_java_sources.srcjar/org/chromium/filesystem/mojom/FileInformation.java
+org.chromium.filesystem.mojom.FileOpenDetails,gen/components/services/filesystem/public/mojom/mojom_java_sources.srcjar/org/chromium/filesystem/mojom/FileOpenDetails.java
+org.chromium.filesystem.mojom.FileOpenResult,gen/components/services/filesystem/public/mojom/mojom_java_sources.srcjar/org/chromium/filesystem/mojom/FileOpenResult.java
+org.chromium.filesystem.mojom.File_Internal,gen/components/services/filesystem/public/mojom/mojom_java_sources.srcjar/org/chromium/filesystem/mojom/File_Internal.java
+org.chromium.filesystem.mojom.FsFileType,gen/components/services/filesystem/public/mojom/mojom_java_sources.srcjar/org/chromium/filesystem/mojom/FsFileType.java
+org.chromium.filesystem.mojom.TimespecOrNow,gen/components/services/filesystem/public/mojom/mojom_java_sources.srcjar/org/chromium/filesystem/mojom/TimespecOrNow.java
+org.chromium.filesystem.mojom.TypesConstants,gen/components/services/filesystem/public/mojom/mojom_java_sources.srcjar/org/chromium/filesystem/mojom/TypesConstants.java
+org.chromium.filesystem.mojom.Whence,gen/components/services/filesystem/public/mojom/mojom_java_sources.srcjar/org/chromium/filesystem/mojom/Whence.java

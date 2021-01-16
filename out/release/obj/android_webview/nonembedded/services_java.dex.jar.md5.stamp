@@ -1,0 +1,133 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "09348e8ce99e6bcbf85cc4fcc4625cf7", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/android_webview/nonembedded/services_java.jar", 
+      "tag": "5c9908fdc535cbbbdd415d4c86bad2b5", 
+      "entries": [
+        {
+          "path": "org/chromium/android_webview/services/AwMinidumpUploadJobService.class", 
+          "tag": 2425493472
+        }, 
+        {
+          "path": "org/chromium/android_webview/services/AwMinidumpUploaderDelegate$1.class", 
+          "tag": 2503142228
+        }, 
+        {
+          "path": "org/chromium/android_webview/services/AwMinidumpUploaderDelegate$2.class", 
+          "tag": 2784754891
+        }, 
+        {
+          "path": "org/chromium/android_webview/services/AwMinidumpUploaderDelegate$SamplingDelegate.class", 
+          "tag": 3733172129
+        }, 
+        {
+          "path": "org/chromium/android_webview/services/AwMinidumpUploaderDelegate.class", 
+          "tag": 3812559965
+        }, 
+        {
+          "path": "org/chromium/android_webview/services/AwVariationsSeedFetcher$Clock.class", 
+          "tag": 3694988067
+        }, 
+        {
+          "path": "org/chromium/android_webview/services/AwVariationsSeedFetcher$FetchTask.class", 
+          "tag": 564759728
+        }, 
+        {
+          "path": "org/chromium/android_webview/services/AwVariationsSeedFetcher.class", 
+          "tag": 3846524655
+        }, 
+        {
+          "path": "org/chromium/android_webview/services/CrashReceiverService$1.class", 
+          "tag": 663539115
+        }, 
+        {
+          "path": "org/chromium/android_webview/services/CrashReceiverService.class", 
+          "tag": 3979219786
+        }, 
+        {
+          "path": "org/chromium/android_webview/services/DeveloperModeContentProvider.class", 
+          "tag": 3444085037
+        }, 
+        {
+          "path": "org/chromium/android_webview/services/DeveloperUiService$1.class", 
+          "tag": 1595153671
+        }, 
+        {
+          "path": "org/chromium/android_webview/services/DeveloperUiService.class", 
+          "tag": 2278095262
+        }, 
+        {
+          "path": "org/chromium/android_webview/services/VariationsSeedHolder$SeedUpdater.class", 
+          "tag": 2432318377
+        }, 
+        {
+          "path": "org/chromium/android_webview/services/VariationsSeedHolder$SeedWriter.class", 
+          "tag": 4059252612
+        }, 
+        {
+          "path": "org/chromium/android_webview/services/VariationsSeedHolder.class", 
+          "tag": 3730539245
+        }, 
+        {
+          "path": "org/chromium/android_webview/services/VariationsSeedServer$1.class", 
+          "tag": 2024311514
+        }, 
+        {
+          "path": "org/chromium/android_webview/services/VariationsSeedServer.class", 
+          "tag": 1405695625
+        }, 
+        {
+          "path": "org/chromium/android_webview/services/AwMinidumpUploaderDelegate$$Lambda$0.class", 
+          "tag": 4163106715
+        }, 
+        {
+          "path": "org/chromium/android_webview/services/AwVariationsSeedFetcher$FetchTask$$Lambda$0.class", 
+          "tag": 4098250898
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

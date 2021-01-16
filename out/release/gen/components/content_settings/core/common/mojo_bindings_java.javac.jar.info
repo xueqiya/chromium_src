@@ -1,0 +1,6 @@
+org.chromium.content_settings.mojom.ContentSetting,gen/components/content_settings/core/common/mojo_bindings_java_sources.srcjar/org/chromium/content_settings/mojom/ContentSetting.java
+org.chromium.content_settings.mojom.ContentSettingPatternSource,gen/components/content_settings/core/common/mojo_bindings_java_sources.srcjar/org/chromium/content_settings/mojom/ContentSettingPatternSource.java
+org.chromium.content_settings.mojom.ContentSettingsPattern,gen/components/content_settings/core/common/mojo_bindings_java_sources.srcjar/org/chromium/content_settings/mojom/ContentSettingsPattern.java
+org.chromium.content_settings.mojom.ContentSettingsType,gen/components/content_settings/core/common/mojo_bindings_java_sources.srcjar/org/chromium/content_settings/mojom/ContentSettingsType.java
+org.chromium.content_settings.mojom.PatternParts,gen/components/content_settings/core/common/mojo_bindings_java_sources.srcjar/org/chromium/content_settings/mojom/PatternParts.java
+org.chromium.content_settings.mojom.RendererContentSettingRules,gen/components/content_settings/core/common/mojo_bindings_java_sources.srcjar/org/chromium/content_settings/mojom/RendererContentSettingRules.java

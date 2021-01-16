@@ -1,0 +1,16 @@
+{
+  "deps_info": {
+    "assets": {
+      "sources": []
+    },
+    "deps_configs": [],
+    "extra_main_r_text_files": [],
+    "name": "v8_external_startup_data_assets.build_config",
+    "path": "gen/v8/v8_external_startup_data_assets.build_config",
+    "proguard_configs": [],
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "type": "android_assets"
+  },
+  "gradle": {}
+}

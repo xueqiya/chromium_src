@@ -1,0 +1,91 @@
+{
+  "android": {
+    "sdk_interface_jars": [
+      "lib.java/third_party/android_sdk/android.interface.jar"
+    ],
+    "sdk_jars": [
+      "lib.java/third_party/android_sdk/android.jar"
+    ]
+  },
+  "deps_info": {
+    "base_whitelist_rtxt_path": "",
+    "deps_configs": [
+      "gen/third_party/android_deps/com_android_support_collections_java.build_config",
+      "gen/third_party/android_deps/com_android_support_support_annotations_java.build_config",
+      "gen/build/android/buildhooks/build_hooks_java.build_config",
+      "gen/build/android/buildhooks/build_hooks_android_java.build_config",
+      "gen/third_party/android_sdk/android_sdk_java.build_config"
+    ],
+    "dex_path": "obj/third_party/android_deps/com_android_support_versionedparcelable_java__classes.dex.jar",
+    "extra_main_r_text_files": [],
+    "gradle_treat_as_prebuilt": null,
+    "interface_jar_path": "lib.java/third_party/android_deps/com_android_support_versionedparcelable_java.interface.jar",
+    "is_prebuilt": true,
+    "jar_path": "lib.java/third_party/android_deps/com_android_support_versionedparcelable_java.jar",
+    "javac_full_classpath": [
+      "../../third_party/bazel/desugar/Desugar_runtime.jar",
+      "gen/build/android/buildhooks/build_hooks_java.javac.jar",
+      "../../third_party/android_deps/libs/com_android_support_support_annotations/support-annotations-28.0.0.jar",
+      "../../third_party/android_deps/libs/com_android_support_collections/collections-28.0.0.jar",
+      "gen/build/android/buildhooks/build_hooks_android_java.javac.jar"
+    ],
+    "javac_full_interface_classpath": [
+      "lib.java/third_party/bazel/desugar/Desugar_runtime.interface.jar",
+      "lib.java/build/android/buildhooks/build_hooks_java.interface.jar",
+      "lib.java/third_party/android_deps/com_android_support_support_annotations.interface.jar",
+      "lib.java/third_party/android_deps/com_android_support_collections.interface.jar",
+      "lib.java/build/android/buildhooks/build_hooks_android_java.interface.jar"
+    ],
+    "jni": {
+      "all_source": [
+        "gen/build/android/buildhooks/build_hooks_android_java.sources",
+        "gen/build/android/buildhooks/build_hooks_java.sources"
+      ]
+    },
+    "module_pathmap_path": "",
+    "name": "com_android_support_versionedparcelable_java__classes.build_config",
+    "owned_resource_srcjars": [],
+    "owned_resources_dirs": [],
+    "owned_resources_zips": [],
+    "path": "gen/third_party/android_deps/com_android_support_versionedparcelable_java__classes.build_config",
+    "proguard_configs": [
+      "obj/third_party/android_deps/com_android_support_versionedparcelable_java/proguard.txt"
+    ],
+    "requires_android": true,
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "supports_android": true,
+    "type": "java_library",
+    "unprocessed_jar_path": "obj/third_party/android_deps/com_android_support_versionedparcelable_java/classes.jar"
+  },
+  "gradle": {
+    "bundled_srcjars": [],
+    "dependent_android_projects": [
+      "gen/build/android/buildhooks/build_hooks_android_java.build_config"
+    ],
+    "dependent_java_projects": [
+      "gen/build/android/buildhooks/build_hooks_java.build_config"
+    ],
+    "dependent_prebuilt_jars": [
+      "lib.java/third_party/android_deps/com_android_support_collections.jar",
+      "lib.java/third_party/android_deps/com_android_support_support_annotations.jar"
+    ]
+  },
+  "javac": {
+    "classpath": [
+      "../../third_party/android_deps/libs/com_android_support_collections/collections-28.0.0.jar",
+      "../../third_party/android_deps/libs/com_android_support_support_annotations/support-annotations-28.0.0.jar",
+      "gen/build/android/buildhooks/build_hooks_java.javac.jar",
+      "gen/build/android/buildhooks/build_hooks_android_java.javac.jar"
+    ],
+    "interface_classpath": [
+      "lib.java/third_party/android_deps/com_android_support_collections.interface.jar",
+      "lib.java/third_party/android_deps/com_android_support_support_annotations.interface.jar",
+      "lib.java/build/android/buildhooks/build_hooks_java.interface.jar",
+      "lib.java/build/android/buildhooks/build_hooks_android_java.interface.jar"
+    ],
+    "processor_classes": [],
+    "processor_classpath": [],
+    "resource_packages": []
+  }
+}

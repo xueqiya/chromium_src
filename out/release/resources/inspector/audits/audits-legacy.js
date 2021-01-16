@@ -1,0 +1,1 @@
+import*as AuditsModule from'./audits.js';self.Audits=self.Audits||{};Audits=Audits||{};Audits.AuditsPanel=AuditsModule.AuditsPanel.AuditsPanel;Audits.ReportSelector=AuditsModule.AuditsReportSelector.ReportSelector;Audits.StatusView=AuditsModule.AuditsStatusView.StatusView;Audits.Preset;Audits.RuntimeSetting;

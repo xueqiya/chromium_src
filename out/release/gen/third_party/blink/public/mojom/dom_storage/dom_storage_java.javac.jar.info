@@ -1,0 +1,11 @@
+org.chromium.blink.mojom.KeyValue,gen/third_party/blink/public/mojom/dom_storage/dom_storage_java_sources.srcjar/org/chromium/blink/mojom/KeyValue.java
+org.chromium.blink.mojom.SessionStorageNamespace,gen/third_party/blink/public/mojom/dom_storage/dom_storage_java_sources.srcjar/org/chromium/blink/mojom/SessionStorageNamespace.java
+org.chromium.blink.mojom.SessionStorageNamespace_Internal,gen/third_party/blink/public/mojom/dom_storage/dom_storage_java_sources.srcjar/org/chromium/blink/mojom/SessionStorageNamespace_Internal.java
+org.chromium.blink.mojom.StorageArea,gen/third_party/blink/public/mojom/dom_storage/dom_storage_java_sources.srcjar/org/chromium/blink/mojom/StorageArea.java
+org.chromium.blink.mojom.StorageAreaGetAllCallback,gen/third_party/blink/public/mojom/dom_storage/dom_storage_java_sources.srcjar/org/chromium/blink/mojom/StorageAreaGetAllCallback.java
+org.chromium.blink.mojom.StorageAreaGetAllCallback_Internal,gen/third_party/blink/public/mojom/dom_storage/dom_storage_java_sources.srcjar/org/chromium/blink/mojom/StorageAreaGetAllCallback_Internal.java
+org.chromium.blink.mojom.StorageAreaObserver,gen/third_party/blink/public/mojom/dom_storage/dom_storage_java_sources.srcjar/org/chromium/blink/mojom/StorageAreaObserver.java
+org.chromium.blink.mojom.StorageAreaObserver_Internal,gen/third_party/blink/public/mojom/dom_storage/dom_storage_java_sources.srcjar/org/chromium/blink/mojom/StorageAreaObserver_Internal.java
+org.chromium.blink.mojom.StorageArea_Internal,gen/third_party/blink/public/mojom/dom_storage/dom_storage_java_sources.srcjar/org/chromium/blink/mojom/StorageArea_Internal.java
+org.chromium.blink.mojom.StoragePartitionService,gen/third_party/blink/public/mojom/dom_storage/dom_storage_java_sources.srcjar/org/chromium/blink/mojom/StoragePartitionService.java
+org.chromium.blink.mojom.StoragePartitionService_Internal,gen/third_party/blink/public/mojom/dom_storage/dom_storage_java_sources.srcjar/org/chromium/blink/mojom/StoragePartitionService_Internal.java

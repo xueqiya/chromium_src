@@ -1,0 +1,149 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "1ee286b46e37e159db5f15ff2a0bf097", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/services/network/public/mojom/data_pipe_interfaces_java.jar", 
+      "tag": "3c9faa285ca5080a0fc1465c0c97b16a", 
+      "entries": [
+        {
+          "path": "org/chromium/network/mojom/ChunkedDataPipeGetter$GetSizeResponse.class", 
+          "tag": 161497179
+        }, 
+        {
+          "path": "org/chromium/network/mojom/ChunkedDataPipeGetter$Proxy.class", 
+          "tag": 1544536969
+        }, 
+        {
+          "path": "org/chromium/network/mojom/ChunkedDataPipeGetter.class", 
+          "tag": 1631096694
+        }, 
+        {
+          "path": "org/chromium/network/mojom/ChunkedDataPipeGetter_Internal$1.class", 
+          "tag": 1989882981
+        }, 
+        {
+          "path": "org/chromium/network/mojom/ChunkedDataPipeGetter_Internal$ChunkedDataPipeGetterGetSizeParams.class", 
+          "tag": 4139857948
+        }, 
+        {
+          "path": "org/chromium/network/mojom/ChunkedDataPipeGetter_Internal$ChunkedDataPipeGetterGetSizeResponseParams.class", 
+          "tag": 4064987809
+        }, 
+        {
+          "path": "org/chromium/network/mojom/ChunkedDataPipeGetter_Internal$ChunkedDataPipeGetterGetSizeResponseParamsForwardToCallback.class", 
+          "tag": 3933827237
+        }, 
+        {
+          "path": "org/chromium/network/mojom/ChunkedDataPipeGetter_Internal$ChunkedDataPipeGetterGetSizeResponseParamsProxyToResponder.class", 
+          "tag": 4073308523
+        }, 
+        {
+          "path": "org/chromium/network/mojom/ChunkedDataPipeGetter_Internal$ChunkedDataPipeGetterStartReadingParams.class", 
+          "tag": 297459848
+        }, 
+        {
+          "path": "org/chromium/network/mojom/ChunkedDataPipeGetter_Internal$Proxy.class", 
+          "tag": 2738225060
+        }, 
+        {
+          "path": "org/chromium/network/mojom/ChunkedDataPipeGetter_Internal$Stub.class", 
+          "tag": 3095118660
+        }, 
+        {
+          "path": "org/chromium/network/mojom/ChunkedDataPipeGetter_Internal.class", 
+          "tag": 3442050214
+        }, 
+        {
+          "path": "org/chromium/network/mojom/DataPipeGetter$Proxy.class", 
+          "tag": 3023690294
+        }, 
+        {
+          "path": "org/chromium/network/mojom/DataPipeGetter$ReadResponse.class", 
+          "tag": 1712384710
+        }, 
+        {
+          "path": "org/chromium/network/mojom/DataPipeGetter.class", 
+          "tag": 1044245341
+        }, 
+        {
+          "path": "org/chromium/network/mojom/DataPipeGetter_Internal$1.class", 
+          "tag": 317367272
+        }, 
+        {
+          "path": "org/chromium/network/mojom/DataPipeGetter_Internal$DataPipeGetterCloneParams.class", 
+          "tag": 175412636
+        }, 
+        {
+          "path": "org/chromium/network/mojom/DataPipeGetter_Internal$DataPipeGetterReadParams.class", 
+          "tag": 2062537742
+        }, 
+        {
+          "path": "org/chromium/network/mojom/DataPipeGetter_Internal$DataPipeGetterReadResponseParams.class", 
+          "tag": 3517824767
+        }, 
+        {
+          "path": "org/chromium/network/mojom/DataPipeGetter_Internal$DataPipeGetterReadResponseParamsForwardToCallback.class", 
+          "tag": 1516715406
+        }, 
+        {
+          "path": "org/chromium/network/mojom/DataPipeGetter_Internal$DataPipeGetterReadResponseParamsProxyToResponder.class", 
+          "tag": 3942550606
+        }, 
+        {
+          "path": "org/chromium/network/mojom/DataPipeGetter_Internal$Proxy.class", 
+          "tag": 2663528842
+        }, 
+        {
+          "path": "org/chromium/network/mojom/DataPipeGetter_Internal$Stub.class", 
+          "tag": 593872081
+        }, 
+        {
+          "path": "org/chromium/network/mojom/DataPipeGetter_Internal.class", 
+          "tag": 1066136800
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

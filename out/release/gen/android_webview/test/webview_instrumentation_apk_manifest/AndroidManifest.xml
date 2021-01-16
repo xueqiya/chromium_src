@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.chromium.android_webview.shell" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="org.chromium.android_webview.shell.AwShellApplication"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:hardwareAccelerated="true"
+        android:label="AwShellApplication" >
+        <activity
+            android:name="org.chromium.android_webview.shell.AwShellActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize"
+            android:label="Android WebView Test Shell" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.chromium.android_webview.test.AwTestRunnerActivity"
+            android:label="AwTestRunnerActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.FRAMEWORK_INSTRUMENTATION_TEST" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="org.chromium.android_webview.test.TestContentProvider"
+            android:authorities="org.chromium.android_webview.test.TestContentProvider" />
+
+        <meta-data
+            android:name="org.chromium.content.browser.NUM_SANDBOXED_SERVICES"
+            android:value="3" />
+
+        <service
+            android:name="org.chromium.content.app.SandboxedProcessService0"
+            android:exported="false"
+            android:isolatedProcess="true"
+            android:process=":sandboxed_process0" />
+        <service
+            android:name="org.chromium.content.app.SandboxedProcessService1"
+            android:exported="false"
+            android:isolatedProcess="true"
+            android:process=":sandboxed_process1" />
+        <service
+            android:name="org.chromium.content.app.SandboxedProcessService2"
+            android:exported="false"
+            android:isolatedProcess="true"
+            android:process=":sandboxed_process2" />
+
+        <meta-data
+            android:name="org.chromium.content.browser.NUM_PRIVILEGED_SERVICES"
+            android:value="0" />
+
+        <service
+            android:name="org.chromium.android_webview.test.SecondBrowserProcess"
+            android:exported="false"
+            android:isolatedProcess="false"
+            android:process=":second_browser_process" />
+        <service
+            android:name="org.chromium.android_webview.services.VariationsSeedServer"
+            android:exported="true"
+            android:process=":webview_service" />
+        <service
+            android:name="org.chromium.android_webview.test.services.MockVariationsSeedServer"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <uses-library
+            android:name="android.test.base"
+            android:required="false" />
+        <uses-library
+            android:name="android.test.mock"
+            android:required="false" />
+        <uses-library
+            android:name="android.test.runner"
+            android:required="false" />
+    </application>
+
+</manifest>

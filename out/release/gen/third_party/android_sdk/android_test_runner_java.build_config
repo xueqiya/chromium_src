@@ -1,0 +1,26 @@
+{
+  "deps_info": {
+    "base_whitelist_rtxt_path": "",
+    "deps_configs": [
+      "gen/third_party/android_sdk/android_test_runner_java__resources.build_config"
+    ],
+    "extra_classpath_interface_jars": [
+      "../../third_party/android_sdk/public/platforms/android-29/optional/android.test.runner.jar"
+    ],
+    "extra_classpath_jars": [
+      "../../third_party/android_sdk/public/platforms/android-29/optional/android.test.runner.jar"
+    ],
+    "extra_main_r_text_files": [],
+    "jni": {
+      "all_source": []
+    },
+    "module_pathmap_path": "",
+    "name": "android_test_runner_java.build_config",
+    "path": "gen/third_party/android_sdk/android_test_runner_java.build_config",
+    "proguard_configs": [],
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "type": "group"
+  },
+  "gradle": {}
+}

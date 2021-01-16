@@ -1,0 +1,4 @@
+org.chromium.network.mojom.ChunkedDataPipeGetter,gen/services/network/public/mojom/data_pipe_interfaces_java_sources.srcjar/org/chromium/network/mojom/ChunkedDataPipeGetter.java
+org.chromium.network.mojom.ChunkedDataPipeGetter_Internal,gen/services/network/public/mojom/data_pipe_interfaces_java_sources.srcjar/org/chromium/network/mojom/ChunkedDataPipeGetter_Internal.java
+org.chromium.network.mojom.DataPipeGetter,gen/services/network/public/mojom/data_pipe_interfaces_java_sources.srcjar/org/chromium/network/mojom/DataPipeGetter.java
+org.chromium.network.mojom.DataPipeGetter_Internal,gen/services/network/public/mojom/data_pipe_interfaces_java_sources.srcjar/org/chromium/network/mojom/DataPipeGetter_Internal.java

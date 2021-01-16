@@ -1,0 +1,2497 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "c3db640f85761c3bf1bfc96d6581012a", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/content/public/android/content_java.jar", 
+      "tag": "9a420b2474c6faefce69cef3602c69dd", 
+      "entries": [
+        {
+          "path": "org/chromium/IsReadyToPayService$Default.class", 
+          "tag": 1272947153
+        }, 
+        {
+          "path": "org/chromium/IsReadyToPayService$Stub$Proxy.class", 
+          "tag": 2648308448
+        }, 
+        {
+          "path": "org/chromium/IsReadyToPayService$Stub.class", 
+          "tag": 2299972589
+        }, 
+        {
+          "path": "org/chromium/IsReadyToPayService.class", 
+          "tag": 2862142473
+        }, 
+        {
+          "path": "org/chromium/IsReadyToPayServiceCallback$Default.class", 
+          "tag": 3779097740
+        }, 
+        {
+          "path": "org/chromium/IsReadyToPayServiceCallback$Stub$Proxy.class", 
+          "tag": 739514690
+        }, 
+        {
+          "path": "org/chromium/IsReadyToPayServiceCallback$Stub.class", 
+          "tag": 2511147714
+        }, 
+        {
+          "path": "org/chromium/IsReadyToPayServiceCallback.class", 
+          "tag": 455080249
+        }, 
+        {
+          "path": "org/chromium/chrome/browser/browsing_data/CookieOrCacheDeletionChoice.class", 
+          "tag": 2221187161
+        }, 
+        {
+          "path": "org/chromium/content/app/ChromiumLinkerParams.class", 
+          "tag": 3723253056
+        }, 
+        {
+          "path": "org/chromium/content/app/ContentChildProcessService.class", 
+          "tag": 3900143026
+        }, 
+        {
+          "path": "org/chromium/content/app/ContentChildProcessServiceDelegate$Natives.class", 
+          "tag": 4123582302
+        }, 
+        {
+          "path": "org/chromium/content/app/ContentChildProcessServiceDelegate.class", 
+          "tag": 4004396784
+        }, 
+        {
+          "path": "org/chromium/content/app/ContentChildProcessServiceDelegateJni$1.class", 
+          "tag": 3439002695
+        }, 
+        {
+          "path": "org/chromium/content/app/ContentChildProcessServiceDelegateJni.class", 
+          "tag": 392887199
+        }, 
+        {
+          "path": "org/chromium/content/app/ContentMain$Natives.class", 
+          "tag": 3136782701
+        }, 
+        {
+          "path": "org/chromium/content/app/ContentMain.class", 
+          "tag": 1512980850
+        }, 
+        {
+          "path": "org/chromium/content/app/ContentMainJni$1.class", 
+          "tag": 2614500966
+        }, 
+        {
+          "path": "org/chromium/content/app/ContentMainJni.class", 
+          "tag": 729017231
+        }, 
+        {
+          "path": "org/chromium/content/app/KillChildUncaughtExceptionHandler.class", 
+          "tag": 1364656932
+        }, 
+        {
+          "path": "org/chromium/content/app/PrivilegedProcessService.class", 
+          "tag": 1601645897
+        }, 
+        {
+          "path": "org/chromium/content/app/PrivilegedProcessService0.class", 
+          "tag": 2874353984
+        }, 
+        {
+          "path": "org/chromium/content/app/PrivilegedProcessService1.class", 
+          "tag": 542078500
+        }, 
+        {
+          "path": "org/chromium/content/app/PrivilegedProcessService2.class", 
+          "tag": 1713017289
+        }, 
+        {
+          "path": "org/chromium/content/app/PrivilegedProcessService3.class", 
+          "tag": 3976646317
+        }, 
+        {
+          "path": "org/chromium/content/app/PrivilegedProcessService4.class", 
+          "tag": 3937492499
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService.class", 
+          "tag": 2332940554
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService0.class", 
+          "tag": 4185397911
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService1.class", 
+          "tag": 1352807492
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService10.class", 
+          "tag": 1905218290
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService11.class", 
+          "tag": 773687688
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService12.class", 
+          "tag": 3467305990
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService13.class", 
+          "tag": 2436382588
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService14.class", 
+          "tag": 3568646491
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService15.class", 
+          "tag": 2334646817
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService16.class", 
+          "tag": 1804636079
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService17.class", 
+          "tag": 872568021
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService18.class", 
+          "tag": 3767174113
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService19.class", 
+          "tag": 3206043803
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService2.class", 
+          "tag": 1908228464
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService20.class", 
+          "tag": 2070891448
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService21.class", 
+          "tag": 620597442
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService22.class", 
+          "tag": 3293248844
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService23.class", 
+          "tag": 2614634038
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService24.class", 
+          "tag": 3730120721
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService25.class", 
+          "tag": 2177366891
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService26.class", 
+          "tag": 1634768613
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService27.class", 
+          "tag": 1055018399
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService28.class", 
+          "tag": 3932854955
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService29.class", 
+          "tag": 3052945873
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService3.class", 
+          "tag": 3630657443
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService30.class", 
+          "tag": 3420471617
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService31.class", 
+          "tag": 2490538555
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService32.class", 
+          "tag": 1959131061
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService33.class", 
+          "tag": 727133391
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService34.class", 
+          "tag": 1859791592
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService35.class", 
+          "tag": 826864018
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService36.class", 
+          "tag": 3523189788
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService37.class", 
+          "tag": 2389526374
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService38.class", 
+          "tag": 1524994130
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService39.class", 
+          "tag": 91704104
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService4.class", 
+          "tag": 864267032
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService5.class", 
+          "tag": 2589558219
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService6.class", 
+          "tag": 3141988607
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService7.class", 
+          "tag": 312270380
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService8.class", 
+          "tag": 3086909384
+        }, 
+        {
+          "path": "org/chromium/content/app/SandboxedProcessService9.class", 
+          "tag": 505696539
+        }, 
+        {
+          "path": "org/chromium/content/app/ZygotePreload.class", 
+          "tag": 328144472
+        }, 
+        {
+          "path": "org/chromium/content/browser/AppWebMessagePort$1.class", 
+          "tag": 3771107206
+        }, 
+        {
+          "path": "org/chromium/content/browser/AppWebMessagePort$MessageHandler$MessagePortMessage.class", 
+          "tag": 1583410425
+        }, 
+        {
+          "path": "org/chromium/content/browser/AppWebMessagePort$MessageHandler.class", 
+          "tag": 1064839653
+        }, 
+        {
+          "path": "org/chromium/content/browser/AppWebMessagePort$Natives.class", 
+          "tag": 241986193
+        }, 
+        {
+          "path": "org/chromium/content/browser/AppWebMessagePort.class", 
+          "tag": 1449358962
+        }, 
+        {
+          "path": "org/chromium/content/browser/AppWebMessagePortDescriptor$Native.class", 
+          "tag": 2029766141
+        }, 
+        {
+          "path": "org/chromium/content/browser/AppWebMessagePortDescriptor.class", 
+          "tag": 2328866339
+        }, 
+        {
+          "path": "org/chromium/content/browser/AppWebMessagePortDescriptorJni$1.class", 
+          "tag": 1373428072
+        }, 
+        {
+          "path": "org/chromium/content/browser/AppWebMessagePortDescriptorJni.class", 
+          "tag": 3488695684
+        }, 
+        {
+          "path": "org/chromium/content/browser/AppWebMessagePortJni$1.class", 
+          "tag": 2129191923
+        }, 
+        {
+          "path": "org/chromium/content/browser/AppWebMessagePortJni.class", 
+          "tag": 890323748
+        }, 
+        {
+          "path": "org/chromium/content/browser/AudioFocusDelegate$Natives.class", 
+          "tag": 3923690242
+        }, 
+        {
+          "path": "org/chromium/content/browser/AudioFocusDelegate.class", 
+          "tag": 3176369992
+        }, 
+        {
+          "path": "org/chromium/content/browser/AudioFocusDelegateJni$1.class", 
+          "tag": 203637767
+        }, 
+        {
+          "path": "org/chromium/content/browser/AudioFocusDelegateJni.class", 
+          "tag": 3633464187
+        }, 
+        {
+          "path": "org/chromium/content/browser/BackgroundSyncNetworkObserver$Natives.class", 
+          "tag": 1742206237
+        }, 
+        {
+          "path": "org/chromium/content/browser/BackgroundSyncNetworkObserver.class", 
+          "tag": 2098785541
+        }, 
+        {
+          "path": "org/chromium/content/browser/BackgroundSyncNetworkObserverJni$1.class", 
+          "tag": 1099128438
+        }, 
+        {
+          "path": "org/chromium/content/browser/BackgroundSyncNetworkObserverJni.class", 
+          "tag": 2086735588
+        }, 
+        {
+          "path": "org/chromium/content/browser/BindingManager$1.class", 
+          "tag": 1764562321
+        }, 
+        {
+          "path": "org/chromium/content/browser/BindingManager$2.class", 
+          "tag": 2746157892
+        }, 
+        {
+          "path": "org/chromium/content/browser/BindingManager$3.class", 
+          "tag": 1563876575
+        }, 
+        {
+          "path": "org/chromium/content/browser/BindingManager.class", 
+          "tag": 2854912765
+        }, 
+        {
+          "path": "org/chromium/content/browser/BrowserStartupControllerImpl$1$1.class", 
+          "tag": 3661174674
+        }, 
+        {
+          "path": "org/chromium/content/browser/BrowserStartupControllerImpl$1.class", 
+          "tag": 710880436
+        }, 
+        {
+          "path": "org/chromium/content/browser/BrowserStartupControllerImpl$2.class", 
+          "tag": 734436259
+        }, 
+        {
+          "path": "org/chromium/content/browser/BrowserStartupControllerImpl$3.class", 
+          "tag": 2762193398
+        }, 
+        {
+          "path": "org/chromium/content/browser/BrowserStartupControllerImpl$4.class", 
+          "tag": 2627204945
+        }, 
+        {
+          "path": "org/chromium/content/browser/BrowserStartupControllerImpl$5.class", 
+          "tag": 1673713261
+        }, 
+        {
+          "path": "org/chromium/content/browser/BrowserStartupControllerImpl$BrowserStartType.class", 
+          "tag": 3163367142
+        }, 
+        {
+          "path": "org/chromium/content/browser/BrowserStartupControllerImpl$Natives.class", 
+          "tag": 257989925
+        }, 
+        {
+          "path": "org/chromium/content/browser/BrowserStartupControllerImpl.class", 
+          "tag": 3510124926
+        }, 
+        {
+          "path": "org/chromium/content/browser/BrowserStartupControllerImplJni$1.class", 
+          "tag": 872442527
+        }, 
+        {
+          "path": "org/chromium/content/browser/BrowserStartupControllerImplJni.class", 
+          "tag": 3963940796
+        }, 
+        {
+          "path": "org/chromium/content/browser/ChildProcessCreationParamsImpl.class", 
+          "tag": 3338372569
+        }, 
+        {
+          "path": "org/chromium/content/browser/ChildProcessLauncherHelperImpl$1.class", 
+          "tag": 2606148570
+        }, 
+        {
+          "path": "org/chromium/content/browser/ChildProcessLauncherHelperImpl$2.class", 
+          "tag": 3830294124
+        }, 
+        {
+          "path": "org/chromium/content/browser/ChildProcessLauncherHelperImpl$3.class", 
+          "tag": 3341981233
+        }, 
+        {
+          "path": "org/chromium/content/browser/ChildProcessLauncherHelperImpl$Natives.class", 
+          "tag": 2015117470
+        }, 
+        {
+          "path": "org/chromium/content/browser/ChildProcessLauncherHelperImpl.class", 
+          "tag": 3443881185
+        }, 
+        {
+          "path": "org/chromium/content/browser/ChildProcessLauncherHelperImplJni$1.class", 
+          "tag": 3381484896
+        }, 
+        {
+          "path": "org/chromium/content/browser/ChildProcessLauncherHelperImplJni.class", 
+          "tag": 3052730678
+        }, 
+        {
+          "path": "org/chromium/content/browser/ChildProcessRanking$1.class", 
+          "tag": 3375278209
+        }, 
+        {
+          "path": "org/chromium/content/browser/ChildProcessRanking$ConnectionWithRank.class", 
+          "tag": 2273041398
+        }, 
+        {
+          "path": "org/chromium/content/browser/ChildProcessRanking$RankComparator.class", 
+          "tag": 276462855
+        }, 
+        {
+          "path": "org/chromium/content/browser/ChildProcessRanking$ReverseRankIterator.class", 
+          "tag": 2572375372
+        }, 
+        {
+          "path": "org/chromium/content/browser/ChildProcessRanking.class", 
+          "tag": 2231240792
+        }, 
+        {
+          "path": "org/chromium/content/browser/ContactsDialogHost$Natives.class", 
+          "tag": 4215175417
+        }, 
+        {
+          "path": "org/chromium/content/browser/ContactsDialogHost.class", 
+          "tag": 1316239862
+        }, 
+        {
+          "path": "org/chromium/content/browser/ContactsDialogHostJni$1.class", 
+          "tag": 3279457447
+        }, 
+        {
+          "path": "org/chromium/content/browser/ContactsDialogHostJni.class", 
+          "tag": 1839346698
+        }, 
+        {
+          "path": "org/chromium/content/browser/ContentApiHelperForM.class", 
+          "tag": 2748380436
+        }, 
+        {
+          "path": "org/chromium/content/browser/ContentChildProcessConstants.class", 
+          "tag": 3989123493
+        }, 
+        {
+          "path": "org/chromium/content/browser/ContentClassFactory.class", 
+          "tag": 1249276488
+        }, 
+        {
+          "path": "org/chromium/content/browser/ContentFeatureListImpl$Natives.class", 
+          "tag": 3294045451
+        }, 
+        {
+          "path": "org/chromium/content/browser/ContentFeatureListImpl.class", 
+          "tag": 2804657571
+        }, 
+        {
+          "path": "org/chromium/content/browser/ContentFeatureListImplJni$1.class", 
+          "tag": 1086222400
+        }, 
+        {
+          "path": "org/chromium/content/browser/ContentFeatureListImplJni.class", 
+          "tag": 203032730
+        }, 
+        {
+          "path": "org/chromium/content/browser/ContentNfcDelegate.class", 
+          "tag": 523115055
+        }, 
+        {
+          "path": "org/chromium/content/browser/ContentUiEventHandler$Natives.class", 
+          "tag": 2534931704
+        }, 
+        {
+          "path": "org/chromium/content/browser/ContentUiEventHandler$UserDataFactoryLazyHolder.class", 
+          "tag": 3740729980
+        }, 
+        {
+          "path": "org/chromium/content/browser/ContentUiEventHandler.class", 
+          "tag": 4165283117
+        }, 
+        {
+          "path": "org/chromium/content/browser/ContentUiEventHandlerJni$1.class", 
+          "tag": 1721895383
+        }, 
+        {
+          "path": "org/chromium/content/browser/ContentUiEventHandlerJni.class", 
+          "tag": 392294553
+        }, 
+        {
+          "path": "org/chromium/content/browser/ContentViewStaticsImpl$Natives.class", 
+          "tag": 969639584
+        }, 
+        {
+          "path": "org/chromium/content/browser/ContentViewStaticsImpl.class", 
+          "tag": 3270417916
+        }, 
+        {
+          "path": "org/chromium/content/browser/ContentViewStaticsImplJni$1.class", 
+          "tag": 2960491700
+        }, 
+        {
+          "path": "org/chromium/content/browser/ContentViewStaticsImplJni.class", 
+          "tag": 94468409
+        }, 
+        {
+          "path": "org/chromium/content/browser/DeviceUtilsImpl.class", 
+          "tag": 726667740
+        }, 
+        {
+          "path": "org/chromium/content/browser/Gamepad$UserDataFactoryLazyHolder.class", 
+          "tag": 4228531309
+        }, 
+        {
+          "path": "org/chromium/content/browser/Gamepad.class", 
+          "tag": 540511253
+        }, 
+        {
+          "path": "org/chromium/content/browser/GestureListenerManagerImpl$Natives.class", 
+          "tag": 2003023937
+        }, 
+        {
+          "path": "org/chromium/content/browser/GestureListenerManagerImpl$UserDataFactoryLazyHolder.class", 
+          "tag": 2920857870
+        }, 
+        {
+          "path": "org/chromium/content/browser/GestureListenerManagerImpl.class", 
+          "tag": 2419925816
+        }, 
+        {
+          "path": "org/chromium/content/browser/GestureListenerManagerImplJni$1.class", 
+          "tag": 3079016383
+        }, 
+        {
+          "path": "org/chromium/content/browser/GestureListenerManagerImplJni.class", 
+          "tag": 4102862368
+        }, 
+        {
+          "path": "org/chromium/content/browser/GpuProcessCallback$Natives.class", 
+          "tag": 3460943624
+        }, 
+        {
+          "path": "org/chromium/content/browser/GpuProcessCallback.class", 
+          "tag": 493221031
+        }, 
+        {
+          "path": "org/chromium/content/browser/GpuProcessCallbackJni$1.class", 
+          "tag": 238652498
+        }, 
+        {
+          "path": "org/chromium/content/browser/GpuProcessCallbackJni.class", 
+          "tag": 1714634548
+        }, 
+        {
+          "path": "org/chromium/content/browser/InterfaceRegistrarImpl$1.class", 
+          "tag": 376424735
+        }, 
+        {
+          "path": "org/chromium/content/browser/InterfaceRegistrarImpl$ContentContextInterfaceRegistrar.class", 
+          "tag": 718471789
+        }, 
+        {
+          "path": "org/chromium/content/browser/InterfaceRegistrarImpl.class", 
+          "tag": 954695551
+        }, 
+        {
+          "path": "org/chromium/content/browser/JavascriptInjectorImpl$Natives.class", 
+          "tag": 2814029458
+        }, 
+        {
+          "path": "org/chromium/content/browser/JavascriptInjectorImpl$UserDataFactoryLazyHolder.class", 
+          "tag": 3832428897
+        }, 
+        {
+          "path": "org/chromium/content/browser/JavascriptInjectorImpl.class", 
+          "tag": 1620377900
+        }, 
+        {
+          "path": "org/chromium/content/browser/JavascriptInjectorImplJni$1.class", 
+          "tag": 3510807256
+        }, 
+        {
+          "path": "org/chromium/content/browser/JavascriptInjectorImplJni.class", 
+          "tag": 134031995
+        }, 
+        {
+          "path": "org/chromium/content/browser/JavascriptInterface.class", 
+          "tag": 1782028890
+        }, 
+        {
+          "path": "org/chromium/content/browser/JoystickHandler$1.class", 
+          "tag": 868454360
+        }, 
+        {
+          "path": "org/chromium/content/browser/JoystickHandler$UserDataFactoryLazyHolder.class", 
+          "tag": 729490750
+        }, 
+        {
+          "path": "org/chromium/content/browser/JoystickHandler.class", 
+          "tag": 3776920967
+        }, 
+        {
+          "path": "org/chromium/content/browser/LauncherThread.class", 
+          "tag": 1745297747
+        }, 
+        {
+          "path": "org/chromium/content/browser/LollipopTtsPlatformImpl$1.class", 
+          "tag": 553509839
+        }, 
+        {
+          "path": "org/chromium/content/browser/LollipopTtsPlatformImpl.class", 
+          "tag": 2052370618
+        }, 
+        {
+          "path": "org/chromium/content/browser/MediaSessionImpl$Natives.class", 
+          "tag": 1323878174
+        }, 
+        {
+          "path": "org/chromium/content/browser/MediaSessionImpl.class", 
+          "tag": 1176591327
+        }, 
+        {
+          "path": "org/chromium/content/browser/MediaSessionImplJni$1.class", 
+          "tag": 2867815720
+        }, 
+        {
+          "path": "org/chromium/content/browser/MediaSessionImplJni.class", 
+          "tag": 843023382
+        }, 
+        {
+          "path": "org/chromium/content/browser/MotionEventAction.class", 
+          "tag": 160046135
+        }, 
+        {
+          "path": "org/chromium/content/browser/MotionEventSynthesizerImpl.class", 
+          "tag": 2764950546
+        }, 
+        {
+          "path": "org/chromium/content/browser/NfcHost.class", 
+          "tag": 3997949229
+        }, 
+        {
+          "path": "org/chromium/content/browser/PopupController$1.class", 
+          "tag": 1190631641
+        }, 
+        {
+          "path": "org/chromium/content/browser/PopupController$HideablePopup.class", 
+          "tag": 714435487
+        }, 
+        {
+          "path": "org/chromium/content/browser/PopupController$UserDataFactoryLazyHolder.class", 
+          "tag": 3607731714
+        }, 
+        {
+          "path": "org/chromium/content/browser/PopupController.class", 
+          "tag": 621588724
+        }, 
+        {
+          "path": "org/chromium/content/browser/RenderCoordinatesImpl.class", 
+          "tag": 344767007
+        }, 
+        {
+          "path": "org/chromium/content/browser/RenderWidgetHostViewImpl$Natives.class", 
+          "tag": 2503735585
+        }, 
+        {
+          "path": "org/chromium/content/browser/RenderWidgetHostViewImpl.class", 
+          "tag": 2099504366
+        }, 
+        {
+          "path": "org/chromium/content/browser/RenderWidgetHostViewImplJni$1.class", 
+          "tag": 2424032474
+        }, 
+        {
+          "path": "org/chromium/content/browser/RenderWidgetHostViewImplJni.class", 
+          "tag": 1185318638
+        }, 
+        {
+          "path": "org/chromium/content/browser/ScreenOrientationProviderImpl$Holder.class", 
+          "tag": 2701625186
+        }, 
+        {
+          "path": "org/chromium/content/browser/ScreenOrientationProviderImpl.class", 
+          "tag": 1245476166
+        }, 
+        {
+          "path": "org/chromium/content/browser/ServicificationStartupUma$ServicificationStartup.class", 
+          "tag": 2203352890
+        }, 
+        {
+          "path": "org/chromium/content/browser/ServicificationStartupUma.class", 
+          "tag": 2573959370
+        }, 
+        {
+          "path": "org/chromium/content/browser/SpareChildConnection$1.class", 
+          "tag": 1004767986
+        }, 
+        {
+          "path": "org/chromium/content/browser/SpareChildConnection$2.class", 
+          "tag": 1630307875
+        }, 
+        {
+          "path": "org/chromium/content/browser/SpareChildConnection.class", 
+          "tag": 1770993967
+        }, 
+        {
+          "path": "org/chromium/content/browser/SpeechRecognitionImpl$Listener.class", 
+          "tag": 3865661740
+        }, 
+        {
+          "path": "org/chromium/content/browser/SpeechRecognitionImpl$Natives.class", 
+          "tag": 1558092550
+        }, 
+        {
+          "path": "org/chromium/content/browser/SpeechRecognitionImpl.class", 
+          "tag": 2517628186
+        }, 
+        {
+          "path": "org/chromium/content/browser/SpeechRecognitionImplJni$1.class", 
+          "tag": 323753223
+        }, 
+        {
+          "path": "org/chromium/content/browser/SpeechRecognitionImplJni.class", 
+          "tag": 4225225346
+        }, 
+        {
+          "path": "org/chromium/content/browser/SyntheticGestureTarget.class", 
+          "tag": 3862313089
+        }, 
+        {
+          "path": "org/chromium/content/browser/TracingControllerAndroidImpl$Natives.class", 
+          "tag": 3262253747
+        }, 
+        {
+          "path": "org/chromium/content/browser/TracingControllerAndroidImpl$TracingBroadcastReceiver.class", 
+          "tag": 557518009
+        }, 
+        {
+          "path": "org/chromium/content/browser/TracingControllerAndroidImpl$TracingIntentFilter.class", 
+          "tag": 1609872548
+        }, 
+        {
+          "path": "org/chromium/content/browser/TracingControllerAndroidImpl.class", 
+          "tag": 1903934384
+        }, 
+        {
+          "path": "org/chromium/content/browser/TracingControllerAndroidImplJni$1.class", 
+          "tag": 177627763
+        }, 
+        {
+          "path": "org/chromium/content/browser/TracingControllerAndroidImplJni.class", 
+          "tag": 1027907369
+        }, 
+        {
+          "path": "org/chromium/content/browser/TtsPlatformImpl$1.class", 
+          "tag": 2910444039
+        }, 
+        {
+          "path": "org/chromium/content/browser/TtsPlatformImpl$2.class", 
+          "tag": 1201915175
+        }, 
+        {
+          "path": "org/chromium/content/browser/TtsPlatformImpl$Natives.class", 
+          "tag": 432050235
+        }, 
+        {
+          "path": "org/chromium/content/browser/TtsPlatformImpl$PendingUtterance.class", 
+          "tag": 3136066834
+        }, 
+        {
+          "path": "org/chromium/content/browser/TtsPlatformImpl$TtsVoice.class", 
+          "tag": 1212773266
+        }, 
+        {
+          "path": "org/chromium/content/browser/TtsPlatformImpl.class", 
+          "tag": 1386670551
+        }, 
+        {
+          "path": "org/chromium/content/browser/TtsPlatformImplJni$1.class", 
+          "tag": 3353536122
+        }, 
+        {
+          "path": "org/chromium/content/browser/TtsPlatformImplJni.class", 
+          "tag": 4239265274
+        }, 
+        {
+          "path": "org/chromium/content/browser/UiThreadTaskTraitsImpl$1.class", 
+          "tag": 435520173
+        }, 
+        {
+          "path": "org/chromium/content/browser/UiThreadTaskTraitsImpl$Descriptor.class", 
+          "tag": 3047527021
+        }, 
+        {
+          "path": "org/chromium/content/browser/UiThreadTaskTraitsImpl.class", 
+          "tag": 1378482272
+        }, 
+        {
+          "path": "org/chromium/content/browser/ViewEventSinkImpl$UserDataFactoryLazyHolder.class", 
+          "tag": 1588193278
+        }, 
+        {
+          "path": "org/chromium/content/browser/ViewEventSinkImpl.class", 
+          "tag": 1805542675
+        }, 
+        {
+          "path": "org/chromium/content/browser/WindowEventObserver.class", 
+          "tag": 1229282658
+        }, 
+        {
+          "path": "org/chromium/content/browser/WindowEventObserverManager$1.class", 
+          "tag": 771450440
+        }, 
+        {
+          "path": "org/chromium/content/browser/WindowEventObserverManager$UserDataFactoryLazyHolder.class", 
+          "tag": 3515536160
+        }, 
+        {
+          "path": "org/chromium/content/browser/WindowEventObserverManager.class", 
+          "tag": 3454092396
+        }, 
+        {
+          "path": "org/chromium/content/browser/accessibility/BrowserAccessibilityState$AnimatorDurationScaleObserver.class", 
+          "tag": 528644400
+        }, 
+        {
+          "path": "org/chromium/content/browser/accessibility/BrowserAccessibilityState$Natives.class", 
+          "tag": 2444001382
+        }, 
+        {
+          "path": "org/chromium/content/browser/accessibility/BrowserAccessibilityState.class", 
+          "tag": 2210271109
+        }, 
+        {
+          "path": "org/chromium/content/browser/accessibility/BrowserAccessibilityStateJni$1.class", 
+          "tag": 699279144
+        }, 
+        {
+          "path": "org/chromium/content/browser/accessibility/BrowserAccessibilityStateJni.class", 
+          "tag": 1271586515
+        }, 
+        {
+          "path": "org/chromium/content/browser/accessibility/KitKatWebContentsAccessibility.class", 
+          "tag": 4231768115
+        }, 
+        {
+          "path": "org/chromium/content/browser/accessibility/LollipopWebContentsAccessibility$1.class", 
+          "tag": 2637437564
+        }, 
+        {
+          "path": "org/chromium/content/browser/accessibility/LollipopWebContentsAccessibility.class", 
+          "tag": 3849282507
+        }, 
+        {
+          "path": "org/chromium/content/browser/accessibility/OWebContentsAccessibility.class", 
+          "tag": 3906285693
+        }, 
+        {
+          "path": "org/chromium/content/browser/accessibility/ScrollDirection.class", 
+          "tag": 4276371455
+        }, 
+        {
+          "path": "org/chromium/content/browser/accessibility/WebContentsAccessibilityImpl$1.class", 
+          "tag": 4239428070
+        }, 
+        {
+          "path": "org/chromium/content/browser/accessibility/WebContentsAccessibilityImpl$2.class", 
+          "tag": 385403524
+        }, 
+        {
+          "path": "org/chromium/content/browser/accessibility/WebContentsAccessibilityImpl$Factory.class", 
+          "tag": 3659685054
+        }, 
+        {
+          "path": "org/chromium/content/browser/accessibility/WebContentsAccessibilityImpl$Natives.class", 
+          "tag": 3146494487
+        }, 
+        {
+          "path": "org/chromium/content/browser/accessibility/WebContentsAccessibilityImpl$UserDataFactoryLazyHolder.class", 
+          "tag": 733350441
+        }, 
+        {
+          "path": "org/chromium/content/browser/accessibility/WebContentsAccessibilityImpl.class", 
+          "tag": 3559330677
+        }, 
+        {
+          "path": "org/chromium/content/browser/accessibility/WebContentsAccessibilityImplJni$1.class", 
+          "tag": 2549496457
+        }, 
+        {
+          "path": "org/chromium/content/browser/accessibility/WebContentsAccessibilityImplJni.class", 
+          "tag": 1874170699
+        }, 
+        {
+          "path": "org/chromium/content/browser/accessibility/captioning/CaptioningBridgeFactory.class", 
+          "tag": 3458585265
+        }, 
+        {
+          "path": "org/chromium/content/browser/accessibility/captioning/CaptioningChangeDelegate.class", 
+          "tag": 1820131663
+        }, 
+        {
+          "path": "org/chromium/content/browser/accessibility/captioning/CaptioningController$Natives.class", 
+          "tag": 173746619
+        }, 
+        {
+          "path": "org/chromium/content/browser/accessibility/captioning/CaptioningController.class", 
+          "tag": 1760834446
+        }, 
+        {
+          "path": "org/chromium/content/browser/accessibility/captioning/CaptioningControllerJni$1.class", 
+          "tag": 3122117128
+        }, 
+        {
+          "path": "org/chromium/content/browser/accessibility/captioning/CaptioningControllerJni.class", 
+          "tag": 2689124196
+        }, 
+        {
+          "path": "org/chromium/content/browser/accessibility/captioning/CaptioningStyle.class", 
+          "tag": 1185711511
+        }, 
+        {
+          "path": "org/chromium/content/browser/accessibility/captioning/EmptyCaptioningBridge.class", 
+          "tag": 2256374766
+        }, 
+        {
+          "path": "org/chromium/content/browser/accessibility/captioning/KitKatCaptioningBridge$1.class", 
+          "tag": 3409228980
+        }, 
+        {
+          "path": "org/chromium/content/browser/accessibility/captioning/KitKatCaptioningBridge$KitKatCaptioningChangeListener.class", 
+          "tag": 447119799
+        }, 
+        {
+          "path": "org/chromium/content/browser/accessibility/captioning/KitKatCaptioningBridge.class", 
+          "tag": 2474818552
+        }, 
+        {
+          "path": "org/chromium/content/browser/accessibility/captioning/SystemCaptioningBridge$SystemCaptioningBridgeListener.class", 
+          "tag": 3224967065
+        }, 
+        {
+          "path": "org/chromium/content/browser/accessibility/captioning/SystemCaptioningBridge.class", 
+          "tag": 3791502365
+        }, 
+        {
+          "path": "org/chromium/content/browser/accessibility/captioning/TextTrackSettings.class", 
+          "tag": 2033831973
+        }, 
+        {
+          "path": "org/chromium/content/browser/androidoverlay/AndroidOverlayProviderImpl$1.class", 
+          "tag": 3110023138
+        }, 
+        {
+          "path": "org/chromium/content/browser/androidoverlay/AndroidOverlayProviderImpl$Factory.class", 
+          "tag": 3411815929
+        }, 
+        {
+          "path": "org/chromium/content/browser/androidoverlay/AndroidOverlayProviderImpl.class", 
+          "tag": 3742461582
+        }, 
+        {
+          "path": "org/chromium/content/browser/androidoverlay/DialogOverlayCore$1.class", 
+          "tag": 3599268525
+        }, 
+        {
+          "path": "org/chromium/content/browser/androidoverlay/DialogOverlayCore$Callbacks.class", 
+          "tag": 2510467250
+        }, 
+        {
+          "path": "org/chromium/content/browser/androidoverlay/DialogOverlayCore$Host.class", 
+          "tag": 26675926
+        }, 
+        {
+          "path": "org/chromium/content/browser/androidoverlay/DialogOverlayCore.class", 
+          "tag": 2123801571
+        }, 
+        {
+          "path": "org/chromium/content/browser/androidoverlay/DialogOverlayImpl$1$1.class", 
+          "tag": 2064340746
+        }, 
+        {
+          "path": "org/chromium/content/browser/androidoverlay/DialogOverlayImpl$1.class", 
+          "tag": 1845628294
+        }, 
+        {
+          "path": "org/chromium/content/browser/androidoverlay/DialogOverlayImpl$2.class", 
+          "tag": 171573178
+        }, 
+        {
+          "path": "org/chromium/content/browser/androidoverlay/DialogOverlayImpl$3.class", 
+          "tag": 3787535547
+        }, 
+        {
+          "path": "org/chromium/content/browser/androidoverlay/DialogOverlayImpl$4.class", 
+          "tag": 2789033802
+        }, 
+        {
+          "path": "org/chromium/content/browser/androidoverlay/DialogOverlayImpl$Natives.class", 
+          "tag": 4000003174
+        }, 
+        {
+          "path": "org/chromium/content/browser/androidoverlay/DialogOverlayImpl.class", 
+          "tag": 2822956462
+        }, 
+        {
+          "path": "org/chromium/content/browser/androidoverlay/DialogOverlayImplJni$1.class", 
+          "tag": 2489262625
+        }, 
+        {
+          "path": "org/chromium/content/browser/androidoverlay/DialogOverlayImplJni.class", 
+          "tag": 1461747565
+        }, 
+        {
+          "path": "org/chromium/content/browser/androidoverlay/ThreadHoppingHost$1.class", 
+          "tag": 780755722
+        }, 
+        {
+          "path": "org/chromium/content/browser/androidoverlay/ThreadHoppingHost$2.class", 
+          "tag": 507024290
+        }, 
+        {
+          "path": "org/chromium/content/browser/androidoverlay/ThreadHoppingHost$3.class", 
+          "tag": 3889654469
+        }, 
+        {
+          "path": "org/chromium/content/browser/androidoverlay/ThreadHoppingHost.class", 
+          "tag": 1876527633
+        }, 
+        {
+          "path": "org/chromium/content/browser/framehost/NavigationControllerImpl$Natives.class", 
+          "tag": 3974354670
+        }, 
+        {
+          "path": "org/chromium/content/browser/framehost/NavigationControllerImpl.class", 
+          "tag": 2250889393
+        }, 
+        {
+          "path": "org/chromium/content/browser/framehost/NavigationControllerImplJni$1.class", 
+          "tag": 1427697416
+        }, 
+        {
+          "path": "org/chromium/content/browser/framehost/NavigationControllerImplJni.class", 
+          "tag": 1892300487
+        }, 
+        {
+          "path": "org/chromium/content/browser/framehost/RenderFrameHostDelegate.class", 
+          "tag": 1016769727
+        }, 
+        {
+          "path": "org/chromium/content/browser/framehost/RenderFrameHostImpl$Natives.class", 
+          "tag": 1338787370
+        }, 
+        {
+          "path": "org/chromium/content/browser/framehost/RenderFrameHostImpl.class", 
+          "tag": 2732897821
+        }, 
+        {
+          "path": "org/chromium/content/browser/framehost/RenderFrameHostImplJni$1.class", 
+          "tag": 3624749072
+        }, 
+        {
+          "path": "org/chromium/content/browser/framehost/RenderFrameHostImplJni.class", 
+          "tag": 2090472611
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ChromiumBaseInputConnection$Factory.class", 
+          "tag": 3679345680
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ChromiumBaseInputConnection.class", 
+          "tag": 3437241206
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/CursorAnchorInfoController$1.class", 
+          "tag": 3759270258
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/CursorAnchorInfoController$ComposingTextDelegate.class", 
+          "tag": 346386048
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/CursorAnchorInfoController$ViewDelegate.class", 
+          "tag": 1534275154
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/CursorAnchorInfoController.class", 
+          "tag": 2412988618
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/DateTimeChooserAndroid$1.class", 
+          "tag": 1808855518
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/DateTimeChooserAndroid$Natives.class", 
+          "tag": 526687989
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/DateTimeChooserAndroid.class", 
+          "tag": 4028899066
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/DateTimeChooserAndroidJni$1.class", 
+          "tag": 1852039215
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/DateTimeChooserAndroidJni.class", 
+          "tag": 817368394
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ImeAdapterImpl$1.class", 
+          "tag": 194560487
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ImeAdapterImpl$Natives.class", 
+          "tag": 347178682
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ImeAdapterImpl$ShowKeyboardResultReceiver.class", 
+          "tag": 2057467703
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ImeAdapterImpl$UserDataFactoryLazyHolder.class", 
+          "tag": 385804326
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ImeAdapterImpl.class", 
+          "tag": 2497337691
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ImeAdapterImplJni$1.class", 
+          "tag": 1764723591
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ImeAdapterImplJni.class", 
+          "tag": 2108296596
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ImeUtils.class", 
+          "tag": 3644214762
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/InputMethodManagerWrapperImpl.class", 
+          "tag": 2273817423
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/InputMethodUma.class", 
+          "tag": 284540786
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/PopupItemType.class", 
+          "tag": 182816830
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/Range.class", 
+          "tag": 780291616
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/SelectPopup$Natives.class", 
+          "tag": 556404606
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/SelectPopup$Ui.class", 
+          "tag": 2790553596
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/SelectPopup$UserDataFactoryLazyHolder.class", 
+          "tag": 1071516165
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/SelectPopup.class", 
+          "tag": 52103690
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/SelectPopupAdapter.class", 
+          "tag": 4288384849
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/SelectPopupDialog$1.class", 
+          "tag": 1877946946
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/SelectPopupDialog$2.class", 
+          "tag": 880451820
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/SelectPopupDialog$3.class", 
+          "tag": 3502124052
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/SelectPopupDialog$4.class", 
+          "tag": 2044392421
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/SelectPopupDialog.class", 
+          "tag": 2845610021
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/SelectPopupDropdown$1.class", 
+          "tag": 2804267
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/SelectPopupDropdown$2.class", 
+          "tag": 1558574552
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/SelectPopupDropdown$3.class", 
+          "tag": 4125243588
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/SelectPopupDropdown.class", 
+          "tag": 1766825652
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/SelectPopupItem.class", 
+          "tag": 3527610638
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/SelectPopupJni$1.class", 
+          "tag": 793369203
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/SelectPopupJni.class", 
+          "tag": 2712878840
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/SpellCheckPopupWindow.class", 
+          "tag": 623729770
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/SuggestionInfo.class", 
+          "tag": 3999823010
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/SuggestionsPopupWindow$1.class", 
+          "tag": 1269432791
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/SuggestionsPopupWindow$SuggestionAdapter.class", 
+          "tag": 3837077424
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/SuggestionsPopupWindow.class", 
+          "tag": 1596441377
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/TextInputState.class", 
+          "tag": 2039759834
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/TextSuggestionHost$Natives.class", 
+          "tag": 3972767583
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/TextSuggestionHost$UserDataFactoryLazyHolder.class", 
+          "tag": 2465887273
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/TextSuggestionHost.class", 
+          "tag": 1732359164
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/TextSuggestionHostJni$1.class", 
+          "tag": 3083903496
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/TextSuggestionHostJni.class", 
+          "tag": 2300192208
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/TextSuggestionsPopupWindow.class", 
+          "tag": 637431023
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ThreadedInputConnection$1.class", 
+          "tag": 3715778517
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ThreadedInputConnection$10.class", 
+          "tag": 3810715394
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ThreadedInputConnection$11.class", 
+          "tag": 3997926718
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ThreadedInputConnection$12.class", 
+          "tag": 3487712489
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ThreadedInputConnection$13.class", 
+          "tag": 256202357
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ThreadedInputConnection$14.class", 
+          "tag": 196345520
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ThreadedInputConnection$15.class", 
+          "tag": 2029556297
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ThreadedInputConnection$16.class", 
+          "tag": 472915654
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ThreadedInputConnection$17.class", 
+          "tag": 1577440594
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ThreadedInputConnection$18.class", 
+          "tag": 1936929972
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ThreadedInputConnection$19.class", 
+          "tag": 2162777769
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ThreadedInputConnection$2.class", 
+          "tag": 22303865
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ThreadedInputConnection$3.class", 
+          "tag": 734350133
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ThreadedInputConnection$4.class", 
+          "tag": 3646594011
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ThreadedInputConnection$5.class", 
+          "tag": 2302565998
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ThreadedInputConnection$6.class", 
+          "tag": 2476796369
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ThreadedInputConnection$7.class", 
+          "tag": 2512993872
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ThreadedInputConnection$8.class", 
+          "tag": 4200282310
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ThreadedInputConnection$9.class", 
+          "tag": 3088419389
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ThreadedInputConnection.class", 
+          "tag": 1779281071
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ThreadedInputConnectionFactory$1$1.class", 
+          "tag": 3050797902
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ThreadedInputConnectionFactory$1.class", 
+          "tag": 110589710
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ThreadedInputConnectionFactory$2.class", 
+          "tag": 2867306400
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ThreadedInputConnectionFactory$CheckInvalidator.class", 
+          "tag": 3380065975
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ThreadedInputConnectionFactory$LazyHandlerHolder.class", 
+          "tag": 1291852078
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ThreadedInputConnectionFactory.class", 
+          "tag": 2608800964
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ThreadedInputConnectionProxyView.class", 
+          "tag": 3208488552
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/DateDialogNormalizer$DateAndMillis.class", 
+          "tag": 2314707609
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/DateDialogNormalizer.class", 
+          "tag": 4003542259
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/DatePickerDialogCompat.class", 
+          "tag": 3149841931
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/DateTimePickerDialog$1.class", 
+          "tag": 3388345872
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/DateTimePickerDialog$OnDateTimeSetListener.class", 
+          "tag": 1665675958
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/DateTimePickerDialog$WorkaroundContextForSamsungLDateTimeBug$1.class", 
+          "tag": 194151300
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/DateTimePickerDialog$WorkaroundContextForSamsungLDateTimeBug$WrappedResources.class", 
+          "tag": 1280439842
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/DateTimePickerDialog$WorkaroundContextForSamsungLDateTimeBug.class", 
+          "tag": 337752891
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/DateTimePickerDialog.class", 
+          "tag": 3503952125
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/DateTimeSuggestion.class", 
+          "tag": 4013547367
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/DateTimeSuggestionListAdapter.class", 
+          "tag": 2888470524
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/InputDialogContainer$1.class", 
+          "tag": 2445504934
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/InputDialogContainer$2.class", 
+          "tag": 3158039770
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/InputDialogContainer$3.class", 
+          "tag": 1397441096
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/InputDialogContainer$4.class", 
+          "tag": 2773311866
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/InputDialogContainer$5.class", 
+          "tag": 2795418893
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/InputDialogContainer$DateListener.class", 
+          "tag": 3363802277
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/InputDialogContainer$DateTimeListener.class", 
+          "tag": 875070788
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/InputDialogContainer$FullTimeListener.class", 
+          "tag": 1087321738
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/InputDialogContainer$InputActionDelegate.class", 
+          "tag": 1797881133
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/InputDialogContainer$MonthOrWeekListener.class", 
+          "tag": 927010574
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/InputDialogContainer$TimeListener.class", 
+          "tag": 3312320432
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/InputDialogContainer.class", 
+          "tag": 1956709897
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/MonthPicker.class", 
+          "tag": 704144258
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/MonthPickerDialog.class", 
+          "tag": 1780091190
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/MultiFieldTimePickerDialog$NumberFormatter.class", 
+          "tag": 920621709
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/MultiFieldTimePickerDialog$OnMultiFieldTimeSetListener.class", 
+          "tag": 2917783017
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/MultiFieldTimePickerDialog.class", 
+          "tag": 2030761788
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/TwoFieldDatePicker$1.class", 
+          "tag": 1373000440
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/TwoFieldDatePicker$OnMonthOrWeekChangedListener.class", 
+          "tag": 1594829417
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/TwoFieldDatePicker.class", 
+          "tag": 1844137851
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/TwoFieldDatePickerDialog$OnValueSetListener.class", 
+          "tag": 3131189437
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/TwoFieldDatePickerDialog.class", 
+          "tag": 2936110393
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/WeekPicker.class", 
+          "tag": 2618110171
+        }, 
+        {
+          "path": "org/chromium/content/browser/picker/WeekPickerDialog.class", 
+          "tag": 1573851295
+        }, 
+        {
+          "path": "org/chromium/content/browser/remoteobjects/RemoteObjectAuditorImpl.class", 
+          "tag": 3544082760
+        }, 
+        {
+          "path": "org/chromium/content/browser/remoteobjects/RemoteObjectHostImpl.class", 
+          "tag": 3496850097
+        }, 
+        {
+          "path": "org/chromium/content/browser/remoteobjects/RemoteObjectImpl$Auditor.class", 
+          "tag": 4152811987
+        }, 
+        {
+          "path": "org/chromium/content/browser/remoteobjects/RemoteObjectImpl$ObjectIdAllocator.class", 
+          "tag": 763031720
+        }, 
+        {
+          "path": "org/chromium/content/browser/remoteobjects/RemoteObjectImpl$StringCoercionMode.class", 
+          "tag": 1783401657
+        }, 
+        {
+          "path": "org/chromium/content/browser/remoteobjects/RemoteObjectImpl.class", 
+          "tag": 575833858
+        }, 
+        {
+          "path": "org/chromium/content/browser/remoteobjects/RemoteObjectRegistry.class", 
+          "tag": 1829896392
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/AdditionalMenuItemProvider.class", 
+          "tag": 32650169
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/AdditionalMenuItemProviderImpl.class", 
+          "tag": 3458247761
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/FloatingActionModeCallback.class", 
+          "tag": 4021544681
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/FloatingPastePopupMenu$1.class", 
+          "tag": 3954885204
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/FloatingPastePopupMenu$ActionModeCallback.class", 
+          "tag": 3984258559
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/FloatingPastePopupMenu.class", 
+          "tag": 884917825
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/LGEmailActionModeWorkaroundImpl$1$1.class", 
+          "tag": 2584609385
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/LGEmailActionModeWorkaroundImpl$1.class", 
+          "tag": 3995448125
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/LGEmailActionModeWorkaroundImpl$2$1.class", 
+          "tag": 2390330698
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/LGEmailActionModeWorkaroundImpl$2.class", 
+          "tag": 1528968661
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/LGEmailActionModeWorkaroundImpl.class", 
+          "tag": 531934035
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/LegacyPastePopupMenu.class", 
+          "tag": 4120311699
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/MagnifierAnimator.class", 
+          "tag": 3763428436
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/MagnifierWrapper.class", 
+          "tag": 2660959868
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/MagnifierWrapperImpl.class", 
+          "tag": 1064173789
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/PastePopupMenu$PastePopupMenuDelegate.class", 
+          "tag": 3554144305
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/PastePopupMenu.class", 
+          "tag": 1208591540
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/SelectionIndicesConverter.class", 
+          "tag": 3499310531
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/SelectionInsertionHandleObserver.class", 
+          "tag": 3971593560
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/SelectionPopupControllerImpl$1.class", 
+          "tag": 518923705
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/SelectionPopupControllerImpl$2.class", 
+          "tag": 3691919214
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/SelectionPopupControllerImpl$3.class", 
+          "tag": 2941093716
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/SelectionPopupControllerImpl$Natives.class", 
+          "tag": 2426777754
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/SelectionPopupControllerImpl$ReadbackViewCallback.class", 
+          "tag": 3403202146
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/SelectionPopupControllerImpl$SmartSelectionCallback.class", 
+          "tag": 2250919633
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/SelectionPopupControllerImpl$UserDataFactoryLazyHolder.class", 
+          "tag": 746535282
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/SelectionPopupControllerImpl.class", 
+          "tag": 4266653246
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/SelectionPopupControllerImplJni$1.class", 
+          "tag": 767520147
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/SelectionPopupControllerImplJni.class", 
+          "tag": 1436922037
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/SmartSelectionClient$Natives.class", 
+          "tag": 2083711331
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/SmartSelectionClient$RequestType.class", 
+          "tag": 3775897016
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/SmartSelectionClient.class", 
+          "tag": 2449729690
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/SmartSelectionClientJni$1.class", 
+          "tag": 754541935
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/SmartSelectionClientJni.class", 
+          "tag": 465447078
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/SmartSelectionMetricsLogger.class", 
+          "tag": 4120572921
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/SmartSelectionProvider$1.class", 
+          "tag": 1504187320
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/SmartSelectionProvider$ClassificationTask.class", 
+          "tag": 1338883423
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/SmartSelectionProvider$RequestType.class", 
+          "tag": 623839008
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/SmartSelectionProvider.class", 
+          "tag": 258178424
+        }, 
+        {
+          "path": "org/chromium/content/browser/sms/SmsReceiver$Natives.class", 
+          "tag": 2705442210
+        }, 
+        {
+          "path": "org/chromium/content/browser/sms/SmsReceiver.class", 
+          "tag": 2188772770
+        }, 
+        {
+          "path": "org/chromium/content/browser/sms/SmsReceiverJni$1.class", 
+          "tag": 259600803
+        }, 
+        {
+          "path": "org/chromium/content/browser/sms/SmsReceiverJni.class", 
+          "tag": 3494526611
+        }, 
+        {
+          "path": "org/chromium/content/browser/sms/Wrappers$SmsReceiverContext.class", 
+          "tag": 2528463635
+        }, 
+        {
+          "path": "org/chromium/content/browser/sms/Wrappers$SmsRetrieverClientWrapper.class", 
+          "tag": 3338452553
+        }, 
+        {
+          "path": "org/chromium/content/browser/sms/Wrappers.class", 
+          "tag": 2546289092
+        }, 
+        {
+          "path": "org/chromium/content/browser/webcontents/WebContentsImpl$1.class", 
+          "tag": 26165048
+        }, 
+        {
+          "path": "org/chromium/content/browser/webcontents/WebContentsImpl$Natives.class", 
+          "tag": 937486596
+        }, 
+        {
+          "path": "org/chromium/content/browser/webcontents/WebContentsImpl$SmartClipCallback.class", 
+          "tag": 3478301058
+        }, 
+        {
+          "path": "org/chromium/content/browser/webcontents/WebContentsImpl$UserDataFactory.class", 
+          "tag": 2926150322
+        }, 
+        {
+          "path": "org/chromium/content/browser/webcontents/WebContentsImpl$WebContentsInternalsImpl.class", 
+          "tag": 4193892576
+        }, 
+        {
+          "path": "org/chromium/content/browser/webcontents/WebContentsImpl.class", 
+          "tag": 2693785050
+        }, 
+        {
+          "path": "org/chromium/content/browser/webcontents/WebContentsImplJni$1.class", 
+          "tag": 3263198116
+        }, 
+        {
+          "path": "org/chromium/content/browser/webcontents/WebContentsImplJni.class", 
+          "tag": 736170048
+        }, 
+        {
+          "path": "org/chromium/content/browser/webcontents/WebContentsObserverProxy$Natives.class", 
+          "tag": 156987935
+        }, 
+        {
+          "path": "org/chromium/content/browser/webcontents/WebContentsObserverProxy.class", 
+          "tag": 3053495229
+        }, 
+        {
+          "path": "org/chromium/content/browser/webcontents/WebContentsObserverProxyJni$1.class", 
+          "tag": 221893653
+        }, 
+        {
+          "path": "org/chromium/content/browser/webcontents/WebContentsObserverProxyJni.class", 
+          "tag": 1547711331
+        }, 
+        {
+          "path": "org/chromium/content/common/ContentSwitchUtils.class", 
+          "tag": 346131528
+        }, 
+        {
+          "path": "org/chromium/content/common/IGpuProcessCallback$Default.class", 
+          "tag": 3837534368
+        }, 
+        {
+          "path": "org/chromium/content/common/IGpuProcessCallback$Stub$Proxy.class", 
+          "tag": 3652187854
+        }, 
+        {
+          "path": "org/chromium/content/common/IGpuProcessCallback$Stub.class", 
+          "tag": 3571237931
+        }, 
+        {
+          "path": "org/chromium/content/common/IGpuProcessCallback.class", 
+          "tag": 3272887823
+        }, 
+        {
+          "path": "org/chromium/content/common/ServiceManagerConnectionImpl$Natives.class", 
+          "tag": 2767402219
+        }, 
+        {
+          "path": "org/chromium/content/common/ServiceManagerConnectionImpl.class", 
+          "tag": 2645399948
+        }, 
+        {
+          "path": "org/chromium/content/common/ServiceManagerConnectionImplJni$1.class", 
+          "tag": 1207796346
+        }, 
+        {
+          "path": "org/chromium/content/common/ServiceManagerConnectionImplJni.class", 
+          "tag": 2025152207
+        }, 
+        {
+          "path": "org/chromium/content/common/SurfaceWrapper$1.class", 
+          "tag": 456450148
+        }, 
+        {
+          "path": "org/chromium/content/common/SurfaceWrapper.class", 
+          "tag": 3903933668
+        }, 
+        {
+          "path": "org/chromium/content_public/app/ChildProcessServiceFactory.class", 
+          "tag": 3074189111
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/AccessibilitySnapshotCallback.class", 
+          "tag": 4069881338
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/AccessibilitySnapshotNode.class", 
+          "tag": 352376127
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/ActionModeCallbackHelper$1.class", 
+          "tag": 2142573284
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/ActionModeCallbackHelper$EmptyActionCallback.class", 
+          "tag": 40097981
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/ActionModeCallbackHelper.class", 
+          "tag": 2224499744
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/BrowserStartupController$StartupCallback.class", 
+          "tag": 2259981726
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/BrowserStartupController.class", 
+          "tag": 1089659273
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/BrowserTaskExecutor.class", 
+          "tag": 2237197687
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/BrowserTaskType.class", 
+          "tag": 1004444855
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/ChildProcessCreationParams.class", 
+          "tag": 2678575983
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/ChildProcessImportance.class", 
+          "tag": 1261776761
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/ChildProcessLauncherHelper.class", 
+          "tag": 1135082845
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/ContentFeatureList.class", 
+          "tag": 2538638093
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/ContentViewStatics.class", 
+          "tag": 2915627579
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/DeviceUtils.class", 
+          "tag": 2581816209
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/GestureListenerManager.class", 
+          "tag": 2116673848
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/GestureStateListener.class", 
+          "tag": 895514191
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/ImageDownloadCallback.class", 
+          "tag": 2288254119
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/ImeAdapter.class", 
+          "tag": 1734547381
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/ImeEventObserver.class", 
+          "tag": 4043410163
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/InputMethodManagerWrapper$Delegate.class", 
+          "tag": 2035231830
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/InputMethodManagerWrapper.class", 
+          "tag": 985933224
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/InterfaceRegistrar$Registry.class", 
+          "tag": 744641410
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/InterfaceRegistrar.class", 
+          "tag": 2259356479
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/InvalidateTypes.class", 
+          "tag": 3887586817
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/JavaScriptCallback.class", 
+          "tag": 1172753042
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/JavascriptInjector.class", 
+          "tag": 3509193698
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/LGEmailActionModeWorkaround.class", 
+          "tag": 1599857746
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/LoadUrlParams$Natives.class", 
+          "tag": 4015263403
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/LoadUrlParams.class", 
+          "tag": 443273720
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/LoadUrlParamsJni$1.class", 
+          "tag": 2052064329
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/LoadUrlParamsJni.class", 
+          "tag": 2951410835
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/MediaSession.class", 
+          "tag": 1028907562
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/MediaSessionObserver.class", 
+          "tag": 3380910652
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/MessagePort$MessageCallback.class", 
+          "tag": 2553030120
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/MessagePort.class", 
+          "tag": 821190956
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/MotionEventSynthesizer.class", 
+          "tag": 4175113485
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/NavigationController.class", 
+          "tag": 2915562571
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/NavigationEntry.class", 
+          "tag": 763800772
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/NavigationHandle$Natives.class", 
+          "tag": 3467471193
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/NavigationHandle.class", 
+          "tag": 3726388435
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/NavigationHandleJni$1.class", 
+          "tag": 2800128360
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/NavigationHandleJni.class", 
+          "tag": 3815668632
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/NavigationHistory.class", 
+          "tag": 161506828
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/RenderCoordinates.class", 
+          "tag": 457044558
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/RenderFrameHost.class", 
+          "tag": 2899120876
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/RenderWidgetHostView.class", 
+          "tag": 1072073087
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/ScreenOrientationDelegate.class", 
+          "tag": 4086680191
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/ScreenOrientationProvider.class", 
+          "tag": 2041770351
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/SelectionClient$Result.class", 
+          "tag": 974028263
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/SelectionClient$ResultCallback.class", 
+          "tag": 2117919515
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/SelectionClient.class", 
+          "tag": 2474499764
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/SelectionMetricsLogger.class", 
+          "tag": 495006971
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/SelectionPopupController.class", 
+          "tag": 3021889818
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/SmartClipProvider.class", 
+          "tag": 1520829822
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/SpeechRecognition.class", 
+          "tag": 2910388495
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/TracingControllerAndroid.class", 
+          "tag": 3174323214
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/UiThreadTaskTraits.class", 
+          "tag": 4066693117
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/ViewEventSink$InternalAccessDelegate.class", 
+          "tag": 1260716258
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/ViewEventSink.class", 
+          "tag": 2472060102
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/WebContents$1.class", 
+          "tag": 1680318496
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/WebContents$InternalsHolder.class", 
+          "tag": 2715955456
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/WebContents.class", 
+          "tag": 619334519
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/WebContentsAccessibility.class", 
+          "tag": 3937661533
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/WebContentsInternals.class", 
+          "tag": 3955199856
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/WebContentsObserver$ViewportFitType.class", 
+          "tag": 1337353915
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/WebContentsObserver.class", 
+          "tag": 3353953472
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/WebContentsStatics.class", 
+          "tag": 3632258093
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/bluetooth_scanning/Event.class", 
+          "tag": 751891487
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/navigation_controller/LoadURLType.class", 
+          "tag": 1524862789
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/navigation_controller/UserAgentOverrideOption.class", 
+          "tag": 3092666863
+        }, 
+        {
+          "path": "org/chromium/content_public/common/BrowserControlsState.class", 
+          "tag": 1181844418
+        }, 
+        {
+          "path": "org/chromium/content_public/common/ConsoleMessageLevel.class", 
+          "tag": 2844744605
+        }, 
+        {
+          "path": "org/chromium/content_public/common/ContentProcessInfo.class", 
+          "tag": 3667185756
+        }, 
+        {
+          "path": "org/chromium/content_public/common/ContentSwitches.class", 
+          "tag": 3612977521
+        }, 
+        {
+          "path": "org/chromium/content_public/common/ContentUrlConstants.class", 
+          "tag": 2773854169
+        }, 
+        {
+          "path": "org/chromium/content_public/common/Referrer.class", 
+          "tag": 521148573
+        }, 
+        {
+          "path": "org/chromium/content_public/common/ResourceRequestBody$Natives.class", 
+          "tag": 516683831
+        }, 
+        {
+          "path": "org/chromium/content_public/common/ResourceRequestBody.class", 
+          "tag": 1703865858
+        }, 
+        {
+          "path": "org/chromium/content_public/common/ResourceRequestBodyJni$1.class", 
+          "tag": 3454188027
+        }, 
+        {
+          "path": "org/chromium/content_public/common/ResourceRequestBodyJni.class", 
+          "tag": 3076443255
+        }, 
+        {
+          "path": "org/chromium/content_public/common/ScreenOrientationConstants.class", 
+          "tag": 1394824955
+        }, 
+        {
+          "path": "org/chromium/content_public/common/ScreenOrientationValues.class", 
+          "tag": 3913476929
+        }, 
+        {
+          "path": "org/chromium/content_public/common/ServiceManagerConnection.class", 
+          "tag": 2017777677
+        }, 
+        {
+          "path": "org/chromium/content_public/common/UseZoomForDSFPolicy$Natives.class", 
+          "tag": 830699574
+        }, 
+        {
+          "path": "org/chromium/content_public/common/UseZoomForDSFPolicy.class", 
+          "tag": 1631256140
+        }, 
+        {
+          "path": "org/chromium/content_public/common/UseZoomForDSFPolicyJni$1.class", 
+          "tag": 3102993083
+        }, 
+        {
+          "path": "org/chromium/content_public/common/UseZoomForDSFPolicyJni.class", 
+          "tag": 1268972261
+        }, 
+        {
+          "path": "org/chromium/ui/touch_selection/SelectionEventType.class", 
+          "tag": 1773733652
+        }, 
+        {
+          "path": "org/chromium/ui/touch_selection/TouchHandleOrientation.class", 
+          "tag": 683523041
+        }, 
+        {
+          "path": "org/chromium/content/app/ContentChildProcessServiceDelegate$$Lambda$0.class", 
+          "tag": 4252161841
+        }, 
+        {
+          "path": "org/chromium/content/browser/ChildProcessLauncherHelperImpl$$Lambda$0.class", 
+          "tag": 710254826
+        }, 
+        {
+          "path": "org/chromium/content/browser/ChildProcessLauncherHelperImpl$$Lambda$1.class", 
+          "tag": 3706242022
+        }, 
+        {
+          "path": "org/chromium/content/browser/ChildProcessLauncherHelperImpl$$Lambda$2.class", 
+          "tag": 455995809
+        }, 
+        {
+          "path": "org/chromium/content/browser/ChildProcessLauncherHelperImpl$$Lambda$3.class", 
+          "tag": 3131473696
+        }, 
+        {
+          "path": "org/chromium/content/browser/ChildProcessLauncherHelperImpl$$Lambda$4.class", 
+          "tag": 4061185786
+        }, 
+        {
+          "path": "org/chromium/content/browser/ChildProcessLauncherHelperImpl$$Lambda$5.class", 
+          "tag": 366285812
+        }, 
+        {
+          "path": "org/chromium/content/browser/ChildProcessLauncherHelperImpl$$Lambda$6.class", 
+          "tag": 2846284642
+        }, 
+        {
+          "path": "org/chromium/content/browser/ChildProcessLauncherHelperImpl$$Lambda$7.class", 
+          "tag": 4274127215
+        }, 
+        {
+          "path": "org/chromium/content/browser/ChildProcessRanking$$Lambda$0.class", 
+          "tag": 3235028150
+        }, 
+        {
+          "path": "org/chromium/content/browser/ChildProcessRanking$$Lambda$1.class", 
+          "tag": 362622665
+        }, 
+        {
+          "path": "org/chromium/content/browser/ContactsDialogHost$$Lambda$0.class", 
+          "tag": 1688677347
+        }, 
+        {
+          "path": "org/chromium/content/browser/ContentUiEventHandler$UserDataFactoryLazyHolder$$Lambda$0.class", 
+          "tag": 1237119125
+        }, 
+        {
+          "path": "org/chromium/content/browser/Gamepad$UserDataFactoryLazyHolder$$Lambda$0.class", 
+          "tag": 3447032557
+        }, 
+        {
+          "path": "org/chromium/content/browser/GestureListenerManagerImpl$UserDataFactoryLazyHolder$$Lambda$0.class", 
+          "tag": 2327344036
+        }, 
+        {
+          "path": "org/chromium/content/browser/JavascriptInjectorImpl$UserDataFactoryLazyHolder$$Lambda$0.class", 
+          "tag": 1590196422
+        }, 
+        {
+          "path": "org/chromium/content/browser/JoystickHandler$UserDataFactoryLazyHolder$$Lambda$0.class", 
+          "tag": 11689068
+        }, 
+        {
+          "path": "org/chromium/content/browser/PopupController$UserDataFactoryLazyHolder$$Lambda$0.class", 
+          "tag": 2225044445
+        }, 
+        {
+          "path": "org/chromium/content/browser/TtsPlatformImpl$$Lambda$0.class", 
+          "tag": 3604813033
+        }, 
+        {
+          "path": "org/chromium/content/browser/TtsPlatformImpl$$Lambda$1.class", 
+          "tag": 4090907723
+        }, 
+        {
+          "path": "org/chromium/content/browser/TtsPlatformImpl$$Lambda$2.class", 
+          "tag": 2872421786
+        }, 
+        {
+          "path": "org/chromium/content/browser/TtsPlatformImpl$$Lambda$3.class", 
+          "tag": 1353255556
+        }, 
+        {
+          "path": "org/chromium/content/browser/TtsPlatformImpl$$Lambda$4.class", 
+          "tag": 3888478160
+        }, 
+        {
+          "path": "org/chromium/content/browser/ViewEventSinkImpl$UserDataFactoryLazyHolder$$Lambda$0.class", 
+          "tag": 3159013022
+        }, 
+        {
+          "path": "org/chromium/content/browser/WindowEventObserverManager$UserDataFactoryLazyHolder$$Lambda$0.class", 
+          "tag": 995321130
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ImeAdapterImpl$UserDataFactoryLazyHolder$$Lambda$0.class", 
+          "tag": 1878222867
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ImeAdapterImpl$$Lambda$0.class", 
+          "tag": 3067162614
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/InputMethodManagerWrapperImpl$$Lambda$0.class", 
+          "tag": 3748350910
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/SelectPopup$UserDataFactoryLazyHolder$$Lambda$0.class", 
+          "tag": 3950767308
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/SelectPopup$$Lambda$0.class", 
+          "tag": 3778124895
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/SelectPopup$$Lambda$1.class", 
+          "tag": 26371174
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/TextSuggestionHost$UserDataFactoryLazyHolder$$Lambda$0.class", 
+          "tag": 1209225164
+        }, 
+        {
+          "path": "org/chromium/content/browser/input/ThreadedInputConnectionProxyView$$Lambda$0.class", 
+          "tag": 1406701704
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/AdditionalMenuItemProviderImpl$$Lambda$0.class", 
+          "tag": 1175491993
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/MagnifierAnimator$$Lambda$0.class", 
+          "tag": 2698744069
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/SelectionPopupControllerImpl$UserDataFactoryLazyHolder$$Lambda$0.class", 
+          "tag": 2548796201
+        }, 
+        {
+          "path": "org/chromium/content/browser/selection/SelectionPopupControllerImpl$$Lambda$0.class", 
+          "tag": 1022887637
+        }, 
+        {
+          "path": "org/chromium/content/browser/WindowEventObserver$$CC.class", 
+          "tag": 3488162748
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/BrowserStartupController$$CC.class", 
+          "tag": 2676295721
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/GestureListenerManager$$CC.class", 
+          "tag": 2933108735
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/GestureStateListener$$CC.class", 
+          "tag": 1267151655
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/ImeAdapter$$CC.class", 
+          "tag": 3431867026
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/ImeEventObserver$$CC.class", 
+          "tag": 3962957125
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/JavascriptInjector$$CC.class", 
+          "tag": 2057747324
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/MessagePort$$CC.class", 
+          "tag": 1666757051
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/MotionEventSynthesizer$$CC.class", 
+          "tag": 1929678174
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/RenderCoordinates$$CC.class", 
+          "tag": 3949979075
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/ScreenOrientationProvider$$CC.class", 
+          "tag": 239944486
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/SelectionClient$$CC.class", 
+          "tag": 2638247901
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/SelectionPopupController$$CC.class", 
+          "tag": 1020675939
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/TracingControllerAndroid$$CC.class", 
+          "tag": 3370571876
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/ViewEventSink$$CC.class", 
+          "tag": 1828791165
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/WebContents$$CC.class", 
+          "tag": 97757141
+        }, 
+        {
+          "path": "org/chromium/content_public/browser/WebContentsAccessibility$$CC.class", 
+          "tag": 1444023544
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

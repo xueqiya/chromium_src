@@ -1,0 +1,625 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "fab6f7cdc2f867a1d1332780da2bc896", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/services/viz/public/mojom/mojom_java.jar", 
+      "tag": "26dd2bf7f0d65487ac3bb3886d26b626", 
+      "entries": [
+        {
+          "path": "org/chromium/viz/mojom/AggregatedHitTestRegion.class", 
+          "tag": 1712019738
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/BeginFrameAck.class", 
+          "tag": 4289092965
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/BeginFrameArgs.class", 
+          "tag": 3295559628
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/BeginFrameArgsType.class", 
+          "tag": 1947064220
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositingModeReporter$Proxy.class", 
+          "tag": 1774452388
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositingModeReporter.class", 
+          "tag": 3089558036
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositingModeReporter_Internal$1.class", 
+          "tag": 3542040592
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositingModeReporter_Internal$CompositingModeReporterAddCompositingModeWatcherParams.class", 
+          "tag": 2245114001
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositingModeReporter_Internal$Proxy.class", 
+          "tag": 109201705
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositingModeReporter_Internal$Stub.class", 
+          "tag": 1772904368
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositingModeReporter_Internal.class", 
+          "tag": 3135261580
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositingModeWatcher$Proxy.class", 
+          "tag": 3347276457
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositingModeWatcher.class", 
+          "tag": 527005860
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositingModeWatcher_Internal$1.class", 
+          "tag": 2941467956
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositingModeWatcher_Internal$CompositingModeWatcherCompositingModeFallbackToSoftwareParams.class", 
+          "tag": 2191889438
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositingModeWatcher_Internal$Proxy.class", 
+          "tag": 1638724161
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositingModeWatcher_Internal$Stub.class", 
+          "tag": 441141029
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositingModeWatcher_Internal.class", 
+          "tag": 272639040
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositorFrame.class", 
+          "tag": 3074481554
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositorFrameMetadata.class", 
+          "tag": 3169837411
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositorFrameSink$Proxy.class", 
+          "tag": 1132233971
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositorFrameSink$SubmitCompositorFrameSyncResponse.class", 
+          "tag": 698358003
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositorFrameSink.class", 
+          "tag": 459473734
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositorFrameSinkClient$Proxy.class", 
+          "tag": 1217159895
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositorFrameSinkClient.class", 
+          "tag": 4211303944
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositorFrameSinkClient_Internal$1.class", 
+          "tag": 2641877489
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositorFrameSinkClient_Internal$CompositorFrameSinkClientDidReceiveCompositorFrameAckParams.class", 
+          "tag": 2318775412
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositorFrameSinkClient_Internal$CompositorFrameSinkClientOnBeginFrameParams.class", 
+          "tag": 743704657
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositorFrameSinkClient_Internal$CompositorFrameSinkClientOnBeginFramePausedChangedParams.class", 
+          "tag": 984999233
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositorFrameSinkClient_Internal$CompositorFrameSinkClientReclaimResourcesParams.class", 
+          "tag": 614365638
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositorFrameSinkClient_Internal$Proxy.class", 
+          "tag": 3721404505
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositorFrameSinkClient_Internal$Stub.class", 
+          "tag": 3891276021
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositorFrameSinkClient_Internal.class", 
+          "tag": 2434101830
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositorFrameSink_Internal$1.class", 
+          "tag": 50437977
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositorFrameSink_Internal$CompositorFrameSinkDidAllocateSharedBitmapParams.class", 
+          "tag": 3686141157
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositorFrameSink_Internal$CompositorFrameSinkDidDeleteSharedBitmapParams.class", 
+          "tag": 3803512135
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositorFrameSink_Internal$CompositorFrameSinkDidNotProduceFrameParams.class", 
+          "tag": 2887080868
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositorFrameSink_Internal$CompositorFrameSinkSetNeedsBeginFrameParams.class", 
+          "tag": 3970374021
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositorFrameSink_Internal$CompositorFrameSinkSetWantsAnimateOnlyBeginFramesParams.class", 
+          "tag": 571113466
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositorFrameSink_Internal$CompositorFrameSinkSubmitCompositorFrameParams.class", 
+          "tag": 990087039
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositorFrameSink_Internal$CompositorFrameSinkSubmitCompositorFrameSyncParams.class", 
+          "tag": 1597853119
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositorFrameSink_Internal$CompositorFrameSinkSubmitCompositorFrameSyncResponseParams.class", 
+          "tag": 1884914308
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositorFrameSink_Internal$CompositorFrameSinkSubmitCompositorFrameSyncResponseParamsForwardToCallback.class", 
+          "tag": 2484972384
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositorFrameSink_Internal$CompositorFrameSinkSubmitCompositorFrameSyncResponseParamsProxyToResponder.class", 
+          "tag": 3652120441
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositorFrameSink_Internal$Proxy.class", 
+          "tag": 820843418
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositorFrameSink_Internal$Stub.class", 
+          "tag": 3268107657
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CompositorFrameSink_Internal.class", 
+          "tag": 1410737003
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CopyOutputRequest.class", 
+          "tag": 55600865
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CopyOutputResult.class", 
+          "tag": 4211823733
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CopyOutputResultFormat.class", 
+          "tag": 2795903668
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CopyOutputResultSender$Proxy.class", 
+          "tag": 3737616529
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CopyOutputResultSender.class", 
+          "tag": 210272667
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CopyOutputResultSender_Internal$1.class", 
+          "tag": 3876058895
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CopyOutputResultSender_Internal$CopyOutputResultSenderSendResultParams.class", 
+          "tag": 1327109267
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CopyOutputResultSender_Internal$Proxy.class", 
+          "tag": 2904944896
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CopyOutputResultSender_Internal$Stub.class", 
+          "tag": 268389687
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/CopyOutputResultSender_Internal.class", 
+          "tag": 1841208895
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/DebugBorderQuadState.class", 
+          "tag": 15876187
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/DrawQuad.class", 
+          "tag": 2971767805
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/DrawQuadState$Tag.class", 
+          "tag": 3798159747
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/DrawQuadState.class", 
+          "tag": 1092462989
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/FilterOperation.class", 
+          "tag": 2736611800
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/FilterOperations.class", 
+          "tag": 3001572504
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/FilterType.class", 
+          "tag": 49270971
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/FrameDeadline.class", 
+          "tag": 2227018706
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/FrameSinkId.class", 
+          "tag": 4098736968
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/FrameTimingDetails.class", 
+          "tag": 2944558684
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/Gpu$EstablishGpuChannelResponse.class", 
+          "tag": 3982968172
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/Gpu$Proxy.class", 
+          "tag": 4054204714
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/Gpu.class", 
+          "tag": 3140730538
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/GpuMemoryBufferFactory$CreateGpuMemoryBufferResponse.class", 
+          "tag": 799989975
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/GpuMemoryBufferFactory$Proxy.class", 
+          "tag": 560504360
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/GpuMemoryBufferFactory.class", 
+          "tag": 3930582762
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/GpuMemoryBufferFactory_Internal$1.class", 
+          "tag": 2566128698
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/GpuMemoryBufferFactory_Internal$GpuMemoryBufferFactoryCreateGpuMemoryBufferParams.class", 
+          "tag": 1843769575
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/GpuMemoryBufferFactory_Internal$GpuMemoryBufferFactoryCreateGpuMemoryBufferResponseParams.class", 
+          "tag": 1048793527
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/GpuMemoryBufferFactory_Internal$GpuMemoryBufferFactoryCreateGpuMemoryBufferResponseParamsForwardToCallback.class", 
+          "tag": 106976705
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/GpuMemoryBufferFactory_Internal$GpuMemoryBufferFactoryCreateGpuMemoryBufferResponseParamsProxyToResponder.class", 
+          "tag": 2073152575
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/GpuMemoryBufferFactory_Internal$GpuMemoryBufferFactoryDestroyGpuMemoryBufferParams.class", 
+          "tag": 1580497123
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/GpuMemoryBufferFactory_Internal$Proxy.class", 
+          "tag": 116337
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/GpuMemoryBufferFactory_Internal$Stub.class", 
+          "tag": 3657892537
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/GpuMemoryBufferFactory_Internal.class", 
+          "tag": 2777966573
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/Gpu_Internal$1.class", 
+          "tag": 3164026702
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/Gpu_Internal$GpuCreateGpuMemoryBufferFactoryParams.class", 
+          "tag": 2598928974
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/Gpu_Internal$GpuCreateVideoEncodeAcceleratorProviderParams.class", 
+          "tag": 3717312641
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/Gpu_Internal$GpuEstablishGpuChannelParams.class", 
+          "tag": 3586376049
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/Gpu_Internal$GpuEstablishGpuChannelResponseParams.class", 
+          "tag": 1570067845
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/Gpu_Internal$GpuEstablishGpuChannelResponseParamsForwardToCallback.class", 
+          "tag": 224016688
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/Gpu_Internal$GpuEstablishGpuChannelResponseParamsProxyToResponder.class", 
+          "tag": 3145153398
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/Gpu_Internal$Proxy.class", 
+          "tag": 1390265334
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/Gpu_Internal$Stub.class", 
+          "tag": 1074222837
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/Gpu_Internal.class", 
+          "tag": 1205441337
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/HitTestRegion.class", 
+          "tag": 4011311244
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/HitTestRegionList.class", 
+          "tag": 4171573202
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/InputTargetClient$FrameSinkIdAtResponse.class", 
+          "tag": 4172658723
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/InputTargetClient$Proxy.class", 
+          "tag": 204206751
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/InputTargetClient.class", 
+          "tag": 1245460822
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/InputTargetClient_Internal$1.class", 
+          "tag": 2358820116
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/InputTargetClient_Internal$InputTargetClientFrameSinkIdAtParams.class", 
+          "tag": 1254446682
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/InputTargetClient_Internal$InputTargetClientFrameSinkIdAtResponseParams.class", 
+          "tag": 4191954143
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/InputTargetClient_Internal$InputTargetClientFrameSinkIdAtResponseParamsForwardToCallback.class", 
+          "tag": 2660148011
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/InputTargetClient_Internal$InputTargetClientFrameSinkIdAtResponseParamsProxyToResponder.class", 
+          "tag": 2800421065
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/InputTargetClient_Internal$Proxy.class", 
+          "tag": 1006446249
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/InputTargetClient_Internal$Stub.class", 
+          "tag": 1321852362
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/InputTargetClient_Internal.class", 
+          "tag": 675681034
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/LocalSurfaceId.class", 
+          "tag": 1878010681
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/LocalSurfaceIdAllocation.class", 
+          "tag": 508323003
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/PaintFilter.class", 
+          "tag": 613867049
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/ProtectedVideoState.class", 
+          "tag": 317283449
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/RenderPass.class", 
+          "tag": 3698376618
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/RenderPassQuadState.class", 
+          "tag": 568237109
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/ResourceFormat.class", 
+          "tag": 2904860235
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/ResourceSettings.class", 
+          "tag": 1400468243
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/ReturnedResource.class", 
+          "tag": 2052958094
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/Selection.class", 
+          "tag": 691807111
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/SharedQuadState.class", 
+          "tag": 923533146
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/SolidColorQuadState.class", 
+          "tag": 3912177624
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/StreamVideoQuadState.class", 
+          "tag": 3873460296
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/SurfaceId.class", 
+          "tag": 130260564
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/SurfaceInfo.class", 
+          "tag": 3787424334
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/SurfaceQuadState.class", 
+          "tag": 4095759731
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/SurfaceRange.class", 
+          "tag": 1861340743
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/TextureQuadState.class", 
+          "tag": 4004235168
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/TextureReleaser$Proxy.class", 
+          "tag": 345174160
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/TextureReleaser.class", 
+          "tag": 270862299
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/TextureReleaser_Internal$1.class", 
+          "tag": 3289587920
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/TextureReleaser_Internal$Proxy.class", 
+          "tag": 1198014661
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/TextureReleaser_Internal$Stub.class", 
+          "tag": 3848896487
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/TextureReleaser_Internal$TextureReleaserReleaseParams.class", 
+          "tag": 4113313385
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/TextureReleaser_Internal.class", 
+          "tag": 3074352614
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/TileQuadState.class", 
+          "tag": 3517621224
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/TransferableResource.class", 
+          "tag": 1200364395
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/VerticalScrollDirection.class", 
+          "tag": 1724870254
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/VideoDetectorObserver$Proxy.class", 
+          "tag": 4267313175
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/VideoDetectorObserver.class", 
+          "tag": 165470659
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/VideoDetectorObserver_Internal$1.class", 
+          "tag": 3332847417
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/VideoDetectorObserver_Internal$Proxy.class", 
+          "tag": 2708156799
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/VideoDetectorObserver_Internal$Stub.class", 
+          "tag": 2686557460
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/VideoDetectorObserver_Internal$VideoDetectorObserverOnVideoActivityEndedParams.class", 
+          "tag": 296576517
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/VideoDetectorObserver_Internal$VideoDetectorObserverOnVideoActivityStartedParams.class", 
+          "tag": 399386856
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/VideoDetectorObserver_Internal.class", 
+          "tag": 840832850
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/VideoHoleQuadState.class", 
+          "tag": 922141632
+        }, 
+        {
+          "path": "org/chromium/viz/mojom/YuvVideoQuadState.class", 
+          "tag": 3126352941
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

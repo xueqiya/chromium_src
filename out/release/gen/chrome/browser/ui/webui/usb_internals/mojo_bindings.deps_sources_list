@@ -1,0 +1,3 @@
+gen/chrome/browser/ui/webui/usb_internals/mojo_bindings.sources_list
+gen/services/device/public/mojom/usb.sources_list
+gen/services/device/public/mojom/usb_test.sources_list

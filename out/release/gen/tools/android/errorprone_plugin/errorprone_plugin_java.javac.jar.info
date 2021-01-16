@@ -1,0 +1,7 @@
+org.chromium.tools.errorprone.plugin.AndroidNullableCheck,../../tools/android/errorprone_plugin/src/org/chromium/tools/errorprone/plugin/AndroidNullableCheck.java
+org.chromium.tools.errorprone.plugin.NoAndroidAsyncTaskCheck,../../tools/android/errorprone_plugin/src/org/chromium/tools/errorprone/plugin/NoAndroidAsyncTaskCheck.java
+org.chromium.tools.errorprone.plugin.NoDynamicStringsInTraceEventCheck,../../tools/android/errorprone_plugin/src/org/chromium/tools/errorprone/plugin/NoDynamicStringsInTraceEventCheck.java
+org.chromium.tools.errorprone.plugin.NoRedundantFieldInitCheck,../../tools/android/errorprone_plugin/src/org/chromium/tools/errorprone/plugin/NoRedundantFieldInitCheck.java
+org.chromium.tools.errorprone.plugin.NoSynchronizedMethodCheck,../../tools/android/errorprone_plugin/src/org/chromium/tools/errorprone/plugin/NoSynchronizedMethodCheck.java
+org.chromium.tools.errorprone.plugin.NoSynchronizedThisCheck,../../tools/android/errorprone_plugin/src/org/chromium/tools/errorprone/plugin/NoSynchronizedThisCheck.java
+org.chromium.tools.errorprone.plugin.TestClassNameCheck,../../tools/android/errorprone_plugin/src/org/chromium/tools/errorprone/plugin/TestClassNameCheck.java

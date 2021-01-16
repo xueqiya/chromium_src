@@ -1,0 +1,31 @@
+{
+  "android": {
+    "sdk_interface_jars": [
+      "lib.java/third_party/android_sdk/android.interface.jar"
+    ],
+    "sdk_jars": [
+      "lib.java/third_party/android_sdk/android.jar"
+    ]
+  },
+  "deps_info": {
+    "dependency_zips": [],
+    "deps_configs": [
+      "gen/third_party/android_sdk/android_sdk_java.build_config"
+    ],
+    "extra_main_r_text_files": [],
+    "extra_package_names": [],
+    "extra_r_text_files": [],
+    "name": "webview_instrumentation_apk_resources.build_config",
+    "package_name": "org.chromium.android_webview.shell",
+    "path": "gen/android_webview/test/webview_instrumentation_apk_resources.build_config",
+    "proguard_configs": [],
+    "r_text_path": "gen/android_webview/test/webview_instrumentation_apk_resources_R.txt",
+    "res_sources_path": "gen/android_webview/test/webview_instrumentation_apk_resources.res.sources",
+    "resources_zip": "obj/android_webview/test/webview_instrumentation_apk_resources.resources.zip",
+    "srcjar": "gen/android_webview/test/webview_instrumentation_apk_resources.srcjar",
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "type": "android_resources"
+  },
+  "gradle": {}
+}

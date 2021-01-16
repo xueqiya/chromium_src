@@ -1,0 +1,205 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "317c0e7a2f4640c169c65fd5c98f09c7", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/mojo/public/java/system_java.jar", 
+      "tag": "64860ce5576fe5f821701bc0664126a1", 
+      "entries": [
+        {
+          "path": "org/chromium/mojo/system/Core$HandleSignals.class", 
+          "tag": 2047872477
+        }, 
+        {
+          "path": "org/chromium/mojo/system/Core$HandleSignalsState.class", 
+          "tag": 878581102
+        }, 
+        {
+          "path": "org/chromium/mojo/system/Core.class", 
+          "tag": 93936048
+        }, 
+        {
+          "path": "org/chromium/mojo/system/DataPipe$ConsumerHandle.class", 
+          "tag": 1206670306
+        }, 
+        {
+          "path": "org/chromium/mojo/system/DataPipe$CreateFlags.class", 
+          "tag": 4233505553
+        }, 
+        {
+          "path": "org/chromium/mojo/system/DataPipe$CreateOptions.class", 
+          "tag": 4086580711
+        }, 
+        {
+          "path": "org/chromium/mojo/system/DataPipe$ProducerHandle.class", 
+          "tag": 4208345496
+        }, 
+        {
+          "path": "org/chromium/mojo/system/DataPipe$ReadFlags.class", 
+          "tag": 2838644482
+        }, 
+        {
+          "path": "org/chromium/mojo/system/DataPipe$WriteFlags.class", 
+          "tag": 1035900207
+        }, 
+        {
+          "path": "org/chromium/mojo/system/DataPipe.class", 
+          "tag": 3253766731
+        }, 
+        {
+          "path": "org/chromium/mojo/system/Flags.class", 
+          "tag": 482831856
+        }, 
+        {
+          "path": "org/chromium/mojo/system/Handle.class", 
+          "tag": 1150935518
+        }, 
+        {
+          "path": "org/chromium/mojo/system/InvalidHandle.class", 
+          "tag": 1374424072
+        }, 
+        {
+          "path": "org/chromium/mojo/system/MessagePipeHandle$CreateFlags.class", 
+          "tag": 2603894458
+        }, 
+        {
+          "path": "org/chromium/mojo/system/MessagePipeHandle$CreateOptions.class", 
+          "tag": 2610046224
+        }, 
+        {
+          "path": "org/chromium/mojo/system/MessagePipeHandle$ReadFlags.class", 
+          "tag": 1579939176
+        }, 
+        {
+          "path": "org/chromium/mojo/system/MessagePipeHandle$ReadMessageResult.class", 
+          "tag": 3847822341
+        }, 
+        {
+          "path": "org/chromium/mojo/system/MessagePipeHandle$WriteFlags.class", 
+          "tag": 1111893089
+        }, 
+        {
+          "path": "org/chromium/mojo/system/MessagePipeHandle.class", 
+          "tag": 4019501890
+        }, 
+        {
+          "path": "org/chromium/mojo/system/MojoException.class", 
+          "tag": 64524140
+        }, 
+        {
+          "path": "org/chromium/mojo/system/MojoResult.class", 
+          "tag": 4020725719
+        }, 
+        {
+          "path": "org/chromium/mojo/system/Pair.class", 
+          "tag": 980898548
+        }, 
+        {
+          "path": "org/chromium/mojo/system/ResultAnd.class", 
+          "tag": 745755152
+        }, 
+        {
+          "path": "org/chromium/mojo/system/RunLoop.class", 
+          "tag": 4084649719
+        }, 
+        {
+          "path": "org/chromium/mojo/system/SharedBufferHandle$CreateFlags.class", 
+          "tag": 2404442298
+        }, 
+        {
+          "path": "org/chromium/mojo/system/SharedBufferHandle$CreateOptions.class", 
+          "tag": 2387324864
+        }, 
+        {
+          "path": "org/chromium/mojo/system/SharedBufferHandle$DuplicateFlags.class", 
+          "tag": 219445974
+        }, 
+        {
+          "path": "org/chromium/mojo/system/SharedBufferHandle$DuplicateOptions.class", 
+          "tag": 2360537999
+        }, 
+        {
+          "path": "org/chromium/mojo/system/SharedBufferHandle$MapFlags.class", 
+          "tag": 3137004788
+        }, 
+        {
+          "path": "org/chromium/mojo/system/SharedBufferHandle.class", 
+          "tag": 3244915341
+        }, 
+        {
+          "path": "org/chromium/mojo/system/UntypedHandle.class", 
+          "tag": 1015186948
+        }, 
+        {
+          "path": "org/chromium/mojo/system/Watcher$Callback.class", 
+          "tag": 2111407092
+        }, 
+        {
+          "path": "org/chromium/mojo/system/Watcher.class", 
+          "tag": 1001556151
+        }, 
+        {
+          "path": "org/chromium/mojo/system/DataPipe$ConsumerHandle$$CC.class", 
+          "tag": 3889979850
+        }, 
+        {
+          "path": "org/chromium/mojo/system/DataPipe$ProducerHandle$$CC.class", 
+          "tag": 4021404189
+        }, 
+        {
+          "path": "org/chromium/mojo/system/MessagePipeHandle$$CC.class", 
+          "tag": 3420341371
+        }, 
+        {
+          "path": "org/chromium/mojo/system/SharedBufferHandle$$CC.class", 
+          "tag": 2338497647
+        }, 
+        {
+          "path": "org/chromium/mojo/system/UntypedHandle$$CC.class", 
+          "tag": 43937145
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

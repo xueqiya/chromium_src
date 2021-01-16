@@ -1,0 +1,31 @@
+{
+  "android": {
+    "sdk_interface_jars": [
+      "lib.java/third_party/android_sdk/android.interface.jar"
+    ],
+    "sdk_jars": [
+      "lib.java/third_party/android_sdk/android.jar"
+    ]
+  },
+  "deps_info": {
+    "dependency_zips": [],
+    "deps_configs": [
+      "gen/third_party/android_sdk/android_sdk_java.build_config"
+    ],
+    "extra_main_r_text_files": [],
+    "extra_package_names": [],
+    "extra_r_text_files": [],
+    "name": "media_java_resources.build_config",
+    "package_name": "org.chromium.media",
+    "path": "gen/media/base/android/media_java_resources.build_config",
+    "proguard_configs": [],
+    "r_text_path": "gen/media/base/android/media_java_resources_R.txt",
+    "res_sources_path": "gen/media/base/android/media_java_resources.res.sources",
+    "resources_zip": "obj/media/base/android/media_java_resources.resources.zip",
+    "srcjar": "gen/media/base/android/media_java_resources.srcjar",
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "type": "android_resources"
+  },
+  "gradle": {}
+}

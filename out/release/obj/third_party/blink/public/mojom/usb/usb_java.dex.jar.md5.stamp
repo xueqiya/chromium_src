@@ -1,0 +1,125 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "d1f8ab8daea54b271be385266d96541f", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/third_party/blink/public/mojom/usb/usb_java.jar", 
+      "tag": "ad7bec348e11b3da01b469dad6935429", 
+      "entries": [
+        {
+          "path": "org/chromium/blink/mojom/WebUsbService$GetDevicesResponse.class", 
+          "tag": 1835191044
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/WebUsbService$GetPermissionResponse.class", 
+          "tag": 2297640255
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/WebUsbService$Proxy.class", 
+          "tag": 2615676920
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/WebUsbService.class", 
+          "tag": 2143360343
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/WebUsbService_Internal$1.class", 
+          "tag": 3627456399
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/WebUsbService_Internal$Proxy.class", 
+          "tag": 3941217358
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/WebUsbService_Internal$Stub.class", 
+          "tag": 3494734525
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/WebUsbService_Internal$WebUsbServiceGetDeviceParams.class", 
+          "tag": 3597684001
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/WebUsbService_Internal$WebUsbServiceGetDevicesParams.class", 
+          "tag": 744832435
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/WebUsbService_Internal$WebUsbServiceGetDevicesResponseParams.class", 
+          "tag": 3767384482
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/WebUsbService_Internal$WebUsbServiceGetDevicesResponseParamsForwardToCallback.class", 
+          "tag": 4233234758
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/WebUsbService_Internal$WebUsbServiceGetDevicesResponseParamsProxyToResponder.class", 
+          "tag": 1963929763
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/WebUsbService_Internal$WebUsbServiceGetPermissionParams.class", 
+          "tag": 568567264
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/WebUsbService_Internal$WebUsbServiceGetPermissionResponseParams.class", 
+          "tag": 3824206
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/WebUsbService_Internal$WebUsbServiceGetPermissionResponseParamsForwardToCallback.class", 
+          "tag": 1773277171
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/WebUsbService_Internal$WebUsbServiceGetPermissionResponseParamsProxyToResponder.class", 
+          "tag": 2711606830
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/WebUsbService_Internal$WebUsbServiceSetClientParams.class", 
+          "tag": 4023755183
+        }, 
+        {
+          "path": "org/chromium/blink/mojom/WebUsbService_Internal.class", 
+          "tag": 1286246087
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

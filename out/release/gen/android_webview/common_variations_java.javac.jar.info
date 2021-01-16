@@ -1,0 +1,2 @@
+org.chromium.android_webview.common.variations.VariationsServiceMetricsHelper,../../android_webview/java/src/org/chromium/android_webview/common/variations/VariationsServiceMetricsHelper.java
+org.chromium.android_webview.common.variations.VariationsUtils,../../android_webview/java/src/org/chromium/android_webview/common/variations/VariationsUtils.java

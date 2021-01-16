@@ -1,0 +1,16 @@
+../../chrome/android/features/start_surface/internal/java/src/org/chromium/chrome/features/start_surface/BottomBarCoordinator.java
+../../chrome/android/features/start_surface/internal/java/src/org/chromium/chrome/features/start_surface/BottomBarView.java
+../../chrome/android/features/start_surface/internal/java/src/org/chromium/chrome/features/start_surface/BottomBarViewBinder.java
+../../chrome/android/features/start_surface/internal/java/src/org/chromium/chrome/features/start_surface/ReturnToStartSurfaceUtil.java
+../../chrome/android/features/start_surface/internal/java/src/org/chromium/chrome/features/start_surface/SecondaryTasksSurfaceViewBinder.java
+../../chrome/android/features/start_surface/internal/java/src/org/chromium/chrome/features/start_surface/StartSurfaceCoordinator.java
+../../chrome/android/features/start_surface/internal/java/src/org/chromium/chrome/features/start_surface/StartSurfaceDelegate.java
+../../chrome/android/features/start_surface/internal/java/src/org/chromium/chrome/features/start_surface/StartSurfaceLayout.java
+../../chrome/android/features/start_surface/internal/java/src/org/chromium/chrome/features/start_surface/StartSurfaceMediator.java
+../../chrome/android/features/start_surface/internal/java/src/org/chromium/chrome/features/start_surface/StartSurfaceProperties.java
+../../chrome/android/features/start_surface/internal/java/src/org/chromium/chrome/features/start_surface/TasksSurfaceViewBinder.java
+../../chrome/android/features/start_surface/internal/java/src/org/chromium/chrome/features/start_surface/ExploreSurfaceActionHandler.java
+../../chrome/android/features/start_surface/internal/java/src/org/chromium/chrome/features/start_surface/ExploreSurfaceCoordinator.java
+../../chrome/android/features/start_surface/internal/java/src/org/chromium/chrome/features/start_surface/ExploreSurfaceNavigationDelegate.java
+../../chrome/android/features/start_surface/internal/java/src/org/chromium/chrome/features/start_surface/ExploreSurfaceStreamLifecycleManager.java
+../../chrome/android/features/start_surface/internal/java/src/org/chromium/chrome/features/start_surface/ExploreSurfaceViewBinder.java

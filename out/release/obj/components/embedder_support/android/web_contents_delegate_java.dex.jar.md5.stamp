@@ -1,0 +1,129 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "7f683383732de38330712dbbe288a382", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/components/embedder_support/android/web_contents_delegate_java.jar", 
+      "tag": "d9abab7b58ba2be70a9647ae41afdb3b", 
+      "entries": [
+        {
+          "path": "org/chromium/components/embedder_support/delegate/ColorChooserAndroid$1.class", 
+          "tag": 2569347374
+        }, 
+        {
+          "path": "org/chromium/components/embedder_support/delegate/ColorChooserAndroid$Natives.class", 
+          "tag": 4290060095
+        }, 
+        {
+          "path": "org/chromium/components/embedder_support/delegate/ColorChooserAndroid.class", 
+          "tag": 4158503376
+        }, 
+        {
+          "path": "org/chromium/components/embedder_support/delegate/ColorChooserAndroidJni$1.class", 
+          "tag": 2510320728
+        }, 
+        {
+          "path": "org/chromium/components/embedder_support/delegate/ColorChooserAndroidJni.class", 
+          "tag": 970877605
+        }, 
+        {
+          "path": "org/chromium/components/embedder_support/delegate/ColorPickerAdvanced.class", 
+          "tag": 3079618013
+        }, 
+        {
+          "path": "org/chromium/components/embedder_support/delegate/ColorPickerAdvancedComponent.class", 
+          "tag": 822609787
+        }, 
+        {
+          "path": "org/chromium/components/embedder_support/delegate/ColorPickerDialog$1.class", 
+          "tag": 4091446198
+        }, 
+        {
+          "path": "org/chromium/components/embedder_support/delegate/ColorPickerDialog$2.class", 
+          "tag": 3978402185
+        }, 
+        {
+          "path": "org/chromium/components/embedder_support/delegate/ColorPickerDialog$3.class", 
+          "tag": 2744021133
+        }, 
+        {
+          "path": "org/chromium/components/embedder_support/delegate/ColorPickerDialog$4.class", 
+          "tag": 1103166543
+        }, 
+        {
+          "path": "org/chromium/components/embedder_support/delegate/ColorPickerDialog.class", 
+          "tag": 440153071
+        }, 
+        {
+          "path": "org/chromium/components/embedder_support/delegate/ColorPickerMoreButton.class", 
+          "tag": 2558059568
+        }, 
+        {
+          "path": "org/chromium/components/embedder_support/delegate/ColorPickerSimple.class", 
+          "tag": 115172607
+        }, 
+        {
+          "path": "org/chromium/components/embedder_support/delegate/ColorSuggestion.class", 
+          "tag": 2290151986
+        }, 
+        {
+          "path": "org/chromium/components/embedder_support/delegate/ColorSuggestionListAdapter$OnColorSuggestionClickListener.class", 
+          "tag": 1911473266
+        }, 
+        {
+          "path": "org/chromium/components/embedder_support/delegate/ColorSuggestionListAdapter.class", 
+          "tag": 247756519
+        }, 
+        {
+          "path": "org/chromium/components/embedder_support/delegate/OnColorChangedListener.class", 
+          "tag": 1949389781
+        }, 
+        {
+          "path": "org/chromium/components/embedder_support/delegate/WebContentsDelegateAndroid.class", 
+          "tag": 278107050
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

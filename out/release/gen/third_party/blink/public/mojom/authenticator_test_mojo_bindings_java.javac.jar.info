@@ -1,0 +1,7 @@
+org.chromium.blink.test.mojom.ClientToAuthenticatorProtocol,gen/third_party/blink/public/mojom/authenticator_test_mojo_bindings_java_sources.srcjar/org/chromium/blink/test/mojom/ClientToAuthenticatorProtocol.java
+org.chromium.blink.test.mojom.RegisteredKey,gen/third_party/blink/public/mojom/authenticator_test_mojo_bindings_java_sources.srcjar/org/chromium/blink/test/mojom/RegisteredKey.java
+org.chromium.blink.test.mojom.VirtualAuthenticator,gen/third_party/blink/public/mojom/authenticator_test_mojo_bindings_java_sources.srcjar/org/chromium/blink/test/mojom/VirtualAuthenticator.java
+org.chromium.blink.test.mojom.VirtualAuthenticatorManager,gen/third_party/blink/public/mojom/authenticator_test_mojo_bindings_java_sources.srcjar/org/chromium/blink/test/mojom/VirtualAuthenticatorManager.java
+org.chromium.blink.test.mojom.VirtualAuthenticatorManager_Internal,gen/third_party/blink/public/mojom/authenticator_test_mojo_bindings_java_sources.srcjar/org/chromium/blink/test/mojom/VirtualAuthenticatorManager_Internal.java
+org.chromium.blink.test.mojom.VirtualAuthenticatorOptions,gen/third_party/blink/public/mojom/authenticator_test_mojo_bindings_java_sources.srcjar/org/chromium/blink/test/mojom/VirtualAuthenticatorOptions.java
+org.chromium.blink.test.mojom.VirtualAuthenticator_Internal,gen/third_party/blink/public/mojom/authenticator_test_mojo_bindings_java_sources.srcjar/org/chromium/blink/test/mojom/VirtualAuthenticator_Internal.java

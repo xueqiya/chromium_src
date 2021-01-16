@@ -1,0 +1,8 @@
+org.chromium.components.autofill.AutofillManagerWrapper,../../components/autofill/android/java/src/org/chromium/components/autofill/AutofillManagerWrapper.java
+org.chromium.components.autofill.AutofillProvider,../../components/autofill/android/java/src/org/chromium/components/autofill/AutofillProvider.java
+org.chromium.components.autofill.AutofillProviderImpl,../../components/autofill/android/java/src/org/chromium/components/autofill/AutofillProviderImpl.java
+org.chromium.components.autofill.AutofillProviderJni,gen/components/autofill/android/provider_java/generated_java/annotation_processor_outputs/org/chromium/components/autofill/AutofillProviderJni.java
+org.chromium.components.autofill.AutofillProviderUMA,../../components/autofill/android/java/src/org/chromium/components/autofill/AutofillProviderUMA.java
+org.chromium.components.autofill.FormData,../../components/autofill/android/java/src/org/chromium/components/autofill/FormData.java
+org.chromium.components.autofill.FormDataJni,gen/components/autofill/android/provider_java/generated_java/annotation_processor_outputs/org/chromium/components/autofill/FormDataJni.java
+org.chromium.components.autofill.FormFieldData,../../components/autofill/android/java/src/org/chromium/components/autofill/FormFieldData.java

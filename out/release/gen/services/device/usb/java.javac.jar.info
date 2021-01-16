@@ -1,0 +1,7 @@
+org.chromium.device.usb.ChromeUsbConfiguration,../../services/device/usb/android/java/src/org/chromium/device/usb/ChromeUsbConfiguration.java
+org.chromium.device.usb.ChromeUsbConnection,../../services/device/usb/android/java/src/org/chromium/device/usb/ChromeUsbConnection.java
+org.chromium.device.usb.ChromeUsbDevice,../../services/device/usb/android/java/src/org/chromium/device/usb/ChromeUsbDevice.java
+org.chromium.device.usb.ChromeUsbEndpoint,../../services/device/usb/android/java/src/org/chromium/device/usb/ChromeUsbEndpoint.java
+org.chromium.device.usb.ChromeUsbInterface,../../services/device/usb/android/java/src/org/chromium/device/usb/ChromeUsbInterface.java
+org.chromium.device.usb.ChromeUsbService,../../services/device/usb/android/java/src/org/chromium/device/usb/ChromeUsbService.java
+org.chromium.device.usb.ChromeUsbServiceJni,gen/services/device/usb/java/generated_java/annotation_processor_outputs/org/chromium/device/usb/ChromeUsbServiceJni.java

@@ -1,0 +1,3 @@
+org.chromium.components.safe_browsing.SafeBrowsingApiBridge,../../components/safe_browsing/android/java/src/org/chromium/components/safe_browsing/SafeBrowsingApiBridge.java
+org.chromium.components.safe_browsing.SafeBrowsingApiBridgeJni,gen/components/safe_browsing/android/safe_browsing_java/generated_java/annotation_processor_outputs/org/chromium/components/safe_browsing/SafeBrowsingApiBridgeJni.java
+org.chromium.components.safe_browsing.SafeBrowsingApiHandler,../../components/safe_browsing/android/java/src/org/chromium/components/safe_browsing/SafeBrowsingApiHandler.java

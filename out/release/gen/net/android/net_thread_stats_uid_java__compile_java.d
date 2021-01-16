@@ -1,0 +1,1 @@
+gen/net/android/net_thread_stats_uid_java.javac.jar: lib.java/third_party/android_sdk/android.interface.jar ../../third_party/jdk/extras/java_8/jre/lib/rt.jar lib.java/third_party/bazel/desugar/Desugar_runtime.interface.jar lib.java/build/android/buildhooks/build_hooks_java.interface.jar lib.java/build/android/buildhooks/build_hooks_android_java.interface.jar

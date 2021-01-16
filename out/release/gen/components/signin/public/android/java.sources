@@ -1,0 +1,5 @@
+../../components/signin/public/android/java/src/org/chromium/components/signin/base/CoreAccountId.java
+../../components/signin/public/android/java/src/org/chromium/components/signin/base/CoreAccountInfo.java
+../../components/signin/public/android/java/src/org/chromium/components/signin/identitymanager/IdentityManager.java
+../../components/signin/public/android/java/src/org/chromium/components/signin/identitymanager/IdentityMutator.java
+../../components/signin/public/android/java/src/org/chromium/components/signin/identitymanager/ProfileOAuth2TokenServiceDelegate.java

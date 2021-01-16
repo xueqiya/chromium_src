@@ -1,0 +1,11 @@
+./lib.unstripped/libflatbuffers_unittests__library.so
+../../third_party/flatbuffers/src/tests/
+../../testing/scripts/common.py
+../../testing/scripts/run_flatbuffers_unittests.py
+../../testing/xvfb.py
+../../testing/test_env.py
+icudtl.dat
+../../third_party/jdk/current/bin/java
+../../third_party/jdk/current/conf/
+../../third_party/jdk/current/jmods/
+../../third_party/jdk/current/lib/

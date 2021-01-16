@@ -1,0 +1,3 @@
+../../components/app_modal/android/java/src/org/chromium/components/app_modal/JavascriptAppModalDialog.java
+../../components/app_modal/android/java/src/org/chromium/components/app_modal/JavascriptDialogCustomView.java
+../../components/app_modal/android/java/src/org/chromium/components/app_modal/JavascriptModalDialog.java

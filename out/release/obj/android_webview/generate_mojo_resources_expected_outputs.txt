@@ -1,0 +1,4 @@
+gen/android_webview/grit/mojo_bindings_resources.h
+gen/android_webview/grit/mojo_bindings_resources_map.cc
+gen/android_webview/grit/mojo_bindings_resources_map.h
+gen/android_webview/mojo_bindings_resources.pak

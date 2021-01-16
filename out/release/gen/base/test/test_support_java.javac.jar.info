@@ -1,0 +1,17 @@
+org.chromium.base.GarbageCollectionTestUtils,../../base/test/android/java/src/org/chromium/base/GarbageCollectionTestUtils.java
+org.chromium.base.ITestCallback,gen/base/test/test_support_java_aidl.srcjar/org/chromium/base/ITestCallback.java
+org.chromium.base.ITestController,gen/base/test/test_support_java_aidl.srcjar/org/chromium/base/ITestController.java
+org.chromium.base.MainReturnCodeResult,../../base/test/android/java/src/org/chromium/base/MainReturnCodeResult.java
+org.chromium.base.MultiprocessTestClientLauncher,../../base/test/android/java/src/org/chromium/base/MultiprocessTestClientLauncher.java
+org.chromium.base.MultiprocessTestClientService,../../base/test/android/java/src/org/chromium/base/MultiprocessTestClientService.java
+org.chromium.base.MultiprocessTestClientService0,../../base/test/android/java/src/org/chromium/base/MultiprocessTestClientService0.java
+org.chromium.base.MultiprocessTestClientService1,../../base/test/android/java/src/org/chromium/base/MultiprocessTestClientService1.java
+org.chromium.base.MultiprocessTestClientService2,../../base/test/android/java/src/org/chromium/base/MultiprocessTestClientService2.java
+org.chromium.base.MultiprocessTestClientService3,../../base/test/android/java/src/org/chromium/base/MultiprocessTestClientService3.java
+org.chromium.base.MultiprocessTestClientService4,../../base/test/android/java/src/org/chromium/base/MultiprocessTestClientService4.java
+org.chromium.base.MultiprocessTestClientService5,../../base/test/android/java/src/org/chromium/base/MultiprocessTestClientService5.java
+org.chromium.base.MultiprocessTestClientService6,../../base/test/android/java/src/org/chromium/base/MultiprocessTestClientService6.java
+org.chromium.base.MultiprocessTestClientService7,../../base/test/android/java/src/org/chromium/base/MultiprocessTestClientService7.java
+org.chromium.base.MultiprocessTestClientService8,../../base/test/android/java/src/org/chromium/base/MultiprocessTestClientService8.java
+org.chromium.base.MultiprocessTestClientService9,../../base/test/android/java/src/org/chromium/base/MultiprocessTestClientService9.java
+org.chromium.base.MultiprocessTestClientServiceDelegate,../../base/test/android/java/src/org/chromium/base/MultiprocessTestClientServiceDelegate.java

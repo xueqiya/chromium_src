@@ -1,0 +1,3 @@
+../../components/paint_preview/player/android/junit/src/org/chromium/components/paintpreview/player/PlayerManagerTest.java
+../../components/paint_preview/player/android/junit/src/org/chromium/components/paintpreview/player/frame/PlayerFrameBitmapPainterTest.java
+../../components/paint_preview/player/android/junit/src/org/chromium/components/paintpreview/player/frame/PlayerFrameMediatorTest.java

@@ -1,0 +1,329 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "0ab0392c38e69e7d6df50110693811de", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/services/shape_detection/public/mojom/mojom_java.jar", 
+      "tag": "8fbcabce1cfa2c75e9e417dd8f758849", 
+      "entries": [
+        {
+          "path": "org/chromium/shape_detection/mojom/BarcodeDetection$DetectResponse.class", 
+          "tag": 1470052037
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/BarcodeDetection$Proxy.class", 
+          "tag": 1568991260
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/BarcodeDetection.class", 
+          "tag": 2455369343
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/BarcodeDetectionProvider$EnumerateSupportedFormatsResponse.class", 
+          "tag": 3845745694
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/BarcodeDetectionProvider$Proxy.class", 
+          "tag": 1310215708
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/BarcodeDetectionProvider.class", 
+          "tag": 2752449964
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal$1.class", 
+          "tag": 2992174960
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal$BarcodeDetectionProviderCreateBarcodeDetectionParams.class", 
+          "tag": 3187192450
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal$BarcodeDetectionProviderEnumerateSupportedFormatsParams.class", 
+          "tag": 579363990
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal$BarcodeDetectionProviderEnumerateSupportedFormatsResponseParams.class", 
+          "tag": 2198385044
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal$BarcodeDetectionProviderEnumerateSupportedFormatsResponseParamsForwardToCallback.class", 
+          "tag": 1397061629
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal$BarcodeDetectionProviderEnumerateSupportedFormatsResponseParamsProxyToResponder.class", 
+          "tag": 958427251
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal$Proxy.class", 
+          "tag": 3659381205
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal$Stub.class", 
+          "tag": 4285067198
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal.class", 
+          "tag": 350723015
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/BarcodeDetectionResult.class", 
+          "tag": 4121791165
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/BarcodeDetection_Internal$1.class", 
+          "tag": 1573539959
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/BarcodeDetection_Internal$BarcodeDetectionDetectParams.class", 
+          "tag": 4292758995
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/BarcodeDetection_Internal$BarcodeDetectionDetectResponseParams.class", 
+          "tag": 937855401
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/BarcodeDetection_Internal$BarcodeDetectionDetectResponseParamsForwardToCallback.class", 
+          "tag": 1340451150
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/BarcodeDetection_Internal$BarcodeDetectionDetectResponseParamsProxyToResponder.class", 
+          "tag": 2464358739
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/BarcodeDetection_Internal$Proxy.class", 
+          "tag": 551430982
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/BarcodeDetection_Internal$Stub.class", 
+          "tag": 1143426678
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/BarcodeDetection_Internal.class", 
+          "tag": 3068934816
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/BarcodeDetectorOptions.class", 
+          "tag": 3067420712
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/BarcodeFormat.class", 
+          "tag": 1918595060
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/FaceDetection$DetectResponse.class", 
+          "tag": 537720570
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/FaceDetection$Proxy.class", 
+          "tag": 3564913303
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/FaceDetection.class", 
+          "tag": 1454909593
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/FaceDetectionProvider$Proxy.class", 
+          "tag": 258264145
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/FaceDetectionProvider.class", 
+          "tag": 3031385367
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/FaceDetectionProvider_Internal$1.class", 
+          "tag": 1595416048
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/FaceDetectionProvider_Internal$FaceDetectionProviderCreateFaceDetectionParams.class", 
+          "tag": 2217551848
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/FaceDetectionProvider_Internal$Proxy.class", 
+          "tag": 1641945878
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/FaceDetectionProvider_Internal$Stub.class", 
+          "tag": 2604919300
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/FaceDetectionProvider_Internal.class", 
+          "tag": 3697204620
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/FaceDetectionResult.class", 
+          "tag": 788099213
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/FaceDetection_Internal$1.class", 
+          "tag": 121207391
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/FaceDetection_Internal$FaceDetectionDetectParams.class", 
+          "tag": 359157553
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/FaceDetection_Internal$FaceDetectionDetectResponseParams.class", 
+          "tag": 153104478
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/FaceDetection_Internal$FaceDetectionDetectResponseParamsForwardToCallback.class", 
+          "tag": 2871358235
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/FaceDetection_Internal$FaceDetectionDetectResponseParamsProxyToResponder.class", 
+          "tag": 2030332327
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/FaceDetection_Internal$Proxy.class", 
+          "tag": 209893896
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/FaceDetection_Internal$Stub.class", 
+          "tag": 1465591058
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/FaceDetection_Internal.class", 
+          "tag": 3021696688
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/FaceDetectorOptions.class", 
+          "tag": 2331267956
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/Landmark.class", 
+          "tag": 732177556
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/LandmarkType.class", 
+          "tag": 2465125744
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/ShapeDetectionService$Proxy.class", 
+          "tag": 1404266441
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/ShapeDetectionService.class", 
+          "tag": 3628197478
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/ShapeDetectionService_Internal$1.class", 
+          "tag": 1288690542
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/ShapeDetectionService_Internal$Proxy.class", 
+          "tag": 3291156102
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/ShapeDetectionService_Internal$ShapeDetectionServiceBindBarcodeDetectionProviderParams.class", 
+          "tag": 10392404
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/ShapeDetectionService_Internal$ShapeDetectionServiceBindFaceDetectionProviderParams.class", 
+          "tag": 838794658
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/ShapeDetectionService_Internal$ShapeDetectionServiceBindTextDetectionParams.class", 
+          "tag": 3431540827
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/ShapeDetectionService_Internal$Stub.class", 
+          "tag": 2244215265
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/ShapeDetectionService_Internal.class", 
+          "tag": 1305324789
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/TextDetection$DetectResponse.class", 
+          "tag": 2647215201
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/TextDetection$Proxy.class", 
+          "tag": 2235651643
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/TextDetection.class", 
+          "tag": 1352003838
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/TextDetectionResult.class", 
+          "tag": 2322591511
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/TextDetection_Internal$1.class", 
+          "tag": 959773639
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/TextDetection_Internal$Proxy.class", 
+          "tag": 1926322054
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/TextDetection_Internal$Stub.class", 
+          "tag": 3554171389
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/TextDetection_Internal$TextDetectionDetectParams.class", 
+          "tag": 2349614343
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/TextDetection_Internal$TextDetectionDetectResponseParams.class", 
+          "tag": 1638365912
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/TextDetection_Internal$TextDetectionDetectResponseParamsForwardToCallback.class", 
+          "tag": 1769401429
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/TextDetection_Internal$TextDetectionDetectResponseParamsProxyToResponder.class", 
+          "tag": 2479955650
+        }, 
+        {
+          "path": "org/chromium/shape_detection/mojom/TextDetection_Internal.class", 
+          "tag": 2397811455
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

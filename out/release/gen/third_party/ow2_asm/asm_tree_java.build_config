@@ -1,0 +1,50 @@
+{
+  "deps_info": {
+    "base_whitelist_rtxt_path": "",
+    "deps_configs": [
+      "gen/third_party/ow2_asm/asm_java.build_config"
+    ],
+    "extra_main_r_text_files": [],
+    "gradle_treat_as_prebuilt": null,
+    "interface_jar_path": "lib.java/third_party/ow2_asm/asm-tree.interface.jar",
+    "is_prebuilt": true,
+    "jar_path": "lib.java/third_party/ow2_asm/asm-tree.jar",
+    "javac_full_classpath": [
+      "../../third_party/ow2_asm/lib/asm.jar"
+    ],
+    "javac_full_interface_classpath": [
+      "lib.java/third_party/ow2_asm/asm.interface.jar"
+    ],
+    "jni": {
+      "all_source": []
+    },
+    "module_pathmap_path": "",
+    "name": "asm_tree_java.build_config",
+    "path": "gen/third_party/ow2_asm/asm_tree_java.build_config",
+    "proguard_configs": [],
+    "requires_android": false,
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "supports_android": false,
+    "type": "java_library",
+    "unprocessed_jar_path": "../../third_party/ow2_asm/lib/asm-tree.jar"
+  },
+  "gradle": {
+    "bundled_srcjars": [],
+    "dependent_android_projects": [],
+    "dependent_java_projects": [],
+    "dependent_prebuilt_jars": [
+      "lib.java/third_party/ow2_asm/asm.jar"
+    ]
+  },
+  "javac": {
+    "classpath": [
+      "../../third_party/ow2_asm/lib/asm.jar"
+    ],
+    "interface_classpath": [
+      "lib.java/third_party/ow2_asm/asm.interface.jar"
+    ],
+    "processor_classes": [],
+    "processor_classpath": []
+  }
+}

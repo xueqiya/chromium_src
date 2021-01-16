@@ -1,0 +1,38 @@
+{
+  "deps_info": {
+    "base_whitelist_rtxt_path": "",
+    "deps_configs": [],
+    "extra_main_r_text_files": [],
+    "gradle_treat_as_prebuilt": null,
+    "interface_jar_path": "lib.java/third_party/android_deps/com_google_j2objc_j2objc_annotations.interface.jar",
+    "is_prebuilt": true,
+    "jar_path": "lib.java/third_party/android_deps/com_google_j2objc_j2objc_annotations.jar",
+    "javac_full_classpath": [],
+    "javac_full_interface_classpath": [],
+    "jni": {
+      "all_source": []
+    },
+    "module_pathmap_path": "",
+    "name": "com_google_j2objc_j2objc_annotations_java.build_config",
+    "path": "gen/third_party/android_deps/com_google_j2objc_j2objc_annotations_java.build_config",
+    "proguard_configs": [],
+    "requires_android": false,
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "supports_android": false,
+    "type": "java_library",
+    "unprocessed_jar_path": "../../third_party/android_deps/libs/com_google_j2objc_j2objc_annotations/j2objc-annotations-1.1.jar"
+  },
+  "gradle": {
+    "bundled_srcjars": [],
+    "dependent_android_projects": [],
+    "dependent_java_projects": [],
+    "dependent_prebuilt_jars": []
+  },
+  "javac": {
+    "classpath": [],
+    "interface_classpath": [],
+    "processor_classes": [],
+    "processor_classpath": []
+  }
+}

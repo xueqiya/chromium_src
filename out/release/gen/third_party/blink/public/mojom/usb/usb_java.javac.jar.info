@@ -1,0 +1,2 @@
+org.chromium.blink.mojom.WebUsbService,gen/third_party/blink/public/mojom/usb/usb_java_sources.srcjar/org/chromium/blink/mojom/WebUsbService.java
+org.chromium.blink.mojom.WebUsbService_Internal,gen/third_party/blink/public/mojom/usb/usb_java_sources.srcjar/org/chromium/blink/mojom/WebUsbService_Internal.java

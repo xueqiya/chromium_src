@@ -1,0 +1,3 @@
+clang_x64/gen/ipc/mojom.sources_list
+clang_x64/gen/mojo/public/interfaces/bindings/bindings.sources_list
+clang_x64/gen/mojo/public/mojom/base/base.sources_list

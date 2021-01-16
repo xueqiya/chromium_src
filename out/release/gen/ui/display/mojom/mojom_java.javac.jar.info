@@ -1,0 +1,15 @@
+org.chromium.display.mojom.AccelerometerSupport,gen/ui/display/mojom/mojom_java_sources.srcjar/org/chromium/display/mojom/AccelerometerSupport.java
+org.chromium.display.mojom.Display,gen/ui/display/mojom/mojom_java_sources.srcjar/org/chromium/display/mojom/Display.java
+org.chromium.display.mojom.DisplayConnectionType,gen/ui/display/mojom/mojom_java_sources.srcjar/org/chromium/display/mojom/DisplayConnectionType.java
+org.chromium.display.mojom.DisplayLayout,gen/ui/display/mojom/mojom_java_sources.srcjar/org/chromium/display/mojom/DisplayLayout.java
+org.chromium.display.mojom.DisplayMode,gen/ui/display/mojom/mojom_java_sources.srcjar/org/chromium/display/mojom/DisplayMode.java
+org.chromium.display.mojom.DisplayPlacement,gen/ui/display/mojom/mojom_java_sources.srcjar/org/chromium/display/mojom/DisplayPlacement.java
+org.chromium.display.mojom.DisplaySnapshot,gen/ui/display/mojom/mojom_java_sources.srcjar/org/chromium/display/mojom/DisplaySnapshot.java
+org.chromium.display.mojom.GammaRampRgbEntry,gen/ui/display/mojom/mojom_java_sources.srcjar/org/chromium/display/mojom/GammaRampRgbEntry.java
+org.chromium.display.mojom.HdcpState,gen/ui/display/mojom/mojom_java_sources.srcjar/org/chromium/display/mojom/HdcpState.java
+org.chromium.display.mojom.OffsetReference,gen/ui/display/mojom/mojom_java_sources.srcjar/org/chromium/display/mojom/OffsetReference.java
+org.chromium.display.mojom.PanelOrientation,gen/ui/display/mojom/mojom_java_sources.srcjar/org/chromium/display/mojom/PanelOrientation.java
+org.chromium.display.mojom.Position,gen/ui/display/mojom/mojom_java_sources.srcjar/org/chromium/display/mojom/Position.java
+org.chromium.display.mojom.PrivacyScreenState,gen/ui/display/mojom/mojom_java_sources.srcjar/org/chromium/display/mojom/PrivacyScreenState.java
+org.chromium.display.mojom.Rotation,gen/ui/display/mojom/mojom_java_sources.srcjar/org/chromium/display/mojom/Rotation.java
+org.chromium.display.mojom.TouchSupport,gen/ui/display/mojom/mojom_java_sources.srcjar/org/chromium/display/mojom/TouchSupport.java

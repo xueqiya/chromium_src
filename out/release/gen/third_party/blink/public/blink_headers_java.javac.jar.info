@@ -1,0 +1,5 @@
+org.chromium.blink_public.common.ContextMenuDataMediaType,gen/third_party/blink/public/blink_headers_java_enums_srcjar.srcjar/org/chromium/blink_public/common/ContextMenuDataMediaType.java
+org.chromium.blink_public.web.WebInputEventModifier,gen/third_party/blink/public/blink_headers_java_enums_srcjar.srcjar/org/chromium/blink_public/web/WebInputEventModifier.java
+org.chromium.blink_public.web.WebInputEventType,gen/third_party/blink/public/blink_headers_java_enums_srcjar.srcjar/org/chromium/blink_public/web/WebInputEventType.java
+org.chromium.blink_public.web.WebTextInputFlags,gen/third_party/blink/public/blink_headers_java_enums_srcjar.srcjar/org/chromium/blink_public/web/WebTextInputFlags.java
+org.chromium.blink_public.web.WebTextInputMode,gen/third_party/blink/public/blink_headers_java_enums_srcjar.srcjar/org/chromium/blink_public/web/WebTextInputMode.java

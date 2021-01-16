@@ -1,0 +1,13 @@
+org.chromium.device.bluetooth.ChromeBluetoothAdapter,../../device/bluetooth/android/java/src/org/chromium/device/bluetooth/ChromeBluetoothAdapter.java
+org.chromium.device.bluetooth.ChromeBluetoothAdapterJni,gen/device/bluetooth/java/generated_java/annotation_processor_outputs/org/chromium/device/bluetooth/ChromeBluetoothAdapterJni.java
+org.chromium.device.bluetooth.ChromeBluetoothDevice,../../device/bluetooth/android/java/src/org/chromium/device/bluetooth/ChromeBluetoothDevice.java
+org.chromium.device.bluetooth.ChromeBluetoothDeviceJni,gen/device/bluetooth/java/generated_java/annotation_processor_outputs/org/chromium/device/bluetooth/ChromeBluetoothDeviceJni.java
+org.chromium.device.bluetooth.ChromeBluetoothRemoteGattCharacteristic,../../device/bluetooth/android/java/src/org/chromium/device/bluetooth/ChromeBluetoothRemoteGattCharacteristic.java
+org.chromium.device.bluetooth.ChromeBluetoothRemoteGattCharacteristicJni,gen/device/bluetooth/java/generated_java/annotation_processor_outputs/org/chromium/device/bluetooth/ChromeBluetoothRemoteGattCharacteristicJni.java
+org.chromium.device.bluetooth.ChromeBluetoothRemoteGattDescriptor,../../device/bluetooth/android/java/src/org/chromium/device/bluetooth/ChromeBluetoothRemoteGattDescriptor.java
+org.chromium.device.bluetooth.ChromeBluetoothRemoteGattDescriptorJni,gen/device/bluetooth/java/generated_java/annotation_processor_outputs/org/chromium/device/bluetooth/ChromeBluetoothRemoteGattDescriptorJni.java
+org.chromium.device.bluetooth.ChromeBluetoothRemoteGattService,../../device/bluetooth/android/java/src/org/chromium/device/bluetooth/ChromeBluetoothRemoteGattService.java
+org.chromium.device.bluetooth.ChromeBluetoothRemoteGattServiceJni,gen/device/bluetooth/java/generated_java/annotation_processor_outputs/org/chromium/device/bluetooth/ChromeBluetoothRemoteGattServiceJni.java
+org.chromium.device.bluetooth.ChromeBluetoothScanFilterBuilder,../../device/bluetooth/android/java/src/org/chromium/device/bluetooth/ChromeBluetoothScanFilterBuilder.java
+org.chromium.device.bluetooth.ChromeBluetoothScanFilterList,../../device/bluetooth/android/java/src/org/chromium/device/bluetooth/ChromeBluetoothScanFilterList.java
+org.chromium.device.bluetooth.Wrappers,../../device/bluetooth/android/java/src/org/chromium/device/bluetooth/Wrappers.java

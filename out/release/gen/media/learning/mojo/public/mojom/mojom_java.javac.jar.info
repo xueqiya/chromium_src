@@ -1,0 +1,7 @@
+org.chromium.media.learning.mojom.FeatureValue,gen/media/learning/mojo/public/mojom/mojom_java_sources.srcjar/org/chromium/media/learning/mojom/FeatureValue.java
+org.chromium.media.learning.mojom.LabelledExample,gen/media/learning/mojo/public/mojom/mojom_java_sources.srcjar/org/chromium/media/learning/mojom/LabelledExample.java
+org.chromium.media.learning.mojom.LearningTaskController,gen/media/learning/mojo/public/mojom/mojom_java_sources.srcjar/org/chromium/media/learning/mojom/LearningTaskController.java
+org.chromium.media.learning.mojom.LearningTaskController_Internal,gen/media/learning/mojo/public/mojom/mojom_java_sources.srcjar/org/chromium/media/learning/mojom/LearningTaskController_Internal.java
+org.chromium.media.learning.mojom.ObservationCompletion,gen/media/learning/mojo/public/mojom/mojom_java_sources.srcjar/org/chromium/media/learning/mojom/ObservationCompletion.java
+org.chromium.media.learning.mojom.TargetHistogram,gen/media/learning/mojo/public/mojom/mojom_java_sources.srcjar/org/chromium/media/learning/mojom/TargetHistogram.java
+org.chromium.media.learning.mojom.TargetValue,gen/media/learning/mojo/public/mojom/mojom_java_sources.srcjar/org/chromium/media/learning/mojom/TargetValue.java

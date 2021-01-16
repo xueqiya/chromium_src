@@ -1,0 +1,44 @@
+defines = -D_LIBCPP_BUILDING_LIBRARY -D_LIBCPP_OVERRIDABLE_FUNC_VIS=__attribute__\(\(__visibility__\(\"default\"\)\)\) -DLIBCXX_BUILDING_LIBCXXABI -D_GNU_SOURCE -DANDROID -DHAVE_SYS_UIO_H -DANDROID_NDK_VERSION_ROLL=r20_1 -DCR_CLANG_REVISION=\"n340759-eaabaf7e-1\" -D_LIBCPP_ABI_UNSTABLE -D_LIBCPP_DISABLE_VISIBILITY_ANNOTATIONS -D_LIBCXXABI_DISABLE_VISIBILITY_ANNOTATIONS -D_LIBCPP_ENABLE_NODISCARD -DCR_LIBCXX_REVISION=375504 -DNDEBUG -DNVALGRIND -DDYNAMIC_ANNOTATIONS_ENABLED=0
+include_dirs = -I../.. -Igen
+cflags = -fno-strict-aliasing --param=ssp-buffer-size=4 -fstack-protector -funwind-tables -fPIC -fcolor-diagnostics -fmerge-all-constants -fcrash-diagnostics-dir=../../tools/clang/crashreports -Xclang -mllvm -Xclang -instcombine-lower-dbg-declare=0 -fcomplete-member-pointers -ffunction-sections -fno-short-enums --target=arm-linux-androideabi16 -DHAVE_PTHREAD_COND_TIMEDWAIT_MONOTONIC=1 -march=armv7-a -mfloat-abi=softfp -mtune=generic-armv7-a -Wno-builtin-macro-redefined -D__DATE__= -D__TIME__= -D__TIMESTAMP__= -no-canonical-prefixes -mfpu=neon -mthumb -Oz -fno-ident -fdata-sections -ffunction-sections -fomit-frame-pointer -g0 -fvisibility=hidden -Wheader-hygiene -Wstring-conversion -Wtautological-overlap-compare -fstrict-aliasing -fPIC -Werror -Wall -Wno-unused-variable -Wno-missing-field-initializers -Wno-unused-parameter -Wno-c++11-narrowing -Wno-unneeded-internal-declaration -Wno-undefined-var-template -Wno-ignored-pragma-optimize -Wno-implicit-int-float-conversion -Wno-final-dtor-non-final-class -Wno-bitwise-conditional-parentheses -Wno-builtin-assume-aligned-alignment -Wno-deprecated-copy -Wno-misleading-indentation -Wno-range-loop-analysis
+cflags_cc = -std=c++14 -nostdinc++ -isystem../../buildtools/third_party/libc++/trunk/include -isystem../../buildtools/third_party/libc++abi/trunk/include --sysroot=../../third_party/android_ndk/toolchains/llvm/prebuilt/linux-x86_64/sysroot -fvisibility-inlines-hidden -fexceptions -frtti
+label_name = libc++
+root_out_dir = .
+target_out_dir = obj/buildtools/third_party/libc++
+target_output_name = libc++
+
+build obj/buildtools/third_party/libc++/libc++/algorithm.o: cxx ../../buildtools/third_party/libc++/trunk/src/algorithm.cpp
+build obj/buildtools/third_party/libc++/libc++/any.o: cxx ../../buildtools/third_party/libc++/trunk/src/any.cpp
+build obj/buildtools/third_party/libc++/libc++/bind.o: cxx ../../buildtools/third_party/libc++/trunk/src/bind.cpp
+build obj/buildtools/third_party/libc++/libc++/charconv.o: cxx ../../buildtools/third_party/libc++/trunk/src/charconv.cpp
+build obj/buildtools/third_party/libc++/libc++/chrono.o: cxx ../../buildtools/third_party/libc++/trunk/src/chrono.cpp
+build obj/buildtools/third_party/libc++/libc++/condition_variable.o: cxx ../../buildtools/third_party/libc++/trunk/src/condition_variable.cpp
+build obj/buildtools/third_party/libc++/libc++/condition_variable_destructor.o: cxx ../../buildtools/third_party/libc++/trunk/src/condition_variable_destructor.cpp
+build obj/buildtools/third_party/libc++/libc++/debug.o: cxx ../../buildtools/third_party/libc++/trunk/src/debug.cpp
+build obj/buildtools/third_party/libc++/libc++/exception.o: cxx ../../buildtools/third_party/libc++/trunk/src/exception.cpp
+build obj/buildtools/third_party/libc++/libc++/functional.o: cxx ../../buildtools/third_party/libc++/trunk/src/functional.cpp
+build obj/buildtools/third_party/libc++/libc++/future.o: cxx ../../buildtools/third_party/libc++/trunk/src/future.cpp
+build obj/buildtools/third_party/libc++/libc++/hash.o: cxx ../../buildtools/third_party/libc++/trunk/src/hash.cpp
+build obj/buildtools/third_party/libc++/libc++/ios.o: cxx ../../buildtools/third_party/libc++/trunk/src/ios.cpp
+build obj/buildtools/third_party/libc++/libc++/iostream.o: cxx ../../buildtools/third_party/libc++/trunk/src/iostream.cpp
+build obj/buildtools/third_party/libc++/libc++/locale.o: cxx ../../buildtools/third_party/libc++/trunk/src/locale.cpp
+build obj/buildtools/third_party/libc++/libc++/memory.o: cxx ../../buildtools/third_party/libc++/trunk/src/memory.cpp
+build obj/buildtools/third_party/libc++/libc++/mutex.o: cxx ../../buildtools/third_party/libc++/trunk/src/mutex.cpp
+build obj/buildtools/third_party/libc++/libc++/mutex_destructor.o: cxx ../../buildtools/third_party/libc++/trunk/src/mutex_destructor.cpp
+build obj/buildtools/third_party/libc++/libc++/new.o: cxx ../../buildtools/third_party/libc++/trunk/src/new.cpp
+build obj/buildtools/third_party/libc++/libc++/optional.o: cxx ../../buildtools/third_party/libc++/trunk/src/optional.cpp
+build obj/buildtools/third_party/libc++/libc++/random.o: cxx ../../buildtools/third_party/libc++/trunk/src/random.cpp
+build obj/buildtools/third_party/libc++/libc++/regex.o: cxx ../../buildtools/third_party/libc++/trunk/src/regex.cpp
+build obj/buildtools/third_party/libc++/libc++/shared_mutex.o: cxx ../../buildtools/third_party/libc++/trunk/src/shared_mutex.cpp
+build obj/buildtools/third_party/libc++/libc++/stdexcept.o: cxx ../../buildtools/third_party/libc++/trunk/src/stdexcept.cpp
+build obj/buildtools/third_party/libc++/libc++/string.o: cxx ../../buildtools/third_party/libc++/trunk/src/string.cpp
+build obj/buildtools/third_party/libc++/libc++/strstream.o: cxx ../../buildtools/third_party/libc++/trunk/src/strstream.cpp
+build obj/buildtools/third_party/libc++/libc++/system_error.o: cxx ../../buildtools/third_party/libc++/trunk/src/system_error.cpp
+build obj/buildtools/third_party/libc++/libc++/thread.o: cxx ../../buildtools/third_party/libc++/trunk/src/thread.cpp
+build obj/buildtools/third_party/libc++/libc++/typeinfo.o: cxx ../../buildtools/third_party/libc++/trunk/src/typeinfo.cpp
+build obj/buildtools/third_party/libc++/libc++/utility.o: cxx ../../buildtools/third_party/libc++/trunk/src/utility.cpp
+build obj/buildtools/third_party/libc++/libc++/valarray.o: cxx ../../buildtools/third_party/libc++/trunk/src/valarray.cpp
+build obj/buildtools/third_party/libc++/libc++/variant.o: cxx ../../buildtools/third_party/libc++/trunk/src/variant.cpp
+build obj/buildtools/third_party/libc++/libc++/vector.o: cxx ../../buildtools/third_party/libc++/trunk/src/vector.cpp
+
+build obj/buildtools/third_party/libc++/libc++.stamp: stamp obj/buildtools/third_party/libc++/libc++/algorithm.o obj/buildtools/third_party/libc++/libc++/any.o obj/buildtools/third_party/libc++/libc++/bind.o obj/buildtools/third_party/libc++/libc++/charconv.o obj/buildtools/third_party/libc++/libc++/chrono.o obj/buildtools/third_party/libc++/libc++/condition_variable.o obj/buildtools/third_party/libc++/libc++/condition_variable_destructor.o obj/buildtools/third_party/libc++/libc++/debug.o obj/buildtools/third_party/libc++/libc++/exception.o obj/buildtools/third_party/libc++/libc++/functional.o obj/buildtools/third_party/libc++/libc++/future.o obj/buildtools/third_party/libc++/libc++/hash.o obj/buildtools/third_party/libc++/libc++/ios.o obj/buildtools/third_party/libc++/libc++/iostream.o obj/buildtools/third_party/libc++/libc++/locale.o obj/buildtools/third_party/libc++/libc++/memory.o obj/buildtools/third_party/libc++/libc++/mutex.o obj/buildtools/third_party/libc++/libc++/mutex_destructor.o obj/buildtools/third_party/libc++/libc++/new.o obj/buildtools/third_party/libc++/libc++/optional.o obj/buildtools/third_party/libc++/libc++/random.o obj/buildtools/third_party/libc++/libc++/regex.o obj/buildtools/third_party/libc++/libc++/shared_mutex.o obj/buildtools/third_party/libc++/libc++/stdexcept.o obj/buildtools/third_party/libc++/libc++/string.o obj/buildtools/third_party/libc++/libc++/strstream.o obj/buildtools/third_party/libc++/libc++/system_error.o obj/buildtools/third_party/libc++/libc++/thread.o obj/buildtools/third_party/libc++/libc++/typeinfo.o obj/buildtools/third_party/libc++/libc++/utility.o obj/buildtools/third_party/libc++/libc++/valarray.o obj/buildtools/third_party/libc++/libc++/variant.o obj/buildtools/third_party/libc++/libc++/vector.o || obj/buildtools/third_party/libc++abi/libc++abi.stamp

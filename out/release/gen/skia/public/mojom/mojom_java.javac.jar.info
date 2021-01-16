@@ -1,0 +1,7 @@
+org.chromium.skia.mojom.AlphaType,gen/skia/public/mojom/mojom_java_sources.srcjar/org/chromium/skia/mojom/AlphaType.java
+org.chromium.skia.mojom.Bitmap,gen/skia/public/mojom/mojom_java_sources.srcjar/org/chromium/skia/mojom/Bitmap.java
+org.chromium.skia.mojom.BlurTileMode,gen/skia/public/mojom/mojom_java_sources.srcjar/org/chromium/skia/mojom/BlurTileMode.java
+org.chromium.skia.mojom.ColorType,gen/skia/public/mojom/mojom_java_sources.srcjar/org/chromium/skia/mojom/ColorType.java
+org.chromium.skia.mojom.ImageInfo,gen/skia/public/mojom/mojom_java_sources.srcjar/org/chromium/skia/mojom/ImageInfo.java
+org.chromium.skia.mojom.InlineBitmap,gen/skia/public/mojom/mojom_java_sources.srcjar/org/chromium/skia/mojom/InlineBitmap.java
+org.chromium.skia.mojom.SkColor,gen/skia/public/mojom/mojom_java_sources.srcjar/org/chromium/skia/mojom/SkColor.java

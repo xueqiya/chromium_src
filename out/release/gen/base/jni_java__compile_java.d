@@ -1,0 +1,1 @@
+gen/base/jni_java.javac.jar: ../../third_party/jdk/extras/java_8/jre/lib/rt.jar lib.java/third_party/bazel/desugar/Desugar_runtime.interface.jar lib.java/build/android/buildhooks/build_hooks_java.interface.jar gen/base/base_build_config_gen.srcjar

@@ -1,0 +1,8 @@
+android_sdk_build_tools=../../third_party/android_sdk/public/build-tools/29.0.2
+android_sdk_build_tools_version=29.0.2
+android_sdk_tools_version_suffix=-26.0.0-dev
+android_sdk_root=../../third_party/android_sdk/public
+android_sdk_version=29
+android_ndk_root=../../third_party/android_ndk
+android_tool_prefix=../../third_party/android_ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/arm-linux-androideabi-
+android_configuration_failure_dir=failed_expectations

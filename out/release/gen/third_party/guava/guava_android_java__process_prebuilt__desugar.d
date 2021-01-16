@@ -1,0 +1,1 @@
+obj/third_party/guava/guava_android_java__process_prebuilt-desugar.jar: lib.java/third_party/android_sdk/android.interface.jar lib.java/third_party/android_deps/com_google_guava_listenablefuture.interface.jar

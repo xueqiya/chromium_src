@@ -1,0 +1,12 @@
+layout/activity_crashes_list.xml	../../android_webview/nonembedded/java/res_devui/layout/activity_crashes_list.xml
+layout/activity_flags.xml	../../android_webview/nonembedded/java/res_devui/layout/activity_flags.xml
+layout/activity_main.xml	../../android_webview/nonembedded/java/res_devui/layout/activity_main.xml
+layout/crashes_list_item_body.xml	../../android_webview/nonembedded/java/res_devui/layout/crashes_list_item_body.xml
+layout/crashes_list_item_header.xml	../../android_webview/nonembedded/java/res_devui/layout/crashes_list_item_header.xml
+layout/flag_states.xml	../../android_webview/nonembedded/java/res_devui/layout/flag_states.xml
+layout/persistent_error_message.xml	../../android_webview/nonembedded/java/res_devui/layout/persistent_error_message.xml
+layout/toggleable_flag.xml	../../android_webview/nonembedded/java/res_devui/layout/toggleable_flag.xml
+layout/two_line_list_item.xml	../../android_webview/nonembedded/java/res_devui/layout/two_line_list_item.xml
+layout/two_line_sublist_item.xml	../../android_webview/nonembedded/java/res_devui/layout/two_line_sublist_item.xml
+menu/crashes_options_menu.xml	../../android_webview/nonembedded/java/res_devui/menu/crashes_options_menu.xml
+menu/navigation_menu.xml	../../android_webview/nonembedded/java/res_devui/menu/navigation_menu.xml

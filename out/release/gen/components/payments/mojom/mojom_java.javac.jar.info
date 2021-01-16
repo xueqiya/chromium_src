@@ -1,0 +1,5 @@
+org.chromium.payments.mojom.AddressErrors,gen/components/payments/mojom/mojom_java_sources.srcjar/org/chromium/payments/mojom/AddressErrors.java
+org.chromium.payments.mojom.PayerErrors,gen/components/payments/mojom/mojom_java_sources.srcjar/org/chromium/payments/mojom/PayerErrors.java
+org.chromium.payments.mojom.PaymentAddress,gen/components/payments/mojom/mojom_java_sources.srcjar/org/chromium/payments/mojom/PaymentAddress.java
+org.chromium.payments.mojom.PaymentCurrencyAmount,gen/components/payments/mojom/mojom_java_sources.srcjar/org/chromium/payments/mojom/PaymentCurrencyAmount.java
+org.chromium.payments.mojom.PaymentValidationErrors,gen/components/payments/mojom/mojom_java_sources.srcjar/org/chromium/payments/mojom/PaymentValidationErrors.java

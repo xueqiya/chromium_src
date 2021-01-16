@@ -1,0 +1,15 @@
+./lib.unstripped/libcrashpad_tests__library.so
+../../third_party/crashpad/crashpad/test/test_paths_test_data_root.txt
+../../testing/test_env.py
+icudtl.dat
+../../third_party/jdk/current/bin/java
+../../third_party/jdk/current/conf/
+../../third_party/jdk/current/jmods/
+../../third_party/jdk/current/lib/
+./exe.unstripped/crashpad_test_test_multiprocess_exec_test_child
+./exe.unstripped/crashpad_handler
+./lib.unstripped/libcrashpad_snapshot_test_module.so
+./lib.unstripped/libcrashpad_snapshot_test_module_large.so
+./lib.unstripped/libcrashpad_snapshot_test_module_small.so
+./lib.unstripped/libcrashpad_snapshot_test_both_dt_hash_styles.so
+../../third_party/crashpad/crashpad/util/net/testdata/

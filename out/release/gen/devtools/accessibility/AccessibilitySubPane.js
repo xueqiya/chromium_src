@@ -1,0 +1,6 @@
+import{AccessibilityNode}from'./AccessibilityModel.js';export class AccessibilitySubPane extends UI.SimpleView{constructor(name){super(name);this._axNode=null;this.registerRequiredCSS('accessibility/accessibilityProperties.css');}
+setAXNode(axNode){}
+node(){return this._node;}
+setNode(node){this._node=node;}
+createInfo(textContent,className){const classNameOrDefault=className||'gray-info-message';const info=this.element.createChild('div',classNameOrDefault);info.textContent=textContent;return info;}
+createTreeOutline(){const treeOutline=new UI.TreeOutlineInShadow();treeOutline.registerRequiredCSS('accessibility/accessibilityNode.css');treeOutline.registerRequiredCSS('accessibility/accessibilityProperties.css');treeOutline.registerRequiredCSS('object_ui/objectValue.css');treeOutline.element.classList.add('hidden');treeOutline.hideOverflow();this.element.appendChild(treeOutline.element);return treeOutline;}}

@@ -1,0 +1,12 @@
+org.chromium.mojo.system.impl.BaseRunLoop,../../mojo/public/java/system/src/org/chromium/mojo/system/impl/BaseRunLoop.java
+org.chromium.mojo.system.impl.BaseRunLoopJni,gen/mojo/public/java/system/system_impl_java/generated_java/annotation_processor_outputs/org/chromium/mojo/system/impl/BaseRunLoopJni.java
+org.chromium.mojo.system.impl.CoreImpl,../../mojo/public/java/system/src/org/chromium/mojo/system/impl/CoreImpl.java
+org.chromium.mojo.system.impl.CoreImplJni,gen/mojo/public/java/system/system_impl_java/generated_java/annotation_processor_outputs/org/chromium/mojo/system/impl/CoreImplJni.java
+org.chromium.mojo.system.impl.DataPipeConsumerHandleImpl,../../mojo/public/java/system/src/org/chromium/mojo/system/impl/DataPipeConsumerHandleImpl.java
+org.chromium.mojo.system.impl.DataPipeProducerHandleImpl,../../mojo/public/java/system/src/org/chromium/mojo/system/impl/DataPipeProducerHandleImpl.java
+org.chromium.mojo.system.impl.HandleBase,../../mojo/public/java/system/src/org/chromium/mojo/system/impl/HandleBase.java
+org.chromium.mojo.system.impl.MessagePipeHandleImpl,../../mojo/public/java/system/src/org/chromium/mojo/system/impl/MessagePipeHandleImpl.java
+org.chromium.mojo.system.impl.SharedBufferHandleImpl,../../mojo/public/java/system/src/org/chromium/mojo/system/impl/SharedBufferHandleImpl.java
+org.chromium.mojo.system.impl.UntypedHandleImpl,../../mojo/public/java/system/src/org/chromium/mojo/system/impl/UntypedHandleImpl.java
+org.chromium.mojo.system.impl.WatcherImpl,../../mojo/public/java/system/src/org/chromium/mojo/system/impl/WatcherImpl.java
+org.chromium.mojo.system.impl.WatcherImplJni,gen/mojo/public/java/system/system_impl_java/generated_java/annotation_processor_outputs/org/chromium/mojo/system/impl/WatcherImplJni.java

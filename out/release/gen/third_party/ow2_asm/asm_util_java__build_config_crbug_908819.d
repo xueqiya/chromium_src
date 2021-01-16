@@ -1,0 +1,1 @@
+gen/third_party/ow2_asm/asm_util_java.build_config: gen/third_party/ow2_asm/asm_java.build_config gen/third_party/ow2_asm/asm_tree_java.build_config

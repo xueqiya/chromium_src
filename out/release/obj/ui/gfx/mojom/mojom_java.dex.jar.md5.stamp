@@ -1,0 +1,177 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "59d6086b3daa7feaf971b6bdfe14a00c", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/ui/gfx/mojom/mojom_java.jar", 
+      "tag": "3fac46d8fc59010eca6d4efa0d202022", 
+      "entries": [
+        {
+          "path": "org/chromium/gfx/mojom/AHardwareBufferHandle.class", 
+          "tag": 2422714574
+        }, 
+        {
+          "path": "org/chromium/gfx/mojom/AcceleratedWidget.class", 
+          "tag": 2538960965
+        }, 
+        {
+          "path": "org/chromium/gfx/mojom/BufferFormat.class", 
+          "tag": 1412755768
+        }, 
+        {
+          "path": "org/chromium/gfx/mojom/BufferUsage.class", 
+          "tag": 208068098
+        }, 
+        {
+          "path": "org/chromium/gfx/mojom/BufferUsageAndFormat.class", 
+          "tag": 1838415797
+        }, 
+        {
+          "path": "org/chromium/gfx/mojom/CaLayerContent$Tag.class", 
+          "tag": 3755778560
+        }, 
+        {
+          "path": "org/chromium/gfx/mojom/CaLayerContent.class", 
+          "tag": 2769835061
+        }, 
+        {
+          "path": "org/chromium/gfx/mojom/CaLayerParams.class", 
+          "tag": 1815201059
+        }, 
+        {
+          "path": "org/chromium/gfx/mojom/ColorSpace.class", 
+          "tag": 3218207220
+        }, 
+        {
+          "path": "org/chromium/gfx/mojom/ColorSpaceMatrixId.class", 
+          "tag": 3253028969
+        }, 
+        {
+          "path": "org/chromium/gfx/mojom/ColorSpacePrimaryId.class", 
+          "tag": 735702824
+        }, 
+        {
+          "path": "org/chromium/gfx/mojom/ColorSpaceRangeId.class", 
+          "tag": 2108644599
+        }, 
+        {
+          "path": "org/chromium/gfx/mojom/ColorSpaceTransferId.class", 
+          "tag": 3535093822
+        }, 
+        {
+          "path": "org/chromium/gfx/mojom/DisplayColorSpaces.class", 
+          "tag": 3346644804
+        }, 
+        {
+          "path": "org/chromium/gfx/mojom/GpuFenceHandle.class", 
+          "tag": 1597999073
+        }, 
+        {
+          "path": "org/chromium/gfx/mojom/GpuFenceHandleType.class", 
+          "tag": 4019369622
+        }, 
+        {
+          "path": "org/chromium/gfx/mojom/GpuMemoryBufferHandle.class", 
+          "tag": 402027406
+        }, 
+        {
+          "path": "org/chromium/gfx/mojom/GpuMemoryBufferId.class", 
+          "tag": 1837310719
+        }, 
+        {
+          "path": "org/chromium/gfx/mojom/GpuMemoryBufferPlatformHandle$Tag.class", 
+          "tag": 1736918949
+        }, 
+        {
+          "path": "org/chromium/gfx/mojom/GpuMemoryBufferPlatformHandle.class", 
+          "tag": 4191702122
+        }, 
+        {
+          "path": "org/chromium/gfx/mojom/Hinting.class", 
+          "tag": 3030212128
+        }, 
+        {
+          "path": "org/chromium/gfx/mojom/OverlayTransform.class", 
+          "tag": 3627276938
+        }, 
+        {
+          "path": "org/chromium/gfx/mojom/PresentationFeedback.class", 
+          "tag": 813574684
+        }, 
+        {
+          "path": "org/chromium/gfx/mojom/RRectF.class", 
+          "tag": 2045995177
+        }, 
+        {
+          "path": "org/chromium/gfx/mojom/RRectFType.class", 
+          "tag": 1807621050
+        }, 
+        {
+          "path": "org/chromium/gfx/mojom/SelectionBound.class", 
+          "tag": 817954162
+        }, 
+        {
+          "path": "org/chromium/gfx/mojom/SelectionBoundType.class", 
+          "tag": 3220653668
+        }, 
+        {
+          "path": "org/chromium/gfx/mojom/SubpixelRendering.class", 
+          "tag": 403062939
+        }, 
+        {
+          "path": "org/chromium/gfx/mojom/SwapResult.class", 
+          "tag": 2215202792
+        }, 
+        {
+          "path": "org/chromium/gfx/mojom/SwapTimings.class", 
+          "tag": 2540579444
+        }, 
+        {
+          "path": "org/chromium/gfx/mojom/Transform.class", 
+          "tag": 1315542505
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

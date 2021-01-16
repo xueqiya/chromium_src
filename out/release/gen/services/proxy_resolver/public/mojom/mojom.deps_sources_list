@@ -1,0 +1,4 @@
+gen/services/proxy_resolver/public/mojom/mojom.sources_list
+gen/services/network/public/mojom/mojom_ip_address.sources_list
+gen/services/network/public/mojom/mojom_network_isolation_key.sources_list
+gen/url/mojom/url_mojom_gurl.sources_list

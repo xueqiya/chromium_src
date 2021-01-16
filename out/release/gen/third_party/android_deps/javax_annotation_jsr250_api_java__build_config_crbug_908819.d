@@ -1,0 +1,1 @@
+gen/third_party/android_deps/javax_annotation_jsr250_api_java.build_config: gen/build/android/buildhooks/build_hooks_java.build_config gen/third_party/android_sdk/android_sdk_java.build_config gen/third_party/bazel/desugar/desugar_runtime_java.build_config

@@ -1,0 +1,7 @@
+./lib.unstripped/libipc_tests__library.so
+icudtl.dat
+../../testing/test_env.py
+../../third_party/jdk/current/bin/java
+../../third_party/jdk/current/conf/
+../../third_party/jdk/current/jmods/
+../../third_party/jdk/current/lib/

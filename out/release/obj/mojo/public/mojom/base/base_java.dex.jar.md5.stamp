@@ -1,0 +1,181 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "2a9a36b676462cb7706af9568375d75b", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/mojo/public/mojom/base/base_java.jar", 
+      "tag": "aab5730ae4a4bff70283a119b5e57b72", 
+      "entries": [
+        {
+          "path": "org/chromium/mojo_base/mojom/ApplicationState.class", 
+          "tag": 1712372486
+        }, 
+        {
+          "path": "org/chromium/mojo_base/mojom/BigBuffer$Tag.class", 
+          "tag": 3812653254
+        }, 
+        {
+          "path": "org/chromium/mojo_base/mojom/BigBuffer.class", 
+          "tag": 945994748
+        }, 
+        {
+          "path": "org/chromium/mojo_base/mojom/BigBufferSharedMemoryRegion.class", 
+          "tag": 1848827212
+        }, 
+        {
+          "path": "org/chromium/mojo_base/mojom/BigString.class", 
+          "tag": 956228028
+        }, 
+        {
+          "path": "org/chromium/mojo_base/mojom/BigString16.class", 
+          "tag": 2318094485
+        }, 
+        {
+          "path": "org/chromium/mojo_base/mojom/DictionaryValue.class", 
+          "tag": 4232737366
+        }, 
+        {
+          "path": "org/chromium/mojo_base/mojom/File.class", 
+          "tag": 3652409586
+        }, 
+        {
+          "path": "org/chromium/mojo_base/mojom/FileError.class", 
+          "tag": 3380181954
+        }, 
+        {
+          "path": "org/chromium/mojo_base/mojom/FileInfo.class", 
+          "tag": 4041438203
+        }, 
+        {
+          "path": "org/chromium/mojo_base/mojom/FilePath.class", 
+          "tag": 911588765
+        }, 
+        {
+          "path": "org/chromium/mojo_base/mojom/GenericPendingReceiver.class", 
+          "tag": 2555159407
+        }, 
+        {
+          "path": "org/chromium/mojo_base/mojom/ListValue.class", 
+          "tag": 1116537587
+        }, 
+        {
+          "path": "org/chromium/mojo_base/mojom/MemoryAllocatorDumpCrossProcessUid.class", 
+          "tag": 1466499134
+        }, 
+        {
+          "path": "org/chromium/mojo_base/mojom/MemoryPressureLevel.class", 
+          "tag": 983018175
+        }, 
+        {
+          "path": "org/chromium/mojo_base/mojom/MessagePumpType.class", 
+          "tag": 3943876893
+        }, 
+        {
+          "path": "org/chromium/mojo_base/mojom/ProcessId.class", 
+          "tag": 1063778194
+        }, 
+        {
+          "path": "org/chromium/mojo_base/mojom/ReadOnlyBuffer.class", 
+          "tag": 3178209204
+        }, 
+        {
+          "path": "org/chromium/mojo_base/mojom/ReadOnlySharedMemoryRegion.class", 
+          "tag": 904049275
+        }, 
+        {
+          "path": "org/chromium/mojo_base/mojom/RefCountedMemory.class", 
+          "tag": 3403036781
+        }, 
+        {
+          "path": "org/chromium/mojo_base/mojom/String16.class", 
+          "tag": 145096182
+        }, 
+        {
+          "path": "org/chromium/mojo_base/mojom/TextDirection.class", 
+          "tag": 3979743031
+        }, 
+        {
+          "path": "org/chromium/mojo_base/mojom/ThreadPriority.class", 
+          "tag": 823788471
+        }, 
+        {
+          "path": "org/chromium/mojo_base/mojom/Time.class", 
+          "tag": 753901511
+        }, 
+        {
+          "path": "org/chromium/mojo_base/mojom/TimeDelta.class", 
+          "tag": 3104477588
+        }, 
+        {
+          "path": "org/chromium/mojo_base/mojom/TimeTicks.class", 
+          "tag": 2745389403
+        }, 
+        {
+          "path": "org/chromium/mojo_base/mojom/Token.class", 
+          "tag": 1041013225
+        }, 
+        {
+          "path": "org/chromium/mojo_base/mojom/UnguessableToken.class", 
+          "tag": 2560893735
+        }, 
+        {
+          "path": "org/chromium/mojo_base/mojom/UnsafeSharedMemoryRegion.class", 
+          "tag": 3156485983
+        }, 
+        {
+          "path": "org/chromium/mojo_base/mojom/Value$Tag.class", 
+          "tag": 3387149813
+        }, 
+        {
+          "path": "org/chromium/mojo_base/mojom/Value.class", 
+          "tag": 4252559140
+        }, 
+        {
+          "path": "org/chromium/mojo_base/mojom/WritableSharedMemoryRegion.class", 
+          "tag": 3591982891
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

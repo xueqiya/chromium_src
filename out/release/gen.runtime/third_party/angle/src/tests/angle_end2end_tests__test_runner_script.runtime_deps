@@ -1,0 +1,11 @@
+./lib.unstripped/libangle_end2end_tests__library.so
+./lib.unstripped/libEGL_angle.so
+./lib.unstripped/libGLESv2_angle.so
+./lib.unstripped/libGLESv1_CM_angle.so
+./lib.unstripped/libangle_util.so
+../../testing/test_env.py
+icudtl.dat
+../../third_party/jdk/current/bin/java
+../../third_party/jdk/current/conf/
+../../third_party/jdk/current/jmods/
+../../third_party/jdk/current/lib/

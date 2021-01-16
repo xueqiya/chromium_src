@@ -1,0 +1,14 @@
+org.chromium.gfx.mojom.Insets,gen/ui/gfx/geometry/mojom/mojom_java_sources.srcjar/org/chromium/gfx/mojom/Insets.java
+org.chromium.gfx.mojom.InsetsF,gen/ui/gfx/geometry/mojom/mojom_java_sources.srcjar/org/chromium/gfx/mojom/InsetsF.java
+org.chromium.gfx.mojom.Point,gen/ui/gfx/geometry/mojom/mojom_java_sources.srcjar/org/chromium/gfx/mojom/Point.java
+org.chromium.gfx.mojom.Point3F,gen/ui/gfx/geometry/mojom/mojom_java_sources.srcjar/org/chromium/gfx/mojom/Point3F.java
+org.chromium.gfx.mojom.PointF,gen/ui/gfx/geometry/mojom/mojom_java_sources.srcjar/org/chromium/gfx/mojom/PointF.java
+org.chromium.gfx.mojom.Quaternion,gen/ui/gfx/geometry/mojom/mojom_java_sources.srcjar/org/chromium/gfx/mojom/Quaternion.java
+org.chromium.gfx.mojom.Rect,gen/ui/gfx/geometry/mojom/mojom_java_sources.srcjar/org/chromium/gfx/mojom/Rect.java
+org.chromium.gfx.mojom.RectF,gen/ui/gfx/geometry/mojom/mojom_java_sources.srcjar/org/chromium/gfx/mojom/RectF.java
+org.chromium.gfx.mojom.ScrollOffset,gen/ui/gfx/geometry/mojom/mojom_java_sources.srcjar/org/chromium/gfx/mojom/ScrollOffset.java
+org.chromium.gfx.mojom.Size,gen/ui/gfx/geometry/mojom/mojom_java_sources.srcjar/org/chromium/gfx/mojom/Size.java
+org.chromium.gfx.mojom.SizeF,gen/ui/gfx/geometry/mojom/mojom_java_sources.srcjar/org/chromium/gfx/mojom/SizeF.java
+org.chromium.gfx.mojom.Vector2d,gen/ui/gfx/geometry/mojom/mojom_java_sources.srcjar/org/chromium/gfx/mojom/Vector2d.java
+org.chromium.gfx.mojom.Vector2dF,gen/ui/gfx/geometry/mojom/mojom_java_sources.srcjar/org/chromium/gfx/mojom/Vector2dF.java
+org.chromium.gfx.mojom.Vector3dF,gen/ui/gfx/geometry/mojom/mojom_java_sources.srcjar/org/chromium/gfx/mojom/Vector3dF.java

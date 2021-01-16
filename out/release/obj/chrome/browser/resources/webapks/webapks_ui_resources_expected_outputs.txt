@@ -1,0 +1,2 @@
+gen/chrome/grit/webapks_ui_resources.h
+gen/chrome/webapks_ui_resources.pak

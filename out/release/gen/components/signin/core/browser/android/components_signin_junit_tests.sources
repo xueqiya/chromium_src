@@ -1,0 +1,3 @@
+../../components/signin/core/browser/android/junit/src/org/chromium/components/signin/test/AccountManagerFacadeRobolectricTest.java
+../../components/signin/core/browser/android/junit/src/org/chromium/components/signin/test/ObservableValueTest.java
+../../components/signin/core/browser/android/junit/src/org/chromium/components/signin/test/PatternMatcherTest.java

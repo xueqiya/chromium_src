@@ -1,0 +1,3 @@
+../../base/android/jni_generator/java/src/org/chromium/jni_generator/JniProcessor.java
+../../base/android/java/src/org/chromium/base/annotations/CheckDiscard.java
+../../base/android/java/src/org/chromium/base/annotations/MainDex.java

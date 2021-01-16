@@ -1,0 +1,23 @@
+defines = -DUSE_UDEV -DUSE_AURA=1 -DUSE_GLIB=1 -DUSE_NSS_CERTS=1 -DUSE_X11=1 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -DCR_CLANG_REVISION=\"n340759-eaabaf7e-1\" -D_LIBCPP_ABI_UNSTABLE -D_LIBCPP_DISABLE_VISIBILITY_ANNOTATIONS -D_LIBCXXABI_DISABLE_VISIBILITY_ANNOTATIONS -D_LIBCPP_ENABLE_NODISCARD -DCR_LIBCXX_REVISION=375504 -DCR_SYSROOT_HASH=9c905c99558f10e19cc878b5dca1d4bd58c607ae -DNDEBUG -DNVALGRIND -DDYNAMIC_ANNOTATIONS_ENABLED=0 -DWEBP_NEAR_LOSSLESS=0 -DWEBP_DISABLE_STATS -DWEBP_REDUCE_SIZE -DWEBP_REDUCE_CSP -DWEBP_EXTERN=extern
+include_dirs = -I../.. -Iclang_x64/gen -I../../third_party/libwebp -I../../third_party/libwebp/src
+cflags = -fno-strict-aliasing --param=ssp-buffer-size=4 -fstack-protector -funwind-tables -fPIC -B../../third_party/binutils/Linux_x64/Release/bin -pthread -fcolor-diagnostics -fmerge-all-constants -fcrash-diagnostics-dir=../../tools/clang/crashreports -Xclang -mllvm -Xclang -instcombine-lower-dbg-declare=0 -fcomplete-member-pointers -m64 -march=x86-64 -Wno-builtin-macro-redefined -D__DATE__= -D__TIME__= -D__TIMESTAMP__= -no-canonical-prefixes -O2 -fno-ident -fdata-sections -ffunction-sections -fno-omit-frame-pointer -g0 -ftrivial-auto-var-init=pattern -fvisibility=hidden -Wheader-hygiene -Wstring-conversion -Wtautological-overlap-compare -Werror -Wall -Wno-unused-variable -Wno-missing-field-initializers -Wno-unused-parameter -Wno-c++11-narrowing -Wno-unneeded-internal-declaration -Wno-undefined-var-template -Wno-ignored-pragma-optimize -Wno-implicit-int-float-conversion -Wno-final-dtor-non-final-class -Wno-bitwise-conditional-parentheses -Wno-builtin-assume-aligned-alignment -Wno-deprecated-copy -Wno-misleading-indentation -Wno-range-loop-analysis -Wno-incompatible-pointer-types
+cflags_c = -std=c11 --sysroot=../../build/linux/debian_sid_amd64-sysroot -Wno-implicit-fallthrough
+label_name = libwebp_dec
+target_out_dir = clang_x64/obj/third_party/libwebp
+target_output_name = libwebp_dec
+
+build clang_x64/obj/third_party/libwebp/libwebp_dec/alpha_dec.o: clang_x64_cc ../../third_party/libwebp/src/dec/alpha_dec.c
+build clang_x64/obj/third_party/libwebp/libwebp_dec/buffer_dec.o: clang_x64_cc ../../third_party/libwebp/src/dec/buffer_dec.c
+build clang_x64/obj/third_party/libwebp/libwebp_dec/frame_dec.o: clang_x64_cc ../../third_party/libwebp/src/dec/frame_dec.c
+build clang_x64/obj/third_party/libwebp/libwebp_dec/idec_dec.o: clang_x64_cc ../../third_party/libwebp/src/dec/idec_dec.c
+build clang_x64/obj/third_party/libwebp/libwebp_dec/io_dec.o: clang_x64_cc ../../third_party/libwebp/src/dec/io_dec.c
+build clang_x64/obj/third_party/libwebp/libwebp_dec/quant_dec.o: clang_x64_cc ../../third_party/libwebp/src/dec/quant_dec.c
+build clang_x64/obj/third_party/libwebp/libwebp_dec/tree_dec.o: clang_x64_cc ../../third_party/libwebp/src/dec/tree_dec.c
+build clang_x64/obj/third_party/libwebp/libwebp_dec/vp8_dec.o: clang_x64_cc ../../third_party/libwebp/src/dec/vp8_dec.c
+build clang_x64/obj/third_party/libwebp/libwebp_dec/vp8l_dec.o: clang_x64_cc ../../third_party/libwebp/src/dec/vp8l_dec.c
+build clang_x64/obj/third_party/libwebp/libwebp_dec/webp_dec.o: clang_x64_cc ../../third_party/libwebp/src/dec/webp_dec.c
+
+build clang_x64/obj/third_party/libwebp/libwebp_dec.a: clang_x64_alink clang_x64/obj/third_party/libwebp/libwebp_dec/alpha_dec.o clang_x64/obj/third_party/libwebp/libwebp_dec/buffer_dec.o clang_x64/obj/third_party/libwebp/libwebp_dec/frame_dec.o clang_x64/obj/third_party/libwebp/libwebp_dec/idec_dec.o clang_x64/obj/third_party/libwebp/libwebp_dec/io_dec.o clang_x64/obj/third_party/libwebp/libwebp_dec/quant_dec.o clang_x64/obj/third_party/libwebp/libwebp_dec/tree_dec.o clang_x64/obj/third_party/libwebp/libwebp_dec/vp8_dec.o clang_x64/obj/third_party/libwebp/libwebp_dec/vp8l_dec.o clang_x64/obj/third_party/libwebp/libwebp_dec/webp_dec.o || clang_x64/obj/third_party/libwebp/libwebp_dsp.a clang_x64/obj/third_party/libwebp/libwebp_utils.a clang_x64/obj/third_party/libwebp/libwebp_webp.stamp clang_x64/obj/third_party/libwebp/libwebp_dsp_sse2.a clang_x64/obj/third_party/libwebp/libwebp_dsp_sse41.a
+  arflags = -T
+  output_extension = .a
+  output_dir = clang_x64/obj/third_party/libwebp

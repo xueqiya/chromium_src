@@ -1,0 +1,2 @@
+gen/chrome/grit/test_dummy_resources.h
+gen/chrome/test_dummy_resources.pak

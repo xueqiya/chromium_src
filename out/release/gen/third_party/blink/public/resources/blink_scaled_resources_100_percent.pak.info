@@ -1,0 +1,14 @@
+IDR_BROKENCANVAS,16940,../../third_party/blink/public/blink_image_resources.grd
+IDR_BROKENIMAGE,16941,../../third_party/blink/public/blink_image_resources.grd
+IDR_SEARCH_CANCEL,16942,../../third_party/blink/public/blink_image_resources.grd
+IDR_SEARCH_CANCEL_PRESSED,16943,../../third_party/blink/public/blink_image_resources.grd
+IDR_PLACEHOLDER_ICON,16944,../../third_party/blink/public/blink_image_resources.grd
+IDR_UASTYLE_MEDIA_CONTROLS_CSS,17040,../../third_party/blink/renderer/modules/media_controls/resources/media_controls_resources.grd
+IDR_UASTYLE_MEDIA_INTERSTITIALS_CSS,17041,../../third_party/blink/renderer/modules/media_controls/resources/media_controls_resources.grd
+IDR_SHADOWSTYLE_MEDIA_CONTROLS_LOADING_CSS,17042,../../third_party/blink/renderer/modules/media_controls/resources/media_controls_resources.grd
+IDR_UASTYLE_MEDIA_CONTROLS_ANDROID_CSS,17030,../../third_party/blink/renderer/modules/media_controls/resources/media_controls_resources.grd
+IDR_SHADOWSTYLE_MEDIA_CONTROLS_ANIMATED_ARROW_CSS,17031,../../third_party/blink/renderer/modules/media_controls/resources/media_controls_resources.grd
+IDR_SHADOWSTYLE_MEDIA_CONTROLS_SCRUBBING_MESSAGE_CSS,17032,../../third_party/blink/renderer/modules/media_controls/resources/media_controls_resources.grd
+IDR_MEDIA_CONTROLS_JUMP_SVG,17033,../../third_party/blink/renderer/modules/media_controls/resources/media_controls_resources.grd
+IDR_MEDIA_CONTROLS_ARROW_RIGHT_SVG,17034,../../third_party/blink/renderer/modules/media_controls/resources/media_controls_resources.grd
+IDR_MEDIA_CONTROLS_ARROW_LEFT_SVG,17035,../../third_party/blink/renderer/modules/media_controls/resources/media_controls_resources.grd

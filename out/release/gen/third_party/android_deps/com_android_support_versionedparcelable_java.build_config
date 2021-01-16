@@ -1,0 +1,23 @@
+{
+  "deps_info": {
+    "base_whitelist_rtxt_path": "",
+    "deps_configs": [
+      "gen/third_party/android_deps/com_android_support_versionedparcelable_java__classes.build_config"
+    ],
+    "extra_main_r_text_files": [],
+    "jni": {
+      "all_source": [
+        "gen/build/android/buildhooks/build_hooks_android_java.sources",
+        "gen/build/android/buildhooks/build_hooks_java.sources"
+      ]
+    },
+    "module_pathmap_path": "",
+    "name": "com_android_support_versionedparcelable_java.build_config",
+    "path": "gen/third_party/android_deps/com_android_support_versionedparcelable_java.build_config",
+    "proguard_configs": [],
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "type": "group"
+  },
+  "gradle": {}
+}

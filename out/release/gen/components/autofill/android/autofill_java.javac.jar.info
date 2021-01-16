@@ -1,0 +1,8 @@
+org.chromium.chrome.browser.keyboard_accessory.AccessoryAction,gen/components/autofill/android/autofill_core_browser_java_enums.srcjar/org/chromium/chrome/browser/keyboard_accessory/AccessoryAction.java
+org.chromium.chrome.browser.keyboard_accessory.AccessoryTabType,gen/components/autofill/android/autofill_core_browser_java_enums.srcjar/org/chromium/chrome/browser/keyboard_accessory/AccessoryTabType.java
+org.chromium.components.autofill.AutofillDelegate,../../components/autofill/android/java/src/org/chromium/components/autofill/AutofillDelegate.java
+org.chromium.components.autofill.AutofillDropdownAdapter,../../components/autofill/android/java/src/org/chromium/components/autofill/AutofillDropdownAdapter.java
+org.chromium.components.autofill.AutofillDropdownFooter,../../components/autofill/android/java/src/org/chromium/components/autofill/AutofillDropdownFooter.java
+org.chromium.components.autofill.AutofillPopup,../../components/autofill/android/java/src/org/chromium/components/autofill/AutofillPopup.java
+org.chromium.components.autofill.AutofillSuggestion,../../components/autofill/android/java/src/org/chromium/components/autofill/AutofillSuggestion.java
+org.chromium.components.autofill.PopupItemId,gen/components/autofill/android/autofill_core_browser_java_enums.srcjar/org/chromium/components/autofill/PopupItemId.java

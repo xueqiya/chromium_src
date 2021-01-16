@@ -1,0 +1,4 @@
+../../base/android/java/src/org/chromium/base/JniException.java
+../../base/android/java/src/org/chromium/base/JniStaticTestMocker.java
+../../base/android/java/src/org/chromium/base/NativeLibraryLoadedStatus.java
+../../base/android/java/src/org/chromium/base/annotations/NativeMethods.java

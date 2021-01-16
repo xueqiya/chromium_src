@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="autofill_cc_amex">"I-American Express"</string>
+<string name="autofill_cc_diners">"I-Diners Club"</string>
+<string name="autofill_cc_discover">"Zitholele"</string>
+<string name="autofill_cc_jcb">"I-JCB"</string>
+<string name="autofill_cc_mastercard">"I-Mastercard"</string>
+<string name="autofill_cc_mir">"I-Mir"</string>
+<string name="autofill_cc_union_pay">"I-China UnionPay"</string>
+<string name="autofill_cc_visa">"I-Visa"</string>
+<string name="autofill_address_summary_separator">", "</string>
+</resources>

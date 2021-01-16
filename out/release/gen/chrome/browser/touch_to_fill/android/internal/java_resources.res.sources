@@ -1,0 +1,9 @@
+../../chrome/browser/touch_to_fill/android/internal/java/res/layout/touch_to_fill_header_item.xml
+../../chrome/browser/touch_to_fill/android/internal/java/res/layout/touch_to_fill_credential_item.xml
+../../chrome/browser/touch_to_fill/android/internal/java/res/layout/touch_to_fill_fill_button.xml
+../../chrome/browser/touch_to_fill/android/internal/java/res/layout/touch_to_fill_sheet.xml
+../../chrome/browser/touch_to_fill/android/internal/java/res/layout/touch_to_fill_footer.xml
+../../chrome/browser/touch_to_fill/android/internal/java/res/values/dimens.xml
+../../chrome/browser/touch_to_fill/android/internal/java/res/drawable-night/touch_to_fill_header_image.xml
+../../chrome/browser/touch_to_fill/android/internal/java/res/drawable/touch_to_fill_credential_background.xml
+../../chrome/browser/touch_to_fill/android/internal/java/res/drawable/touch_to_fill_header_image.xml

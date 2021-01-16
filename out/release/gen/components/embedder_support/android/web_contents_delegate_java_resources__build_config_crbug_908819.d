@@ -1,0 +1,1 @@
+gen/components/embedder_support/android/web_contents_delegate_java_resources.build_config: gen/components/embedder_support/android/web_contents_delegate_strings_grd.build_config gen/third_party/android_sdk/android_sdk_java.build_config

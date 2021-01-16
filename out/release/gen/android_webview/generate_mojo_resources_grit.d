@@ -1,0 +1,1 @@
+gen/android_webview/generate_mojo_resources_grit.d.stamp: ./../../out/release/gen/mojo/public/js/mojo_bindings_lite.js ./gen/tools/gritsettings/default_resource_ids

@@ -1,0 +1,3 @@
+session_storage_namespace.mojom
+storage_area.mojom
+storage_partition_service.mojom

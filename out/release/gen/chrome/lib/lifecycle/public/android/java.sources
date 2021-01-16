@@ -1,0 +1,11 @@
+../../chrome/lib/lifecycle/public/android/java/src/org/chromium/chrome/browser/lifecycle/ActivityLifecycleDispatcher.java
+../../chrome/lib/lifecycle/public/android/java/src/org/chromium/chrome/browser/lifecycle/ActivityResultWithNativeObserver.java
+../../chrome/lib/lifecycle/public/android/java/src/org/chromium/chrome/browser/lifecycle/ConfigurationChangedObserver.java
+../../chrome/lib/lifecycle/public/android/java/src/org/chromium/chrome/browser/lifecycle/Destroyable.java
+../../chrome/lib/lifecycle/public/android/java/src/org/chromium/chrome/browser/lifecycle/InflationObserver.java
+../../chrome/lib/lifecycle/public/android/java/src/org/chromium/chrome/browser/lifecycle/LifecycleObserver.java
+../../chrome/lib/lifecycle/public/android/java/src/org/chromium/chrome/browser/lifecycle/NativeInitObserver.java
+../../chrome/lib/lifecycle/public/android/java/src/org/chromium/chrome/browser/lifecycle/PauseResumeWithNativeObserver.java
+../../chrome/lib/lifecycle/public/android/java/src/org/chromium/chrome/browser/lifecycle/SaveInstanceStateObserver.java
+../../chrome/lib/lifecycle/public/android/java/src/org/chromium/chrome/browser/lifecycle/StartStopWithNativeObserver.java
+../../chrome/lib/lifecycle/public/android/java/src/org/chromium/chrome/browser/lifecycle/WindowFocusChangedObserver.java

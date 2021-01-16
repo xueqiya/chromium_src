@@ -1,0 +1,18 @@
+{
+  "deps_info": {
+    "dependency_zips": [],
+    "deps_configs": [],
+    "extra_main_r_text_files": [],
+    "extra_package_names": [],
+    "extra_r_text_files": [],
+    "name": "strings_grd.build_config",
+    "path": "gen/android_webview/strings_grd.build_config",
+    "proguard_configs": [],
+    "res_sources_path": "",
+    "resources_zip": "obj/android_webview/strings_grd.resources.zip",
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "type": "android_resources"
+  },
+  "gradle": {}
+}

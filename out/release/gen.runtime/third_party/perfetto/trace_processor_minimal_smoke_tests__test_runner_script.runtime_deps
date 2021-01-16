@@ -1,0 +1,7 @@
+./lib.unstripped/libtrace_processor_minimal_smoke_tests__library.so
+../../testing/test_env.py
+icudtl.dat
+../../third_party/jdk/current/bin/java
+../../third_party/jdk/current/conf/
+../../third_party/jdk/current/jmods/
+../../third_party/jdk/current/lib/

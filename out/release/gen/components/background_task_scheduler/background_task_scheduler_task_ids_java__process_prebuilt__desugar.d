@@ -1,0 +1,1 @@
+obj/components/background_task_scheduler/background_task_scheduler_task_ids_java__process_prebuilt-desugar.jar: lib.java/third_party/android_sdk/android.interface.jar lib.java/third_party/bazel/desugar/Desugar_runtime.interface.jar lib.java/build/android/buildhooks/build_hooks_java.interface.jar lib.java/build/android/buildhooks/build_hooks_android_java.interface.jar

@@ -1,0 +1,11 @@
+./lib.unstripped/libdevice_unittests__library.so
+bluetooth_test_strings.pak
+bluetooth_test_strings.pak.info
+ui_test.pak
+ui_test.pak.info
+../../testing/test_env.py
+icudtl.dat
+../../third_party/jdk/current/bin/java
+../../third_party/jdk/current/conf/
+../../third_party/jdk/current/jmods/
+../../third_party/jdk/current/lib/

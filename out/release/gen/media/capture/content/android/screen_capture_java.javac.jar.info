@@ -1,0 +1,2 @@
+org.chromium.media.ScreenCapture,../../media/capture/content/android/java/src/org/chromium/media/ScreenCapture.java
+org.chromium.media.ScreenCaptureJni,gen/media/capture/content/android/screen_capture_java/generated_java/annotation_processor_outputs/org/chromium/media/ScreenCaptureJni.java

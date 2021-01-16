@@ -1,0 +1,77 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "544f6ea4e560eb4ddfd94a6fde788c12", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/components/content_settings/core/common/mojo_bindings_java.jar", 
+      "tag": "dd773a7a78517e3615cfe47a75f9df29", 
+      "entries": [
+        {
+          "path": "org/chromium/content_settings/mojom/ContentSetting.class", 
+          "tag": 1495008509
+        }, 
+        {
+          "path": "org/chromium/content_settings/mojom/ContentSettingPatternSource.class", 
+          "tag": 3922117540
+        }, 
+        {
+          "path": "org/chromium/content_settings/mojom/ContentSettingsPattern.class", 
+          "tag": 1514325184
+        }, 
+        {
+          "path": "org/chromium/content_settings/mojom/ContentSettingsType.class", 
+          "tag": 3305210718
+        }, 
+        {
+          "path": "org/chromium/content_settings/mojom/PatternParts.class", 
+          "tag": 3148137153
+        }, 
+        {
+          "path": "org/chromium/content_settings/mojom/RendererContentSettingRules.class", 
+          "tag": 3530045331
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

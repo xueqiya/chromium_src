@@ -1,0 +1,7 @@
+gen/services/viz/privileged/mojom/gl/gl.sources_list
+gen/gpu/ipc/common/interfaces.sources_list
+gen/media/mojo/mojom/mojom.sources_list
+gen/ui/gfx/geometry/mojom/mojom.sources_list
+gen/ui/gfx/mojom/mojom.sources_list
+gen/ui/gl/mojom/mojom.sources_list
+gen/url/mojom/url_mojom_gurl.sources_list

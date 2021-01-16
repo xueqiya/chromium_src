@@ -1,0 +1,8 @@
+./lib.unstripped/libvideo_decode_accelerator_unittest__library.so
+../../media/test/data/
+icudtl.dat
+../../testing/test_env.py
+../../third_party/jdk/current/bin/java
+../../third_party/jdk/current/conf/
+../../third_party/jdk/current/jmods/
+../../third_party/jdk/current/lib/

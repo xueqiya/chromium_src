@@ -1,0 +1,3 @@
+org.chromium.services.media_session.MediaImage,../../services/media_session/public/cpp/android/java/src/org/chromium/services/media_session/MediaImage.java
+org.chromium.services.media_session.MediaMetadata,../../services/media_session/public/cpp/android/java/src/org/chromium/services/media_session/MediaMetadata.java
+org.chromium.services.media_session.MediaPosition,../../services/media_session/public/cpp/android/java/src/org/chromium/services/media_session/MediaPosition.java

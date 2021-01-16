@@ -1,0 +1,1 @@
+gen/third_party/android_support_test_runner/rules_java__res.build_config: gen/third_party/android_sdk/android_sdk_java.build_config

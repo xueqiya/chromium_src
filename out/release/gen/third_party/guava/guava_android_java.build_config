@@ -1,0 +1,64 @@
+{
+  "android": {
+    "sdk_interface_jars": [
+      "lib.java/third_party/android_sdk/android.interface.jar"
+    ],
+    "sdk_jars": [
+      "lib.java/third_party/android_sdk/android.jar"
+    ]
+  },
+  "deps_info": {
+    "base_whitelist_rtxt_path": "",
+    "deps_configs": [
+      "gen/third_party/android_deps/com_google_guava_listenablefuture_java.build_config",
+      "gen/third_party/android_sdk/android_sdk_java.build_config"
+    ],
+    "dex_path": "obj/third_party/guava/guava_android_java.dex.jar",
+    "extra_main_r_text_files": [],
+    "gradle_treat_as_prebuilt": null,
+    "interface_jar_path": "lib.java/third_party/guava/guava-android.interface.jar",
+    "is_prebuilt": true,
+    "jar_path": "lib.java/third_party/guava/guava-android.jar",
+    "javac_full_classpath": [
+      "../../third_party/android_deps/libs/com_google_guava_listenablefuture/listenablefuture-1.0.jar"
+    ],
+    "javac_full_interface_classpath": [
+      "lib.java/third_party/android_deps/com_google_guava_listenablefuture.interface.jar"
+    ],
+    "jni": {
+      "all_source": []
+    },
+    "module_pathmap_path": "",
+    "name": "guava_android_java.build_config",
+    "owned_resource_srcjars": [],
+    "owned_resources_dirs": [],
+    "owned_resources_zips": [],
+    "path": "gen/third_party/guava/guava_android_java.build_config",
+    "proguard_configs": [],
+    "requires_android": true,
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "supports_android": true,
+    "type": "java_library",
+    "unprocessed_jar_path": "../../third_party/guava/lib/guava-android.jar"
+  },
+  "gradle": {
+    "bundled_srcjars": [],
+    "dependent_android_projects": [],
+    "dependent_java_projects": [],
+    "dependent_prebuilt_jars": [
+      "lib.java/third_party/android_deps/com_google_guava_listenablefuture.jar"
+    ]
+  },
+  "javac": {
+    "classpath": [
+      "../../third_party/android_deps/libs/com_google_guava_listenablefuture/listenablefuture-1.0.jar"
+    ],
+    "interface_classpath": [
+      "lib.java/third_party/android_deps/com_google_guava_listenablefuture.interface.jar"
+    ],
+    "processor_classes": [],
+    "processor_classpath": [],
+    "resource_packages": []
+  }
+}

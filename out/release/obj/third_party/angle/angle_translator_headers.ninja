@@ -1,0 +1,9 @@
+defines = -D_GNU_SOURCE -DANDROID -DHAVE_SYS_UIO_H -DANDROID_NDK_VERSION_ROLL=r20_1 -DCR_CLANG_REVISION=\"n340759-eaabaf7e-1\" -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D_FORTIFY_SOURCE=2 -D_LIBCPP_ABI_UNSTABLE -D_LIBCPP_DISABLE_VISIBILITY_ANNOTATIONS -D_LIBCXXABI_DISABLE_VISIBILITY_ANNOTATIONS -D_LIBCPP_ENABLE_NODISCARD -DCR_LIBCXX_REVISION=375504 -DNDEBUG -DNVALGRIND -DDYNAMIC_ANNOTATIONS_ENABLED=0 -DANGLE_IS_32_BIT_CPU
+include_dirs = -I../../third_party/angle/include -I../../third_party/angle/src -I../../third_party/angle/include
+label_name = angle_translator_headers
+root_out_dir = .
+target_out_dir = obj/third_party/angle
+target_output_name = angle_translator_headers
+
+
+build obj/third_party/angle/angle_translator_headers.stamp: stamp || obj/third_party/angle/includes.stamp

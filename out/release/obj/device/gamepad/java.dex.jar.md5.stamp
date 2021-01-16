@@ -1,0 +1,129 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "44e319970bea1f1dad14571a71290f21", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/device/gamepad/java.jar", 
+      "tag": "13efaf95e2bce19ac1ee0a406a2524e2", 
+      "entries": [
+        {
+          "path": "org/chromium/device/gamepad/CanonicalAxisIndex.class", 
+          "tag": 3140622124
+        }, 
+        {
+          "path": "org/chromium/device/gamepad/CanonicalButtonIndex.class", 
+          "tag": 985160474
+        }, 
+        {
+          "path": "org/chromium/device/gamepad/GamepadDevice.class", 
+          "tag": 2104035916
+        }, 
+        {
+          "path": "org/chromium/device/gamepad/GamepadList$1.class", 
+          "tag": 241653643
+        }, 
+        {
+          "path": "org/chromium/device/gamepad/GamepadList$LazyHolder.class", 
+          "tag": 2935354057
+        }, 
+        {
+          "path": "org/chromium/device/gamepad/GamepadList$Natives.class", 
+          "tag": 1594852036
+        }, 
+        {
+          "path": "org/chromium/device/gamepad/GamepadList.class", 
+          "tag": 1881601952
+        }, 
+        {
+          "path": "org/chromium/device/gamepad/GamepadListJni$1.class", 
+          "tag": 1274917552
+        }, 
+        {
+          "path": "org/chromium/device/gamepad/GamepadListJni.class", 
+          "tag": 3264185408
+        }, 
+        {
+          "path": "org/chromium/device/gamepad/GamepadMappings$1.class", 
+          "tag": 2046303587
+        }, 
+        {
+          "path": "org/chromium/device/gamepad/GamepadMappings$AmazonFireGamepadMappings.class", 
+          "tag": 3499870209
+        }, 
+        {
+          "path": "org/chromium/device/gamepad/GamepadMappings$Dualshock3SixAxisGamepadMappings.class", 
+          "tag": 3614464392
+        }, 
+        {
+          "path": "org/chromium/device/gamepad/GamepadMappings$Dualshock3SixAxisGamepadMappingsPreP.class", 
+          "tag": 104481334
+        }, 
+        {
+          "path": "org/chromium/device/gamepad/GamepadMappings$Dualshock4GamepadMappingsPreP.class", 
+          "tag": 1396763675
+        }, 
+        {
+          "path": "org/chromium/device/gamepad/GamepadMappings$SamsungEIGP20GamepadMappings.class", 
+          "tag": 2470768914
+        }, 
+        {
+          "path": "org/chromium/device/gamepad/GamepadMappings$UnknownGamepadMappings.class", 
+          "tag": 3274162144
+        }, 
+        {
+          "path": "org/chromium/device/gamepad/GamepadMappings$XboxCompatibleGamepadMappings.class", 
+          "tag": 3538340220
+        }, 
+        {
+          "path": "org/chromium/device/gamepad/GamepadMappings$XboxOneS2016FirmwareMappings.class", 
+          "tag": 2036814972
+        }, 
+        {
+          "path": "org/chromium/device/gamepad/GamepadMappings.class", 
+          "tag": 31326768
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

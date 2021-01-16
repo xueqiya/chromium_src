@@ -1,0 +1,13 @@
+../../components/background_task_scheduler/android/junit/src/org/chromium/components/background_task_scheduler/BackgroundTaskGcmTaskServiceTest.java
+../../components/background_task_scheduler/android/junit/src/org/chromium/components/background_task_scheduler/BackgroundTaskJobServiceTest.java
+../../components/background_task_scheduler/android/junit/src/org/chromium/components/background_task_scheduler/BackgroundTaskSchedulerAlarmManagerTest.java
+../../components/background_task_scheduler/android/junit/src/org/chromium/components/background_task_scheduler/BackgroundTaskSchedulerGcmNetworkManagerTest.java
+../../components/background_task_scheduler/android/junit/src/org/chromium/components/background_task_scheduler/BackgroundTaskSchedulerImplTest.java
+../../components/background_task_scheduler/android/junit/src/org/chromium/components/background_task_scheduler/BackgroundTaskSchedulerPrefsTest.java
+../../components/background_task_scheduler/android/junit/src/org/chromium/components/background_task_scheduler/BackgroundTaskSchedulerUmaTest.java
+../../components/background_task_scheduler/android/junit/src/org/chromium/components/background_task_scheduler/BroadcastReceiverRobolectricTest.java
+../../components/background_task_scheduler/android/junit/src/org/chromium/components/background_task_scheduler/ExtrasToProtoConverterTest.java
+../../components/background_task_scheduler/android/junit/src/org/chromium/components/background_task_scheduler/ShadowGcmNetworkManager.java
+../../components/background_task_scheduler/android/junit/src/org/chromium/components/background_task_scheduler/TaskInfoTest.java
+../../components/background_task_scheduler/android/junit/src/org/chromium/components/background_task_scheduler/TestBackgroundTask.java
+../../components/background_task_scheduler/android/junit/src/org/chromium/components/background_task_scheduler/TestBackgroundTaskFactory.java

@@ -1,0 +1,1 @@
+gen/android_webview/android_webview_product_config_java.build_config: gen/build/android/buildhooks/build_hooks_android_java.build_config gen/build/android/buildhooks/build_hooks_java.build_config gen/third_party/android_sdk/android_sdk_java.build_config gen/third_party/bazel/desugar/desugar_runtime_java.build_config

@@ -1,0 +1,12 @@
+../../components/paint_preview/player/android/java/src/org/chromium/components/paintpreview/player/PaintPreviewFrame.java
+../../components/paint_preview/player/android/java/src/org/chromium/components/paintpreview/player/PlayerCompositorDelegate.java
+../../components/paint_preview/player/android/java/src/org/chromium/components/paintpreview/player/PlayerCompositorDelegateImpl.java
+../../components/paint_preview/player/android/java/src/org/chromium/components/paintpreview/player/PlayerManager.java
+../../components/paint_preview/player/android/java/src/org/chromium/components/paintpreview/player/frame/PlayerFrameBitmapPainter.java
+../../components/paint_preview/player/android/java/src/org/chromium/components/paintpreview/player/frame/PlayerFrameCoordinator.java
+../../components/paint_preview/player/android/java/src/org/chromium/components/paintpreview/player/frame/PlayerFrameGestureDetector.java
+../../components/paint_preview/player/android/java/src/org/chromium/components/paintpreview/player/frame/PlayerFrameMediator.java
+../../components/paint_preview/player/android/java/src/org/chromium/components/paintpreview/player/frame/PlayerFrameProperties.java
+../../components/paint_preview/player/android/java/src/org/chromium/components/paintpreview/player/frame/PlayerFrameView.java
+../../components/paint_preview/player/android/java/src/org/chromium/components/paintpreview/player/frame/PlayerFrameViewBinder.java
+../../components/paint_preview/player/android/java/src/org/chromium/components/paintpreview/player/frame/PlayerFrameViewDelegate.java

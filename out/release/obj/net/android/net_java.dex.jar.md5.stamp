@@ -1,0 +1,401 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "5851b30b87c90fee75d5373f05bca5d9", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/net/android/net_java.jar", 
+      "tag": "e43f26d5c9efa48016e2871ca04893ab", 
+      "entries": [
+        {
+          "path": "org/chromium/net/AndroidCellularSignalStrength$1.class", 
+          "tag": 3360645862
+        }, 
+        {
+          "path": "org/chromium/net/AndroidCellularSignalStrength$CellStateListener.class", 
+          "tag": 2350995408
+        }, 
+        {
+          "path": "org/chromium/net/AndroidCellularSignalStrength.class", 
+          "tag": 77083517
+        }, 
+        {
+          "path": "org/chromium/net/AndroidCertVerifyResult.class", 
+          "tag": 3020060613
+        }, 
+        {
+          "path": "org/chromium/net/AndroidKeyStore.class", 
+          "tag": 3652040639
+        }, 
+        {
+          "path": "org/chromium/net/AndroidNetworkLibrary$NetworkSecurityPolicyProxy.class", 
+          "tag": 3549694889
+        }, 
+        {
+          "path": "org/chromium/net/AndroidNetworkLibrary$SetFileDescriptor.class", 
+          "tag": 3678426187
+        }, 
+        {
+          "path": "org/chromium/net/AndroidNetworkLibrary$SocketFd$SocketImplFd.class", 
+          "tag": 1756129787
+        }, 
+        {
+          "path": "org/chromium/net/AndroidNetworkLibrary$SocketFd.class", 
+          "tag": 272937684
+        }, 
+        {
+          "path": "org/chromium/net/AndroidNetworkLibrary.class", 
+          "tag": 2779674299
+        }, 
+        {
+          "path": "org/chromium/net/AndroidTelephonyManagerBridge$1.class", 
+          "tag": 278706649
+        }, 
+        {
+          "path": "org/chromium/net/AndroidTelephonyManagerBridge$Listener.class", 
+          "tag": 1866010445
+        }, 
+        {
+          "path": "org/chromium/net/AndroidTelephonyManagerBridge.class", 
+          "tag": 1962464369
+        }, 
+        {
+          "path": "org/chromium/net/AndroidTrafficStats.class", 
+          "tag": 3660732451
+        }, 
+        {
+          "path": "org/chromium/net/CellularSignalStrengthError.class", 
+          "tag": 1590485639
+        }, 
+        {
+          "path": "org/chromium/net/CertVerifyStatusAndroid.class", 
+          "tag": 1388161569
+        }, 
+        {
+          "path": "org/chromium/net/ConnectionSubtype.class", 
+          "tag": 3841205026
+        }, 
+        {
+          "path": "org/chromium/net/ConnectionType.class", 
+          "tag": 29336195
+        }, 
+        {
+          "path": "org/chromium/net/DnsStatus.class", 
+          "tag": 1922570473
+        }, 
+        {
+          "path": "org/chromium/net/GURLUtils$Natives.class", 
+          "tag": 1276497071
+        }, 
+        {
+          "path": "org/chromium/net/GURLUtils.class", 
+          "tag": 3817495061
+        }, 
+        {
+          "path": "org/chromium/net/GURLUtilsJni$1.class", 
+          "tag": 1272002984
+        }, 
+        {
+          "path": "org/chromium/net/GURLUtilsJni.class", 
+          "tag": 1736391650
+        }, 
+        {
+          "path": "org/chromium/net/HttpNegotiateAuthenticator$GetAccountsCallback.class", 
+          "tag": 2693189384
+        }, 
+        {
+          "path": "org/chromium/net/HttpNegotiateAuthenticator$GetTokenCallback$1.class", 
+          "tag": 723024509
+        }, 
+        {
+          "path": "org/chromium/net/HttpNegotiateAuthenticator$GetTokenCallback.class", 
+          "tag": 636572022
+        }, 
+        {
+          "path": "org/chromium/net/HttpNegotiateAuthenticator$Natives.class", 
+          "tag": 1333413088
+        }, 
+        {
+          "path": "org/chromium/net/HttpNegotiateAuthenticator$RequestData.class", 
+          "tag": 252038871
+        }, 
+        {
+          "path": "org/chromium/net/HttpNegotiateAuthenticator.class", 
+          "tag": 3415799087
+        }, 
+        {
+          "path": "org/chromium/net/HttpNegotiateAuthenticatorJni$1.class", 
+          "tag": 2663778799
+        }, 
+        {
+          "path": "org/chromium/net/HttpNegotiateAuthenticatorJni.class", 
+          "tag": 318023058
+        }, 
+        {
+          "path": "org/chromium/net/HttpNegotiateConstants.class", 
+          "tag": 2465967511
+        }, 
+        {
+          "path": "org/chromium/net/HttpUtil$Natives.class", 
+          "tag": 1335310520
+        }, 
+        {
+          "path": "org/chromium/net/HttpUtil.class", 
+          "tag": 629657279
+        }, 
+        {
+          "path": "org/chromium/net/HttpUtilJni$1.class", 
+          "tag": 975088871
+        }, 
+        {
+          "path": "org/chromium/net/HttpUtilJni.class", 
+          "tag": 308335436
+        }, 
+        {
+          "path": "org/chromium/net/MimeTypeFilter.class", 
+          "tag": 2713637887
+        }, 
+        {
+          "path": "org/chromium/net/NetError.class", 
+          "tag": 449134632
+        }, 
+        {
+          "path": "org/chromium/net/NetId.class", 
+          "tag": 1248410655
+        }, 
+        {
+          "path": "org/chromium/net/NetStringUtil.class", 
+          "tag": 1637387019
+        }, 
+        {
+          "path": "org/chromium/net/NetworkChangeNotifier$1.class", 
+          "tag": 818241118
+        }, 
+        {
+          "path": "org/chromium/net/NetworkChangeNotifier$ConnectionTypeObserver.class", 
+          "tag": 1060515512
+        }, 
+        {
+          "path": "org/chromium/net/NetworkChangeNotifier$Natives.class", 
+          "tag": 3498922298
+        }, 
+        {
+          "path": "org/chromium/net/NetworkChangeNotifier.class", 
+          "tag": 2666772998
+        }, 
+        {
+          "path": "org/chromium/net/NetworkChangeNotifierAutoDetect$1.class", 
+          "tag": 3688736046
+        }, 
+        {
+          "path": "org/chromium/net/NetworkChangeNotifierAutoDetect$ConnectivityManagerDelegate.class", 
+          "tag": 48065201
+        }, 
+        {
+          "path": "org/chromium/net/NetworkChangeNotifierAutoDetect$DefaultNetworkCallback.class", 
+          "tag": 2141468603
+        }, 
+        {
+          "path": "org/chromium/net/NetworkChangeNotifierAutoDetect$MyNetworkCallback$1.class", 
+          "tag": 3618388044
+        }, 
+        {
+          "path": "org/chromium/net/NetworkChangeNotifierAutoDetect$MyNetworkCallback$2.class", 
+          "tag": 250068657
+        }, 
+        {
+          "path": "org/chromium/net/NetworkChangeNotifierAutoDetect$MyNetworkCallback$3.class", 
+          "tag": 3137512058
+        }, 
+        {
+          "path": "org/chromium/net/NetworkChangeNotifierAutoDetect$MyNetworkCallback$4.class", 
+          "tag": 4042467180
+        }, 
+        {
+          "path": "org/chromium/net/NetworkChangeNotifierAutoDetect$MyNetworkCallback$5.class", 
+          "tag": 636382627
+        }, 
+        {
+          "path": "org/chromium/net/NetworkChangeNotifierAutoDetect$MyNetworkCallback.class", 
+          "tag": 3856676752
+        }, 
+        {
+          "path": "org/chromium/net/NetworkChangeNotifierAutoDetect$NetworkConnectivityIntentFilter.class", 
+          "tag": 1713596005
+        }, 
+        {
+          "path": "org/chromium/net/NetworkChangeNotifierAutoDetect$NetworkState.class", 
+          "tag": 2219882185
+        }, 
+        {
+          "path": "org/chromium/net/NetworkChangeNotifierAutoDetect$Observer.class", 
+          "tag": 1915847461
+        }, 
+        {
+          "path": "org/chromium/net/NetworkChangeNotifierAutoDetect$RegistrationPolicy.class", 
+          "tag": 2973678530
+        }, 
+        {
+          "path": "org/chromium/net/NetworkChangeNotifierAutoDetect$WifiManagerDelegate.class", 
+          "tag": 1395455791
+        }, 
+        {
+          "path": "org/chromium/net/NetworkChangeNotifierAutoDetect.class", 
+          "tag": 473470736
+        }, 
+        {
+          "path": "org/chromium/net/NetworkChangeNotifierJni$1.class", 
+          "tag": 3543103526
+        }, 
+        {
+          "path": "org/chromium/net/NetworkChangeNotifierJni.class", 
+          "tag": 3440111865
+        }, 
+        {
+          "path": "org/chromium/net/PrivateKeyType.class", 
+          "tag": 3595224353
+        }, 
+        {
+          "path": "org/chromium/net/ProxyBroadcastReceiver.class", 
+          "tag": 1328032963
+        }, 
+        {
+          "path": "org/chromium/net/ProxyChangeListener$1.class", 
+          "tag": 1512266584
+        }, 
+        {
+          "path": "org/chromium/net/ProxyChangeListener$Delegate.class", 
+          "tag": 3371816287
+        }, 
+        {
+          "path": "org/chromium/net/ProxyChangeListener$Natives.class", 
+          "tag": 1405068630
+        }, 
+        {
+          "path": "org/chromium/net/ProxyChangeListener$ProxyConfig.class", 
+          "tag": 2941349004
+        }, 
+        {
+          "path": "org/chromium/net/ProxyChangeListener$ProxyReceiver.class", 
+          "tag": 3898800255
+        }, 
+        {
+          "path": "org/chromium/net/ProxyChangeListener.class", 
+          "tag": 2344987755
+        }, 
+        {
+          "path": "org/chromium/net/ProxyChangeListenerJni$1.class", 
+          "tag": 1063260306
+        }, 
+        {
+          "path": "org/chromium/net/ProxyChangeListenerJni.class", 
+          "tag": 1992268460
+        }, 
+        {
+          "path": "org/chromium/net/RegistrationPolicyAlwaysRegister.class", 
+          "tag": 478521770
+        }, 
+        {
+          "path": "org/chromium/net/RegistrationPolicyApplicationStatus.class", 
+          "tag": 690996481
+        }, 
+        {
+          "path": "org/chromium/net/TrafficStatsError.class", 
+          "tag": 2369432365
+        }, 
+        {
+          "path": "org/chromium/net/TrafficStatsUid.class", 
+          "tag": 2576698616
+        }, 
+        {
+          "path": "org/chromium/net/X509Util$1.class", 
+          "tag": 3098699594
+        }, 
+        {
+          "path": "org/chromium/net/X509Util$Natives.class", 
+          "tag": 896355290
+        }, 
+        {
+          "path": "org/chromium/net/X509Util$TrustStorageListener.class", 
+          "tag": 627913759
+        }, 
+        {
+          "path": "org/chromium/net/X509Util$X509TrustManagerIceCreamSandwich.class", 
+          "tag": 2946388531
+        }, 
+        {
+          "path": "org/chromium/net/X509Util$X509TrustManagerImplementation.class", 
+          "tag": 2700069279
+        }, 
+        {
+          "path": "org/chromium/net/X509Util$X509TrustManagerJellyBean.class", 
+          "tag": 2164235304
+        }, 
+        {
+          "path": "org/chromium/net/X509Util.class", 
+          "tag": 129285656
+        }, 
+        {
+          "path": "org/chromium/net/X509UtilJni$1.class", 
+          "tag": 1456038309
+        }, 
+        {
+          "path": "org/chromium/net/X509UtilJni.class", 
+          "tag": 1973655262
+        }, 
+        {
+          "path": "org/chromium/net/AndroidTelephonyManagerBridge$$Lambda$0.class", 
+          "tag": 2029925037
+        }, 
+        {
+          "path": "org/chromium/net/ProxyChangeListener$ProxyReceiver$$Lambda$0.class", 
+          "tag": 2982520890
+        }, 
+        {
+          "path": "org/chromium/net/ProxyChangeListener$$Lambda$0.class", 
+          "tag": 3552929252
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

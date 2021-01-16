@@ -1,0 +1,14 @@
+org.chromium.proxy_resolver.mojom.HostResolveOperation,gen/services/proxy_resolver/public/mojom/mojom_java_sources.srcjar/org/chromium/proxy_resolver/mojom/HostResolveOperation.java
+org.chromium.proxy_resolver.mojom.HostResolverRequestClient,gen/services/proxy_resolver/public/mojom/mojom_java_sources.srcjar/org/chromium/proxy_resolver/mojom/HostResolverRequestClient.java
+org.chromium.proxy_resolver.mojom.HostResolverRequestClient_Internal,gen/services/proxy_resolver/public/mojom/mojom_java_sources.srcjar/org/chromium/proxy_resolver/mojom/HostResolverRequestClient_Internal.java
+org.chromium.proxy_resolver.mojom.ProxyInfo,gen/services/proxy_resolver/public/mojom/mojom_java_sources.srcjar/org/chromium/proxy_resolver/mojom/ProxyInfo.java
+org.chromium.proxy_resolver.mojom.ProxyResolver,gen/services/proxy_resolver/public/mojom/mojom_java_sources.srcjar/org/chromium/proxy_resolver/mojom/ProxyResolver.java
+org.chromium.proxy_resolver.mojom.ProxyResolverFactory,gen/services/proxy_resolver/public/mojom/mojom_java_sources.srcjar/org/chromium/proxy_resolver/mojom/ProxyResolverFactory.java
+org.chromium.proxy_resolver.mojom.ProxyResolverFactoryRequestClient,gen/services/proxy_resolver/public/mojom/mojom_java_sources.srcjar/org/chromium/proxy_resolver/mojom/ProxyResolverFactoryRequestClient.java
+org.chromium.proxy_resolver.mojom.ProxyResolverFactoryRequestClient_Internal,gen/services/proxy_resolver/public/mojom/mojom_java_sources.srcjar/org/chromium/proxy_resolver/mojom/ProxyResolverFactoryRequestClient_Internal.java
+org.chromium.proxy_resolver.mojom.ProxyResolverFactory_Internal,gen/services/proxy_resolver/public/mojom/mojom_java_sources.srcjar/org/chromium/proxy_resolver/mojom/ProxyResolverFactory_Internal.java
+org.chromium.proxy_resolver.mojom.ProxyResolverRequestClient,gen/services/proxy_resolver/public/mojom/mojom_java_sources.srcjar/org/chromium/proxy_resolver/mojom/ProxyResolverRequestClient.java
+org.chromium.proxy_resolver.mojom.ProxyResolverRequestClient_Internal,gen/services/proxy_resolver/public/mojom/mojom_java_sources.srcjar/org/chromium/proxy_resolver/mojom/ProxyResolverRequestClient_Internal.java
+org.chromium.proxy_resolver.mojom.ProxyResolver_Internal,gen/services/proxy_resolver/public/mojom/mojom_java_sources.srcjar/org/chromium/proxy_resolver/mojom/ProxyResolver_Internal.java
+org.chromium.proxy_resolver.mojom.ProxyScheme,gen/services/proxy_resolver/public/mojom/mojom_java_sources.srcjar/org/chromium/proxy_resolver/mojom/ProxyScheme.java
+org.chromium.proxy_resolver.mojom.ProxyServer,gen/services/proxy_resolver/public/mojom/mojom_java_sources.srcjar/org/chromium/proxy_resolver/mojom/ProxyServer.java

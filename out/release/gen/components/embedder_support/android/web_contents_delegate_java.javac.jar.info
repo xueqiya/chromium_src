@@ -1,0 +1,11 @@
+org.chromium.components.embedder_support.delegate.ColorChooserAndroid,../../components/embedder_support/android/java/src/org/chromium/components/embedder_support/delegate/ColorChooserAndroid.java
+org.chromium.components.embedder_support.delegate.ColorChooserAndroidJni,gen/components/embedder_support/android/web_contents_delegate_java/generated_java/annotation_processor_outputs/org/chromium/components/embedder_support/delegate/ColorChooserAndroidJni.java
+org.chromium.components.embedder_support.delegate.ColorPickerAdvanced,../../components/embedder_support/android/java/src/org/chromium/components/embedder_support/delegate/ColorPickerAdvanced.java
+org.chromium.components.embedder_support.delegate.ColorPickerAdvancedComponent,../../components/embedder_support/android/java/src/org/chromium/components/embedder_support/delegate/ColorPickerAdvancedComponent.java
+org.chromium.components.embedder_support.delegate.ColorPickerDialog,../../components/embedder_support/android/java/src/org/chromium/components/embedder_support/delegate/ColorPickerDialog.java
+org.chromium.components.embedder_support.delegate.ColorPickerMoreButton,../../components/embedder_support/android/java/src/org/chromium/components/embedder_support/delegate/ColorPickerMoreButton.java
+org.chromium.components.embedder_support.delegate.ColorPickerSimple,../../components/embedder_support/android/java/src/org/chromium/components/embedder_support/delegate/ColorPickerSimple.java
+org.chromium.components.embedder_support.delegate.ColorSuggestion,../../components/embedder_support/android/java/src/org/chromium/components/embedder_support/delegate/ColorSuggestion.java
+org.chromium.components.embedder_support.delegate.ColorSuggestionListAdapter,../../components/embedder_support/android/java/src/org/chromium/components/embedder_support/delegate/ColorSuggestionListAdapter.java
+org.chromium.components.embedder_support.delegate.OnColorChangedListener,../../components/embedder_support/android/java/src/org/chromium/components/embedder_support/delegate/OnColorChangedListener.java
+org.chromium.components.embedder_support.delegate.WebContentsDelegateAndroid,../../components/embedder_support/android/java/src/org/chromium/components/embedder_support/delegate/WebContentsDelegateAndroid.java

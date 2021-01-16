@@ -1,0 +1,8 @@
+gen/components/mirroring/mojom/service.sources_list
+gen/components/mirroring/mojom/common.sources_list
+gen/media/capture/mojom/video_capture.sources_list
+gen/media/mojo/mojom/mojom.sources_list
+gen/media/mojo/mojom/remoting.sources_list
+gen/services/network/public/mojom/mojom.sources_list
+gen/services/viz/public/mojom/mojom.sources_list
+gen/ui/gfx/geometry/mojom/mojom.sources_list

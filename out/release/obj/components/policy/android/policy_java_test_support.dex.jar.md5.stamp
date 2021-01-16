@@ -1,0 +1,89 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "7cca16ed8c9847b7d1baa0a65f92f3ba", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/components/policy/android/policy_java_test_support.jar", 
+      "tag": "fc3d2b52f07d4187d16bb46d276bc746", 
+      "entries": [
+        {
+          "path": "org/chromium/policy/test/PolicyData$Str.class", 
+          "tag": 1518887507
+        }, 
+        {
+          "path": "org/chromium/policy/test/PolicyData$StrArray.class", 
+          "tag": 173834256
+        }, 
+        {
+          "path": "org/chromium/policy/test/PolicyData$Undefined.class", 
+          "tag": 3053130415
+        }, 
+        {
+          "path": "org/chromium/policy/test/PolicyData.class", 
+          "tag": 2811128877
+        }, 
+        {
+          "path": "org/chromium/policy/test/annotations/Policies$Add.class", 
+          "tag": 49485665
+        }, 
+        {
+          "path": "org/chromium/policy/test/annotations/Policies$Item.class", 
+          "tag": 1498360177
+        }, 
+        {
+          "path": "org/chromium/policy/test/annotations/Policies$RegistrationHook.class", 
+          "tag": 720670578
+        }, 
+        {
+          "path": "org/chromium/policy/test/annotations/Policies$Remove.class", 
+          "tag": 2495211166
+        }, 
+        {
+          "path": "org/chromium/policy/test/annotations/Policies.class", 
+          "tag": 3205948039
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

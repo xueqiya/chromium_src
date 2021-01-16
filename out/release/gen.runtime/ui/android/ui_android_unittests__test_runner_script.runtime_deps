@@ -1,0 +1,7 @@
+./lib.unstripped/libui_android_unittests__library.so
+icudtl.dat
+../../third_party/jdk/current/bin/java
+../../third_party/jdk/current/conf/
+../../third_party/jdk/current/jmods/
+../../third_party/jdk/current/lib/
+../../testing/test_env.py

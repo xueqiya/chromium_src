@@ -1,0 +1,581 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "704203b65006f37d4c263958972f629f", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/services/device/public/mojom/usb_java.jar", 
+      "tag": "e71546f045982ca379d6622eb59cc2ff", 
+      "entries": [
+        {
+          "path": "org/chromium/device/mojom/UsbAlternateInterfaceInfo.class", 
+          "tag": 1905147921
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbConfigurationInfo.class", 
+          "tag": 1125898821
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbControlTransferParams.class", 
+          "tag": 2250523072
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbControlTransferRecipient.class", 
+          "tag": 1504673216
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbControlTransferType.class", 
+          "tag": 1517128918
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice$ClaimInterfaceResponse.class", 
+          "tag": 505441965
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice$ClearHaltResponse.class", 
+          "tag": 468504181
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice$CloseResponse.class", 
+          "tag": 2565606397
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice$ControlTransferInResponse.class", 
+          "tag": 2368917885
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice$ControlTransferOutResponse.class", 
+          "tag": 2367198604
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice$GenericTransferInResponse.class", 
+          "tag": 4087164370
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice$GenericTransferOutResponse.class", 
+          "tag": 2167741829
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice$IsochronousTransferInResponse.class", 
+          "tag": 4253641695
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice$IsochronousTransferOutResponse.class", 
+          "tag": 3592862624
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice$OpenResponse.class", 
+          "tag": 1640791892
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice$Proxy.class", 
+          "tag": 43780601
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice$ReleaseInterfaceResponse.class", 
+          "tag": 1868585118
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice$ResetResponse.class", 
+          "tag": 550970123
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice$SetConfigurationResponse.class", 
+          "tag": 2036593925
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice$SetInterfaceAlternateSettingResponse.class", 
+          "tag": 2043665263
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice.class", 
+          "tag": 658188796
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceClient$Proxy.class", 
+          "tag": 2698099947
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceClient.class", 
+          "tag": 3689526757
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceClient_Internal$1.class", 
+          "tag": 2139704601
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceClient_Internal$Proxy.class", 
+          "tag": 3560468694
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceClient_Internal$Stub.class", 
+          "tag": 2358805441
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceClient_Internal$UsbDeviceClientOnDeviceClosedParams.class", 
+          "tag": 735648217
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceClient_Internal$UsbDeviceClientOnDeviceOpenedParams.class", 
+          "tag": 4113190508
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceClient_Internal.class", 
+          "tag": 2774466450
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceFilter.class", 
+          "tag": 2508029670
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceInfo.class", 
+          "tag": 2882301559
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceManager$EnumerateDevicesAndSetClientResponse.class", 
+          "tag": 2815597843
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceManager$GetDevicesResponse.class", 
+          "tag": 1392841835
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceManager$Proxy.class", 
+          "tag": 1475070739
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceManager$RefreshDeviceInfoResponse.class", 
+          "tag": 3702513847
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceManager.class", 
+          "tag": 3445916866
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceManagerClient$Proxy.class", 
+          "tag": 4227162246
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceManagerClient.class", 
+          "tag": 191178693
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceManagerClient_Internal$1.class", 
+          "tag": 3420216481
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceManagerClient_Internal$Proxy.class", 
+          "tag": 285798495
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceManagerClient_Internal$Stub.class", 
+          "tag": 1604588738
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceManagerClient_Internal$UsbDeviceManagerClientOnDeviceAddedParams.class", 
+          "tag": 4049968656
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceManagerClient_Internal$UsbDeviceManagerClientOnDeviceRemovedParams.class", 
+          "tag": 49542460
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceManagerClient_Internal.class", 
+          "tag": 1221729980
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceManager_Internal$1.class", 
+          "tag": 976404094
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceManager_Internal$Proxy.class", 
+          "tag": 326598368
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceManager_Internal$Stub.class", 
+          "tag": 856784261
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerEnumerateDevicesAndSetClientParams.class", 
+          "tag": 1895929900
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerEnumerateDevicesAndSetClientResponseParams.class", 
+          "tag": 2959853681
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerEnumerateDevicesAndSetClientResponseParamsForwardToCallback.class", 
+          "tag": 2875079606
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerEnumerateDevicesAndSetClientResponseParamsProxyToResponder.class", 
+          "tag": 3849846679
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerGetDeviceParams.class", 
+          "tag": 3659599774
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerGetDevicesParams.class", 
+          "tag": 4140611651
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerGetDevicesResponseParams.class", 
+          "tag": 4022527818
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerGetDevicesResponseParamsForwardToCallback.class", 
+          "tag": 192694019
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerGetDevicesResponseParamsProxyToResponder.class", 
+          "tag": 557570094
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerRefreshDeviceInfoParams.class", 
+          "tag": 2606608484
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerRefreshDeviceInfoResponseParams.class", 
+          "tag": 3074503447
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerRefreshDeviceInfoResponseParamsForwardToCallback.class", 
+          "tag": 3237743624
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerRefreshDeviceInfoResponseParamsProxyToResponder.class", 
+          "tag": 1931353544
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerSetClientParams.class", 
+          "tag": 3721709682
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDeviceManager_Internal.class", 
+          "tag": 1592803484
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$1.class", 
+          "tag": 2245938046
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$Proxy.class", 
+          "tag": 2039835198
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$Stub.class", 
+          "tag": 2478392960
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceClaimInterfaceParams.class", 
+          "tag": 3484235565
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceClaimInterfaceResponseParams.class", 
+          "tag": 3989102623
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceClaimInterfaceResponseParamsForwardToCallback.class", 
+          "tag": 992857520
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceClaimInterfaceResponseParamsProxyToResponder.class", 
+          "tag": 3525839873
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceClearHaltParams.class", 
+          "tag": 4275376790
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceClearHaltResponseParams.class", 
+          "tag": 1187086776
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceClearHaltResponseParamsForwardToCallback.class", 
+          "tag": 556364124
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceClearHaltResponseParamsProxyToResponder.class", 
+          "tag": 1011387294
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceCloseParams.class", 
+          "tag": 1026645788
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceCloseResponseParams.class", 
+          "tag": 3059177255
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceCloseResponseParamsForwardToCallback.class", 
+          "tag": 170739743
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceCloseResponseParamsProxyToResponder.class", 
+          "tag": 2928711359
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceControlTransferInParams.class", 
+          "tag": 2451051453
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceControlTransferInResponseParams.class", 
+          "tag": 2153212450
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceControlTransferInResponseParamsForwardToCallback.class", 
+          "tag": 2196061364
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceControlTransferInResponseParamsProxyToResponder.class", 
+          "tag": 2037623630
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceControlTransferOutParams.class", 
+          "tag": 4206598902
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceControlTransferOutResponseParams.class", 
+          "tag": 1876641686
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceControlTransferOutResponseParamsForwardToCallback.class", 
+          "tag": 3353735135
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceControlTransferOutResponseParamsProxyToResponder.class", 
+          "tag": 3639774566
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceGenericTransferInParams.class", 
+          "tag": 1441479045
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceGenericTransferInResponseParams.class", 
+          "tag": 465593026
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceGenericTransferInResponseParamsForwardToCallback.class", 
+          "tag": 3783169394
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceGenericTransferInResponseParamsProxyToResponder.class", 
+          "tag": 1879942424
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceGenericTransferOutParams.class", 
+          "tag": 2047085340
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceGenericTransferOutResponseParams.class", 
+          "tag": 2452101786
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceGenericTransferOutResponseParamsForwardToCallback.class", 
+          "tag": 1047304712
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceGenericTransferOutResponseParamsProxyToResponder.class", 
+          "tag": 2483877471
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceIsochronousTransferInParams.class", 
+          "tag": 4193406300
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceIsochronousTransferInResponseParams.class", 
+          "tag": 3747905281
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceIsochronousTransferInResponseParamsForwardToCallback.class", 
+          "tag": 1575030345
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceIsochronousTransferInResponseParamsProxyToResponder.class", 
+          "tag": 3518459255
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceIsochronousTransferOutParams.class", 
+          "tag": 3314501995
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceIsochronousTransferOutResponseParams.class", 
+          "tag": 4195657550
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceIsochronousTransferOutResponseParamsForwardToCallback.class", 
+          "tag": 1411291651
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceIsochronousTransferOutResponseParamsProxyToResponder.class", 
+          "tag": 2968553718
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceOpenParams.class", 
+          "tag": 2109327138
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceOpenResponseParams.class", 
+          "tag": 2681920361
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceOpenResponseParamsForwardToCallback.class", 
+          "tag": 662232503
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceOpenResponseParamsProxyToResponder.class", 
+          "tag": 587709714
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceReleaseInterfaceParams.class", 
+          "tag": 2194010436
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceReleaseInterfaceResponseParams.class", 
+          "tag": 906688233
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceReleaseInterfaceResponseParamsForwardToCallback.class", 
+          "tag": 325610074
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceReleaseInterfaceResponseParamsProxyToResponder.class", 
+          "tag": 1716357773
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceResetParams.class", 
+          "tag": 1901877852
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceResetResponseParams.class", 
+          "tag": 1108802939
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceResetResponseParamsForwardToCallback.class", 
+          "tag": 2506930095
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceResetResponseParamsProxyToResponder.class", 
+          "tag": 1426138758
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceSetConfigurationParams.class", 
+          "tag": 3514159753
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceSetConfigurationResponseParams.class", 
+          "tag": 1444394352
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceSetConfigurationResponseParamsForwardToCallback.class", 
+          "tag": 4284613992
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceSetConfigurationResponseParamsProxyToResponder.class", 
+          "tag": 3269761153
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceSetInterfaceAlternateSettingParams.class", 
+          "tag": 1204702408
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceSetInterfaceAlternateSettingResponseParams.class", 
+          "tag": 578496337
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceSetInterfaceAlternateSettingResponseParamsForwardToCallback.class", 
+          "tag": 1343843793
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceSetInterfaceAlternateSettingResponseParamsProxyToResponder.class", 
+          "tag": 28852698
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbDevice_Internal.class", 
+          "tag": 2812808709
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbEndpointInfo.class", 
+          "tag": 405959475
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbEnumerationOptions.class", 
+          "tag": 1710407492
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbInterfaceInfo.class", 
+          "tag": 2856289798
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbIsochronousPacket.class", 
+          "tag": 1378243349
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbOpenDeviceError.class", 
+          "tag": 3198786010
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbSynchronizationType.class", 
+          "tag": 574776899
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbTransferDirection.class", 
+          "tag": 1017426394
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbTransferStatus.class", 
+          "tag": 3653885230
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbTransferType.class", 
+          "tag": 3779231787
+        }, 
+        {
+          "path": "org/chromium/device/mojom/UsbUsageType.class", 
+          "tag": 4144138305
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

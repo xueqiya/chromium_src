@@ -1,0 +1,1 @@
+gen/third_party/jsr-305/jsr_305_javalib.javac.jar: ../../third_party/jdk/extras/java_8/jre/lib/rt.jar lib.java/third_party/bazel/desugar/Desugar_runtime.interface.jar lib.java/build/android/buildhooks/build_hooks_java.interface.jar

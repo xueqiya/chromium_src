@@ -1,0 +1,1 @@
+gen/third_party/android_deps/org_codehaus_mojo_animal_sniffer_annotations_java.build_config: 

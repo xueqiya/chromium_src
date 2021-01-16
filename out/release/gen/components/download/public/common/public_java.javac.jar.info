@@ -1,0 +1,2 @@
+org.chromium.components.download.DownloadState,gen/components/download/public/common/jni_enums.srcjar/org/chromium/components/download/DownloadState.java
+org.chromium.components.download.ResumeMode,gen/components/download/public/common/jni_enums.srcjar/org/chromium/components/download/ResumeMode.java

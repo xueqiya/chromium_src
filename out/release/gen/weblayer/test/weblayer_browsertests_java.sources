@@ -1,0 +1,3 @@
+../../weblayer/shell/android/browsertests_apk/src/org/chromium/weblayer_browsertests_apk/WebLayerBrowserTestsActivity.java
+../../weblayer/shell/android/browsertests_apk/src/org/chromium/weblayer_browsertests_apk/WebLayerBrowserTestsApplication.java
+../../weblayer/shell/android/browsertests_apk/src/org/chromium/weblayer_private/MetricsTestHelper.java

@@ -1,0 +1,2 @@
+gen/third_party/blink/public/mojom/frame/frame.sources_list
+gen/ui/gfx/geometry/mojom/mojom.sources_list

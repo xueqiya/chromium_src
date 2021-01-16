@@ -1,0 +1,60 @@
+{
+  "deps_info": {
+    "base_whitelist_rtxt_path": "",
+    "deps_configs": [
+      "gen/third_party/android_deps/org_checkerframework_checker_qual_java.build_config",
+      "gen/third_party/android_deps/org_plumelib_plume_util_java.build_config"
+    ],
+    "extra_main_r_text_files": [],
+    "gradle_treat_as_prebuilt": null,
+    "interface_jar_path": "lib.java/third_party/android_deps/org_checkerframework_javacutil.interface.jar",
+    "is_prebuilt": true,
+    "jar_path": "lib.java/third_party/android_deps/org_checkerframework_javacutil.jar",
+    "javac_full_classpath": [
+      "../../third_party/android_deps/libs/org_checkerframework_checker_qual/checker-qual-3.0.0.jar",
+      "../../third_party/android_deps/libs/org_plumelib_require_javadoc/require-javadoc-0.1.0.jar",
+      "../../third_party/android_deps/libs/org_plumelib_reflection_util/reflection-util-0.0.2.jar",
+      "../../third_party/android_deps/libs/org_plumelib_plume_util/plume-util-1.0.6.jar"
+    ],
+    "javac_full_interface_classpath": [
+      "lib.java/third_party/android_deps/org_checkerframework_checker_qual.interface.jar",
+      "lib.java/third_party/android_deps/org_plumelib_require_javadoc.interface.jar",
+      "lib.java/third_party/android_deps/org_plumelib_reflection_util.interface.jar",
+      "lib.java/third_party/android_deps/org_plumelib_plume_util.interface.jar"
+    ],
+    "jni": {
+      "all_source": []
+    },
+    "module_pathmap_path": "",
+    "name": "org_checkerframework_javacutil_java.build_config",
+    "path": "gen/third_party/android_deps/org_checkerframework_javacutil_java.build_config",
+    "proguard_configs": [],
+    "requires_android": false,
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "supports_android": false,
+    "type": "java_library",
+    "unprocessed_jar_path": "../../third_party/android_deps/libs/org_checkerframework_javacutil/javacutil-3.0.0.jar"
+  },
+  "gradle": {
+    "bundled_srcjars": [],
+    "dependent_android_projects": [],
+    "dependent_java_projects": [],
+    "dependent_prebuilt_jars": [
+      "lib.java/third_party/android_deps/org_checkerframework_checker_qual.jar",
+      "lib.java/third_party/android_deps/org_plumelib_plume_util.jar"
+    ]
+  },
+  "javac": {
+    "classpath": [
+      "../../third_party/android_deps/libs/org_checkerframework_checker_qual/checker-qual-3.0.0.jar",
+      "../../third_party/android_deps/libs/org_plumelib_plume_util/plume-util-1.0.6.jar"
+    ],
+    "interface_classpath": [
+      "lib.java/third_party/android_deps/org_checkerframework_checker_qual.interface.jar",
+      "lib.java/third_party/android_deps/org_plumelib_plume_util.interface.jar"
+    ],
+    "processor_classes": [],
+    "processor_classpath": []
+  }
+}

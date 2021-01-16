@@ -1,0 +1,89 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "4034837efb61d93f6f003e448d3f5766", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/services/shape_detection/shape_detection_java.jar", 
+      "tag": "3c0f8d2e414d6728e3dd9beb92d36fd7", 
+      "entries": [
+        {
+          "path": "org/chromium/shape_detection/BarcodeDetectionImpl.class", 
+          "tag": 2078440756
+        }, 
+        {
+          "path": "org/chromium/shape_detection/BarcodeDetectionProviderImpl.class", 
+          "tag": 3262062244
+        }, 
+        {
+          "path": "org/chromium/shape_detection/BitmapUtils.class", 
+          "tag": 2550446581
+        }, 
+        {
+          "path": "org/chromium/shape_detection/FaceDetectionImpl.class", 
+          "tag": 3715908079
+        }, 
+        {
+          "path": "org/chromium/shape_detection/FaceDetectionImplGmsCore.class", 
+          "tag": 2850349285
+        }, 
+        {
+          "path": "org/chromium/shape_detection/FaceDetectionProviderImpl.class", 
+          "tag": 874599432
+        }, 
+        {
+          "path": "org/chromium/shape_detection/InterfaceRegistrar.class", 
+          "tag": 3852420476
+        }, 
+        {
+          "path": "org/chromium/shape_detection/TextDetectionImpl.class", 
+          "tag": 1544083627
+        }, 
+        {
+          "path": "org/chromium/shape_detection/FaceDetectionImpl$$Lambda$0.class", 
+          "tag": 445731555
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

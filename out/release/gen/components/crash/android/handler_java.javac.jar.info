@@ -1,0 +1,2 @@
+org.chromium.components.crash.browser.CrashpadMain,../../components/crash/android/java/src/org/chromium/components/crash/browser/CrashpadMain.java
+org.chromium.components.crash.browser.CrashpadMainJni,gen/components/crash/android/handler_java/generated_java/annotation_processor_outputs/org/chromium/components/crash/browser/CrashpadMainJni.java

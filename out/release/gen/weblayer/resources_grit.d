@@ -1,0 +1,1 @@
+gen/weblayer/resources_grit.d.stamp: ./../../out/release/gen/weblayer/browser/webui/weblayer_internals.mojom-lite.js ./../../weblayer/browser/resources/weblayer_internals/weblayer_internals.html ./../../weblayer/browser/resources/weblayer_internals/weblayer_internals.js ./gen/tools/gritsettings/default_resource_ids

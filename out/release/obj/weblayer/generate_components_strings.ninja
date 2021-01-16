@@ -1,0 +1,9 @@
+defines = -D_GNU_SOURCE -DANDROID -DHAVE_SYS_UIO_H -DANDROID_NDK_VERSION_ROLL=r20_1 -DCR_CLANG_REVISION=\"n340759-eaabaf7e-1\" -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D_FORTIFY_SOURCE=2 -D_LIBCPP_ABI_UNSTABLE -D_LIBCPP_DISABLE_VISIBILITY_ANNOTATIONS -D_LIBCXXABI_DISABLE_VISIBILITY_ANNOTATIONS -D_LIBCPP_ENABLE_NODISCARD -DCR_LIBCXX_REVISION=375504 -DNDEBUG -DNVALGRIND -DDYNAMIC_ANNOTATIONS_ENABLED=0
+include_dirs = -I../.. -Igen -I../../third_party/boringssl/src/include
+label_name = generate_components_strings
+root_out_dir = .
+target_out_dir = obj/weblayer
+target_output_name = generate_components_strings
+
+
+build obj/weblayer/generate_components_strings.stamp: stamp || obj/weblayer/generate_components_strings_grit.stamp obj/base/libbase.a obj/base/libbase_static.a obj/base/numerics/base_numerics.stamp obj/third_party/boringssl/libboringssl.a obj/third_party/boringssl/boringssl_asm.stamp obj/third_party/boringssl/src/third_party/fiat/fiat_license.stamp obj/base/third_party/double_conversion/libdouble_conversion.a obj/base/third_party/dynamic_annotations/libdynamic_annotations.a obj/third_party/modp_b64/libmodp_b64.a obj/third_party/android_ndk/cpu_features.stamp obj/third_party/ashmem/ashmem.stamp obj/base/third_party/libevent/libevent.a

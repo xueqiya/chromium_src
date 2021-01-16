@@ -1,0 +1,153 @@
+{
+  "input-strings": [
+    "../../third_party/jdk/current/bin/java", 
+    "-jar", 
+    "../../third_party/r8/lib/r8.jar", 
+    "d8", 
+    "--no-desugaring", 
+    "--release", 
+    "True"
+  ], 
+  "files-md5": "f740b3fcd980e2d9033db29cf0220a52", 
+  "input-files": [
+    {
+      "path": "../../build/android/convert_dex_profile.py", 
+      "tag": "a3c19dec65fde5df1f6b6db3495ddcd3"
+    }, 
+    {
+      "path": "../../build/android/gyp/dex.py", 
+      "tag": "b0054bad609def824a3dd89b1be0da38"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/__init__.py", 
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/build_utils.py", 
+      "tag": "735ea91f29dda431dd4cacfba444b602"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/md5_check.py", 
+      "tag": "ba6dc105a99d83b84b5ae89cd32eff20"
+    }, 
+    {
+      "path": "../../build/android/gyp/util/zipalign.py", 
+      "tag": "43e496a3c1920e403b36359d01e7d356"
+    }, 
+    {
+      "path": "../../build/gn_helpers.py", 
+      "tag": "a409a1f51e16dc492a682f47af4be0c0"
+    }, 
+    {
+      "path": "../../third_party/r8/lib/r8.jar", 
+      "tag": 1610419117.542581
+    }, 
+    {
+      "path": "lib.java/components/content_capture/android/java.jar", 
+      "tag": "e65c296dc8feba90d281e4b8bf6d84ff", 
+      "entries": [
+        {
+          "path": "org/chromium/components/content_capture/ContentCaptureConsumer.class", 
+          "tag": 3013751475
+        }, 
+        {
+          "path": "org/chromium/components/content_capture/ContentCaptureConsumerImpl.class", 
+          "tag": 4098492053
+        }, 
+        {
+          "path": "org/chromium/components/content_capture/ContentCaptureController$Natives.class", 
+          "tag": 2249303270
+        }, 
+        {
+          "path": "org/chromium/components/content_capture/ContentCaptureController.class", 
+          "tag": 1227914740
+        }, 
+        {
+          "path": "org/chromium/components/content_capture/ContentCaptureControllerImpl.class", 
+          "tag": 849869870
+        }, 
+        {
+          "path": "org/chromium/components/content_capture/ContentCaptureControllerJni$1.class", 
+          "tag": 764811821
+        }, 
+        {
+          "path": "org/chromium/components/content_capture/ContentCaptureControllerJni.class", 
+          "tag": 3035786422
+        }, 
+        {
+          "path": "org/chromium/components/content_capture/ContentCaptureData.class", 
+          "tag": 3705478501
+        }, 
+        {
+          "path": "org/chromium/components/content_capture/ContentCaptureFeatures$Natives.class", 
+          "tag": 1697858809
+        }, 
+        {
+          "path": "org/chromium/components/content_capture/ContentCaptureFeatures.class", 
+          "tag": 1375306213
+        }, 
+        {
+          "path": "org/chromium/components/content_capture/ContentCaptureFeaturesJni$1.class", 
+          "tag": 3414507586
+        }, 
+        {
+          "path": "org/chromium/components/content_capture/ContentCaptureFeaturesJni.class", 
+          "tag": 1706119673
+        }, 
+        {
+          "path": "org/chromium/components/content_capture/ContentCaptureReceiverManager$Natives.class", 
+          "tag": 2873006967
+        }, 
+        {
+          "path": "org/chromium/components/content_capture/ContentCaptureReceiverManager.class", 
+          "tag": 3982818778
+        }, 
+        {
+          "path": "org/chromium/components/content_capture/ContentCaptureReceiverManagerJni$1.class", 
+          "tag": 2675921438
+        }, 
+        {
+          "path": "org/chromium/components/content_capture/ContentCaptureReceiverManagerJni.class", 
+          "tag": 3960754006
+        }, 
+        {
+          "path": "org/chromium/components/content_capture/ContentCapturedTask.class", 
+          "tag": 2997594784
+        }, 
+        {
+          "path": "org/chromium/components/content_capture/ContentRemovedTask.class", 
+          "tag": 4146528860
+        }, 
+        {
+          "path": "org/chromium/components/content_capture/ContentUpdateTask.class", 
+          "tag": 3820033022
+        }, 
+        {
+          "path": "org/chromium/components/content_capture/FrameSession.class", 
+          "tag": 1639595540
+        }, 
+        {
+          "path": "org/chromium/components/content_capture/NotificationTask.class", 
+          "tag": 3171595023
+        }, 
+        {
+          "path": "org/chromium/components/content_capture/PlatformSession$PlatformSessionData.class", 
+          "tag": 2787288206
+        }, 
+        {
+          "path": "org/chromium/components/content_capture/PlatformSession.class", 
+          "tag": 1385530232
+        }, 
+        {
+          "path": "org/chromium/components/content_capture/ProcessContentCaptureDataTask.class", 
+          "tag": 1657647015
+        }, 
+        {
+          "path": "org/chromium/components/content_capture/SessionRemovedTask.class", 
+          "tag": 3890417199
+        }
+      ]
+    }
+  ], 
+  "strings-md5": "fbb33862e2f23921c54a00a46110002e"
+}

@@ -1,0 +1,6 @@
+../../weblayer/browser/android/javatests/src/org/chromium/weblayer/test/GeolocationTest.java
+../../weblayer/browser/android/javatests/src/org/chromium/weblayer/test/InstrumentationActivityTestRule.java
+../../weblayer/browser/android/javatests/src/org/chromium/weblayer/test/NavigationWaiter.java
+../../weblayer/browser/android/javatests/src/org/chromium/weblayer/test/NetworkChangeNotifierTest.java
+../../weblayer/browser/android/javatests/src/org/chromium/weblayer/test/ResourceLoadingTest.java
+../../weblayer/browser/android/javatests/src/org/chromium/weblayer/test/WebLayerJUnit4ClassRunner.java

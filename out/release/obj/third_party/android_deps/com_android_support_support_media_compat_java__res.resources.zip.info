@@ -1,0 +1,9 @@
+layout/notification_media_action.xml	../../third_party/android_deps/libs/com_android_support_support_media_compat/support-media-compat-28.0.0.aar/res/layout/notification_media_action.xml
+layout/notification_media_cancel_action.xml	../../third_party/android_deps/libs/com_android_support_support_media_compat/support-media-compat-28.0.0.aar/res/layout/notification_media_cancel_action.xml
+layout/notification_template_big_media.xml	../../third_party/android_deps/libs/com_android_support_support_media_compat/support-media-compat-28.0.0.aar/res/layout/notification_template_big_media.xml
+layout/notification_template_big_media_custom.xml	../../third_party/android_deps/libs/com_android_support_support_media_compat/support-media-compat-28.0.0.aar/res/layout/notification_template_big_media_custom.xml
+layout/notification_template_big_media_narrow.xml	../../third_party/android_deps/libs/com_android_support_support_media_compat/support-media-compat-28.0.0.aar/res/layout/notification_template_big_media_narrow.xml
+layout/notification_template_big_media_narrow_custom.xml	../../third_party/android_deps/libs/com_android_support_support_media_compat/support-media-compat-28.0.0.aar/res/layout/notification_template_big_media_narrow_custom.xml
+layout/notification_template_lines_media.xml	../../third_party/android_deps/libs/com_android_support_support_media_compat/support-media-compat-28.0.0.aar/res/layout/notification_template_lines_media.xml
+layout/notification_template_media.xml	../../third_party/android_deps/libs/com_android_support_support_media_compat/support-media-compat-28.0.0.aar/res/layout/notification_template_media.xml
+layout/notification_template_media_custom.xml	../../third_party/android_deps/libs/com_android_support_support_media_compat/support-media-compat-28.0.0.aar/res/layout/notification_template_media_custom.xml
